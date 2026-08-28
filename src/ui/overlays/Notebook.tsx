@@ -27,25 +27,30 @@ export function Notebook(): JSX.Element | null {
       }}
     >
       <div className="notebook" role="dialog" aria-label={ui('notebook')} data-testid="notebook">
-        <div className="notebook__tabs" role="tablist">
-          {TABS.map((t) => (
-            <button
-              key={t}
-              type="button"
-              role="tab"
-              aria-selected={tab === t}
-              className={`notebook__tab ${tab === t ? 'notebook__tab--active' : ''}`}
-              data-testid={`nb-tab-${t}`}
-              onClick={() => openNotebook(t)}
-            >
-              {ui(`tab.${t}`)}
-            </button>
-          ))}
+        <div className="notebook__tabs">
+          {/* the close button must live outside the tablist (only tabs may be its children) */}
+          <div role="tablist" style={{ display: 'flex', flex: 1 }}>
+            {TABS.map((t) => (
+              <button
+                key={t}
+                type="button"
+                role="tab"
+                id={`nb-tab-btn-${t}`}
+                aria-selected={tab === t}
+                aria-controls={`nb-panel-${t}`}
+                className={`notebook__tab ${tab === t ? 'notebook__tab--active' : ''}`}
+                data-testid={`nb-tab-${t}`}
+                onClick={() => openNotebook(t)}
+              >
+                {ui(`tab.${t}`)}
+              </button>
+            ))}
+          </div>
           <button type="button" className="notebook__tab" aria-label="Close notebook" onClick={close} style={{ flex: '0 0 48px' }}>
             ✕
           </button>
         </div>
-        <div className="notebook__body">
+        <div className="notebook__body" role="tabpanel" id={`nb-panel-${tab}`} aria-labelledby={`nb-tab-btn-${tab}`}>
           {tab === 'case' && <CaseTab />}
           {tab === 'people' && <PeopleTab />}
           {tab === 'clues' && <CluesTab />}

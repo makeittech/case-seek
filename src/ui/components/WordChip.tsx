@@ -52,7 +52,7 @@ export function WordChip({ chip, found, done, flipped, onSpeak, onFlip }: Props)
   const face = showGloss && !chip.isEvidence ? chip.gloss : null;
 
   return (
-    <div className={classes} data-testid={`chip-${chip.targetId}`} data-done={done ? '1' : '0'}>
+    <div className={classes} role="listitem" data-testid={`chip-${chip.targetId}`} data-done={done ? '1' : '0'}>
       {chip.glyph && !chip.isEvidence && chip.kind !== 'silhouette' && (
         <span className="chip__glyph" aria-hidden="true">
           {chip.glyph}
