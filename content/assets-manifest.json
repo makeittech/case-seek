@@ -8980,7 +8980,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9001,7 +9001,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9022,7 +9022,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9043,7 +9043,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9064,7 +9064,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9085,7 +9085,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9106,7 +9106,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9127,7 +9127,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9148,7 +9148,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9169,7 +9169,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9189,7 +9189,7 @@
    "generatedPath": "public/assets/characters/margo/margo-storm-m3.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9210,7 +9210,7 @@
    "generatedPath": "public/assets/characters/adele/adele-ref.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9231,7 +9231,7 @@
    "generatedPath": "public/assets/characters/adele/adele-composure.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9252,7 +9252,7 @@
    "generatedPath": "public/assets/characters/adele/adele-brittle-smile.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9273,7 +9273,7 @@
    "generatedPath": "public/assets/characters/adele/adele-flash-of-fear.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9294,7 +9294,7 @@
    "generatedPath": "public/assets/characters/adele/adele-defensive-ice.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9315,7 +9315,7 @@
    "generatedPath": "public/assets/characters/adele/adele-confession.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9336,7 +9336,7 @@
    "generatedPath": "public/assets/characters/adele/adele-cleared-gratitude.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
