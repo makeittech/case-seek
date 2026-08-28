@@ -1,6 +1,7 @@
 /** Round builder against the REAL content: every authored round must build. */
 import { describe, expect, it } from 'vitest';
-import { loadContent, resolveSceneDef } from '../content/loader';
+import { resolveSceneDef } from '../content/loader';
+import { loadContent } from '../content/source';
 import { buildRound } from './buildRound';
 import { newRecord, applyEvent, type WordRecord } from '../vocab/scheduler';
 

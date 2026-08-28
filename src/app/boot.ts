@@ -9,6 +9,7 @@ import { useVocab } from '../state/vocabStore';
 import { useNotebook } from '../state/notebookStore';
 import { useSettings } from '../state/settingsStore';
 import { hookLifecycleFlush, markCaseDirty, markNotebookDirty, markProfileDirty, markWordsDirty, savedScreenOf } from './persist';
+import { initContent } from './content';
 import { enterCurrentNode, goBack } from './flow';
 import { startRound } from './roundFlow';
 import type { CaseRow } from '../services/StorageService';
@@ -17,7 +18,8 @@ import type { Lang, Tier } from '../engine/types';
 export async function boot(): Promise<void> {
   initBrowserServices();
   const { storage, audio } = getServices();
-  await storage.init();
+  // content chunk + storage open in parallel; both must finish before title
+  await Promise.all([initContent(), storage.init()]);
   const profile = await storage.getProfile();
   if (profile?.settings) useSettings.getState().hydrate(profile.settings);
   hookHistory();

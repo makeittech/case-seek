@@ -158,19 +158,6 @@ export function buildContentDB(raw: RawModules): ContentDB {
   };
 }
 
-let db: ContentDB | null = null;
-
-/** Load all content via Vite glob import (browser + vitest). */
-export function loadContent(): ContentDB {
-  if (db) return db;
-  const raw = import.meta.glob('../../../content/**/*.json', {
-    eager: true,
-    import: 'default',
-  }) as RawModules;
-  db = buildContentDB(raw);
-  return db;
-}
-
 // ---------- convenience helpers ----------
 
 export function conceptOf(dbi: ContentDB, id: ConceptId): Concept {
@@ -225,9 +212,4 @@ export function resolveSceneDef(dbi: ContentDB, id: SceneId): SceneDef {
     lightPools: v.lightPools.length ? v.lightPools : parent.lightPools,
     props,
   };
-}
-
-/** Reset cached DB (tests). */
-export function __resetContentCache(): void {
-  db = null;
 }

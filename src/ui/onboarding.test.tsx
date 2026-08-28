@@ -2,7 +2,7 @@
  * UI smoke: Title → New Case → Español → tier → the cold-open beat renders,
  * plus notebook overlay tabs. (Search canvas is exercised in Playwright.)
  */
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeAll, beforeEach, describe, expect, it } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { App } from './App';
@@ -12,8 +12,12 @@ import { useCase } from '../state/caseStore';
 import { useVocab } from '../state/vocabStore';
 import { useNotebook } from '../state/notebookStore';
 import { useRound } from '../state/roundStore';
+import { initContent } from '../app/content';
 
 describe('onboarding flow (UI)', () => {
+  beforeAll(async () => {
+    await initContent();
+  });
   beforeEach(() => {
     initTestServices();
     useUi.setState({ screen: { kind: 'title' }, notebookOpen: null, settingsOpen: false, notebookPeek: false });

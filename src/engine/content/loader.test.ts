@@ -1,6 +1,7 @@
 /** Loads the REAL /content tree through the Vite glob loader. */
 import { describe, expect, it } from 'vitest';
-import { loadContent, resolveSceneDef } from './loader';
+import { resolveSceneDef } from './loader';
+import { loadContent } from './source';
 
 describe('content loading (real content tree)', () => {
   const db = loadContent();

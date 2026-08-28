@@ -3,7 +3,7 @@
  * reviews, finale, epilogue) through the real flow controller, round
  * orchestration, scheduler, and save layer — with test service fakes.
  */
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 import { initTestServices, getServices } from '../services';
 import { useUi } from '../state/uiStore';
 import { useCase } from '../state/caseStore';
@@ -11,7 +11,7 @@ import { useVocab } from '../state/vocabStore';
 import { useNotebook } from '../state/notebookStore';
 import { useRound } from '../state/roundStore';
 import { newCase } from './boot';
-import { db } from './content';
+import { db, initContent } from './content';
 import {
   answerDebrief,
   buildDebriefItems,
@@ -44,6 +44,9 @@ async function playSearchRound(roundId: string): Promise<void> {
 }
 
 describe('full campaign (Spanish, conversational)', () => {
+  beforeAll(async () => {
+    await initContent();
+  });
   beforeEach(() => {
     vi.useFakeTimers({ now: 1_700_000_000_000 });
     initTestServices();

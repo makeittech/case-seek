@@ -2,7 +2,7 @@
  * INTEGRATION: autosave + Continue. Mid-round progress survives a simulated
  * reload and resumes on the exact search screen with found props intact.
  */
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 import { initTestServices } from '../services';
 import { useUi } from '../state/uiStore';
 import { useCase } from '../state/caseStore';
@@ -10,12 +10,16 @@ import { useVocab } from '../state/vocabStore';
 import { useNotebook } from '../state/notebookStore';
 import { useRound } from '../state/roundStore';
 import { newCase, continueCase, listSaves, deleteCase } from './boot';
+import { initContent } from './content';
 import { handleSceneTap, startRound } from './roundFlow';
 import { completeBeat } from './storyFlow';
 import { flush } from './persist';
 import { currentNode } from './flow';
 
 describe('save / resume', () => {
+  beforeAll(async () => {
+    await initContent();
+  });
   beforeEach(() => {
     vi.useFakeTimers({ now: 1_700_000_000_000 });
     initTestServices();

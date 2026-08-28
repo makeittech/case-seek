@@ -1,6 +1,7 @@
 /** Tier presentation rules over the real Spanish pack. */
 import { describe, expect, it } from 'vitest';
-import { loadContent, resolveSceneDef } from '../content/loader';
+import { resolveSceneDef } from '../content/loader';
+import { loadContent } from '../content/source';
 import { buildRound } from './buildRound';
 import { presentRound, introConcepts } from './present';
 import type { RoundMode, Tier } from '../types';
