@@ -16,11 +16,12 @@
 - Count: 207
 - Dimensions: 512 × 512
 - Treatment: generic concept exemplar, naturalist's-journal ink-and-wash miniature on warm paper tone.
+- Transparency: clean alpha cutouts, matching each thumbnail's `transparentBackground: true` contract.
 - Text-bearing concepts were prompted with blank or illegible surfaces and explicit prohibitions against readable words, letters, and numbers.
 - Reserved Vane Green was explicitly excluded from unrelated art.
 
 ## Production notes
 
 - Source generations were 1024 × 1024 PNGs.
-- Shipping files were downsampled with Lanczos and encoded as WebP at quality 88.
+- Shipping files were background-removed with the repository pipeline, downsampled with Lanczos, and encoded as WebP at quality 88.
 - Existing non-empty manifest outputs were preserved.
