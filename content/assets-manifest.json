@@ -9694,7 +9694,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9715,7 +9715,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9736,7 +9736,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9757,7 +9757,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9778,7 +9778,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9799,7 +9799,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9820,7 +9820,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9840,7 +9840,7 @@
    "generatedPath": "public/assets/characters/finch/finch-daylight-ease-f2.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9861,7 +9861,7 @@
    "generatedPath": "public/assets/characters/ottilie/ottilie-ref.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9882,7 +9882,7 @@
    "generatedPath": "public/assets/characters/ottilie/ottilie-courteous-appraisal.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9903,7 +9903,7 @@
    "generatedPath": "public/assets/characters/ottilie/ottilie-true-lie-serenity.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9924,7 +9924,7 @@
    "generatedPath": "public/assets/characters/ottilie/ottilie-professional-correction.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9945,7 +9945,7 @@
    "generatedPath": "public/assets/characters/ottilie/ottilie-rooftop-calm.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9966,7 +9966,7 @@
    "generatedPath": "public/assets/characters/ottilie/ottilie-the-question.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
