@@ -213,6 +213,12 @@ export function SearchScreen({ roundId }: { roundId: string }): JSX.Element {
             [12, 0],
             [-12, 0],
             [0, 12],
+            [0, 40],
+            [0, -40],
+            [40, 0],
+            [-40, 0],
+            [0, 64],
+            [0, -64],
             [0, -12],
             [24, 24],
             [-24, -24],
@@ -232,9 +238,14 @@ export function SearchScreen({ roundId }: { roundId: string }): JSX.Element {
             if (hit.kind === 'target-hit' && hit.propId === p.id) {
               const screen = camera.sceneToScreen(scenePt);
               if (screen.x >= 0 && screen.y >= 0 && screen.x <= rect.width && screen.y <= rect.height) {
-                out.push({ propId: p.id, x: rect.left + screen.x, y: rect.top + screen.y });
+                const cx = rect.left + screen.x;
+                const cy = rect.top + screen.y;
+                // only report points where a real click reaches the canvas
+                // (not the HUD, zoom controls, or a lingering word card)
+                if (document.elementFromPoint(cx, cy) !== canvas) continue;
+                out.push({ propId: p.id, x: cx, y: cy });
+                break;
               }
-              break;
             }
           }
         }

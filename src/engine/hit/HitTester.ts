@@ -95,7 +95,10 @@ export function distanceToSilhouette(prop: HitProp, scenePt: Vec2, maxDist: numb
 export function hitTest(opts: HitOptions): HitResult {
   const { props, scenePt, cameraScale, dilationPx, activeTargetIds, taggedIds } = opts;
   const dilateScene = dilationPx / cameraScale;
-  // z-descending: topmost mask hit wins (occlusion honesty)
+  // z-descending: topmost mask hit wins (occlusion honesty) — except untagged
+  // ambience dressing, which is transparent to real objects beneath it so a
+  // decoration can never make a target unfindable.
+  let ambience: HitResult | null = null;
   for (let i = props.length - 1; i >= 0; i--) {
     const prop = props[i]!;
     // dilation only helps targets feel generous; occluders are hit at true silhouette
@@ -103,7 +106,7 @@ export function hitTest(opts: HitOptions): HitResult {
     if (propHit(prop, scenePt, dil)) {
       if (activeTargetIds.has(prop.id)) return { kind: 'target-hit', propId: prop.id };
       if (taggedIds.has(prop.id)) return { kind: 'tagged-non-target', propId: prop.id };
-      return { kind: 'ambience', propId: prop.id };
+      ambience ??= { kind: 'ambience', propId: prop.id };
     }
   }
   // coat-tail: nearest active target silhouette within 12 screen px
@@ -118,5 +121,6 @@ export function hitTest(opts: HitOptions): HitResult {
     }
   }
   if (best) return { kind: 'target-hit', propId: best.prop.id, coatTail: true };
+  if (ambience) return ambience;
   return { kind: 'miss' };
 }

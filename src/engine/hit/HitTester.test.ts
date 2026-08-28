@@ -84,6 +84,35 @@ describe('hitTest', () => {
     expect(res.propId).toBe('tagged');
   });
 
+  it('ambience dressing never hides an active target beneath it', () => {
+    const under = prop('target', 500, 400, 1);
+    const dressing = prop('amb', 500, 400, 9); // untagged, fully covering
+    const res = hitTest({
+      props: [under, dressing],
+      scenePt: { x: 500, y: 400 },
+      cameraScale: 1,
+      dilationPx: 6,
+      activeTargetIds,
+      taggedIds,
+    });
+    expect(res.kind).toBe('target-hit');
+    expect(res.propId).toBe('target');
+  });
+
+  it('ambience with nothing beneath still reports ambience', () => {
+    const dressing = prop('amb', 500, 400, 9);
+    const res = hitTest({
+      props: [dressing],
+      scenePt: { x: 500, y: 400 },
+      cameraScale: 1,
+      dilationPx: 6,
+      activeTargetIds,
+      taggedIds,
+    });
+    expect(res.kind).toBe('ambience');
+    expect(res.propId).toBe('amb');
+  });
+
   it('classifies target, tagged non-target, ambience, miss', () => {
     const props = [prop('target', 300, 300, 1), prop('tagged', 800, 300, 1), prop('amb', 1300, 300, 1)];
     const opts = { props, cameraScale: 1, dilationPx: 6, activeTargetIds, taggedIds };

@@ -7,7 +7,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { ROWS, CAUTIONS, LANG_META, TOKENS } from './vocab-data.mjs';
+import { ROWS, CAUTIONS, LANG_META, TOKENS, MULTI_FIND } from './vocab-data.mjs';
 import { SCENES, VARIANTS, SCENE_SIZE } from './scene-data.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -56,11 +56,12 @@ function pluralArticle(lang, gender, plural) {
 }
 const joinArt = (art, word) => (art.endsWith("'") ? art + word : `${art} ${word}`);
 
+const multiFind = new Set(MULTI_FIND);
 const concepts = [];
 const packs = { de: [], es: [], it: [] };
 for (const [id, gloss, domain, freq, icon, de, es, it] of ROWS) {
   const conceptId = `object:${id}`;
-  concepts.push({ id: conceptId, gloss, domain, tags: [], freq, icon, multiFindOk: false });
+  concepts.push({ id: conceptId, gloss, domain, tags: [], freq, icon, multiFindOk: multiFind.has(id) });
   for (const [lang, tuple] of [['de', de], ['es', es], ['it', it]]) {
     const [gender, word, plural = '', diff = 'o', phrase = '', artOverride = ''] = tuple;
     const art = article(lang, gender, word, artOverride);
@@ -78,8 +79,8 @@ for (const [id, gloss, domain, freq, icon, de, es, it] of ROWS) {
     if (phrase) lex.phrase = phrase;
     const caution = CAUTIONS[`${id}:${lang}`];
     if (caution) {
-      lex.caution = caution;
-      lex.trapFlags = ['trap'];
+      lex.caution = caution.note;
+      lex.trapFlags = caution.flags;
     }
     packs[lang].push(lex);
   }
@@ -93,6 +94,7 @@ for (const lang of ['de', 'es', 'it']) {
     nameEn: meta.nameEn,
     locale: meta.locale,
     greeting: meta.greeting,
+    grandmother: meta.grandmother,
     slowRate: meta.slowRate,
     articles: meta.articles,
     articleOptionSets: meta.articleOptionSets,
