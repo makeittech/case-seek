@@ -6,7 +6,7 @@
  */
 import type { Camera } from '../scene/camera';
 import type { SceneDef, PropPlacement } from '../content/schemas';
-import { getSprite, SPRITE_SIZE, type SpriteEntry } from './sprites';
+import { SPRITE_SIZE, type SpriteEntry } from './sprites';
 
 export interface RenderProp extends PropPlacement {
   sprite: string;
@@ -56,6 +56,7 @@ export class SceneRenderer {
   private dirty = true;
   private running = false;
   private dpr = 1;
+  private plateImg: HTMLImageElement | null = null;
   reducedMotion = false;
 
   constructor(canvas: HTMLCanvasElement, camera: Camera, scene: SceneDef, props: RenderProp[]) {
@@ -66,6 +67,19 @@ export class SceneRenderer {
     this.camera = camera;
     this.scene = scene;
     this.props = props.slice().sort((a, b) => a.z - b.z);
+    this.loadPlate();
+  }
+
+  /** Async upgrade: painted plate from /assets/scenes/<id>.webp (assets-manifest contract). */
+  private loadPlate(): void {
+    if (typeof Image === 'undefined') return;
+    const img = new Image();
+    img.onload = () => {
+      this.plateImg = img;
+      this.markDirty();
+    };
+    img.onerror = () => {}; // generated gradient plate remains
+    img.src = this.scene.plate ?? `/assets/scenes/${this.scene.id}.webp`;
   }
 
   setFound(found: ReadonlySet<string>): void {
@@ -114,7 +128,7 @@ export class SceneRenderer {
   }
 
   private draw(now: number): void {
-    const { ctx, camera, scene } = this;
+    const { ctx, camera } = this;
     const vw = camera.viewportW;
     const vh = camera.viewportH;
     ctx.setTransform(this.dpr, 0, 0, this.dpr, 0, 0);
@@ -139,6 +153,10 @@ export class SceneRenderer {
 
   private drawPlate(ctx: CanvasRenderingContext2D): void {
     const { w, h } = this.scene.size;
+    if (this.plateImg) {
+      ctx.drawImage(this.plateImg, 0, 0, w, h);
+      return;
+    }
     const p = this.scene.palette;
     const horizon = h * 0.62;
     const wall = ctx.createLinearGradient(0, 0, 0, horizon);

@@ -12,7 +12,6 @@ import {
   applyMistap,
   computeStamps,
   initRoundState,
-  targetForProp,
   type RoundState,
 } from '../engine/rounds/runtime';
 import { presentRound, introConcepts, type ChipModel } from '../engine/rounds/present';
@@ -25,7 +24,7 @@ import { useRound } from '../state/roundStore';
 import { useNotebook } from '../state/notebookStore';
 import { useUi } from '../state/uiStore';
 import { getServices } from '../services';
-import { speakConcept, speakText } from './speak';
+import { speakConcept } from './speak';
 import { markCaseDirty, markNotebookDirty, markRoundDirty, markWordsDirty } from './persist';
 import { advanceFlow } from './flow';
 import type { ConceptId, Tier } from '../engine/types';

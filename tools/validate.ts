@@ -31,13 +31,15 @@ const warn = (msg: string) => warnings.push(msg);
 const raw: Record<string, unknown> = {};
 collect(CONTENT, raw);
 
-let db: ReturnType<typeof buildContentDB>;
-try {
-  db = buildContentDB(raw);
-} catch (e) {
-  console.error(String(e instanceof Error ? e.message : e));
-  process.exit(1);
+function buildOrDie(): ReturnType<typeof buildContentDB> {
+  try {
+    return buildContentDB(raw);
+  } catch (e) {
+    console.error(String(e instanceof Error ? e.message : e));
+    process.exit(1);
+  }
 }
+const db = buildOrDie();
 
 const LANGS: Lang[] = ['de', 'es', 'it'];
 
