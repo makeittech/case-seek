@@ -3,8 +3,9 @@
  "name": "Deutsch",
  "nameEn": "German",
  "locale": "de-DE",
- "greeting": "Willkommen, Detektiv.",
- "slowRate": 0.72,
+ "greeting": "Willkommen. Der Fall wartet.",
+ "grandmother": "Oma Katja",
+ "slowRate": 0.7,
  "articles": [
   "der",
   "die",
@@ -17,7 +18,7 @@
    "das"
   ]
  ],
- "articlePickWeight": 0.5,
+ "articlePickWeight": 0.4,
  "lexemes": [
   {
    "concept": "object:key",
@@ -35,7 +36,9 @@
    "word": "Notizbuch",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Notizbücher",
+   "phrase": "sammelt alle Notizen"
   },
   {
    "concept": "object:magnifier",
@@ -44,6 +47,7 @@
    "glyph": "●",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "die Lupen",
    "phrase": "macht alles größer"
   },
   {
@@ -52,7 +56,9 @@
    "word": "Mantel",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Mäntel",
+   "phrase": "wärmt im Winter"
   },
   {
    "concept": "object:hat",
@@ -60,7 +66,9 @@
    "word": "Hut",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Hüte",
+   "phrase": "sitzt auf dem Kopf"
   },
   {
    "concept": "object:lamp",
@@ -68,7 +76,9 @@
    "word": "Lampe",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Lampen",
+   "phrase": "macht das Zimmer hell"
   },
   {
    "concept": "object:cup",
@@ -76,7 +86,9 @@
    "word": "Tasse",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Tassen",
+   "phrase": "daraus trinkt man Kaffee"
   },
   {
    "concept": "object:umbrella",
@@ -84,7 +96,9 @@
    "word": "Regenschirm",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Regenschirme",
+   "phrase": "schützt vor dem Regen"
   },
   {
    "concept": "object:frame",
@@ -93,6 +107,7 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "die Rahmen",
    "phrase": "hält ein Bild fest"
   },
   {
@@ -102,6 +117,7 @@
    "glyph": "■",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "die Seile",
    "phrase": "daran zieht man"
   },
   {
@@ -110,7 +126,9 @@
    "word": "Kiste",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kisten",
+   "phrase": "aus Holz, für Fracht"
   },
   {
    "concept": "object:ladder",
@@ -118,7 +136,13 @@
    "word": "Leiter",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "gender-surprise",
+    "polysemy"
+   ],
+   "plural": "die Leitern",
+   "phrase": "führt nach oben",
+   "caution": "«die Leiter» is the ladder — «der Leiter» is a boss."
   },
   {
    "concept": "object:glove",
@@ -126,7 +150,9 @@
    "word": "Handschuh",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Handschuhe",
+   "phrase": "wärmt die Hand"
   },
   {
    "concept": "object:screwdriver",
@@ -134,7 +160,9 @@
    "word": "Schraubenzieher",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schraubenzieher",
+   "phrase": "dreht die Schraube"
   },
   {
    "concept": "object:label",
@@ -143,7 +171,8 @@
    "glyph": "■",
    "difficulty": "cognate",
    "trapFlags": [],
-   "plural": "die Etiketten"
+   "plural": "die Etiketten",
+   "phrase": "sagt, was drin ist"
   },
   {
    "concept": "object:bench",
@@ -151,7 +180,12 @@
    "word": "Bank",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "die Bänke",
+   "phrase": "zum Sitzen im Park",
+   "caution": "«die Bank» also means \"bank.\" Benches: «Bänke»; banks: «Banken»."
   },
   {
    "concept": "object:chandelier",
@@ -159,7 +193,9 @@
    "word": "Kronleuchter",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kronleuchter",
+   "phrase": "hängt von der Decke, glänzt"
   },
   {
    "concept": "object:ledger",
@@ -167,7 +203,9 @@
    "word": "Hauptbuch",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Hauptbücher",
+   "phrase": "hier stehen alle Zahlen"
   },
   {
    "concept": "object:teacup",
@@ -175,7 +213,9 @@
    "word": "Teetasse",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Teetassen",
+   "phrase": "kleine Tasse für Tee"
   },
   {
    "concept": "object:envelope",
@@ -183,7 +223,9 @@
    "word": "Umschlag",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Umschläge",
+   "phrase": "darin reist der Brief"
   },
   {
    "concept": "object:rubber-stamp",
@@ -192,7 +234,8 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "die Stempel"
+   "plural": "die Stempel",
+   "phrase": "drückt Tinte aufs Papier"
   },
   {
    "concept": "object:inkwell",
@@ -201,6 +244,7 @@
    "glyph": "■",
    "difficulty": "transparent",
    "trapFlags": [],
+   "plural": "die Tintenfässer",
    "phrase": "hält die Tinte"
   },
   {
@@ -209,7 +253,9 @@
    "word": "Schere",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Scheren",
+   "phrase": "schneidet Papier und Stoff"
   },
   {
    "concept": "object:folder",
@@ -218,7 +264,8 @@
    "glyph": "●",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "die Mappen"
+   "plural": "die Mappen",
+   "phrase": "hält Papiere zusammen"
   },
   {
    "concept": "object:monocle",
@@ -226,7 +273,9 @@
    "word": "Monokel",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Monokel",
+   "phrase": "ein Glas für ein Auge"
   },
   {
    "concept": "object:telephone",
@@ -234,7 +283,9 @@
    "word": "Telefon",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Telefone",
+   "phrase": "damit ruft man an"
   },
   {
    "concept": "object:blotter",
@@ -242,7 +293,9 @@
    "word": "Löschblatt",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Löschblätter",
+   "phrase": "trocknet frische Tinte"
   },
   {
    "concept": "object:candle",
@@ -250,7 +303,9 @@
    "word": "Kerze",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kerzen",
+   "phrase": "brennt und gibt Licht"
   },
   {
    "concept": "object:sealing-wax",
@@ -258,7 +313,8 @@
    "word": "Siegellack",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "verschließt Briefe, rot und heiß"
   },
   {
    "concept": "object:letter-opener",
@@ -266,7 +322,9 @@
    "word": "Brieföffner",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Brieföffner",
+   "phrase": "öffnet die Post"
   },
   {
    "concept": "object:calendar",
@@ -274,7 +332,9 @@
    "word": "Kalender",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kalender",
+   "phrase": "zeigt Tage und Monate"
   },
   {
    "concept": "object:drawer",
@@ -282,7 +342,9 @@
    "word": "Schublade",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schubladen",
+   "phrase": "gleitet aus dem Tisch"
   },
   {
    "concept": "object:photograph",
@@ -290,7 +352,9 @@
    "word": "Foto",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Fotos",
+   "phrase": "ein Moment auf Papier"
   },
   {
    "concept": "object:ribbon",
@@ -298,7 +362,13 @@
    "word": "Band",
    "glyph": "■",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "gender-surprise",
+    "polysemy"
+   ],
+   "plural": "die Bänder",
+   "phrase": "schmückt Haar und Hüte",
+   "caution": "«das Band» is the ribbon — «der Band» is a book volume."
   },
   {
    "concept": "object:clock",
@@ -316,7 +386,9 @@
    "word": "Bauplan",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Baupläne",
+   "phrase": "zeigt, wie man baut"
   },
   {
    "concept": "object:newspaper",
@@ -324,7 +396,9 @@
    "word": "Zeitung",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Zeitungen",
+   "phrase": "bringt die Nachrichten"
   },
   {
    "concept": "object:map",
@@ -332,7 +406,9 @@
    "word": "Karte",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Karten",
+   "phrase": "zeigt Städte und Straßen"
   },
   {
    "concept": "object:box",
@@ -340,7 +416,9 @@
    "word": "Schachtel",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schachteln",
+   "phrase": "hält kleine Dinge"
   },
   {
    "concept": "object:lantern",
@@ -359,7 +437,8 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "die Pinsel"
+   "plural": "die Pinsel",
+   "phrase": "damit malt der Maler"
   },
   {
    "concept": "object:ink",
@@ -367,7 +446,8 @@
    "word": "Tinte",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "schwarz, zum Schreiben"
   },
   {
    "concept": "object:stool",
@@ -375,7 +455,9 @@
    "word": "Hocker",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Hocker",
+   "phrase": "Sitz ohne Lehne"
   },
   {
    "concept": "object:string",
@@ -383,7 +465,9 @@
    "word": "Schnur",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schnüre",
+   "phrase": "bindet Pakete zu"
   },
   {
    "concept": "object:magnet",
@@ -391,7 +475,9 @@
    "word": "Magnet",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Magnete",
+   "phrase": "zieht Eisen an"
   },
   {
    "concept": "object:register",
@@ -399,7 +485,9 @@
    "word": "Register",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Register",
+   "phrase": "listet alle Namen"
   },
   {
    "concept": "object:card-index",
@@ -407,7 +495,9 @@
    "word": "Kartei",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Karteien",
+   "phrase": "kleine Karten, viele Namen"
   },
   {
    "concept": "object:portrait",
@@ -415,7 +505,9 @@
    "word": "Porträt",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Porträts",
+   "phrase": "zeigt ein Gesicht"
   },
   {
    "concept": "object:ruler",
@@ -423,7 +515,9 @@
    "word": "Lineal",
    "glyph": "■",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Lineale",
+   "phrase": "zieht gerade Linien"
   },
   {
    "concept": "object:compass",
@@ -431,7 +525,9 @@
    "word": "Zirkel",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Zirkel",
+   "phrase": "zeichnet perfekte Kreise"
   },
   {
    "concept": "object:sextant",
@@ -439,7 +535,9 @@
    "word": "Sextant",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Sextanten",
+   "phrase": "misst die Sterne"
   },
   {
    "concept": "object:seal",
@@ -447,7 +545,9 @@
    "word": "Siegel",
    "glyph": "■",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Siegel",
+   "phrase": "drückt Wappen in Wachs"
   },
   {
    "concept": "object:gazette",
@@ -455,7 +555,9 @@
    "word": "Gazette",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Gazetten",
+   "phrase": "altes Blatt voller Neuigkeiten"
   },
   {
    "concept": "object:manifest",
@@ -463,7 +565,9 @@
    "word": "Manifest",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Manifeste",
+   "phrase": "listet die ganze Ladung"
   },
   {
    "concept": "object:seagull",
@@ -472,7 +576,8 @@
    "glyph": "●",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "die Möwen"
+   "plural": "die Möwen",
+   "phrase": "schreit über dem Hafen"
   },
   {
    "concept": "object:anchor",
@@ -480,7 +585,9 @@
    "word": "Anker",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Anker",
+   "phrase": "hält das Schiff fest"
   },
   {
    "concept": "object:barrel",
@@ -488,7 +595,9 @@
    "word": "Fass",
    "glyph": "■",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Fässer",
+   "phrase": "rund, aus Holz, voll"
   },
   {
    "concept": "object:hook",
@@ -496,7 +605,9 @@
    "word": "Haken",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Haken",
+   "phrase": "hält, was daran hängt"
   },
   {
    "concept": "object:net",
@@ -504,7 +615,9 @@
    "word": "Netz",
    "glyph": "■",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Netze",
+   "phrase": "fängt die Fische"
   },
   {
    "concept": "object:bell",
@@ -512,7 +625,9 @@
    "word": "Glocke",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Glocken",
+   "phrase": "man hört sie läuten"
   },
   {
    "concept": "object:bollard",
@@ -520,7 +635,9 @@
    "word": "Poller",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Poller",
+   "phrase": "hier vertäut man Boote"
   },
   {
    "concept": "object:chain",
@@ -528,7 +645,9 @@
    "word": "Kette",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Ketten",
+   "phrase": "Glied um Glied, stark"
   },
   {
    "concept": "object:tarpaulin",
@@ -536,7 +655,9 @@
    "word": "Plane",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Planen",
+   "phrase": "deckt die Fracht ab"
   },
   {
    "concept": "object:winch",
@@ -544,15 +665,19 @@
    "word": "Winde",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Winden",
+   "phrase": "hebt schwere Lasten"
   },
   {
    "concept": "object:gangplank",
-   "article": "der",
-   "word": "Steg",
-   "glyph": "▲",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "article": "die",
+   "word": "Laufplanke",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "die Laufplanken",
+   "phrase": "Brücke aufs Schiff"
   },
   {
    "concept": "object:oilskin",
@@ -560,7 +685,8 @@
    "word": "Ölzeug",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "hält den Regen ab"
   },
   {
    "concept": "object:whistle",
@@ -568,7 +694,9 @@
    "word": "Trillerpfeife",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Trillerpfeifen",
+   "phrase": "macht einen schrillen Ton"
   },
   {
    "concept": "object:cat",
@@ -576,7 +704,9 @@
    "word": "Katze",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Katzen",
+   "phrase": "schnurrt und jagt Mäuse"
   },
   {
    "concept": "object:padlock",
@@ -584,7 +714,9 @@
    "word": "Vorhängeschloss",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Vorhängeschlösser",
+   "phrase": "hält das Tor verschlossen"
   },
   {
    "concept": "object:bottle",
@@ -602,7 +734,9 @@
    "word": "Humpen",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Humpen",
+   "phrase": "voll Bier, mit Henkel"
   },
   {
    "concept": "object:dartboard",
@@ -610,7 +744,9 @@
    "word": "Dartscheibe",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Dartscheiben",
+   "phrase": "Ziel für kleine Pfeile"
   },
   {
    "concept": "object:chalk",
@@ -618,7 +754,8 @@
    "word": "Kreide",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "schreibt weiß auf Schwarz"
   },
   {
    "concept": "object:bread",
@@ -626,7 +763,9 @@
    "word": "Brot",
    "glyph": "■",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Brote",
+   "phrase": "frisch vom Bäcker"
   },
   {
    "concept": "object:cheese",
@@ -634,7 +773,8 @@
    "word": "Käse",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "reift im Keller"
   },
   {
    "concept": "object:playing-card",
@@ -642,7 +782,9 @@
    "word": "Spielkarte",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Spielkarten",
+   "phrase": "Herz, Pik oder Karo"
   },
   {
    "concept": "object:kettle",
@@ -650,7 +792,9 @@
    "word": "Kessel",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kessel",
+   "phrase": "pfeift, wenn Wasser kocht"
   },
   {
    "concept": "object:pipe",
@@ -658,7 +802,9 @@
    "word": "Pfeife",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Pfeifen",
+   "phrase": "glimmt voll Tabak"
   },
   {
    "concept": "object:logbook",
@@ -666,7 +812,9 @@
    "word": "Logbuch",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Logbücher",
+   "phrase": "Tagebuch eines Schiffes"
   },
   {
    "concept": "object:apron",
@@ -674,7 +822,9 @@
    "word": "Schürze",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schürzen",
+   "phrase": "schützt beim Kochen"
   },
   {
    "concept": "object:mousetrap",
@@ -682,7 +832,9 @@
    "word": "Mausefalle",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Mausefallen",
+   "phrase": "wartet mit Käse"
   },
   {
    "concept": "object:jug",
@@ -690,7 +842,9 @@
    "word": "Krug",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Krüge",
+   "phrase": "gießt Wasser oder Wein"
   },
   {
    "concept": "object:broom",
@@ -698,7 +852,9 @@
    "word": "Besen",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Besen",
+   "phrase": "kehrt den Boden"
   },
   {
    "concept": "object:coin",
@@ -706,7 +862,9 @@
    "word": "Münze",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Münzen",
+   "phrase": "klimpert in der Tasche"
   },
   {
    "concept": "object:match",
@@ -714,7 +872,9 @@
    "word": "Streichholz",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Streichhölzer",
+   "phrase": "ein Streich, eine Flamme"
   },
   {
    "concept": "object:towel",
@@ -722,7 +882,9 @@
    "word": "Handtuch",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Handtücher",
+   "phrase": "trocknet die Hände"
   },
   {
    "concept": "object:scale",
@@ -730,7 +892,9 @@
    "word": "Waage",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Waagen",
+   "phrase": "wiegt die Ware"
   },
   {
    "concept": "object:twine",
@@ -738,7 +902,9 @@
    "word": "Bindfaden",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Bindfäden",
+   "phrase": "umwickelt jedes Paket"
   },
   {
    "concept": "object:funnel",
@@ -746,7 +912,9 @@
    "word": "Trichter",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Trichter",
+   "phrase": "führt Flüssiges in Flaschen"
   },
   {
    "concept": "object:typewriter",
@@ -754,7 +922,9 @@
    "word": "Schreibmaschine",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schreibmaschinen",
+   "phrase": "tippt Buchstaben aufs Blatt"
   },
   {
    "concept": "object:sack",
@@ -762,7 +932,9 @@
    "word": "Sack",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Säcke",
+   "phrase": "grob, voll Mehl oder Korn"
   },
   {
    "concept": "object:tea-chest",
@@ -770,7 +942,9 @@
    "word": "Teekiste",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Teekisten",
+   "phrase": "reist mit Tee um die Welt"
   },
   {
    "concept": "object:birdcage",
@@ -778,7 +952,9 @@
    "word": "Vogelkäfig",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Vogelkäfige",
+   "phrase": "Gitter für gefiederte Sänger"
   },
   {
    "concept": "object:hand-truck",
@@ -786,7 +962,9 @@
    "word": "Sackkarre",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Sackkarren",
+   "phrase": "rollt schwere Kisten"
   },
   {
    "concept": "object:suitcase",
@@ -804,7 +982,9 @@
    "word": "Palme",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Palmen",
+   "phrase": "grünt in der Halle"
   },
   {
    "concept": "object:cane",
@@ -812,7 +992,9 @@
    "word": "Stock",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Stöcke",
+   "phrase": "stützt beim Gehen"
   },
   {
    "concept": "object:hatbox",
@@ -820,7 +1002,9 @@
    "word": "Hutschachtel",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Hutschachteln",
+   "phrase": "rund, für feine Hüte"
   },
   {
    "concept": "object:key-rack",
@@ -828,7 +1012,9 @@
    "word": "Schlüsselbrett",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schlüsselbretter",
+   "phrase": "hier hängen alle Schlüssel"
   },
   {
    "concept": "object:ashtray",
@@ -836,7 +1022,9 @@
    "word": "Aschenbecher",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Aschenbecher",
+   "phrase": "fängt die Asche auf"
   },
   {
    "concept": "object:tray",
@@ -844,7 +1032,9 @@
    "word": "Tablett",
    "glyph": "■",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Tabletts",
+   "phrase": "trägt Gläser und Tassen"
   },
   {
    "concept": "object:champagne-bucket",
@@ -852,7 +1042,9 @@
    "word": "Sektkübel",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Sektkübel",
+   "phrase": "kühlt den Sekt"
   },
   {
    "concept": "object:umbrella-stand",
@@ -860,7 +1052,9 @@
    "word": "Schirmständer",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schirmständer",
+   "phrase": "sammelt nasse Schirme"
   },
   {
    "concept": "object:luggage-cart",
@@ -868,7 +1062,9 @@
    "word": "Gepäckwagen",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Gepäckwagen",
+   "phrase": "rollt Koffer durch die Halle"
   },
   {
    "concept": "object:letter",
@@ -876,7 +1072,9 @@
    "word": "Brief",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Briefe",
+   "phrase": "kommt mit der Post"
   },
   {
    "concept": "object:carnation",
@@ -884,7 +1082,9 @@
    "word": "Nelke",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Nelken",
+   "phrase": "duftet im Knopfloch"
   },
   {
    "concept": "object:cigarette-case",
@@ -892,7 +1092,9 @@
    "word": "Zigarettenetui",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Zigarettenetuis",
+   "phrase": "flach, silbern, im Mantel"
   },
   {
    "concept": "object:saucer",
@@ -900,7 +1102,9 @@
    "word": "Untertasse",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Untertassen",
+   "phrase": "steht unter der Tasse"
   },
   {
    "concept": "object:candlestick",
@@ -909,7 +1113,8 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "die Leuchter"
+   "plural": "die Leuchter",
+   "phrase": "trägt eine Kerze"
   },
   {
    "concept": "object:violin",
@@ -918,6 +1123,7 @@
    "glyph": "●",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "die Geigen",
    "phrase": "singt mit Saiten"
   },
   {
@@ -927,6 +1133,7 @@
    "glyph": "▲",
    "difficulty": "cognate",
    "trapFlags": [],
+   "plural": "die Globen",
    "phrase": "die ganze Welt, rund"
   },
   {
@@ -936,6 +1143,7 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "die Spiegel",
    "phrase": "zeigt dein Gesicht"
   },
   {
@@ -944,7 +1152,9 @@
    "word": "Vase",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Vasen",
+   "phrase": "hält frische Blumen"
   },
   {
    "concept": "object:medal",
@@ -952,7 +1162,9 @@
    "word": "Medaille",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Medaillen",
+   "phrase": "Ehre aus Metall"
   },
   {
    "concept": "object:fan",
@@ -960,7 +1172,9 @@
    "word": "Fächer",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Fächer",
+   "phrase": "fächelt kühle Luft"
   },
   {
    "concept": "object:chessboard",
@@ -968,7 +1182,9 @@
    "word": "Schachbrett",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schachbretter",
+   "phrase": "Feld für zwei Könige"
   },
   {
    "concept": "object:stamp-die",
@@ -976,7 +1192,9 @@
    "word": "Prägestempel",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Prägestempel",
+   "phrase": "prägt das Muster"
   },
   {
    "concept": "object:telescope",
@@ -985,6 +1203,7 @@
    "glyph": "■",
    "difficulty": "transparent",
    "trapFlags": [],
+   "plural": "die Fernrohre",
    "phrase": "bringt Sterne näher"
   },
   {
@@ -993,7 +1212,9 @@
    "word": "Vorhang",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Vorhänge",
+   "phrase": "verdeckt das Fenster"
   },
   {
    "concept": "object:strongbox",
@@ -1001,7 +1222,9 @@
    "word": "Tresor",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Tresore",
+   "phrase": "bewacht das Geld"
   },
   {
    "concept": "object:rug",
@@ -1009,7 +1232,9 @@
    "word": "Teppich",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Teppiche",
+   "phrase": "liegt weich am Boden"
   },
   {
    "concept": "object:crowbar",
@@ -1017,7 +1242,9 @@
    "word": "Brechstange",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Brechstangen",
+   "phrase": "hebelt Kisten auf"
   },
   {
    "concept": "object:snuffbox",
@@ -1025,7 +1252,9 @@
    "word": "Tabakdose",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Tabakdosen",
+   "phrase": "kleine Dose für Tabak"
   },
   {
    "concept": "object:letter-scale",
@@ -1033,7 +1262,9 @@
    "word": "Briefwaage",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Briefwaagen",
+   "phrase": "wiegt die Post"
   },
   {
    "concept": "object:key-ring",
@@ -1041,7 +1272,9 @@
    "word": "Schlüsselbund",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schlüsselbunde",
+   "phrase": "hält alle Schlüssel zusammen"
   },
   {
    "concept": "object:file",
@@ -1049,7 +1282,9 @@
    "word": "Akte",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Akten",
+   "phrase": "Papiere zu einem Fall"
   },
   {
    "concept": "object:cashbox",
@@ -1057,7 +1292,9 @@
    "word": "Geldkassette",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Geldkassetten",
+   "phrase": "klimpert voller Münzen"
   },
   {
    "concept": "object:cufflink",
@@ -1065,7 +1302,9 @@
    "word": "Manschettenknopf",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Manschettenknöpfe",
+   "phrase": "schmückt die Manschette"
   },
   {
    "concept": "object:razor",
@@ -1073,7 +1312,9 @@
    "word": "Rasiermesser",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Rasiermesser",
+   "phrase": "rasiert jeden Morgen"
   },
   {
    "concept": "object:shoehorn",
@@ -1081,7 +1322,9 @@
    "word": "Schuhlöffel",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schuhlöffel",
+   "phrase": "hilft in den Schuh"
   },
   {
    "concept": "object:pocket-watch",
@@ -1090,6 +1333,7 @@
    "glyph": "●",
    "difficulty": "transparent",
    "trapFlags": [],
+   "plural": "die Taschenuhren",
    "phrase": "die Zeit, in der Tasche"
   },
   {
@@ -1098,7 +1342,9 @@
    "word": "Karaffe",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Karaffen",
+   "phrase": "serviert edlen Wein"
   },
   {
    "concept": "object:slipper",
@@ -1106,7 +1352,9 @@
    "word": "Pantoffel",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Pantoffeln",
+   "phrase": "wärmt den Fuß zu Hause"
   },
   {
    "concept": "object:cravat",
@@ -1114,7 +1362,9 @@
    "word": "Krawatte",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Krawatten",
+   "phrase": "Seide um den Hals"
   },
   {
    "concept": "object:travel-case",
@@ -1122,7 +1372,9 @@
    "word": "Reisetasche",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Reisetaschen",
+   "phrase": "packt das Nötigste"
   },
   {
    "concept": "object:fountain-pen",
@@ -1130,7 +1382,9 @@
    "word": "Füller",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Füller",
+   "phrase": "schreibt ohne Tintenfass"
   },
   {
    "concept": "object:orange",
@@ -1139,7 +1393,8 @@
    "glyph": "●",
    "difficulty": "cognate",
    "trapFlags": [],
-   "plural": "die Orangen"
+   "plural": "die Orangen",
+   "phrase": "süß und voller Saft"
   },
   {
    "concept": "object:scarf",
@@ -1147,7 +1402,9 @@
    "word": "Schal",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schals",
+   "phrase": "wärmt den Hals"
   },
   {
    "concept": "object:basket",
@@ -1155,7 +1412,9 @@
    "word": "Korb",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Körbe",
+   "phrase": "geflochten, trägt den Einkauf"
   },
   {
    "concept": "object:garlic",
@@ -1163,7 +1422,8 @@
    "word": "Knoblauch",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "scharf, weiß, in Zehen"
   },
   {
    "concept": "object:pepper",
@@ -1171,7 +1431,9 @@
    "word": "Paprika",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Paprikas",
+   "phrase": "rot und knackig"
   },
   {
    "concept": "object:fish",
@@ -1179,7 +1441,9 @@
    "word": "Fisch",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Fische",
+   "phrase": "frisch aus dem Meer"
   },
   {
    "concept": "object:teapot",
@@ -1187,7 +1451,9 @@
    "word": "Teekanne",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Teekannen",
+   "phrase": "gießt den Tee ein"
   },
   {
    "concept": "object:drum",
@@ -1195,7 +1461,9 @@
    "word": "Trommel",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Trommeln",
+   "phrase": "gibt den Takt an"
   },
   {
    "concept": "object:jar",
@@ -1204,9 +1472,11 @@
    "glyph": "■",
    "difficulty": "false-friend",
    "trapFlags": [
-    "trap"
+    "false-friend",
+    "polysemy"
    ],
    "plural": "die Gläser",
+   "phrase": "hält Eingemachtes frisch",
    "caution": "«das Glas» is a jar AND the material glass."
   },
   {
@@ -1215,7 +1485,9 @@
    "word": "Stoffballen",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Stoffballen",
+   "phrase": "Meter um Meter Stoff"
   },
   {
    "concept": "object:thimble",
@@ -1223,7 +1495,9 @@
    "word": "Fingerhut",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Fingerhüte",
+   "phrase": "schützt den Finger beim Nähen"
   },
   {
    "concept": "object:button",
@@ -1231,7 +1505,9 @@
    "word": "Knopf",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Knöpfe",
+   "phrase": "schließt den Mantel"
   },
   {
    "concept": "object:mortar",
@@ -1239,7 +1515,9 @@
    "word": "Mörser",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Mörser",
+   "phrase": "zerreibt Gewürze"
   },
   {
    "concept": "object:bead",
@@ -1247,7 +1525,9 @@
    "word": "Perle",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Perlen",
+   "phrase": "klein, bunt, aufgefädelt"
   },
   {
    "concept": "object:loom",
@@ -1255,7 +1535,9 @@
    "word": "Webstuhl",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Webstühle",
+   "phrase": "webt Faden zu Stoff"
   },
   {
    "concept": "object:oil-flask",
@@ -1263,7 +1545,9 @@
    "word": "Ölflasche",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Ölflaschen",
+   "phrase": "gießt Öl, Tropfen für Tropfen"
   },
   {
    "concept": "object:easel",
@@ -1272,6 +1556,7 @@
    "glyph": "●",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "die Staffeleien",
    "phrase": "hält das Bild beim Malen"
   },
   {
@@ -1280,7 +1565,9 @@
    "word": "Schraubenschlüssel",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schraubenschlüssel",
+   "phrase": "löst, was festsitzt"
   },
   {
    "concept": "object:oilcan",
@@ -1288,7 +1575,9 @@
    "word": "Ölkanne",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Ölkannen",
+   "phrase": "ölt die Maschine"
   },
   {
    "concept": "object:timetable",
@@ -1296,7 +1585,9 @@
    "word": "Fahrplan",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Fahrpläne",
+   "phrase": "sagt, wann Züge fahren"
   },
   {
    "concept": "object:ticket",
@@ -1305,7 +1596,8 @@
    "glyph": "●",
    "difficulty": "transparent",
    "trapFlags": [],
-   "plural": "die Fahrkarten"
+   "plural": "die Fahrkarten",
+   "phrase": "erlaubt die Fahrt"
   },
   {
    "concept": "object:signal-lamp",
@@ -1313,7 +1605,9 @@
    "word": "Signallampe",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Signallampen",
+   "phrase": "leuchtet rot oder grün"
   },
   {
    "concept": "object:toolbox",
@@ -1321,7 +1615,9 @@
    "word": "Werkzeugkasten",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Werkzeugkästen",
+   "phrase": "trägt die halbe Werkstatt"
   },
   {
    "concept": "object:gear",
@@ -1330,7 +1626,8 @@
    "glyph": "■",
    "difficulty": "transparent",
    "trapFlags": [],
-   "plural": "die Zahnräder"
+   "plural": "die Zahnräder",
+   "phrase": "greift Zahn in Zahn"
   },
   {
    "concept": "object:cap",
@@ -1338,7 +1635,9 @@
    "word": "Mütze",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Mützen",
+   "phrase": "Uniform für den Kopf"
   },
   {
    "concept": "object:waybill",
@@ -1346,7 +1645,9 @@
    "word": "Frachtbrief",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Frachtbriefe",
+   "phrase": "begleitet jede Fracht"
   },
   {
    "concept": "object:palette",
@@ -1354,7 +1655,9 @@
    "word": "Palette",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Paletten",
+   "phrase": "trägt alle Farben"
   },
   {
    "concept": "object:rag",
@@ -1362,7 +1665,9 @@
    "word": "Lappen",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Lappen",
+   "phrase": "wischt Farbe weg"
   },
   {
    "concept": "object:window-pole",
@@ -1370,7 +1675,9 @@
    "word": "Stange",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Stangen",
+   "phrase": "öffnet hohe Fenster"
   },
   {
    "concept": "object:smock",
@@ -1378,7 +1685,9 @@
    "word": "Kittel",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kittel",
+   "phrase": "hält die Kleidung sauber"
   },
   {
    "concept": "object:charcoal",
@@ -1386,7 +1695,8 @@
    "word": "Kohle",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "zeichnet in Grau und Schwarz"
   },
   {
    "concept": "object:laundry-line",
@@ -1394,7 +1704,9 @@
    "word": "Wäscheleine",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Wäscheleinen",
+   "phrase": "trägt nasse Wäsche"
   },
   {
    "concept": "object:stove",
@@ -1402,7 +1714,9 @@
    "word": "Ofen",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Öfen",
+   "phrase": "wärmt das ganze Zimmer"
   },
   {
    "concept": "object:sketchbook",
@@ -1410,7 +1724,9 @@
    "word": "Skizzenbuch",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Skizzenbücher",
+   "phrase": "voller schneller Zeichnungen"
   },
   {
    "concept": "object:pestle",
@@ -1418,7 +1734,9 @@
    "word": "Stößel",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Stößel",
+   "phrase": "zerstößt im Mörser"
   },
   {
    "concept": "object:beeswax",
@@ -1426,7 +1744,8 @@
    "word": "Bienenwachs",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "riecht nach Honig"
   },
   {
    "concept": "object:palette-knife",
@@ -1434,7 +1753,9 @@
    "word": "Spachtel",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Spachtel",
+   "phrase": "streicht dicke Farbe"
   },
   {
    "concept": "object:gavel",
@@ -1443,6 +1764,7 @@
    "glyph": "▲",
    "difficulty": "transparent",
    "trapFlags": [],
+   "plural": "die Hämmer",
    "phrase": "spricht das letzte Wort"
   },
   {
@@ -1452,6 +1774,7 @@
    "glyph": "●",
    "difficulty": "transparent",
    "trapFlags": [],
+   "plural": "die Bieterkarten",
    "phrase": "hebt man zum Bieten"
   },
   {
@@ -1461,6 +1784,7 @@
    "glyph": "■",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "die Kissen",
    "phrase": "weich, zum Sitzen"
   },
   {
@@ -1470,6 +1794,7 @@
    "glyph": "▲",
    "difficulty": "cognate",
    "trapFlags": [],
+   "plural": "die Kataloge",
    "phrase": "listet alle Lose auf"
   },
   {
@@ -1479,6 +1804,7 @@
    "glyph": "▲",
    "difficulty": "cognate",
    "trapFlags": [],
+   "plural": "die Kandelaber",
    "phrase": "trägt viele Kerzen"
   },
   {
@@ -1487,7 +1813,9 @@
    "word": "Rollwagen",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Rollwagen",
+   "phrase": "rollt durch die Gänge"
   },
   {
    "concept": "object:blanket",
@@ -1495,7 +1823,9 @@
    "word": "Decke",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Decken",
+   "phrase": "schützt Möbel beim Transport"
   },
   {
    "concept": "object:telegram-form",
@@ -1503,7 +1833,9 @@
    "word": "Formular",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Formulare",
+   "phrase": "wartet auf dringende Worte"
   },
   {
    "concept": "object:stencil",
@@ -1511,7 +1843,9 @@
    "word": "Schablone",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schablonen",
+   "phrase": "malt Buchstaben immer gleich"
   },
   {
    "concept": "object:flowerpot",
@@ -1520,7 +1854,8 @@
    "glyph": "▲",
    "difficulty": "transparent",
    "trapFlags": [],
-   "plural": "die Blumentöpfe"
+   "plural": "die Blumentöpfe",
+   "phrase": "Zuhause einer Pflanze"
   },
   {
    "concept": "object:watering-can",
@@ -1528,7 +1863,9 @@
    "word": "Gießkanne",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Gießkannen",
+   "phrase": "bringt den Blumen Wasser"
   },
   {
    "concept": "object:orchid",
@@ -1536,7 +1873,9 @@
    "word": "Orchidee",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Orchideen",
+   "phrase": "blüht selten und stolz"
   },
   {
    "concept": "object:trowel",
@@ -1544,7 +1883,9 @@
    "word": "Kelle",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kellen",
+   "phrase": "gräbt kleine Löcher"
   },
   {
    "concept": "object:thermometer",
@@ -1552,7 +1893,9 @@
    "word": "Thermometer",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Thermometer",
+   "phrase": "misst warm und kalt"
   },
   {
    "concept": "object:shears",
@@ -1560,7 +1903,9 @@
    "word": "Gartenschere",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Gartenscheren",
+   "phrase": "schneidet Zweige und Rosen"
   },
   {
    "concept": "object:hose",
@@ -1568,7 +1913,9 @@
    "word": "Schlauch",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Schläuche",
+   "phrase": "bringt Wasser in den Garten"
   },
   {
    "concept": "object:pigeon",
@@ -1576,7 +1923,9 @@
    "word": "Taube",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Tauben",
+   "phrase": "gurrt auf dem Dach"
   },
   {
    "concept": "object:chart-tube",
@@ -1584,7 +1933,9 @@
    "word": "Kartenrolle",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kartenrollen",
+   "phrase": "schützt gerollte Karten"
   },
   {
    "concept": "object:brazier",
@@ -1592,15 +1943,19 @@
    "word": "Kohlebecken",
    "glyph": "■",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kohlebecken",
+   "phrase": "glüht mit Kohlen"
   },
   {
    "concept": "object:trunk",
-   "article": "die",
-   "word": "Truhe",
-   "glyph": "●",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "article": "der",
+   "word": "Schrankkoffer",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "die Schrankkoffer",
+   "phrase": "reist mit dem Dampfer"
   },
   {
    "concept": "object:kiosk",
@@ -1608,7 +1963,9 @@
    "word": "Kiosk",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Kioske",
+   "phrase": "verkauft Zeitungen"
   },
   {
    "concept": "object:pressure-gauge",
@@ -1616,7 +1973,9 @@
    "word": "Druckmesser",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Druckmesser",
+   "phrase": "zeigt den Druck im Kessel"
   },
   {
    "concept": "object:mailbag",
@@ -1624,7 +1983,9 @@
    "word": "Postsack",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Postsäcke",
+   "phrase": "reist voller Briefe"
   },
   {
    "concept": "object:luggage-tag",
@@ -1632,7 +1993,12 @@
    "word": "Anhänger",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "die Anhänger",
+   "phrase": "nennt den Besitzer des Koffers",
+   "caution": "«der Anhänger» also means \"pendant\" — and \"trailer.\""
   },
   {
    "concept": "object:oar",
@@ -1640,8 +2006,12 @@
    "word": "Ruder",
    "glyph": "■",
    "difficulty": "opaque",
-   "trapFlags": [],
-   "plural": "die Ruder"
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "die Ruder",
+   "phrase": "bewegt das Boot",
+   "caution": "«das Ruder» is also a ship's rudder."
   },
   {
    "concept": "object:lifebuoy",
@@ -1649,7 +2019,9 @@
    "word": "Rettungsring",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Rettungsringe",
+   "phrase": "schwimmt und hält dich oben"
   },
   {
    "concept": "object:tackle-box",
@@ -1657,7 +2029,9 @@
    "word": "Angelkasten",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Angelkästen",
+   "phrase": "birgt Haken und Köder"
   },
   {
    "concept": "object:rain-hat",
@@ -1665,7 +2039,9 @@
    "word": "Südwester",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Südwester",
+   "phrase": "trotzt dem Sturm"
   },
   {
    "concept": "object:flare",
@@ -1673,7 +2049,9 @@
    "word": "Leuchtrakete",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Leuchtraketen",
+   "phrase": "ruft rot um Hilfe"
   },
   {
    "concept": "object:barometer",
@@ -1681,7 +2059,9 @@
    "word": "Barometer",
    "glyph": "■",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Barometer",
+   "phrase": "sagt das Wetter voraus"
   },
   {
    "concept": "object:dust-sheet",
@@ -1689,7 +2069,9 @@
    "word": "Laken",
    "glyph": "■",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Laken",
+   "phrase": "verhüllt die Möbel"
   },
   {
    "concept": "object:glass-shard",
@@ -1697,15 +2079,21 @@
    "word": "Scherbe",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Scherben",
+   "phrase": "scharf und glitzernd"
   },
   {
    "concept": "object:handcuffs",
    "article": "die",
-   "word": "Handschelle",
+   "word": "Handschellen",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [
+    "plural-only"
+   ],
+   "phrase": "schließen sich um Handgelenke",
+   "caution": "Usually plural: «die Handschellen»."
   },
   {
    "concept": "object:plaster-cast",
@@ -1713,7 +2101,9 @@
    "word": "Gipsabdruck",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "die Gipsabdrücke",
+   "phrase": "bewahrt die Fußspur"
   }
  ],
  "tokens": [
@@ -1751,13 +2141,157 @@
    "key": "quiet",
    "level": "L1",
    "text": "Still!",
-   "gloss": "hold still / quiet"
+   "gloss": "quiet!"
   },
   {
    "key": "eh",
    "level": "L1",
    "text": "ja?",
    "gloss": "okay? / eh?"
+  },
+  {
+   "key": "good-morning",
+   "level": "L1",
+   "text": "Guten Morgen",
+   "gloss": "good morning"
+  },
+  {
+   "key": "good-evening",
+   "level": "L1",
+   "text": "Guten Abend",
+   "gloss": "good evening"
+  },
+  {
+   "key": "thanks",
+   "level": "L1",
+   "text": "Danke",
+   "gloss": "thank you"
+  },
+  {
+   "key": "please",
+   "level": "L1",
+   "text": "Bitte",
+   "gloss": "please"
+  },
+  {
+   "key": "of-course",
+   "level": "L1",
+   "text": "Natürlich",
+   "gloss": "of course"
+  },
+  {
+   "key": "exactly",
+   "level": "L1",
+   "text": "Genau",
+   "gloss": "exactly"
+  },
+  {
+   "key": "wait",
+   "level": "L1",
+   "text": "Moment",
+   "gloss": "one moment"
+  },
+  {
+   "key": "come-on",
+   "level": "L1",
+   "text": "Na los",
+   "gloss": "come on"
+  },
+  {
+   "key": "lets-go",
+   "level": "L1",
+   "text": "Gehen wir",
+   "gloss": "let's go"
+  },
+  {
+   "key": "attention",
+   "level": "L1",
+   "text": "Achtung",
+   "gloss": "watch out"
+  },
+  {
+   "key": "done",
+   "level": "L1",
+   "text": "Fertig",
+   "gloss": "done"
+  },
+  {
+   "key": "perfect",
+   "level": "L1",
+   "text": "Wunderbar",
+   "gloss": "wonderful"
+  },
+  {
+   "key": "really",
+   "level": "L1",
+   "text": "Wirklich?",
+   "gloss": "really?"
+  },
+  {
+   "key": "patience",
+   "level": "L1",
+   "text": "Geduld",
+   "gloss": "patience"
+  },
+  {
+   "key": "courage",
+   "level": "L1",
+   "text": "Nur Mut",
+   "gloss": "chin up"
+  },
+  {
+   "key": "slowly",
+   "level": "L1",
+   "text": "Langsam",
+   "gloss": "slowly / gently"
+  },
+  {
+   "key": "enough",
+   "level": "L1",
+   "text": "Genug",
+   "gloss": "enough"
+  },
+  {
+   "key": "understood",
+   "level": "L1",
+   "text": "Verstanden",
+   "gloss": "understood"
+  },
+  {
+   "key": "almost",
+   "level": "L1",
+   "text": "Fast",
+   "gloss": "almost"
+  },
+  {
+   "key": "and-now",
+   "level": "L1",
+   "text": "Und jetzt?",
+   "gloss": "and now what?"
+  },
+  {
+   "key": "eyes-open",
+   "level": "L1",
+   "text": "Augen auf",
+   "gloss": "eyes open"
+  },
+  {
+   "key": "between-us",
+   "level": "L1",
+   "text": "Unter uns",
+   "gloss": "between us"
+  },
+  {
+   "key": "mister",
+   "level": "L1",
+   "text": "Herr",
+   "gloss": "Mr. — a courtesy"
+  },
+  {
+   "key": "nightingale",
+   "level": "L1",
+   "text": "die Nachtigall",
+   "gloss": "the nightingale"
   },
   {
    "key": "careful",
@@ -1788,18 +2322,232 @@
    "level": "L2",
    "text": "Na, siehste",
    "gloss": "see?"
+  },
+  {
+   "key": "dog-buried",
+   "level": "L2",
+   "text": "Da liegt der Hund begraben",
+   "gloss": "that's the crux of it"
+  },
+  {
+   "key": "who-searches",
+   "level": "L2",
+   "text": "Wer sucht, der findet",
+   "gloss": "who searches, finds"
+  },
+  {
+   "key": "wren",
+   "level": "L2",
+   "text": "der Zaunkönig",
+   "gloss": "the wren"
+  },
+  {
+   "key": "still-sings",
+   "level": "L2",
+   "text": "Die Nachtigall singt noch.",
+   "gloss": "the nightingale still sings"
+  },
+  {
+   "key": "no-hurry",
+   "level": "L2",
+   "text": "Immer mit der Ruhe",
+   "gloss": "easy does it"
+  },
+  {
+   "key": "practice",
+   "level": "L2",
+   "text": "Übung macht den Meister",
+   "gloss": "practice makes perfect"
+  },
+  {
+   "key": "appearances",
+   "level": "L2",
+   "text": "Der Schein trügt",
+   "gloss": "appearances deceive"
+  },
+  {
+   "key": "no-smoke",
+   "level": "L2",
+   "text": "Kein Rauch ohne Feuer",
+   "gloss": "no smoke without fire"
+  },
+  {
+   "key": "night-counsel",
+   "level": "L2",
+   "text": "Guter Rat kommt über Nacht",
+   "gloss": "the night brings counsel"
+  },
+  {
+   "key": "walls-ears",
+   "level": "L2",
+   "text": "Die Wände haben Ohren",
+   "gloss": "the walls have ears"
+  },
+  {
+   "key": "lies-short-legs",
+   "level": "L2",
+   "text": "Lügen haben kurze Beine",
+   "gloss": "lies have short legs"
+  },
+  {
+   "key": "end-crowns",
+   "level": "L2",
+   "text": "Das Ende krönt das Werk",
+   "gloss": "the ending crowns the work"
+  },
+  {
+   "key": "better-late",
+   "level": "L2",
+   "text": "Besser spät als nie",
+   "gloss": "better late than never"
+  },
+  {
+   "key": "each-thing",
+   "level": "L2",
+   "text": "Alles zu seiner Zeit",
+   "gloss": "everything in its own time"
+  },
+  {
+   "key": "said-done",
+   "level": "L2",
+   "text": "Gesagt, getan",
+   "gloss": "no sooner said than done"
+  },
+  {
+   "key": "in-wine",
+   "level": "L2",
+   "text": "Im Wein liegt Wahrheit",
+   "gloss": "in wine, the truth"
+  },
+  {
+   "key": "old-fox",
+   "level": "L2",
+   "text": "ein alter Fuchs",
+   "gloss": "an old fox — a crafty one"
+  },
+  {
+   "key": "needle-haystack",
+   "level": "L2",
+   "text": "die Nadel im Heuhaufen",
+   "gloss": "a needle in a haystack"
+  },
+  {
+   "key": "clear-water",
+   "level": "L2",
+   "text": "klar wie Kloßbrühe",
+   "gloss": "crystal clear"
+  },
+  {
+   "key": "childs-play",
+   "level": "L2",
+   "text": "ein Kinderspiel",
+   "gloss": "child's play — easy"
+  },
+  {
+   "key": "raining-buckets",
+   "level": "L2",
+   "text": "Es gießt wie aus Eimern",
+   "gloss": "it's pouring buckets"
+  },
+  {
+   "key": "costs-eye",
+   "level": "L2",
+   "text": "sündhaft teuer",
+   "gloss": "costs a fortune"
+  },
+  {
+   "key": "to-the-point",
+   "level": "L2",
+   "text": "auf den Punkt",
+   "gloss": "straight to the point"
+  },
+  {
+   "key": "fits-perfectly",
+   "level": "L2",
+   "text": "wie die Faust aufs Auge",
+   "gloss": "fits perfectly"
+  },
+  {
+   "key": "red-handed",
+   "level": "L2",
+   "text": "auf frischer Tat",
+   "gloss": "caught red-handed"
+  },
+  {
+   "key": "agreed",
+   "level": "L2",
+   "text": "abgemacht",
+   "gloss": "it's a deal"
+  },
+  {
+   "key": "good-luck",
+   "level": "L2",
+   "text": "Hals- und Beinbruch",
+   "gloss": "good luck"
+  },
+  {
+   "key": "no-chance",
+   "level": "L2",
+   "text": "nichts dem Zufall überlassen",
+   "gloss": "nothing left to chance"
+  },
+  {
+   "key": "smells-fishy",
+   "level": "L2",
+   "text": "Da ist was faul",
+   "gloss": "something's fishy here"
+  },
+  {
+   "key": "word-honor",
+   "level": "L2",
+   "text": "Ehrenwort",
+   "gloss": "word of honor"
+  },
+  {
+   "key": "time-flies",
+   "level": "L2",
+   "text": "Die Zeit rennt",
+   "gloss": "time flies"
+  },
+  {
+   "key": "all-ears",
+   "level": "L2",
+   "text": "ganz Ohr",
+   "gloss": "all ears"
+  },
+  {
+   "key": "long-story",
+   "level": "L2",
+   "text": "lange Geschichte",
+   "gloss": "long story"
   }
  ],
  "vendorCalls": [
   "Frische Orangen! Süß wie der Sommer!",
-  "Fisch! Heute Morgen noch geschwommen!",
+  "Fisch, frischer Fisch! Heute früh noch geschwommen!",
   "Laternen! Licht für dunkle Gassen!",
-  "Schals und Tücher, warm und weich!"
+  "Schals und Tücher, warm und weich!",
+  "Knoblauch! Drei Zehen für eine Münze!",
+  "Heißer Tee! Die Kanne dampft noch!",
+  "Brot von heute, Preis von gestern!",
+  "Käse! Kommt näher, kostet, kauft!",
+  "Knöpfe und Bänder, fein und billig!",
+  "Paprika, rot und süß! Der letzte Korb!",
+  "Körbe, feste Körbe! Halten ein Leben lang!",
+  "Trommeln für die Kleinen, Geigen für die Großen!"
  ],
  "signage": [
   "LATERNENGASSE",
-  "ZUM ANKER",
+  "ZUM ROSTIGEN ANKER",
   "PFANDLEIHE",
-  "MARKT — FREITAGS"
+  "MARKT — FREITAGS",
+  "FRISCHER FISCH",
+  "ANTIQUITÄTEN — AN- & VERKAUF",
+  "AUKTION HEUTE",
+  "ZU DEN FÄHREN",
+  "GLEIS 3 — ABFAHRT",
+  "ZIMMER FREI",
+  "KEIN ZUTRITT",
+  "GESCHLOSSEN"
  ]
 }

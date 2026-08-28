@@ -17,7 +17,7 @@
   "lines": [
    { "speaker": "narration", "en": "Item 77: one brass sextant, pledged T. FINCH, forty crowns — redeemed October 12th, cash, new notes." },
    { "speaker": "margo", "en": "Pledged broke, redeemed rich, the morning after the theft. New notes have a story, Halloway.", "garnish": { "level": "L1", "key": "right", "pos": "tail" } },
-   { "speaker": "margo", "en": "The sad museum man drinks at the Anchor. My Oma's second kitchen. We'll go at evening bell.", "echo": true }
+   { "speaker": "margo", "en": "The sad museum man drinks at the Anchor. {gran}'s second kitchen. We'll go at evening bell.", "echo": true }
   ],
   "caseLine": "Ticket 77 was Finch's. Pledged broke; redeemed rich, the morning after.",
   "peopleFacts": [
@@ -70,7 +70,7 @@
   "lines": [
    { "speaker": "finch", "en": "You don't understand. The papers were right. Grand old seal, proper stamps. They said insurance. They said discretion." },
    { "speaker": "finch", "en": "The couriers had a password. Soft, like a bird's name. Foreign. I— I can't say it right. I never could." },
-   { "speaker": "margo", "en": "Herr Finch. My Oma pawned her wedding spoons twice. Shame is just love with no budget.", "garnish": { "level": "L2", "key": "listen", "pos": "lead" } },
+   { "speaker": "margo", "en": "Mr. Finch. {gran} pawned her wedding spoons twice. Shame is just love with no budget.", "garnish": { "level": "L2", "key": "listen", "pos": "lead" } },
    { "speaker": "narration", "en": "He is more afraid of someone than of Holt. He glances at his coat when he says he kept nothing." }
   ],
   "caseLine": "Finch let 'couriers' in — grand papers, a bird-name password. He rewrote the log.",

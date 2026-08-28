@@ -5,6 +5,7 @@ import { useVocab } from '../../state/vocabStore';
 import { useCase } from '../../state/caseStore';
 import { band, pips } from '../../engine/vocab/scheduler';
 import { db } from '../../app/content';
+import { clueCaption } from '../../app/storyFlow';
 import { speakConcept } from '../../app/speak';
 import { ui } from '../strings';
 

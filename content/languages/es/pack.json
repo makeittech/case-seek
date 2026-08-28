@@ -3,19 +3,26 @@
  "name": "Español",
  "nameEn": "Spanish",
  "locale": "es-ES",
- "greeting": "Bienvenido, detective.",
+ "greeting": "Adelante, detective.",
+ "grandmother": "Abuela Rosa",
  "slowRate": 0.72,
  "articles": [
   "el",
-  "la"
+  "la",
+  "los",
+  "las"
  ],
  "articleOptionSets": [
   [
    "el",
    "la"
+  ],
+  [
+   "los",
+   "las"
   ]
  ],
- "articlePickWeight": 0.42,
+ "articlePickWeight": 0.2,
  "lexemes": [
   {
    "concept": "object:key",
@@ -33,7 +40,9 @@
    "word": "cuaderno",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los cuadernos",
+   "phrase": "guarda todos los apuntes"
   },
   {
    "concept": "object:magnifier",
@@ -42,6 +51,7 @@
    "glyph": "●",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "las lupas",
    "phrase": "hace todo más grande"
   },
   {
@@ -50,7 +60,9 @@
    "word": "abrigo",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los abrigos",
+   "phrase": "abriga en invierno"
   },
   {
    "concept": "object:hat",
@@ -58,7 +70,9 @@
    "word": "sombrero",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los sombreros",
+   "phrase": "va en la cabeza"
   },
   {
    "concept": "object:lamp",
@@ -66,7 +80,9 @@
    "word": "lámpara",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las lámparas",
+   "phrase": "ilumina la habitación"
   },
   {
    "concept": "object:cup",
@@ -74,7 +90,9 @@
    "word": "taza",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las tazas",
+   "phrase": "para tomar café"
   },
   {
    "concept": "object:umbrella",
@@ -82,7 +100,9 @@
    "word": "paraguas",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los paraguas",
+   "phrase": "protege de la lluvia"
   },
   {
    "concept": "object:frame",
@@ -91,6 +111,7 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "los marcos",
    "phrase": "sostiene un cuadro"
   },
   {
@@ -100,25 +121,30 @@
    "glyph": "●",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "las cuerdas",
    "phrase": "sirve para atar"
   },
   {
    "concept": "object:crate",
-   "article": "el",
-   "word": "cajón",
-   "glyph": "▲",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "article": "la",
+   "word": "caja de embalaje",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "las cajas de embalaje",
+   "phrase": "de madera, para carga"
   },
   {
    "concept": "object:ladder",
    "article": "la",
    "word": "escalera",
    "glyph": "●",
-   "difficulty": "false-friend",
+   "difficulty": "opaque",
    "trapFlags": [
-    "trap"
+    "polysemy"
    ],
+   "plural": "las escaleras",
+   "phrase": "sirve para subir",
    "caution": "«escalera» is a ladder and a staircase."
   },
   {
@@ -127,7 +153,9 @@
    "word": "guante",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los guantes",
+   "phrase": "cubre la mano"
   },
   {
    "concept": "object:screwdriver",
@@ -135,7 +163,9 @@
    "word": "destornillador",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los destornilladores",
+   "phrase": "gira el tornillo"
   },
   {
    "concept": "object:label",
@@ -144,7 +174,8 @@
    "glyph": "●",
    "difficulty": "cognate",
    "trapFlags": [],
-   "plural": "las etiquetas"
+   "plural": "las etiquetas",
+   "phrase": "dice qué hay dentro"
   },
   {
    "concept": "object:bench",
@@ -152,18 +183,25 @@
    "word": "banco",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "los bancos",
+   "phrase": "para sentarse en el parque",
+   "caution": "«el banco» also means \"bank.\""
   },
   {
    "concept": "object:chandelier",
    "article": "la",
    "word": "araña",
    "glyph": "●",
-   "difficulty": "false-friend",
+   "difficulty": "opaque",
    "trapFlags": [
-    "trap"
+    "polysemy"
    ],
-   "caution": "Careful — «araña» also means “spider.”"
+   "plural": "las arañas",
+   "phrase": "cuelga del techo y brilla",
+   "caution": "Careful — «araña» also means \"spider.\""
   },
   {
    "concept": "object:ledger",
@@ -171,7 +209,9 @@
    "word": "libro de cuentas",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los libros de cuentas",
+   "phrase": "guarda todas las cuentas"
   },
   {
    "concept": "object:teacup",
@@ -179,7 +219,9 @@
    "word": "taza de té",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las tazas de té",
+   "phrase": "tacita para el té"
   },
   {
    "concept": "object:envelope",
@@ -187,7 +229,9 @@
    "word": "sobre",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los sobres",
+   "phrase": "lleva la carta dentro"
   },
   {
    "concept": "object:rubber-stamp",
@@ -196,7 +240,8 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "los sellos"
+   "plural": "los sellos",
+   "phrase": "marca el papel con tinta"
   },
   {
    "concept": "object:inkwell",
@@ -205,24 +250,30 @@
    "glyph": "▲",
    "difficulty": "transparent",
    "trapFlags": [],
+   "plural": "los tinteros",
    "phrase": "guarda la tinta"
   },
   {
    "concept": "object:scissors",
-   "article": "la",
-   "word": "tijera",
+   "article": "las",
+   "word": "tijeras",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "plural-only"
+   ],
+   "phrase": "cortan papel y tela",
+   "caution": "Always plural: «las tijeras»."
   },
   {
    "concept": "object:folder",
    "article": "la",
    "word": "carpeta",
    "glyph": "●",
-   "difficulty": "false-friend",
+   "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "las carpetas"
+   "plural": "las carpetas",
+   "phrase": "ordena los papeles"
   },
   {
    "concept": "object:monocle",
@@ -230,7 +281,9 @@
    "word": "monóculo",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los monóculos",
+   "phrase": "un cristal para un ojo"
   },
   {
    "concept": "object:telephone",
@@ -238,7 +291,9 @@
    "word": "teléfono",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los teléfonos",
+   "phrase": "sirve para llamar"
   },
   {
    "concept": "object:blotter",
@@ -246,15 +301,19 @@
    "word": "secante",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los secantes",
+   "phrase": "seca la tinta fresca"
   },
   {
    "concept": "object:candle",
    "article": "la",
    "word": "vela",
    "glyph": "●",
-   "difficulty": "false-friend",
-   "trapFlags": []
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "las velas",
+   "phrase": "arde y da luz"
   },
   {
    "concept": "object:sealing-wax",
@@ -262,7 +321,8 @@
    "word": "lacre",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "cierra cartas, rojo y caliente"
   },
   {
    "concept": "object:letter-opener",
@@ -270,7 +330,9 @@
    "word": "abrecartas",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los abrecartas",
+   "phrase": "abre el correo"
   },
   {
    "concept": "object:calendar",
@@ -278,18 +340,22 @@
    "word": "calendario",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los calendarios",
+   "phrase": "muestra días y meses"
   },
   {
    "concept": "object:drawer",
    "article": "el",
    "word": "cajón",
    "glyph": "▲",
-   "difficulty": "false-friend",
+   "difficulty": "opaque",
    "trapFlags": [
-    "trap"
+    "polysemy"
    ],
-   "caution": "«cajón» is a drawer, not a big box — that is «caja»."
+   "plural": "los cajones",
+   "phrase": "sale del escritorio",
+   "caution": "«el cajón» is also a big crate — context decides."
   },
   {
    "concept": "object:photograph",
@@ -297,7 +363,12 @@
    "word": "foto",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [
+    "gender-surprise"
+   ],
+   "plural": "las fotos",
+   "phrase": "un momento en papel",
+   "caution": "«la foto» stays feminine — short for «la fotografía»."
   },
   {
    "concept": "object:ribbon",
@@ -305,7 +376,9 @@
    "word": "cinta",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cintas",
+   "phrase": "adorna el pelo"
   },
   {
    "concept": "object:clock",
@@ -323,7 +396,9 @@
    "word": "plano",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los planos",
+   "phrase": "muestra cómo se construye"
   },
   {
    "concept": "object:newspaper",
@@ -331,18 +406,22 @@
    "word": "periódico",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los periódicos",
+   "phrase": "trae las noticias"
   },
   {
    "concept": "object:map",
    "article": "el",
    "word": "mapa",
    "glyph": "▲",
-   "difficulty": "false-friend",
+   "difficulty": "cognate",
    "trapFlags": [
-    "trap"
+    "gender-surprise"
    ],
-   "caution": "Careful — «el mapa» is masculine, despite the -a."
+   "plural": "los mapas",
+   "phrase": "muestra ciudades y calles",
+   "caution": "«el mapa» is masculine, despite the -a."
   },
   {
    "concept": "object:box",
@@ -350,7 +429,9 @@
    "word": "caja",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cajas",
+   "phrase": "guarda cosas pequeñas"
   },
   {
    "concept": "object:lantern",
@@ -369,7 +450,8 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "los pinceles"
+   "plural": "los pinceles",
+   "phrase": "pinta los cuadros"
   },
   {
    "concept": "object:ink",
@@ -377,7 +459,8 @@
    "word": "tinta",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "negra, para escribir"
   },
   {
    "concept": "object:stool",
@@ -385,7 +468,9 @@
    "word": "taburete",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los taburetes",
+   "phrase": "asiento sin respaldo"
   },
   {
    "concept": "object:string",
@@ -393,7 +478,9 @@
    "word": "cordel",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los cordeles",
+   "phrase": "ata los paquetes"
   },
   {
    "concept": "object:magnet",
@@ -401,7 +488,9 @@
    "word": "imán",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los imanes",
+   "phrase": "atrae el hierro"
   },
   {
    "concept": "object:register",
@@ -409,7 +498,9 @@
    "word": "registro",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los registros",
+   "phrase": "apunta todos los nombres"
   },
   {
    "concept": "object:card-index",
@@ -417,7 +508,9 @@
    "word": "fichero",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los ficheros",
+   "phrase": "fichas con muchos nombres"
   },
   {
    "concept": "object:portrait",
@@ -425,7 +518,9 @@
    "word": "retrato",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los retratos",
+   "phrase": "muestra una cara"
   },
   {
    "concept": "object:ruler",
@@ -433,7 +528,9 @@
    "word": "regla",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las reglas",
+   "phrase": "traza líneas rectas"
   },
   {
    "concept": "object:compass",
@@ -441,7 +538,9 @@
    "word": "compás",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los compases",
+   "phrase": "dibuja círculos perfectos"
   },
   {
    "concept": "object:sextant",
@@ -449,7 +548,9 @@
    "word": "sextante",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los sextantes",
+   "phrase": "mide las estrellas"
   },
   {
    "concept": "object:seal",
@@ -457,7 +558,9 @@
    "word": "sello de lacre",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los sellos de lacre",
+   "phrase": "marca la cera"
   },
   {
    "concept": "object:gazette",
@@ -465,7 +568,9 @@
    "word": "gaceta",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las gacetas",
+   "phrase": "viejo papel de noticias"
   },
   {
    "concept": "object:manifest",
@@ -473,7 +578,9 @@
    "word": "manifiesto",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los manifiestos",
+   "phrase": "lista toda la carga"
   },
   {
    "concept": "object:seagull",
@@ -482,7 +589,8 @@
    "glyph": "●",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "las gaviotas"
+   "plural": "las gaviotas",
+   "phrase": "grita sobre el puerto"
   },
   {
    "concept": "object:anchor",
@@ -490,7 +598,12 @@
    "word": "ancla",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "el-agua-class"
+   ],
+   "plural": "las anclas",
+   "phrase": "sujeta el barco",
+   "caution": "Feminine — «el» only in the singular: «las anclas»."
   },
   {
    "concept": "object:barrel",
@@ -498,7 +611,9 @@
    "word": "barril",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los barriles",
+   "phrase": "redondo, de madera, lleno"
   },
   {
    "concept": "object:hook",
@@ -506,7 +621,9 @@
    "word": "gancho",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los ganchos",
+   "phrase": "agarra lo que cuelga"
   },
   {
    "concept": "object:net",
@@ -514,7 +631,9 @@
    "word": "red",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las redes",
+   "phrase": "atrapa los peces"
   },
   {
    "concept": "object:bell",
@@ -522,7 +641,9 @@
    "word": "campana",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las campanas",
+   "phrase": "suena en la torre"
   },
   {
    "concept": "object:bollard",
@@ -530,7 +651,9 @@
    "word": "bolardo",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los bolardos",
+   "phrase": "amarra los barcos"
   },
   {
    "concept": "object:chain",
@@ -538,7 +661,9 @@
    "word": "cadena",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cadenas",
+   "phrase": "eslabón a eslabón, fuerte"
   },
   {
    "concept": "object:tarpaulin",
@@ -546,7 +671,9 @@
    "word": "lona",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las lonas",
+   "phrase": "cubre la carga"
   },
   {
    "concept": "object:winch",
@@ -554,7 +681,9 @@
    "word": "cabrestante",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los cabrestantes",
+   "phrase": "levanta cargas pesadas"
   },
   {
    "concept": "object:gangplank",
@@ -562,7 +691,9 @@
    "word": "pasarela",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las pasarelas",
+   "phrase": "puente hacia el barco"
   },
   {
    "concept": "object:oilskin",
@@ -570,7 +701,9 @@
    "word": "impermeable",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los impermeables",
+   "phrase": "detiene la lluvia"
   },
   {
    "concept": "object:whistle",
@@ -578,7 +711,9 @@
    "word": "silbato",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los silbatos",
+   "phrase": "suena fuerte y agudo"
   },
   {
    "concept": "object:cat",
@@ -586,7 +721,9 @@
    "word": "gato",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los gatos",
+   "phrase": "ronronea y caza ratones"
   },
   {
    "concept": "object:padlock",
@@ -594,7 +731,9 @@
    "word": "candado",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los candados",
+   "phrase": "cierra la puerta con llave"
   },
   {
    "concept": "object:bottle",
@@ -612,7 +751,9 @@
    "word": "jarra",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las jarras",
+   "phrase": "llena de cerveza"
   },
   {
    "concept": "object:dartboard",
@@ -620,7 +761,9 @@
    "word": "diana",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las dianas",
+   "phrase": "blanco de dardos pequeños"
   },
   {
    "concept": "object:chalk",
@@ -628,7 +771,9 @@
    "word": "tiza",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las tizas",
+   "phrase": "escribe blanco sobre negro"
   },
   {
    "concept": "object:bread",
@@ -636,7 +781,9 @@
    "word": "pan",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los panes",
+   "phrase": "recién salido del horno"
   },
   {
    "concept": "object:cheese",
@@ -644,7 +791,9 @@
    "word": "queso",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los quesos",
+   "phrase": "madura en la bodega"
   },
   {
    "concept": "object:playing-card",
@@ -652,7 +801,9 @@
    "word": "naipe",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los naipes",
+   "phrase": "corazones, picas o diamantes"
   },
   {
    "concept": "object:kettle",
@@ -660,7 +811,9 @@
    "word": "hervidor",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los hervidores",
+   "phrase": "silba cuando hierve el agua"
   },
   {
    "concept": "object:pipe",
@@ -668,15 +821,19 @@
    "word": "pipa",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las pipas",
+   "phrase": "humea con tabaco"
   },
   {
    "concept": "object:logbook",
-   "article": "la",
-   "word": "bitácora",
-   "glyph": "●",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "article": "el",
+   "word": "cuaderno de bitácora",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "los cuadernos de bitácora",
+   "phrase": "diario de un barco"
   },
   {
    "concept": "object:apron",
@@ -684,7 +841,9 @@
    "word": "delantal",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los delantales",
+   "phrase": "protege al cocinar"
   },
   {
    "concept": "object:mousetrap",
@@ -692,7 +851,9 @@
    "word": "ratonera",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las ratoneras",
+   "phrase": "espera con queso"
   },
   {
    "concept": "object:jug",
@@ -700,7 +861,9 @@
    "word": "cántaro",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los cántaros",
+   "phrase": "vierte agua o vino"
   },
   {
    "concept": "object:broom",
@@ -708,7 +871,9 @@
    "word": "escoba",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las escobas",
+   "phrase": "barre el suelo"
   },
   {
    "concept": "object:coin",
@@ -716,7 +881,9 @@
    "word": "moneda",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las monedas",
+   "phrase": "tintinea en el bolsillo"
   },
   {
    "concept": "object:match",
@@ -724,7 +891,9 @@
    "word": "cerilla",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cerillas",
+   "phrase": "un roce, una llama"
   },
   {
    "concept": "object:towel",
@@ -732,7 +901,9 @@
    "word": "toalla",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las toallas",
+   "phrase": "seca las manos"
   },
   {
    "concept": "object:scale",
@@ -740,7 +911,9 @@
    "word": "báscula",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las básculas",
+   "phrase": "pesa la mercancía"
   },
   {
    "concept": "object:twine",
@@ -748,7 +921,8 @@
    "word": "bramante",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "envuelve los paquetes"
   },
   {
    "concept": "object:funnel",
@@ -756,7 +930,9 @@
    "word": "embudo",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los embudos",
+   "phrase": "guía el líquido"
   },
   {
    "concept": "object:typewriter",
@@ -764,7 +940,9 @@
    "word": "máquina de escribir",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las máquinas de escribir",
+   "phrase": "escribe con teclas"
   },
   {
    "concept": "object:sack",
@@ -772,7 +950,9 @@
    "word": "saco",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los sacos",
+   "phrase": "lleno de harina"
   },
   {
    "concept": "object:tea-chest",
@@ -780,7 +960,9 @@
    "word": "caja de té",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cajas de té",
+   "phrase": "viaja llena de té"
   },
   {
    "concept": "object:birdcage",
@@ -788,7 +970,9 @@
    "word": "jaula",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las jaulas",
+   "phrase": "hogar de un pájaro cantor"
   },
   {
    "concept": "object:hand-truck",
@@ -796,7 +980,9 @@
    "word": "carretilla",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las carretillas",
+   "phrase": "rueda con cajas pesadas"
   },
   {
    "concept": "object:suitcase",
@@ -814,7 +1000,9 @@
    "word": "palmera",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las palmeras",
+   "phrase": "adorna el vestíbulo"
   },
   {
    "concept": "object:cane",
@@ -822,7 +1010,9 @@
    "word": "bastón",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los bastones",
+   "phrase": "ayuda a caminar"
   },
   {
    "concept": "object:hatbox",
@@ -830,7 +1020,9 @@
    "word": "sombrerera",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las sombrereras",
+   "phrase": "redonda, para sombreros finos"
   },
   {
    "concept": "object:key-rack",
@@ -838,7 +1030,9 @@
    "word": "casillero",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los casilleros",
+   "phrase": "guarda todas las llaves"
   },
   {
    "concept": "object:ashtray",
@@ -846,7 +1040,9 @@
    "word": "cenicero",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los ceniceros",
+   "phrase": "recoge la ceniza"
   },
   {
    "concept": "object:tray",
@@ -854,7 +1050,9 @@
    "word": "bandeja",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las bandejas",
+   "phrase": "lleva vasos y tazas"
   },
   {
    "concept": "object:champagne-bucket",
@@ -862,7 +1060,9 @@
    "word": "champanera",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las champaneras",
+   "phrase": "enfría el champán"
   },
   {
    "concept": "object:umbrella-stand",
@@ -870,7 +1070,9 @@
    "word": "paragüero",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los paragüeros",
+   "phrase": "guarda paraguas mojados"
   },
   {
    "concept": "object:luggage-cart",
@@ -878,7 +1080,9 @@
    "word": "carrito",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los carritos",
+   "phrase": "lleva maletas rodando"
   },
   {
    "concept": "object:letter",
@@ -887,9 +1091,12 @@
    "glyph": "●",
    "difficulty": "false-friend",
    "trapFlags": [
-    "trap"
+    "false-friend",
+    "polysemy"
    ],
-   "caution": "«carta» is a letter you post — a map is «mapa»."
+   "plural": "las cartas",
+   "phrase": "llega con el correo",
+   "caution": "«carta» is a letter — also a menu and a playing card."
   },
   {
    "concept": "object:carnation",
@@ -897,7 +1104,9 @@
    "word": "clavel",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los claveles",
+   "phrase": "perfuma la solapa"
   },
   {
    "concept": "object:cigarette-case",
@@ -905,7 +1114,9 @@
    "word": "pitillera",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las pitilleras",
+   "phrase": "plana y de plata"
   },
   {
    "concept": "object:saucer",
@@ -913,7 +1124,9 @@
    "word": "platillo",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los platillos",
+   "phrase": "va bajo la taza"
   },
   {
    "concept": "object:candlestick",
@@ -922,7 +1135,8 @@
    "glyph": "▲",
    "difficulty": "transparent",
    "trapFlags": [],
-   "plural": "los candeleros"
+   "plural": "los candeleros",
+   "phrase": "sostiene una vela"
   },
   {
    "concept": "object:violin",
@@ -931,16 +1145,21 @@
    "glyph": "▲",
    "difficulty": "cognate",
    "trapFlags": [],
+   "plural": "los violines",
    "phrase": "canta con cuerdas"
   },
   {
    "concept": "object:globe",
    "article": "el",
-   "word": "globo",
+   "word": "globo terráqueo",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": [],
-   "phrase": "el mundo entero, redondo"
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "los globos terráqueos",
+   "phrase": "el mundo entero, redondo",
+   "caution": "«el globo» alone means \"balloon\" — this one carries the world."
   },
   {
    "concept": "object:mirror",
@@ -949,6 +1168,7 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "los espejos",
    "phrase": "muestra tu cara"
   },
   {
@@ -957,7 +1177,9 @@
    "word": "jarrón",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los jarrones",
+   "phrase": "guarda flores frescas"
   },
   {
    "concept": "object:medal",
@@ -965,7 +1187,9 @@
    "word": "medalla",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las medallas",
+   "phrase": "honor de metal"
   },
   {
    "concept": "object:fan",
@@ -973,15 +1197,19 @@
    "word": "abanico",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los abanicos",
+   "phrase": "mueve aire fresco"
   },
   {
    "concept": "object:chessboard",
    "article": "el",
-   "word": "tablero",
+   "word": "tablero de ajedrez",
    "glyph": "▲",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "los tableros de ajedrez",
+   "phrase": "campo de dos reyes"
   },
   {
    "concept": "object:stamp-die",
@@ -989,7 +1217,9 @@
    "word": "cuño",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los cuños",
+   "phrase": "graba la marca"
   },
   {
    "concept": "object:telescope",
@@ -998,6 +1228,7 @@
    "glyph": "▲",
    "difficulty": "cognate",
    "trapFlags": [],
+   "plural": "los telescopios",
    "phrase": "acerca las estrellas"
   },
   {
@@ -1006,7 +1237,9 @@
    "word": "cortina",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cortinas",
+   "phrase": "tapa la ventana"
   },
   {
    "concept": "object:strongbox",
@@ -1014,7 +1247,9 @@
    "word": "caja fuerte",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cajas fuertes",
+   "phrase": "guarda el dinero bajo llave"
   },
   {
    "concept": "object:rug",
@@ -1022,7 +1257,9 @@
    "word": "alfombra",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las alfombras",
+   "phrase": "viste el suelo"
   },
   {
    "concept": "object:crowbar",
@@ -1030,7 +1267,9 @@
    "word": "palanca",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las palancas",
+   "phrase": "abre cajas a la fuerza"
   },
   {
    "concept": "object:snuffbox",
@@ -1038,7 +1277,9 @@
    "word": "tabaquera",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las tabaqueras",
+   "phrase": "cajita para tabaco"
   },
   {
    "concept": "object:letter-scale",
@@ -1046,7 +1287,9 @@
    "word": "pesacartas",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los pesacartas",
+   "phrase": "pesa el correo"
   },
   {
    "concept": "object:key-ring",
@@ -1054,7 +1297,9 @@
    "word": "llavero",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los llaveros",
+   "phrase": "reúne todas las llaves"
   },
   {
    "concept": "object:file",
@@ -1062,34 +1307,42 @@
    "word": "expediente",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los expedientes",
+   "phrase": "papeles de un caso"
   },
   {
    "concept": "object:cashbox",
-   "article": "el",
-   "word": "cofre",
-   "glyph": "▲",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "article": "la",
+   "word": "caja de caudales",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "las cajas de caudales",
+   "phrase": "suena llena de monedas"
   },
   {
    "concept": "object:cufflink",
    "article": "el",
    "word": "gemelo",
    "glyph": "▲",
-   "difficulty": "false-friend",
+   "difficulty": "opaque",
    "trapFlags": [
-    "trap"
+    "polysemy"
    ],
-   "caution": "«gemelo» also means “twin.”"
+   "plural": "los gemelos",
+   "phrase": "cierra el puño",
+   "caution": "«gemelo» also means \"twin.\""
   },
   {
    "concept": "object:razor",
    "article": "la",
-   "word": "navaja",
+   "word": "navaja de afeitar",
    "glyph": "●",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "las navajas de afeitar",
+   "phrase": "afeita cada mañana"
   },
   {
    "concept": "object:shoehorn",
@@ -1097,7 +1350,9 @@
    "word": "calzador",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los calzadores",
+   "phrase": "ayuda con el zapato"
   },
   {
    "concept": "object:pocket-watch",
@@ -1106,6 +1361,7 @@
    "glyph": "▲",
    "difficulty": "transparent",
    "trapFlags": [],
+   "plural": "los relojes de bolsillo",
    "phrase": "la hora, en el bolsillo"
   },
   {
@@ -1114,7 +1370,9 @@
    "word": "licorera",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las licoreras",
+   "phrase": "sirve el vino fino"
   },
   {
    "concept": "object:slipper",
@@ -1122,7 +1380,9 @@
    "word": "zapatilla",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las zapatillas",
+   "phrase": "abriga el pie en casa"
   },
   {
    "concept": "object:cravat",
@@ -1130,7 +1390,9 @@
    "word": "corbata",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las corbatas",
+   "phrase": "seda para el cuello"
   },
   {
    "concept": "object:travel-case",
@@ -1138,27 +1400,32 @@
    "word": "neceser",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los neceseres",
+   "phrase": "guarda lo esencial"
   },
   {
    "concept": "object:fountain-pen",
    "article": "la",
    "word": "pluma",
    "glyph": "●",
-   "difficulty": "false-friend",
+   "difficulty": "opaque",
    "trapFlags": [
-    "trap"
+    "polysemy"
    ],
-   "caution": "«pluma» also means “feather.”"
+   "plural": "las plumas",
+   "phrase": "escribe sin tintero",
+   "caution": "«pluma» also means \"feather.\""
   },
   {
    "concept": "object:orange",
    "article": "la",
    "word": "naranja",
    "glyph": "●",
-   "difficulty": "opaque",
+   "difficulty": "transparent",
    "trapFlags": [],
-   "plural": "las naranjas"
+   "plural": "las naranjas",
+   "phrase": "dulce y llena de zumo"
   },
   {
    "concept": "object:scarf",
@@ -1166,7 +1433,9 @@
    "word": "bufanda",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las bufandas",
+   "phrase": "abriga el cuello"
   },
   {
    "concept": "object:basket",
@@ -1174,7 +1443,9 @@
    "word": "cesta",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cestas",
+   "phrase": "tejida, lleva la compra"
   },
   {
    "concept": "object:garlic",
@@ -1182,7 +1453,9 @@
    "word": "ajo",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los ajos",
+   "phrase": "blanco, fuerte, en dientes"
   },
   {
    "concept": "object:pepper",
@@ -1190,7 +1463,9 @@
    "word": "pimiento",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los pimientos",
+   "phrase": "rojo y crujiente"
   },
   {
    "concept": "object:fish",
@@ -1198,7 +1473,12 @@
    "word": "pescado",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "los pescados",
+   "phrase": "recién salido del mar",
+   "caution": "«el pescado» is fish on a plate; a live fish is «el pez»."
   },
   {
    "concept": "object:teapot",
@@ -1206,7 +1486,9 @@
    "word": "tetera",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las teteras",
+   "phrase": "sirve el té"
   },
   {
    "concept": "object:drum",
@@ -1214,7 +1496,9 @@
    "word": "tambor",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los tambores",
+   "phrase": "marca el ritmo"
   },
   {
    "concept": "object:jar",
@@ -1223,15 +1507,18 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "los tarros"
+   "plural": "los tarros",
+   "phrase": "guarda las conservas"
   },
   {
    "concept": "object:cloth-bolt",
    "article": "el",
-   "word": "rollo",
+   "word": "rollo de tela",
    "glyph": "▲",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "los rollos de tela",
+   "phrase": "metros y metros de tela"
   },
   {
    "concept": "object:thimble",
@@ -1239,7 +1526,9 @@
    "word": "dedal",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los dedales",
+   "phrase": "protege el dedo al coser"
   },
   {
    "concept": "object:button",
@@ -1247,7 +1536,9 @@
    "word": "botón",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los botones",
+   "phrase": "cierra el abrigo"
   },
   {
    "concept": "object:mortar",
@@ -1255,15 +1546,22 @@
    "word": "mortero",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los morteros",
+   "phrase": "muele las especias"
   },
   {
    "concept": "object:bead",
    "article": "la",
-   "word": "perla",
+   "word": "cuenta",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "las cuentas",
+   "phrase": "pequeña, brillante, ensartada",
+   "caution": "«la cuenta» also means \"the bill.\""
   },
   {
    "concept": "object:loom",
@@ -1271,7 +1569,9 @@
    "word": "telar",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los telares",
+   "phrase": "teje hilo en tela"
   },
   {
    "concept": "object:oil-flask",
@@ -1279,7 +1579,9 @@
    "word": "alcuza",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las alcuzas",
+   "phrase": "vierte aceite, gota a gota"
   },
   {
    "concept": "object:easel",
@@ -1288,6 +1590,7 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "los caballetes",
    "phrase": "sostiene el cuadro al pintar"
   },
   {
@@ -1295,11 +1598,13 @@
    "article": "la",
    "word": "llave inglesa",
    "glyph": "●",
-   "difficulty": "false-friend",
+   "difficulty": "opaque",
    "trapFlags": [
-    "trap"
+    "polysemy"
    ],
-   "caution": "A wrench is a «llave inglesa» — an “English key.”"
+   "plural": "las llaves inglesas",
+   "phrase": "afloja lo apretado",
+   "caution": "A wrench is a «llave inglesa» — an \"English key.\""
   },
   {
    "concept": "object:oilcan",
@@ -1307,7 +1612,9 @@
    "word": "aceitera",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las aceiteras",
+   "phrase": "engrasa la máquina"
   },
   {
    "concept": "object:timetable",
@@ -1315,7 +1622,9 @@
    "word": "horario",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los horarios",
+   "phrase": "dice cuándo salen los trenes"
   },
   {
    "concept": "object:ticket",
@@ -1324,7 +1633,8 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "los billetes"
+   "plural": "los billetes",
+   "phrase": "permite el viaje"
   },
   {
    "concept": "object:signal-lamp",
@@ -1332,7 +1642,9 @@
    "word": "lámpara de señales",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las lámparas de señales",
+   "phrase": "brilla en rojo o verde"
   },
   {
    "concept": "object:toolbox",
@@ -1340,7 +1652,9 @@
    "word": "caja de herramientas",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cajas de herramientas",
+   "phrase": "lleva todo el taller"
   },
   {
    "concept": "object:gear",
@@ -1349,7 +1663,8 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "los engranajes"
+   "plural": "los engranajes",
+   "phrase": "diente con diente, gira"
   },
   {
    "concept": "object:cap",
@@ -1357,7 +1672,9 @@
    "word": "gorra",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las gorras",
+   "phrase": "uniforme para la cabeza"
   },
   {
    "concept": "object:waybill",
@@ -1365,7 +1682,9 @@
    "word": "carta de porte",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cartas de porte",
+   "phrase": "acompaña la carga"
   },
   {
    "concept": "object:palette",
@@ -1373,7 +1692,9 @@
    "word": "paleta",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las paletas",
+   "phrase": "lleva todos los colores"
   },
   {
    "concept": "object:rag",
@@ -1381,7 +1702,9 @@
    "word": "trapo",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los trapos",
+   "phrase": "limpia la pintura"
   },
   {
    "concept": "object:window-pole",
@@ -1389,7 +1712,9 @@
    "word": "pértiga",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las pértigas",
+   "phrase": "abre ventanas altas"
   },
   {
    "concept": "object:smock",
@@ -1397,7 +1722,9 @@
    "word": "bata",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las batas",
+   "phrase": "mantiene limpia la ropa"
   },
   {
    "concept": "object:charcoal",
@@ -1405,7 +1732,9 @@
    "word": "carboncillo",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los carboncillos",
+   "phrase": "dibuja en gris y negro"
   },
   {
    "concept": "object:laundry-line",
@@ -1413,7 +1742,9 @@
    "word": "tendedero",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los tendederos",
+   "phrase": "sostiene la ropa mojada"
   },
   {
    "concept": "object:stove",
@@ -1421,7 +1752,9 @@
    "word": "estufa",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las estufas",
+   "phrase": "calienta la habitación"
   },
   {
    "concept": "object:sketchbook",
@@ -1429,15 +1762,22 @@
    "word": "bloc de dibujo",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los blocs de dibujo",
+   "phrase": "guarda trazos rápidos"
   },
   {
    "concept": "object:pestle",
-   "article": "el",
-   "word": "mazo",
-   "glyph": "▲",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "article": "la",
+   "word": "mano de mortero",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [
+    "gender-surprise"
+   ],
+   "plural": "las manos de mortero",
+   "phrase": "machaca las especias",
+   "caution": "«la mano» is feminine, despite the -o."
   },
   {
    "concept": "object:beeswax",
@@ -1445,7 +1785,8 @@
    "word": "cera",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "phrase": "huele a miel"
   },
   {
    "concept": "object:palette-knife",
@@ -1453,7 +1794,9 @@
    "word": "espátula",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las espátulas",
+   "phrase": "extiende la pintura espesa"
   },
   {
    "concept": "object:gavel",
@@ -1462,6 +1805,7 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "los martillos",
    "phrase": "dice la última palabra"
   },
   {
@@ -1471,6 +1815,7 @@
    "glyph": "●",
    "difficulty": "transparent",
    "trapFlags": [],
+   "plural": "las paletas de puja",
    "phrase": "se levanta para pujar"
   },
   {
@@ -1480,6 +1825,7 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
+   "plural": "los cojines",
    "phrase": "suave, para sentarse"
   },
   {
@@ -1489,6 +1835,7 @@
    "glyph": "▲",
    "difficulty": "cognate",
    "trapFlags": [],
+   "plural": "los catálogos",
    "phrase": "lista todos los lotes"
   },
   {
@@ -1498,6 +1845,7 @@
    "glyph": "▲",
    "difficulty": "cognate",
    "trapFlags": [],
+   "plural": "los candelabros",
    "phrase": "lleva muchas velas"
   },
   {
@@ -1506,7 +1854,9 @@
    "word": "carro",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los carros",
+   "phrase": "rueda entre las filas"
   },
   {
    "concept": "object:blanket",
@@ -1514,7 +1864,9 @@
    "word": "manta",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las mantas",
+   "phrase": "envuelve los muebles"
   },
   {
    "concept": "object:telegram-form",
@@ -1522,7 +1874,9 @@
    "word": "formulario",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los formularios",
+   "phrase": "espera palabras urgentes"
   },
   {
    "concept": "object:stencil",
@@ -1530,7 +1884,9 @@
    "word": "plantilla",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las plantillas",
+   "phrase": "repite letras iguales"
   },
   {
    "concept": "object:flowerpot",
@@ -1539,7 +1895,8 @@
    "glyph": "●",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "las macetas"
+   "plural": "las macetas",
+   "phrase": "hogar de una planta"
   },
   {
    "concept": "object:watering-can",
@@ -1547,7 +1904,9 @@
    "word": "regadera",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las regaderas",
+   "phrase": "da de beber al jardín"
   },
   {
    "concept": "object:orchid",
@@ -1555,15 +1914,19 @@
    "word": "orquídea",
    "glyph": "●",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las orquídeas",
+   "phrase": "florece rara y orgullosa"
   },
   {
    "concept": "object:trowel",
    "article": "la",
-   "word": "pala",
+   "word": "pala de jardín",
    "glyph": "●",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "las palas de jardín",
+   "phrase": "cava hoyos pequeños"
   },
   {
    "concept": "object:thermometer",
@@ -1571,15 +1934,21 @@
    "word": "termómetro",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los termómetros",
+   "phrase": "mide el frío y el calor"
   },
   {
    "concept": "object:shears",
-   "article": "la",
-   "word": "podadera",
+   "article": "las",
+   "word": "tijeras de podar",
    "glyph": "●",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "difficulty": "transparent",
+   "trapFlags": [
+    "plural-only"
+   ],
+   "phrase": "cortan las ramas",
+   "caution": "Always plural: «las tijeras de podar»."
   },
   {
    "concept": "object:hose",
@@ -1587,7 +1956,9 @@
    "word": "manguera",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las mangueras",
+   "phrase": "lleva agua al jardín"
   },
   {
    "concept": "object:pigeon",
@@ -1595,7 +1966,9 @@
    "word": "paloma",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las palomas",
+   "phrase": "arrulla en el tejado"
   },
   {
    "concept": "object:chart-tube",
@@ -1603,7 +1976,9 @@
    "word": "tubo",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los tubos",
+   "phrase": "guarda mapas enrollados"
   },
   {
    "concept": "object:brazier",
@@ -1611,7 +1986,9 @@
    "word": "brasero",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los braseros",
+   "phrase": "arde con brasas"
   },
   {
    "concept": "object:trunk",
@@ -1619,7 +1996,9 @@
    "word": "baúl",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los baúles",
+   "phrase": "viaja en el vapor"
   },
   {
    "concept": "object:kiosk",
@@ -1627,7 +2006,9 @@
    "word": "quiosco",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los quioscos",
+   "phrase": "vende periódicos"
   },
   {
    "concept": "object:pressure-gauge",
@@ -1635,7 +2016,9 @@
    "word": "manómetro",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los manómetros",
+   "phrase": "marca la presión"
   },
   {
    "concept": "object:mailbag",
@@ -1643,7 +2026,9 @@
    "word": "saca",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las sacas",
+   "phrase": "viaja llena de cartas"
   },
   {
    "concept": "object:luggage-tag",
@@ -1651,7 +2036,9 @@
    "word": "marbete",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los marbetes",
+   "phrase": "dice de quién es la maleta"
   },
   {
    "concept": "object:oar",
@@ -1660,7 +2047,8 @@
    "glyph": "▲",
    "difficulty": "opaque",
    "trapFlags": [],
-   "plural": "los remos"
+   "plural": "los remos",
+   "phrase": "mueve el bote"
   },
   {
    "concept": "object:lifebuoy",
@@ -1668,7 +2056,9 @@
    "word": "salvavidas",
    "glyph": "▲",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los salvavidas",
+   "phrase": "flota y te sostiene"
   },
   {
    "concept": "object:tackle-box",
@@ -1676,7 +2066,9 @@
    "word": "caja de aparejos",
    "glyph": "●",
    "difficulty": "transparent",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las cajas de aparejos",
+   "phrase": "guarda anzuelos y cebos"
   },
   {
    "concept": "object:rain-hat",
@@ -1684,7 +2076,9 @@
    "word": "sueste",
    "glyph": "▲",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los suestes",
+   "phrase": "desafía la tormenta"
   },
   {
    "concept": "object:flare",
@@ -1692,7 +2086,9 @@
    "word": "bengala",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las bengalas",
+   "phrase": "pide ayuda en rojo"
   },
   {
    "concept": "object:barometer",
@@ -1700,7 +2096,9 @@
    "word": "barómetro",
    "glyph": "▲",
    "difficulty": "cognate",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "los barómetros",
+   "phrase": "anuncia el tiempo"
   },
   {
    "concept": "object:dust-sheet",
@@ -1708,7 +2106,9 @@
    "word": "sábana",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las sábanas",
+   "phrase": "cubre los muebles"
   },
   {
    "concept": "object:glass-shard",
@@ -1716,23 +2116,32 @@
    "word": "esquirla",
    "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [],
+   "plural": "las esquirlas",
+   "phrase": "afilada y brillante"
   },
   {
    "concept": "object:handcuffs",
-   "article": "el",
-   "word": "grillete",
-   "glyph": "▲",
+   "article": "las",
+   "word": "esposas",
+   "glyph": "●",
    "difficulty": "opaque",
-   "trapFlags": []
+   "trapFlags": [
+    "plural-only",
+    "polysemy"
+   ],
+   "phrase": "cierran sobre las muñecas",
+   "caution": "«las esposas» also means \"wives.\" The police joke writes itself."
   },
   {
    "concept": "object:plaster-cast",
    "article": "el",
-   "word": "molde",
+   "word": "molde de yeso",
    "glyph": "▲",
-   "difficulty": "opaque",
-   "trapFlags": []
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "los moldes de yeso",
+   "phrase": "conserva la huella"
   }
  ],
  "tokens": [
@@ -1769,14 +2178,158 @@
   {
    "key": "quiet",
    "level": "L1",
-   "text": "¡Quieta!",
-   "gloss": "hold still / quiet"
+   "text": "¡Silencio!",
+   "gloss": "quiet!"
   },
   {
    "key": "eh",
    "level": "L1",
    "text": "¿vale?",
    "gloss": "okay? / eh?"
+  },
+  {
+   "key": "good-morning",
+   "level": "L1",
+   "text": "Buenos días",
+   "gloss": "good morning"
+  },
+  {
+   "key": "good-evening",
+   "level": "L1",
+   "text": "Buenas noches",
+   "gloss": "good evening"
+  },
+  {
+   "key": "thanks",
+   "level": "L1",
+   "text": "Gracias",
+   "gloss": "thank you"
+  },
+  {
+   "key": "please",
+   "level": "L1",
+   "text": "Por favor",
+   "gloss": "please"
+  },
+  {
+   "key": "of-course",
+   "level": "L1",
+   "text": "Claro",
+   "gloss": "of course"
+  },
+  {
+   "key": "exactly",
+   "level": "L1",
+   "text": "Exacto",
+   "gloss": "exactly"
+  },
+  {
+   "key": "wait",
+   "level": "L1",
+   "text": "Un momento",
+   "gloss": "one moment"
+  },
+  {
+   "key": "come-on",
+   "level": "L1",
+   "text": "Venga",
+   "gloss": "come on"
+  },
+  {
+   "key": "lets-go",
+   "level": "L1",
+   "text": "Vamos",
+   "gloss": "let's go"
+  },
+  {
+   "key": "attention",
+   "level": "L1",
+   "text": "Cuidado",
+   "gloss": "watch out"
+  },
+  {
+   "key": "done",
+   "level": "L1",
+   "text": "Listo",
+   "gloss": "done"
+  },
+  {
+   "key": "perfect",
+   "level": "L1",
+   "text": "Perfecto",
+   "gloss": "wonderful"
+  },
+  {
+   "key": "really",
+   "level": "L1",
+   "text": "¿En serio?",
+   "gloss": "really?"
+  },
+  {
+   "key": "patience",
+   "level": "L1",
+   "text": "Paciencia",
+   "gloss": "patience"
+  },
+  {
+   "key": "courage",
+   "level": "L1",
+   "text": "Ánimo",
+   "gloss": "chin up"
+  },
+  {
+   "key": "slowly",
+   "level": "L1",
+   "text": "Despacio",
+   "gloss": "slowly / gently"
+  },
+  {
+   "key": "enough",
+   "level": "L1",
+   "text": "Basta",
+   "gloss": "enough"
+  },
+  {
+   "key": "understood",
+   "level": "L1",
+   "text": "Entendido",
+   "gloss": "understood"
+  },
+  {
+   "key": "almost",
+   "level": "L1",
+   "text": "Casi",
+   "gloss": "almost"
+  },
+  {
+   "key": "and-now",
+   "level": "L1",
+   "text": "¿Y ahora?",
+   "gloss": "and now what?"
+  },
+  {
+   "key": "eyes-open",
+   "level": "L1",
+   "text": "Ojos abiertos",
+   "gloss": "eyes open"
+  },
+  {
+   "key": "between-us",
+   "level": "L1",
+   "text": "Entre nosotros",
+   "gloss": "between us"
+  },
+  {
+   "key": "mister",
+   "level": "L1",
+   "text": "Señor",
+   "gloss": "Mr. — a courtesy"
+  },
+  {
+   "key": "nightingale",
+   "level": "L1",
+   "text": "el ruiseñor",
+   "gloss": "the nightingale"
   },
   {
    "key": "careful",
@@ -1807,18 +2360,232 @@
    "level": "L2",
    "text": "¿Lo ves?",
    "gloss": "see?"
+  },
+  {
+   "key": "dog-buried",
+   "level": "L2",
+   "text": "Ahí está el quid",
+   "gloss": "that's the crux of it"
+  },
+  {
+   "key": "who-searches",
+   "level": "L2",
+   "text": "El que busca, encuentra",
+   "gloss": "who searches, finds"
+  },
+  {
+   "key": "wren",
+   "level": "L2",
+   "text": "el chochín",
+   "gloss": "the wren"
+  },
+  {
+   "key": "still-sings",
+   "level": "L2",
+   "text": "El ruiseñor todavía canta.",
+   "gloss": "the nightingale still sings"
+  },
+  {
+   "key": "no-hurry",
+   "level": "L2",
+   "text": "Sin prisa, sin pausa",
+   "gloss": "easy does it"
+  },
+  {
+   "key": "practice",
+   "level": "L2",
+   "text": "La práctica hace al maestro",
+   "gloss": "practice makes perfect"
+  },
+  {
+   "key": "appearances",
+   "level": "L2",
+   "text": "Las apariencias engañan",
+   "gloss": "appearances deceive"
+  },
+  {
+   "key": "no-smoke",
+   "level": "L2",
+   "text": "Donde hay humo, hay fuego",
+   "gloss": "no smoke without fire"
+  },
+  {
+   "key": "night-counsel",
+   "level": "L2",
+   "text": "La noche es buena consejera",
+   "gloss": "the night brings counsel"
+  },
+  {
+   "key": "walls-ears",
+   "level": "L2",
+   "text": "Las paredes oyen",
+   "gloss": "the walls have ears"
+  },
+  {
+   "key": "lies-short-legs",
+   "level": "L2",
+   "text": "Las mentiras tienen patas cortas",
+   "gloss": "lies have short legs"
+  },
+  {
+   "key": "end-crowns",
+   "level": "L2",
+   "text": "El fin corona la obra",
+   "gloss": "the ending crowns the work"
+  },
+  {
+   "key": "better-late",
+   "level": "L2",
+   "text": "Más vale tarde que nunca",
+   "gloss": "better late than never"
+  },
+  {
+   "key": "each-thing",
+   "level": "L2",
+   "text": "Cada cosa a su tiempo",
+   "gloss": "everything in its own time"
+  },
+  {
+   "key": "said-done",
+   "level": "L2",
+   "text": "Dicho y hecho",
+   "gloss": "no sooner said than done"
+  },
+  {
+   "key": "in-wine",
+   "level": "L2",
+   "text": "En el vino, la verdad",
+   "gloss": "in wine, the truth"
+  },
+  {
+   "key": "old-fox",
+   "level": "L2",
+   "text": "un zorro viejo",
+   "gloss": "an old fox — a crafty one"
+  },
+  {
+   "key": "needle-haystack",
+   "level": "L2",
+   "text": "una aguja en un pajar",
+   "gloss": "a needle in a haystack"
+  },
+  {
+   "key": "clear-water",
+   "level": "L2",
+   "text": "más claro, el agua",
+   "gloss": "crystal clear"
+  },
+  {
+   "key": "childs-play",
+   "level": "L2",
+   "text": "pan comido",
+   "gloss": "child's play — easy"
+  },
+  {
+   "key": "raining-buckets",
+   "level": "L2",
+   "text": "Llueve a cántaros",
+   "gloss": "it's pouring buckets"
+  },
+  {
+   "key": "costs-eye",
+   "level": "L2",
+   "text": "un ojo de la cara",
+   "gloss": "costs a fortune"
+  },
+  {
+   "key": "to-the-point",
+   "level": "L2",
+   "text": "al grano",
+   "gloss": "straight to the point"
+  },
+  {
+   "key": "fits-perfectly",
+   "level": "L2",
+   "text": "como anillo al dedo",
+   "gloss": "fits perfectly"
+  },
+  {
+   "key": "red-handed",
+   "level": "L2",
+   "text": "manos en la masa",
+   "gloss": "caught red-handed"
+  },
+  {
+   "key": "agreed",
+   "level": "L2",
+   "text": "trato hecho",
+   "gloss": "it's a deal"
+  },
+  {
+   "key": "good-luck",
+   "level": "L2",
+   "text": "mucha suerte",
+   "gloss": "good luck"
+  },
+  {
+   "key": "no-chance",
+   "level": "L2",
+   "text": "nada al azar",
+   "gloss": "nothing left to chance"
+  },
+  {
+   "key": "smells-fishy",
+   "level": "L2",
+   "text": "Aquí hay gato encerrado",
+   "gloss": "something's fishy here"
+  },
+  {
+   "key": "word-honor",
+   "level": "L2",
+   "text": "palabra de honor",
+   "gloss": "word of honor"
+  },
+  {
+   "key": "time-flies",
+   "level": "L2",
+   "text": "El tiempo vuela",
+   "gloss": "time flies"
+  },
+  {
+   "key": "all-ears",
+   "level": "L2",
+   "text": "soy toda oídos",
+   "gloss": "all ears"
+  },
+  {
+   "key": "long-story",
+   "level": "L2",
+   "text": "larga historia",
+   "gloss": "long story"
   }
  ],
  "vendorCalls": [
   "¡Naranjas frescas! ¡Dulces como el verano!",
-  "¡Pescado! ¡Esta mañana aún nadaba!",
+  "¡Pescado, pescado fresco! ¡Esta mañana aún nadaba!",
   "¡Faroles! ¡Luz para callejones oscuros!",
-  "¡Bufandas, suaves y calientes!"
+  "¡Bufandas suaves, bufandas calientes!",
+  "¡Ajo! ¡Tres dientes por una moneda!",
+  "¡Té caliente! ¡La tetera aún humea!",
+  "¡Pan de hoy a precio de ayer!",
+  "¡Queso! ¡Acérquense, prueben, compren!",
+  "¡Botones y cintas, finos y baratos!",
+  "¡Pimientos rojos y dulces! ¡La última cesta!",
+  "¡Cestas, cestas firmes! ¡Duran toda la vida!",
+  "¡Tambores para los niños, violines para los enamorados!"
  ],
  "signage": [
   "CALLEJÓN DEL FAROL",
-  "EL ANCLA",
+  "EL ANCLA OXIDADA",
   "CASA DE EMPEÑOS",
-  "MERCADO — VIERNES"
+  "MERCADO — LOS VIERNES",
+  "PESCADO FRESCO",
+  "ANTIGÜEDADES — COMPRA Y VENTA",
+  "SUBASTA HOY",
+  "AL EMBARCADERO",
+  "ANDÉN 3 — SALIDAS",
+  "HABITACIONES LIBRES",
+  "PROHIBIDO EL PASO",
+  "CERRADO"
  ]
 }

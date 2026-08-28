@@ -6,7 +6,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🔑",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:notebook",
@@ -132,7 +132,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🏷️",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:bench",
@@ -186,7 +186,7 @@
   "tags": [],
   "freq": "B",
   "icon": "🖨️",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:inkwell",
@@ -213,7 +213,7 @@
   "tags": [],
   "freq": "A",
   "icon": "📁",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:monocle",
@@ -312,7 +312,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🕰️",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:blueprint",
@@ -357,7 +357,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🏮",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:brush",
@@ -366,7 +366,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🖌️",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:ink",
@@ -492,7 +492,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🐦",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:anchor",
@@ -627,7 +627,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🍾",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:tankard",
@@ -852,7 +852,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🧳",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:palm",
@@ -978,7 +978,7 @@
   "tags": [],
   "freq": "B",
   "icon": "🪔",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:violin",
@@ -1230,7 +1230,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🍊",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:scarf",
@@ -1302,7 +1302,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🫙",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:cloth-bolt",
@@ -1410,7 +1410,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🎫",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:signal-lamp",
@@ -1437,7 +1437,7 @@
   "tags": [],
   "freq": "B",
   "icon": "⚙️",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:cap",
@@ -1644,7 +1644,7 @@
   "tags": [],
   "freq": "A",
   "icon": "🪴",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:watering-can",
@@ -1779,7 +1779,7 @@
   "tags": [],
   "freq": "B",
   "icon": "🛶",
-  "multiFindOk": false
+  "multiFindOk": true
  },
  {
   "id": "object:lifebuoy",
@@ -1846,7 +1846,7 @@
  },
  {
   "id": "object:handcuffs",
-  "gloss": "handcuff",
+  "gloss": "handcuffs",
   "domain": "tools",
   "tags": [],
   "freq": "C",

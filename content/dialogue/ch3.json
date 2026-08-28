@@ -5,7 +5,7 @@
   "title": "Brass and Palms",
   "lines": [
    { "speaker": "narration", "en": "The Grand Hotel: brass, palms, and a concierge who has never heard of anyone. Especially anyone you ask about." },
-   { "speaker": "margo", "en": "The concierge owes me a favor — na ja, three favors. You're volunteering for lost property. Match the luggage, earn the register.", "garnish": { "level": "L1", "key": "well", "pos": "lead" } }
+   { "speaker": "margo", "en": "The concierge owes me a favor — well, three favors. You're volunteering for lost property. Match the luggage, earn the register.", "garnish": { "level": "L1", "key": "well", "pos": "lead" } }
   ],
   "caseLine": "Two names to place under one roof: Casal, and Adele's 'Dr. Lorentz'.",
   "peopleFacts": []

@@ -16,7 +16,7 @@
   "title": "The Map Doesn't Match",
   "lines": [
    { "speaker": "narration", "en": "Lot 9 against the catalog photograph: the 1904 study has no North Mole. The museum's '1904' painting does. The Mole was built in 1921." },
-   { "speaker": "margo", "en": "The brooch. My Oma had one polished lie like that: wear a bird, sing nothing.", "garnish": { "level": "L2", "key": "look", "pos": "lead" } }
+   { "speaker": "margo", "en": "The brooch. {gran} had one polished lie like that: wear a bird, sing nothing.", "garnish": { "level": "L1", "key": "look", "pos": "lead" } }
   ],
   "caseLine": "Lot 9, 1904 study: no North Mole on the map. The museum's painting has one.",
   "peopleFacts": []

@@ -15,6 +15,7 @@ import { hitTest, type HitProp } from '../../engine/hit/HitTester';
 import { activeTargetPropIds, tickActivity, NUDGE_IDLE_MS } from '../../engine/rounds/runtime';
 import { stageGeometry, nudgeGeometry, autoPickTargetId } from '../../engine/hints/insight';
 import { flipChip, handleSceneTap, pinPendingClue, spendHint } from '../../app/roundFlow';
+import { clueCaption } from '../../app/storyFlow';
 import { markRoundDirty } from '../../app/persist';
 import { speakConcept, speakText, speechAvailable } from '../../app/speak';
 import { useRound } from '../../state/roundStore';

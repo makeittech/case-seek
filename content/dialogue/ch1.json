@@ -92,7 +92,7 @@
   "title": "The Pawn Ticket",
   "lines": [
    { "speaker": "narration", "en": "The reassembled lining gives up its secret: a pawn ticket. Brassbound Pawn, Quayside, No. 77 — one brass sextant, forty crowns." },
-   { "speaker": "margo", "en": "Quayside. I know a pawnbroker who owes my Oma money. He'll talk — about the lumbago first, then everything else.", "garnish": { "level": "L2", "key": "see", "pos": "lead" }, "echo": true },
+   { "speaker": "margo", "en": "Quayside. I know a pawnbroker who owes {gran} money. He'll talk — about the lumbago first, then everything else.", "garnish": { "level": "L2", "key": "see", "pos": "lead" }, "echo": true },
    { "speaker": "margo", "en": "And you found {echo} today. Keep it. Words are evidence too.", "echo": true }
   ],
   "caseLine": "The cradle has an author: O. Marsh, 1905. And the lining held a pawn ticket — Quayside, No. 77.",

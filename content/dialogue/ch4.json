@@ -18,7 +18,8 @@
   "lines": [
    { "speaker": "ottilie", "en": "Go home, little wren. Some paintings prefer to be lost." },
    { "speaker": "narration", "en": "A voice behind the lattice screen: polite, older, unhurried. Grey gloves at the screen's edge. She knows the first name nobody uses. Then the drop goes silent forever." },
-   { "speaker": "margo", "en": "You hear it? The Nachtigall — the nightingale. In Oma's stories she sings only where she cannot be seen.", "garnish": { "level": "L2", "key": "listen", "pos": "lead" } }
+   { "speaker": "margo", "en": "You hear it? Nachtigall — the nightingale. In {gran}'s stories she sings only where she cannot be seen.", "garnish": { "level": "L1", "key": "nightingale", "pos": "lead" } },
+   { "speaker": "margo", "en": "And she called you wren. {gran} says the wren is the loudest small thing God made. Suits you.", "garnish": { "level": "L2", "key": "wren", "pos": "lead" } }
   ],
   "caseLine": "Found the drop. The Broker knows my name — the small one.",
   "peopleFacts": [

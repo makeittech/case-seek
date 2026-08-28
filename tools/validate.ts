@@ -59,6 +59,79 @@ for (const lang of LANGS) {
   }
 }
 
+// ---- language QA (LANGUAGE_DESIGN rules) ----
+const startsVowel = (w: string): boolean => /^[aeiouàèéìòù]/i.test(w);
+const itMascSpecial = (w: string): boolean => /^(s[bcdfghjklmnpqrstvwxz]|z|gn|ps|x|y)/i.test(w);
+const ART: Record<Lang, string[]> = {
+  de: ['der', 'die', 'das'],
+  es: ['el', 'la', 'los', 'las'],
+  it: ['il', 'lo', 'la', "l'", 'i', 'gli', 'le'],
+};
+for (const lang of LANGS) {
+  const seenForms = new Map<string, string>();
+  for (const lx of db.packs[lang].lexemes) {
+    const where = `${lang}/${lx.concept}`;
+    // articles must belong to the language
+    if (!ART[lang].includes(lx.article)) err(`${where}: "${lx.article}" is not a ${lang} article`);
+    // gender glyph vs article agreement (▲ m / ● f / ■ n)
+    if (lang === 'de') {
+      const want = lx.glyph === '▲' ? 'der' : lx.glyph === '●' ? 'die' : 'das';
+      if (lx.article !== want) err(`${where}: der/die/das mismatch (glyph ${lx.glyph}, article ${lx.article})`);
+      if (lx.plural && !lx.plural.startsWith('die ')) err(`${where}: German plural must take "die"`);
+    }
+    if (lang === 'es') {
+      if (lx.glyph === '▲' && !['el', 'los'].includes(lx.article)) err(`${where}: masculine needs el/los`);
+      if (lx.glyph === '●' && lx.article === 'el' && !lx.trapFlags.includes('el-agua-class')) {
+        err(`${where}: feminine with "el" must be flagged el-agua-class`);
+      }
+      if (lx.plural && !/^l[oa]s /.test(lx.plural)) err(`${where}: Spanish plural must take los/las`);
+    }
+    if (lang === 'it') {
+      const w = lx.word;
+      if (lx.article === "l'" && !startsVowel(w)) err(`${where}: l' before consonant "${w}"`);
+      if (lx.article === 'lo' && !itMascSpecial(w)) err(`${where}: "lo" needs s+cons/z/gn/ps "${w}"`);
+      if (lx.article === 'il' && (startsVowel(w) || itMascSpecial(w))) err(`${where}: "il ${w}" is not phonological`);
+      if (lx.article === 'la' && startsVowel(w)) err(`${where}: "la ${w}" must elide to l'`);
+      if (lx.plural) {
+        const [pArt = '', pWord = ''] = lx.plural.split(' ');
+        if (lx.glyph === '●' && pArt !== 'le') err(`${where}: feminine plural needs "le"`);
+        if (lx.glyph === '▲' && pArt !== (startsVowel(pWord) || itMascSpecial(pWord) ? 'gli' : 'i')) {
+          err(`${where}: plural article "${pArt}" wrong for "${pWord}"`);
+        }
+      }
+    }
+    // description phrase: required, ≤6 words, never contains the target word
+    if (!lx.phrase) err(`${where}: missing description phrase`);
+    else {
+      if (lx.phrase.trim().split(/\s+/).length > 6) err(`${where}: phrase over 6 words "${lx.phrase}"`);
+      const stem = lx.word.toLowerCase().split(' ')[0]!;
+      if (stem.length > 3 && lx.phrase.toLowerCase().includes(stem)) {
+        err(`${where}: phrase leaks the target word "${lx.phrase}"`);
+      }
+    }
+    // trap register consistency
+    if (lx.trapFlags.length > 0 && !lx.caution) err(`${where}: trapFlags without caution note`);
+    // audio rounds need distinct forms: article+word must be unique per pack
+    const form = `${lx.article} ${lx.word}`.toLowerCase();
+    const prev = seenForms.get(form);
+    if (prev) err(`${where}: duplicate form "${form}" (also ${prev})`);
+    seenForms.set(form, lx.concept);
+  }
+  // token bank: L2 ≤5 words (idioms), L1 short markers
+  for (const tok of db.packs[lang].tokens) {
+    const wc = tok.text.trim().split(/\s+/).length;
+    if (tok.level === 'L2' && wc > 5) err(`${lang} token ${tok.key}: L2 over 5 words "${tok.text}"`);
+    if (tok.level === 'L1' && wc > 3) warn(`${lang} token ${tok.key}: L1 over 3 words "${tok.text}"`);
+  }
+}
+// token banks must share one key set across languages
+{
+  const keySet = (lang: Lang): string => db.packs[lang].tokens.map((t) => t.key).sort().join(',');
+  if (keySet('de') !== keySet('es') || keySet('de') !== keySet('it')) {
+    err('token bank keys differ between language packs');
+  }
+}
+
 // ---- scenes: prop concepts + clue refs ----
 for (const scene of db.scenes.values()) {
   const ids = new Set<string>();
@@ -99,6 +172,9 @@ for (const round of db.rounds.values()) {
   }
   for (const slot of round.pluralSlots) {
     if (!db.concepts.has(slot.concept)) err(`round ${round.id}: unknown plural concept ${slot.concept}`);
+    else if (!db.concepts.get(slot.concept)!.multiFindOk) {
+      err(`round ${round.id}: plural slot ${slot.concept} lacks multiFindOk`);
+    }
     const props = index.get(slot.concept) ?? [];
     if (props.length < slot.count) {
       err(`round ${round.id}: plural ${slot.concept} needs ${slot.count} props, scene has ${props.length}`);
@@ -148,23 +224,39 @@ for (const id of db.rounds.keys()) {
 
 // ---- beats ----
 const castIds = new Set([...db.castById.keys(), 'narration', 'letter']);
+function lintLine(where: string, line: { en: string; garnish?: { level: string; key: string } | undefined }): void {
+  // only known placeholders may appear in line text
+  for (const m of line.en.matchAll(/\{([a-z]+)\}/g)) {
+    if (m[1] !== 'echo' && m[1] !== 'gran') err(`${where}: unknown placeholder {${m[1]}}`);
+  }
+  if (!line.garnish) return;
+  for (const lang of LANGS) {
+    const tok = db.packs[lang].tokens.find((t) => t.key === line.garnish!.key);
+    if (!tok) err(`${where}: garnish token ${line.garnish.key} missing in ${lang} pack`);
+    else if (tok.level !== line.garnish.level) {
+      err(`${where}: garnish ${line.garnish.key} declared ${line.garnish.level}, bank says ${tok.level}`);
+    }
+  }
+}
 for (const beat of db.beats.values()) {
   if (beat.caseLine.split(/\s+/).length > 14) warn(`beat ${beat.id}: caseLine over 14 words`);
   for (const line of beat.lines) {
     if (!castIds.has(line.speaker)) err(`beat ${beat.id}: unknown speaker ${line.speaker}`);
-    if (line.garnish) {
-      for (const lang of LANGS) {
-        if (!db.packs[lang].tokens.some((t) => t.key === line.garnish!.key)) {
-          err(`beat ${beat.id}: garnish token ${line.garnish.key} missing in ${lang} pack`);
-        }
-      }
-    }
-    if (line.echo && !line.en.includes('{echo}') && !line.garnish) {
-      // echo lines without a slot just get the weakest-noun token attached; fine
-    }
+    lintLine(`beat ${beat.id}`, line);
   }
   for (const pf of beat.peopleFacts) {
     if (!db.castById.has(pf.characterId)) err(`beat ${beat.id}: unknown character ${pf.characterId}`);
+  }
+}
+
+// ---- clues: study-language captions resolve in every pack ----
+for (const clue of db.clues.values()) {
+  if (clue.captionKey) {
+    for (const lang of LANGS) {
+      if (!db.packs[lang].tokens.some((t) => t.key === clue.captionKey)) {
+        err(`clue ${clue.id}: captionKey ${clue.captionKey} missing in ${lang} pack`);
+      }
+    }
   }
 }
 
@@ -190,6 +282,7 @@ if (!db.finale.suspects.some((s) => s.id === db.finale.culprit)) err('finale: cu
 for (const ex of db.finale.exhibits) if (!db.clues.has(ex)) err(`finale: unknown exhibit ${ex}`);
 for (const line of [...db.finale.confrontation, ...db.finale.resolution]) {
   if (!castIds.has(line.speaker)) err(`finale: unknown speaker ${line.speaker}`);
+  lintLine('finale', line);
 }
 if (db.epilogue.panels.length < 4) err('epilogue: fewer than 4 panels');
 
