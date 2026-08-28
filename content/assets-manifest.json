@@ -9190,7 +9190,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9211,7 +9211,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9232,7 +9232,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9253,7 +9253,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9274,7 +9274,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9295,7 +9295,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9316,7 +9316,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9337,7 +9337,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9357,7 +9357,7 @@
    "generatedPath": "public/assets/characters/adele/adele-podium-warmth.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9378,7 +9378,7 @@
    "generatedPath": "public/assets/characters/holt/holt-ref.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9399,7 +9399,7 @@
    "generatedPath": "public/assets/characters/holt/holt-territorial-flint.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9420,7 +9420,7 @@
    "generatedPath": "public/assets/characters/holt/holt-weary-fairness.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9441,7 +9441,7 @@
    "generatedPath": "public/assets/characters/holt/holt-maxim.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9462,7 +9462,7 @@
    "generatedPath": "public/assets/characters/holt/holt-grudging-respect.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9483,7 +9483,7 @@
    "generatedPath": "public/assets/characters/holt/holt-command.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
