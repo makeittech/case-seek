@@ -244,10 +244,10 @@
    "concept": "object:inkwell",
    "sprite": "prop-inkwell",
    "x": 941,
-   "y": 792,
+   "y": 732,
    "scale": 0.82,
    "rotation": 0,
-   "z": 1792,
+   "z": 1732,
    "band": "mg",
    "flipX": false
   },

@@ -188,7 +188,7 @@
    "id": "p-shop-night-lantern-1",
    "concept": "object:lantern",
    "sprite": "prop-lantern",
-   "x": 1070,
+   "x": 1050,
    "y": 923,
    "scale": 0.96,
    "rotation": 0,

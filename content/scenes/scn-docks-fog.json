@@ -205,5 +205,12 @@
    "flipX": false
   }
  ],
- "moveProps": []
+ "moveProps": [
+  {
+   "id": "p-docks-day-sack-1",
+   "x": 1271,
+   "y": 702,
+   "z": 1702
+  }
+ ]
 }
