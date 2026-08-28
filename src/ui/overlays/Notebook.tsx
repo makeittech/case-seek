@@ -8,16 +8,22 @@ import { nounDisplay } from '../../engine/content/loader';
 import { db } from '../../app/content';
 import { clueCaption } from '../../app/storyFlow';
 import { speakConcept } from '../../app/speak';
+import { useModal } from '../components/useModal';
 import { ui } from '../strings';
 
 const TABS: NotebookTab[] = ['case', 'people', 'clues', 'words'];
 
 export function Notebook(): JSX.Element | null {
   const tab = useUi((s) => s.notebookOpen);
+  if (!tab) return null;
+  return <NotebookBody tab={tab} />;
+}
+
+// separate component so useModal runs only while the notebook is open
+function NotebookBody({ tab }: { tab: NotebookTab }): JSX.Element {
   const close = useUi((s) => s.closeNotebook);
   const openNotebook = useUi((s) => s.openNotebook);
-
-  if (!tab) return null;
+  const modalRef = useModal<HTMLDivElement>({ onClose: close });
 
   return (
     <div
@@ -27,7 +33,7 @@ export function Notebook(): JSX.Element | null {
         if (e.target === e.currentTarget) close();
       }}
     >
-      <div className="notebook" role="dialog" aria-label={ui('notebook')} data-testid="notebook">
+      <div className="notebook" role="dialog" aria-modal="true" aria-label={ui('notebook')} data-testid="notebook" ref={modalRef}>
         <div className="notebook__tabs">
           {/* the close button must live outside the tablist (only tabs may be its children) */}
           <div role="tablist" style={{ display: 'flex', flex: 1 }}>

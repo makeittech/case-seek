@@ -130,13 +130,18 @@ export function SearchScreen({ roundId }: { roundId: string }): JSX.Element {
         {rs.curiositySlip && rs.curiositySlip.until > nowTick && (
           <div
             className="curiosity-slip"
+            role="status"
             style={{ left: Math.max(4, rs.curiositySlip.x - 40), top: Math.max(4, rs.curiositySlip.y - 44) }}
           >
             {rs.curiositySlip.text}
           </div>
         )}
 
-        {steady && <div className="steady-toast">{ui('steady')}</div>}
+        {steady && (
+          <div className="steady-toast" role="status">
+            {ui('steady')}
+          </div>
+        )}
 
         {!speechAvailable() && rs.status === 'searching' && state.foundProps.length === 0 && (
           <div className="speech-warning" style={{ position: 'absolute', bottom: 8, left: 8, right: 64, zIndex: 5 }}>

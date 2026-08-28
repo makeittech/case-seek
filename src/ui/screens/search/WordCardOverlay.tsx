@@ -19,6 +19,7 @@ export function WordCardOverlay({ stageRef }: { stageRef: RefObject<HTMLDivEleme
   return (
     <div
       className="word-card"
+      role="status"
       style={{
         left: Math.max(8, Math.min(wordCard.screenX - 110, (stageRef.current?.clientWidth ?? 320) - 240)),
         top: Math.max(8, wordCard.screenY - 110),

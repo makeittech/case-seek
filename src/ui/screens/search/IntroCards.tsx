@@ -4,10 +4,12 @@ import { db } from '../../../app/content';
 import { speakConcept } from '../../../app/speak';
 import { nounDisplay } from '../../../engine/content/loader';
 import { useCase } from '../../../state/caseStore';
+import { useModal } from '../../components/useModal';
 
 export function IntroCards({ queue, onDone }: { queue: string[]; onDone(): void }): JSX.Element {
   const [i, setI] = useState(0);
   const row = useCase((s) => s.row);
+  const modalRef = useModal<HTMLDivElement>({ initialFocus: '[data-testid="btn-intro-next"]' });
   const conceptId = queue[i];
   useEffect(() => {
     if (conceptId) speakConcept(conceptId, {});
@@ -19,7 +21,7 @@ export function IntroCards({ queue, onDone }: { queue: string[]; onDone(): void 
   const concept = db().concepts.get(conceptId);
   const lx = db().lexemes[row.lang].get(conceptId);
   return (
-    <div className="search-overlay" role="dialog" aria-label="New words">
+    <div className="search-overlay" role="dialog" aria-modal="true" aria-label="New words" ref={modalRef}>
       <div className="paper intro-card" data-testid="intro-card">
         <div style={{ fontSize: '0.8rem', color: 'var(--ink-soft)' }}>
           New word {i + 1} of {queue.length}

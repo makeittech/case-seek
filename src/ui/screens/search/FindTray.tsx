@@ -41,7 +41,7 @@ export function FindTray({ sceneName, nowTick }: { sceneName: string; nowTick: n
           color: 'rgba(242,232,212,0.7)',
         }}
       >
-        <span data-testid="found-counter">
+        <span data-testid="found-counter" aria-live="polite">
           {ui('found')} {foundCount}/{state.targets.length}
         </span>
         <span>{sceneName}</span>

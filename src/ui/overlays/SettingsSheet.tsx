@@ -3,16 +3,22 @@ import { useUi } from '../../state/uiStore';
 import { useSettings, type SettingsData } from '../../state/settingsStore';
 import { markProfileDirty } from '../../app/persist';
 import { getServices } from '../../services';
+import { useModal } from '../components/useModal';
 import { ui } from '../strings';
 
 type BoolSettingKey = { [K in keyof SettingsData]: SettingsData[K] extends boolean ? K : never }[keyof SettingsData];
 
 export function SettingsSheet(): JSX.Element | null {
   const open = useUi((s) => s.settingsOpen);
+  if (!open) return null;
+  return <SettingsSheetBody />;
+}
+
+// separate component so useModal runs only while the sheet is open
+function SettingsSheetBody(): JSX.Element {
   const setOpen = useUi((s) => s.setSettingsOpen);
   const settings = useSettings();
-
-  if (!open) return null;
+  const modalRef = useModal<HTMLDivElement>({ onClose: () => setOpen(false) });
 
   const setKey = <K extends keyof SettingsData>(key: K, value: SettingsData[K]): void => {
     settings.set(key, value);
@@ -43,7 +49,7 @@ export function SettingsSheet(): JSX.Element | null {
         if (e.target === e.currentTarget) setOpen(false);
       }}
     >
-      <div className="settings-sheet" role="dialog" aria-label={ui('settings')}>
+      <div className="settings-sheet" role="dialog" aria-modal="true" aria-label={ui('settings')} ref={modalRef}>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: 8 }}>
           <h2 style={{ margin: 0, flex: 1 }}>{ui('settings')}</h2>
           <button type="button" className="iconbtn" aria-label="Close settings" onClick={() => setOpen(false)}>

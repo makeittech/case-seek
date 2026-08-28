@@ -1,5 +1,6 @@
 /** "Which one is hiding?" — pick the target to spend an Insight charge on. */
 import { useRound } from '../../../state/roundStore';
+import { useModal } from '../../components/useModal';
 import { ui } from '../../strings';
 
 interface Props {
@@ -10,9 +11,10 @@ interface Props {
 export function HintPicker({ onPick, onClose }: Props): JSX.Element | null {
   const chips = useRound((s) => s.chips);
   const state = useRound((s) => s.state);
+  const modalRef = useModal<HTMLDivElement>({ onClose });
   if (!state) return null;
   return (
-    <div className="search-overlay" role="dialog" aria-label={ui('hintPick')}>
+    <div className="search-overlay" role="dialog" aria-modal="true" aria-label={ui('hintPick')} ref={modalRef}>
       <div className="paper hint-picker">
         <h3>{ui('hintPick')}</h3>
         <div className="hint-picker__chips">
