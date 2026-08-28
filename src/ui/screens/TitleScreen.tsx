@@ -14,14 +14,16 @@ export function TitleScreen(): JSX.Element {
   useEffect(() => {
     let live = true;
     void listSaves().then((rows) => {
-      if (live) setSaves(rows.filter((r) => !r.completed));
+      if (live) setSaves(rows);
     });
     return () => {
       live = false;
     };
   }, []);
 
-  const latest = saves[0] ?? null;
+  // Continue offers only unfinished cases; Case Files lists every slot,
+  // including solved ones (export/delete/Solved stamp stay reachable).
+  const latest = saves.find((r) => !r.completed) ?? null;
 
   return (
     <main className="screen title-screen fade-in">
@@ -56,7 +58,12 @@ export function TitleScreen(): JSX.Element {
           {ui('newCase')}
         </button>
         {saves.length > 0 && (
-          <button type="button" className="btn btn--ghost" onClick={() => goto({ kind: 'case-files' })}>
+          <button
+            type="button"
+            className="btn btn--ghost"
+            data-testid="btn-case-files"
+            onClick={() => goto({ kind: 'case-files' })}
+          >
             {ui('caseFiles')}
           </button>
         )}
