@@ -110,7 +110,12 @@ export async function findAllTargets(page: Page): Promise<void> {
     if (await page.getByTestId('results-screen').isVisible().catch(() => false)) return;
     const before = await remainingCount(page);
     if (before === 0) {
+      // the last find schedules completeRound on a short timer — the results
+      // screen may replace the search screen between these two checks
+      if (await page.getByTestId('results-screen').isVisible().catch(() => false)) return;
       if (!(await page.getByTestId('search-screen').isVisible().catch(() => false))) {
+        await page.waitForTimeout(400);
+        if (await page.getByTestId('results-screen').isVisible().catch(() => false)) return;
         throw new Error('left the search screen before the round completed');
       }
       await page.waitForTimeout(250);
