@@ -1,9 +1,11 @@
 /** Settings bottom sheet: text, accessibility, audio, play style. */
 import { useUi } from '../../state/uiStore';
-import { useSettings, type SettingsState } from '../../state/settingsStore';
+import { useSettings, type SettingsData } from '../../state/settingsStore';
 import { markProfileDirty } from '../../app/persist';
 import { getServices } from '../../services';
 import { ui } from '../strings';
+
+type BoolSettingKey = { [K in keyof SettingsData]: SettingsData[K] extends boolean ? K : never }[keyof SettingsData];
 
 export function SettingsSheet(): JSX.Element | null {
   const open = useUi((s) => s.settingsOpen);
@@ -12,22 +14,22 @@ export function SettingsSheet(): JSX.Element | null {
 
   if (!open) return null;
 
-  const setKey = <K extends keyof SettingsState>(key: K, value: SettingsState[K]): void => {
+  const setKey = <K extends keyof SettingsData>(key: K, value: SettingsData[K]): void => {
     settings.set(key, value);
     if (key === 'volSfx' && typeof value === 'number') getServices().audio.setVolume(value);
     markProfileDirty();
   };
 
-  const Toggle = ({ k, label }: { k: keyof SettingsState; label: string }): JSX.Element => (
+  const Toggle = ({ k, label }: { k: BoolSettingKey; label: string }): JSX.Element => (
     <div className="setting-row">
       <span>{label}</span>
       <button
         type="button"
         className={`toggle ${settings[k] ? 'toggle--on' : ''}`}
         role="switch"
-        aria-checked={Boolean(settings[k])}
+        aria-checked={settings[k]}
         aria-label={label}
-        onClick={() => setKey(k, !settings[k] as never)}
+        onClick={() => setKey(k, !settings[k])}
       />
     </div>
   );

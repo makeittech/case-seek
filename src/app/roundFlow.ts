@@ -15,7 +15,7 @@ import {
   type RoundState,
 } from '../engine/rounds/runtime';
 import { presentRound, introConcepts, type ChipModel } from '../engine/rounds/present';
-import { dueUnservable, selectDebriefItems, pickDistractors, type DebriefItem } from '../engine/vocab/scheduler';
+import { dueUnservable, selectDebriefItems, pickDistractors, type DebriefItem, type Difficulty } from '../engine/vocab/scheduler';
 import { deriveSeed } from '../engine/rand';
 import { conceptPropIndex } from '../engine/rounds/buildRound';
 import { useCase, requireCase } from '../state/caseStore';
@@ -27,22 +27,22 @@ import { getServices } from '../services';
 import { speakConcept } from './speak';
 import { markCaseDirty, markNotebookDirty, markRoundDirty, markWordsDirty } from './persist';
 import { advanceFlow } from './flow';
-import type { ConceptId, Tier } from '../engine/types';
+import type { ConceptId, RoundMode, Tier } from '../engine/types';
 import type { HitResult } from '../engine/hit/HitTester';
 
-function difficultyOf(conceptId: ConceptId): 'cognate' | 'transparent' | 'opaque' | 'false-friend' {
+function difficultyOf(conceptId: ConceptId): Difficulty {
   const row = useCase.getState().row;
   if (!row) return 'opaque';
   return db().lexemes[row.lang].get(conceptId)?.difficulty ?? 'opaque';
 }
 
-export function chipsFor(plan: RoundPlan, tier: Tier, mode: string): ChipModel[] {
+export function chipsFor(plan: RoundPlan, tier: Tier, mode: RoundMode): ChipModel[] {
   const d = db();
   const row = requireCase();
   return presentRound({
     targets: plan.targets,
     tier,
-    mode: mode as 'word-list',
+    mode,
     lexeme: (id) => {
       const lx = d.lexemes[row.lang].get(id);
       if (!lx) throw new Error(`missing lexeme ${row.lang}/${id}`);
@@ -70,15 +70,12 @@ export async function startRound(roundId: string): Promise<void> {
   const scene = resolveSceneDef(d, template.sceneId);
 
   // resume?
-  const saved = (await getServices().storage.getRoundState(row.caseId)) as {
-    state?: RoundState;
-    roundId?: string;
-  } | null;
+  const saved = await getServices().storage.getRoundState(row.caseId);
   let state: RoundState;
   let plan: RoundPlan;
   let resumed = false;
-  if (saved?.state && saved.roundId === roundId) {
-    state = saved.state as RoundState;
+  if (saved && saved.roundId === roundId) {
+    state = saved.state;
     plan = { roundId, seed: state.seed, targets: state.targets };
     resumed = true;
   } else {
@@ -95,7 +92,7 @@ export async function startRound(roundId: string): Promise<void> {
     state = initRoundState(plan, Date.now());
     // serve bookkeeping
     const served: ConceptId[] = [];
-    const diffs: Record<string, 'cognate' | 'transparent' | 'opaque' | 'false-friend'> = {};
+    const diffs: Record<string, Difficulty> = {};
     for (const t of plan.targets) {
       if (t.kind === 'vocab' && t.conceptId) {
         served.push(t.conceptId);
@@ -121,7 +118,6 @@ export async function startRound(roundId: string): Promise<void> {
     wordCard: null,
     flippedTargetId: null,
     curiositySlip: null,
-    hintPickerOpen: false,
     pendingClue: null,
   });
   markRoundDirty();
@@ -276,7 +272,6 @@ export function spendHint(targetId: string): boolean {
   const next = applyHintStage(rs.state, targetId);
   if (!next) return false;
   useRound.getState().setState(next);
-  useRound.getState().setAll({ hintPickerOpen: false });
   getServices().audio.sfx('chime');
   markRoundDirty();
   return true;

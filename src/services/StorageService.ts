@@ -4,12 +4,40 @@
  */
 import { openDB, type IDBPDatabase } from 'idb';
 import type { WordRecord } from '../engine/vocab/scheduler';
+import type { RoundState } from '../engine/rounds/runtime';
 import { migrateBundle, SAVE_VERSION } from '../engine/save/migrations';
+
+/** Persisted settings payload; state/settingsStore's SettingsState extends it. */
+export interface SettingsData {
+  textSize: 100 | 115 | 130;
+  dyslexiaFont: boolean;
+  genderTint: boolean;
+  reducedMotion: boolean;
+  purist: boolean;
+  slowAudioDefault: boolean;
+  leftHandedTray: boolean;
+  volMusic: number;
+  volSfx: number;
+  volVoice: number;
+}
+
+/**
+ * Persisted screen route. Kept structural here so the storage layer stays
+ * UI-agnostic; app/persist validates and narrows it to state/uiStore's Screen.
+ */
+export type SavedScreen = { kind: string } & Record<string, unknown>;
+
+/** Persisted mid-round snapshot: enough to rebuild the round deterministically. */
+export interface SavedRound {
+  roundId: string;
+  sceneId: string;
+  state: RoundState;
+}
 
 export interface ProfileRow {
   profileId: string;
   createdAt: number;
-  settings: Record<string, unknown>;
+  settings: Partial<SettingsData>;
   seenTutorials: string[];
 }
 
@@ -24,7 +52,7 @@ export interface CaseRow {
   flowIndex: number;
   roundCounter: number;
   chapter: number;
-  screen: Record<string, unknown> | null;
+  screen: SavedScreen | null;
   completed: boolean;
   bankedInsight: number;
   missedLastDebrief: string[];
@@ -60,8 +88,8 @@ export interface StorageService {
   deleteCase(caseId: string): Promise<void>;
   getWords(caseId: string): Promise<Record<string, WordRecord>>;
   putWords(caseId: string, words: Record<string, WordRecord>): Promise<void>;
-  getRoundState(caseId: string): Promise<Record<string, unknown> | null>;
-  putRoundState(caseId: string, state: Record<string, unknown> | null): Promise<void>;
+  getRoundState(caseId: string): Promise<SavedRound | null>;
+  putRoundState(caseId: string, state: SavedRound | null): Promise<void>;
   getNotebook(caseId: string): Promise<NotebookData | null>;
   putNotebook(caseId: string, nb: NotebookData): Promise<void>;
   exportCase(caseId: string): Promise<Record<string, unknown>>;
@@ -125,10 +153,10 @@ export class IdbStorageService implements StorageService {
   async putWords(caseId: string, words: Record<string, WordRecord>): Promise<void> {
     await this.need().put('words', words, caseId);
   }
-  async getRoundState(caseId: string): Promise<Record<string, unknown> | null> {
-    return ((await this.need().get('roundState', caseId)) as Record<string, unknown>) ?? null;
+  async getRoundState(caseId: string): Promise<SavedRound | null> {
+    return ((await this.need().get('roundState', caseId)) as SavedRound) ?? null;
   }
-  async putRoundState(caseId: string, state: Record<string, unknown> | null): Promise<void> {
+  async putRoundState(caseId: string, state: SavedRound | null): Promise<void> {
     if (state === null) await this.need().delete('roundState', caseId);
     else await this.need().put('roundState', state, caseId);
   }
@@ -160,7 +188,7 @@ export class MemoryStorageService implements StorageService {
   profile: ProfileRow | null = null;
   cases = new Map<string, CaseRow>();
   words = new Map<string, Record<string, WordRecord>>();
-  roundStates = new Map<string, Record<string, unknown>>();
+  roundStates = new Map<string, SavedRound>();
   notebooks = new Map<string, NotebookData>();
 
   async init(): Promise<void> {}
@@ -191,10 +219,10 @@ export class MemoryStorageService implements StorageService {
   async putWords(caseId: string, words: Record<string, WordRecord>): Promise<void> {
     this.words.set(caseId, words);
   }
-  async getRoundState(caseId: string): Promise<Record<string, unknown> | null> {
+  async getRoundState(caseId: string): Promise<SavedRound | null> {
     return this.roundStates.get(caseId) ?? null;
   }
-  async putRoundState(caseId: string, state: Record<string, unknown> | null): Promise<void> {
+  async putRoundState(caseId: string, state: SavedRound | null): Promise<void> {
     if (state === null) this.roundStates.delete(caseId);
     else this.roundStates.set(caseId, state);
   }

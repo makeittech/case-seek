@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { MemoryStorageService, type CaseRow } from './StorageService';
 import { SAVE_VERSION } from '../engine/save/migrations';
 import { newRecord } from '../engine/vocab/scheduler';
+import { initRoundState } from '../engine/rounds/runtime';
 
 function mkCase(caseId: string, updatedAt: number): CaseRow {
   return {
@@ -42,8 +43,13 @@ describe('MemoryStorageService', () => {
     await s.putWords('c1', words);
     expect(await s.getWords('c1')).toEqual(words);
 
-    await s.putRoundState('c1', { roundId: 'S00' });
-    expect(await s.getRoundState('c1')).toEqual({ roundId: 'S00' });
+    const saved = {
+      roundId: 'S00',
+      sceneId: 'scn-office',
+      state: initRoundState({ roundId: 'S00', seed: 7, targets: [] }, 1),
+    };
+    await s.putRoundState('c1', saved);
+    expect(await s.getRoundState('c1')).toEqual(saved);
     await s.putRoundState('c1', null);
     expect(await s.getRoundState('c1')).toBeNull();
 

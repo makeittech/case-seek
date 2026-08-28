@@ -1,12 +1,12 @@
 /**
  * Active round: the engine RoundState mirror + transient search UI state
- * (word card, flipped chip, hint picker). Orchestration lives in app/roundFlow.
+ * (word card, flipped chip, curiosity slip). Orchestration lives in app/roundFlow.
  */
 import { create } from 'zustand';
 import type { RoundPlan } from '../engine/rounds/buildRound';
 import type { RoundState } from '../engine/rounds/runtime';
 import type { ChipModel } from '../engine/rounds/present';
-import type { ConceptId } from '../engine/types';
+import type { ConceptId, RoundMode } from '../engine/types';
 
 export interface WordCardState {
   chip: ChipModel;
@@ -17,30 +17,33 @@ export interface WordCardState {
   shownAt: number;
 }
 
-interface RoundUiState {
+export type RoundStatus = 'idle' | 'intro' | 'searching' | 'complete';
+
+interface RoundData {
   roundId: string | null;
   sceneId: string | null;
-  mode: string;
+  mode: RoundMode;
   plan: RoundPlan | null;
   state: RoundState | null;
   chips: ChipModel[];
-  status: 'idle' | 'intro' | 'searching' | 'complete';
+  status: RoundStatus;
   introQueue: ConceptId[];
   wordCard: WordCardState | null;
   flippedTargetId: string | null;
   flipAt: number;
   curiositySlip: { text: string; x: number; y: number; until: number } | null;
-  hintPickerOpen: boolean;
   steadyUntil: number;
   pendingClue: string | null; // evidence close-up queued
-  demoHintDone: boolean;
+}
 
-  setAll(p: Partial<RoundUiState>): void;
+interface RoundUiState extends RoundData {
+  setAll(p: Partial<RoundData>): void;
   setState(state: RoundState): void;
   reset(): void;
 }
 
-export const useRound = create<RoundUiState>((set) => ({
+// Single source of truth for the idle shape — reset() can never drift from it.
+const initial: RoundData = {
   roundId: null,
   sceneId: null,
   mode: 'word-list',
@@ -53,28 +56,13 @@ export const useRound = create<RoundUiState>((set) => ({
   flippedTargetId: null,
   flipAt: 0,
   curiositySlip: null,
-  hintPickerOpen: false,
   steadyUntil: 0,
   pendingClue: null,
-  demoHintDone: false,
+};
+
+export const useRound = create<RoundUiState>((set) => ({
+  ...initial,
   setAll: (p) => set(p),
   setState: (state) => set({ state }),
-  reset: () =>
-    set({
-      roundId: null,
-      sceneId: null,
-      mode: 'word-list',
-      plan: null,
-      state: null,
-      chips: [],
-      status: 'idle',
-      introQueue: [],
-      wordCard: null,
-      flippedTargetId: null,
-      flipAt: 0,
-      curiositySlip: null,
-      hintPickerOpen: false,
-      steadyUntil: 0,
-      pendingClue: null,
-    }),
+  reset: () => set(initial),
 }));

@@ -3,11 +3,11 @@ import { describe, expect, it } from 'vitest';
 import { loadContent, resolveSceneDef } from '../content/loader';
 import { buildRound } from './buildRound';
 import { presentRound, introConcepts } from './present';
-import type { Tier } from '../types';
+import type { RoundMode, Tier } from '../types';
 
 const db = loadContent();
 
-function chipsFor(roundId: string, tier: Tier, mode?: string) {
+function chipsFor(roundId: string, tier: Tier, mode?: RoundMode) {
   const template = db.rounds.get(roundId)!;
   const scene = resolveSceneDef(db, template.sceneId);
   const plan = buildRound({
@@ -22,7 +22,7 @@ function chipsFor(roundId: string, tier: Tier, mode?: string) {
   return presentRound({
     targets: plan.targets,
     tier,
-    mode: (mode ?? template.mode) as 'word-list',
+    mode: mode ?? template.mode,
     lexeme: (id) => db.lexemes.es.get(id)!,
     concept: (id) => db.concepts.get(id)!,
     clue: (id) => db.clues.get(id)!,

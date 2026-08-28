@@ -19,7 +19,7 @@ export async function boot(): Promise<void> {
   const { storage, audio } = getServices();
   await storage.init();
   const profile = await storage.getProfile();
-  if (profile?.settings) useSettings.getState().hydrate(profile.settings as Record<string, never>);
+  if (profile?.settings) useSettings.getState().hydrate(profile.settings);
   hookHistory();
   setBackHandler(goBack);
   hookLifecycleFlush();
