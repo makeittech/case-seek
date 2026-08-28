@@ -9988,7 +9988,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10009,7 +10009,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10030,7 +10030,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10051,7 +10051,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10072,7 +10072,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10093,7 +10093,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10113,8 +10113,8 @@
    "generatedPath": "public/assets/characters/vane/vane-the-signing.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10134,8 +10134,8 @@
    "generatedPath": "public/assets/characters/halloway/halloway-hand-pen.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10155,8 +10155,8 @@
    "generatedPath": "public/assets/characters/halloway/halloway-hand-magnifier.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10176,8 +10176,8 @@
    "generatedPath": "public/assets/characters/halloway/halloway-hand-pinning.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10197,8 +10197,8 @@
    "generatedPath": "public/assets/characters/halloway/halloway-hand-teacup.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -10218,8 +10218,8 @@
    "generatedPath": "public/assets/characters/halloway/halloway-coat-back-distant.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S00"
    ],
@@ -10240,8 +10240,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-witness-cat.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S05"
    ],
@@ -10262,8 +10262,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-pawnbroker.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S06",
     "S08"
@@ -10285,8 +10285,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-finch-seated.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S09"
    ],
@@ -10307,8 +10307,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-customs-clerk.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S14",
     "S15"
@@ -10330,8 +10330,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-vendor-produce.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S14",
     "S15"
@@ -10353,8 +10353,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-vendor-fish.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S14",
     "S15"
@@ -10376,8 +10376,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-vendor-textile.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S14",
     "S15"
@@ -10399,8 +10399,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-pigment-seller.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S17",
     "S18"
@@ -10422,8 +10422,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-landlady.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S16"
    ],
@@ -10444,8 +10444,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-dispatcher.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S25"
    ],
@@ -10466,8 +10466,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-left-luggage-clerk.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S26"
    ],
@@ -10488,8 +10488,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-boathouse-keeper.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S27"
    ],
@@ -10510,8 +10510,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-corbin-cuffed.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S22"
    ],
@@ -10532,8 +10532,8 @@
    "generatedPath": "public/assets/characters/overlays/overlay-sarto-working.webp"
   },
   {
-   "status": "pending",
-   "qaStatus": "pending",
+   "status": "generated",
+   "qaStatus": "passed",
    "rounds": [
     "S28"
    ],
