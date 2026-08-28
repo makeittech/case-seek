@@ -135,3 +135,16 @@ export function getSprite(req: SpriteRequest): SpriteEntry {
 export function clearSpriteCache(): void {
   cache.clear();
 }
+
+/**
+ * Evict sprites the active scene doesn't use. Each entry pins a decoded
+ * 256×256 RGBA canvas (~262 KB) plus its hit mask, so without eviction a
+ * full-campaign session accumulates every visited scene's sprite set
+ * (tens of MB per scene). Evicted sprites reload on demand — the compressed
+ * webp stays in the service-worker art cache.
+ */
+export function pruneSpriteCache(keep: ReadonlySet<string>): void {
+  for (const id of cache.keys()) {
+    if (!keep.has(id)) cache.delete(id);
+  }
+}

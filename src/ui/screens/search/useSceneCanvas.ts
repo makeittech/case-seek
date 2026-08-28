@@ -7,7 +7,7 @@ import { useCallback, useEffect, useMemo, useRef, type RefObject, type MutableRe
 import { Camera } from '../../../engine/scene/camera';
 import { SceneRenderer, type RenderProp } from '../../../engine/render/SceneRenderer';
 import { InputController } from '../../../engine/render/InputController';
-import { getSprite, setSpriteUpdateListener } from '../../../engine/render/sprites';
+import { getSprite, pruneSpriteCache, setSpriteUpdateListener } from '../../../engine/render/sprites';
 import { hitTest } from '../../../engine/hit/HitTester';
 import { activeTargetPropIds } from '../../../engine/rounds/runtime';
 import { handleSceneTap } from '../../../app/roundFlow';
@@ -49,6 +49,9 @@ export function useSceneCanvas(scene: SceneDef | null): SceneCanvas {
     const stage = stageRef.current;
     const canvas = canvasRef.current;
     if (!stage || !canvas || !scene) return;
+
+    // bound decoded-sprite memory to the scene being entered
+    pruneSpriteCache(new Set(renderProps.map((p) => p.sprite)));
 
     const camera = new Camera(scene.size.w, scene.size.h);
     cameraRef.current = camera;
