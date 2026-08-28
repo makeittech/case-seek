@@ -29,7 +29,7 @@ export function BeatScreen({ beatId }: { beatId: string }): JSX.Element {
   }, [beatId]);
 
   useEffect(() => {
-    endRef.current?.scrollIntoView({ block: 'end' });
+    endRef.current?.scrollIntoView?.({ block: 'end' });
   }, [shown]);
 
   useEffect(() => {

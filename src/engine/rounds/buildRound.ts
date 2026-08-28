@@ -155,6 +155,40 @@ export function buildRound(input: BuildInput): RoundPlan {
     });
   }
 
+  // pad: if review pool + authored fresh fall short (early campaign, small
+  // record set), fill remaining slots from other depictable scene concepts so
+  // the find list always hits its authored size (GDD §19.3). Deterministic:
+  // candidates sorted then rng-shuffled; recent targets excluded first.
+  let shortfall = vocabSlots - pluralTargets.length - reviewTargets.length - freshTargets.length;
+  if (shortfall > 0) {
+    const taken = new Set<ConceptId>([
+      ...pluralConcepts,
+      ...reviewTargets.map((t) => t.conceptId!),
+      ...freshTargets.map((t) => t.conceptId!),
+    ]);
+    const candidates = [...propIndex.keys()]
+      .filter((c) => !taken.has(c) && (propIndex.get(c) ?? []).some((p) => !usedProps.has(p.id)))
+      .sort();
+    const preferred = candidates.filter((c) => !input.recentTargetConcepts.has(c));
+    const fallback = candidates.filter((c) => input.recentTargetConcepts.has(c));
+    for (const conceptId of [...shuffle(preferred, rng), ...shuffle(fallback, rng)]) {
+      if (shortfall <= 0) break;
+      const pid = takeProp(conceptId);
+      if (!pid) continue;
+      const rec = records.get(conceptId);
+      freshTargets.push({
+        targetId: nextId(),
+        kind: 'vocab',
+        conceptId,
+        propIds: [pid],
+        count: 1,
+        isReview: rec !== undefined && rec.timesServedAsTarget > 0,
+        isPlural: false,
+      });
+      shortfall--;
+    }
+  }
+
   // evidence find
   const evProp = sceneProps.find((p) => p.id === template.evidence.propId);
   if (!evProp) throw new Error(`evidence prop ${template.evidence.propId} missing in scene for ${template.id}`);
