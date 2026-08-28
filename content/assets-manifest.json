@@ -9841,7 +9841,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9862,7 +9862,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9883,7 +9883,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9904,7 +9904,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9925,7 +9925,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9946,7 +9946,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9967,7 +9967,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P1",
    "batch": "06-character-portraits",
@@ -9987,7 +9987,7 @@
    "generatedPath": "public/assets/characters/ottilie/ottilie-veiled-back.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10008,7 +10008,7 @@
    "generatedPath": "public/assets/characters/vane/vane-ref.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10029,7 +10029,7 @@
    "generatedPath": "public/assets/characters/vane/vane-absorbed-tending.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10050,7 +10050,7 @@
    "generatedPath": "public/assets/characters/vane/vane-watching-light.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10071,7 +10071,7 @@
    "generatedPath": "public/assets/characters/vane/vane-unpressed-denial.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10092,7 +10092,7 @@
    "generatedPath": "public/assets/characters/vane/vane-rooftop-arrival.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
