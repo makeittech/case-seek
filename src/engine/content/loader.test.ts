@@ -1,6 +1,6 @@
 /** Loads the REAL /content tree through the Vite glob loader. */
 import { describe, expect, it } from 'vitest';
-import { resolveSceneDef } from './loader';
+import { nounDisplay, resolveSceneDef } from './loader';
 import { loadContent } from './source';
 
 describe('content loading (real content tree)', () => {
@@ -35,6 +35,17 @@ describe('content loading (real content tree)', () => {
           sets.some((s) => s.includes(lx.article)),
           `${lang} ${lx.concept} article=${lx.article}`,
         ).toBe(true);
+      }
+    }
+  });
+
+  it('elided articles attach without a space; plain articles keep one', () => {
+    expect(nounDisplay({ article: "l'", word: 'ombrello' })).toBe("l'ombrello");
+    expect(nounDisplay({ article: 'der', word: 'Schlüssel' })).toBe('der Schlüssel');
+    for (const lang of ['de', 'es', 'it'] as const) {
+      for (const lx of db.packs[lang].lexemes) {
+        const display = nounDisplay(lx);
+        expect(display.includes("' "), `${lang} ${lx.concept} display="${display}"`).toBe(false);
       }
     }
   });

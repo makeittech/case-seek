@@ -4,6 +4,7 @@
  */
 import { useEffect, useMemo, useState } from 'react';
 import { answerDebrief, buildDebriefItems, finishDebrief, type DebriefItemView } from '../../app/roundFlow';
+import { joinArticle } from '../../engine/content/loader';
 import { speakConcept } from '../../app/speak';
 import { ui } from '../strings';
 
@@ -133,7 +134,7 @@ function DebriefItemCard({
       {picked !== null && !view.options[picked]?.correct && (
         <div className="margin-note">
           {view.item.type === 'article-pick'
-            ? `It's “${view.options.find((o) => o.correct)?.article} ${view.display}.”`
+            ? `It's “${joinArticle(view.options.find((o) => o.correct)?.article ?? '', view.display)}.”`
             : `That one is “${view.display}.”`}
         </div>
       )}

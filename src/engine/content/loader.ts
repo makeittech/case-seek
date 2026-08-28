@@ -173,9 +173,14 @@ export function lexemeOf(dbi: ContentDB, lang: Lang, id: ConceptId): Lexeme {
   return lx;
 }
 
-/** The canonical article+noun display form ("der Schlüssel"). */
+/** Join an article to a noun; elided articles (Italian "l'") attach without a space. */
+export function joinArticle(article: string, word: string): string {
+  return article.endsWith('\u2019') || article.endsWith("'") ? `${article}${word}` : `${article} ${word}`;
+}
+
+/** The canonical article+noun display form ("der Schlüssel", "l'ombrello"). */
 export function nounDisplay(lx: Pick<Lexeme, 'article' | 'word'>): string {
-  return `${lx.article} ${lx.word}`;
+  return joinArticle(lx.article, lx.word);
 }
 
 /** Sprite id for a placement (asset-manifest contract: prop-<concept-noun>). */

@@ -1,6 +1,6 @@
 /** Tier presentation rules over the real Spanish pack. */
 import { describe, expect, it } from 'vitest';
-import { resolveSceneDef } from '../content/loader';
+import { nounDisplay, resolveSceneDef } from '../content/loader';
 import { loadContent } from '../content/source';
 import { buildRound } from './buildRound';
 import { presentRound, introConcepts } from './present';
@@ -81,7 +81,7 @@ describe('presentRound', () => {
     for (const c of chips) {
       if (c.isEvidence || !c.conceptId) continue;
       const lx = db.lexemes.es.get(c.conceptId)!;
-      if (!c.plural) expect(c.display).toBe(`${lx.article} ${lx.word}`);
+      if (!c.plural) expect(c.display).toBe(nounDisplay(lx));
       expect(c.speech.length).toBeGreaterThan(0);
       expect(c.icon.length).toBeGreaterThan(0);
     }
