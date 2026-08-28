@@ -115,7 +115,7 @@
  "assets": [
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P0",
    "batch": "01-references",
@@ -135,7 +135,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P0",
    "batch": "01-references",
@@ -155,7 +155,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P0",
    "batch": "01-references",
@@ -375,7 +375,7 @@
   },
   {
    "status": "generated",
-   "qaStatus": "pending",
+   "qaStatus": "passed",
    "rounds": [],
    "priority": "P0",
    "batch": "02-painting-suite",
@@ -8979,7 +8979,7 @@
    "generatedPath": "public/assets/props/evid-c34.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9000,7 +9000,7 @@
    "generatedPath": "public/assets/characters/margo/margo-ref.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9021,7 +9021,7 @@
    "generatedPath": "public/assets/characters/margo/margo-wry.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9042,7 +9042,7 @@
    "generatedPath": "public/assets/characters/margo/margo-delighted-scoop.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9063,7 +9063,7 @@
    "generatedPath": "public/assets/characters/margo/margo-conspiratorial.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9084,7 +9084,7 @@
    "generatedPath": "public/assets/characters/margo/margo-velocity.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9105,7 +9105,7 @@
    "generatedPath": "public/assets/characters/margo/margo-wobble.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9126,7 +9126,7 @@
    "generatedPath": "public/assets/characters/margo/margo-grave.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9147,7 +9147,7 @@
    "generatedPath": "public/assets/characters/margo/margo-glamorous-m2.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -9168,7 +9168,7 @@
    "generatedPath": "public/assets/characters/margo/margo-quiet-pride.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
