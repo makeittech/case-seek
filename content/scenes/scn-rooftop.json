@@ -1,0 +1,388 @@
+{
+ "id": "scn-rooftop",
+ "name": "Belmont Rooftop",
+ "locationId": "rooftop",
+ "lightState": "night-storm",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#101527",
+  "wallBottom": "#232a44",
+  "floor": "#1c1c26",
+  "accent": "#e3b556",
+  "motifs": [
+   {
+    "kind": "window",
+    "x": 640,
+    "y": 60,
+    "w": 640,
+    "h": 420,
+    "color": "#2e3a5c",
+    "alpha": 0.8
+   },
+   {
+    "kind": "ellipse",
+    "x": 860,
+    "y": 620,
+    "w": 480,
+    "h": 120,
+    "color": "#e7cd88",
+    "alpha": 0.25
+   },
+   {
+    "kind": "rect",
+    "x": 140,
+    "y": 260,
+    "w": 380,
+    "h": 340,
+    "color": "#181d30",
+    "alpha": 0.9
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 271,
+   "y": 532,
+   "r": 300
+  },
+  {
+   "x": 267,
+   "y": 726,
+   "r": 300
+  },
+  {
+   "x": 806,
+   "y": 648,
+   "r": 300
+  },
+  {
+   "x": 461,
+   "y": 540,
+   "r": 300
+  },
+  {
+   "x": 1382,
+   "y": 540,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "p-rooftop-lantern-2",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 271,
+   "y": 532,
+   "scale": 0.6,
+   "rotation": 0,
+   "z": 532,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-rooftop-blanket-1",
+   "concept": "object:blanket",
+   "sprite": "prop-blanket",
+   "x": 544,
+   "y": 466,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 466,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-rooftop-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1036,
+   "y": 539,
+   "scale": 0.64,
+   "rotation": 0,
+   "z": 539,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-rooftop-trunk-1",
+   "concept": "object:trunk",
+   "sprite": "prop-trunk",
+   "x": 1284,
+   "y": 548,
+   "scale": 0.52,
+   "rotation": 0,
+   "z": 548,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-rooftop-lantern-1",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 1613,
+   "y": 434,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 434,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-rooftop-stool-1",
+   "concept": "object:stool",
+   "sprite": "prop-stool",
+   "x": 267,
+   "y": 726,
+   "scale": 0.7,
+   "rotation": 0,
+   "z": 1726,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-rooftop-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 547,
+   "y": 661,
+   "scale": 0.76,
+   "rotation": 0,
+   "z": 1661,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-rooftop-easel-1",
+   "concept": "object:easel",
+   "sprite": "prop-easel",
+   "x": 866,
+   "y": 616,
+   "scale": 0.83,
+   "rotation": 0,
+   "z": 1616,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "amb-rooftop-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1360,
+   "y": 758,
+   "scale": 0.77,
+   "rotation": 0,
+   "z": 1758,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-rooftop-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1619,
+   "y": 711,
+   "scale": 0.79,
+   "rotation": 0,
+   "z": 1711,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-rooftop-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 269,
+   "y": 905,
+   "scale": 0.9,
+   "rotation": 0,
+   "z": 2905,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c07",
+   "concept": "untagged:ambience",
+   "clue": "C07",
+   "sprite": "evid-c07",
+   "x": 346,
+   "y": 670,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2170,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c09",
+   "concept": "untagged:ambience",
+   "clue": "C09",
+   "sprite": "evid-c09",
+   "x": 576,
+   "y": 799,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2299,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c11",
+   "concept": "untagged:ambience",
+   "clue": "C11",
+   "sprite": "evid-c11",
+   "x": 806,
+   "y": 648,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2148,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c13",
+   "concept": "untagged:ambience",
+   "clue": "C13",
+   "sprite": "evid-c13",
+   "x": 1037,
+   "y": 821,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2321,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c15",
+   "concept": "untagged:ambience",
+   "clue": "C15",
+   "sprite": "evid-c15",
+   "x": 1267,
+   "y": 648,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2148,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c18",
+   "concept": "untagged:ambience",
+   "clue": "C18",
+   "sprite": "evid-c18",
+   "x": 1498,
+   "y": 778,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2278,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c19",
+   "concept": "untagged:ambience",
+   "clue": "C19",
+   "sprite": "evid-c19",
+   "x": 461,
+   "y": 540,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2040,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c23",
+   "concept": "untagged:ambience",
+   "clue": "C23",
+   "sprite": "evid-c23",
+   "x": 691,
+   "y": 475,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 1975,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c22",
+   "concept": "untagged:ambience",
+   "clue": "C22",
+   "sprite": "evid-c22",
+   "x": 922,
+   "y": 562,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2062,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c24",
+   "concept": "untagged:ambience",
+   "clue": "C24",
+   "sprite": "evid-c24",
+   "x": 1152,
+   "y": 454,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 1954,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c26",
+   "concept": "untagged:ambience",
+   "clue": "C26",
+   "sprite": "evid-c26",
+   "x": 1382,
+   "y": 540,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2040,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c30",
+   "concept": "untagged:ambience",
+   "clue": "C30",
+   "sprite": "evid-c30",
+   "x": 1613,
+   "y": 626,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2126,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c31",
+   "concept": "untagged:ambience",
+   "clue": "C31",
+   "sprite": "evid-c31",
+   "x": 1267,
+   "y": 929,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2429,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "sw-s28-c33",
+   "concept": "untagged:ambience",
+   "clue": "C33",
+   "sprite": "evid-c33",
+   "x": 960,
+   "y": 972,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2472,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

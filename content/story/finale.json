@@ -1,0 +1,33 @@
+{
+ "prompt": "The storm holds its breath. Name the Broker — the hand behind the hollow frame.",
+ "suspects": [
+  { "id": "ottilie", "label": "Ottilie Marsh — the retired conservator" },
+  { "id": "casal", "label": "Victor Casal — the art dealer" },
+  { "id": "adele", "label": "Adele Voss — the curator" },
+  { "id": "finch", "label": "Tobias Finch — the night guard" },
+  { "id": "vane", "label": "Elias Vane — the painter who lived" }
+ ],
+ "culprit": "ottilie",
+ "wrongLine": "Margo lowers her notebook. 'Look at the pins again, Halloway. Who could re-tension a cradle only its inventor understood?'",
+ "exhibits": ["C04", "C21", "C26", "C29", "C30", "C31"],
+ "confrontation": [
+  { "speaker": "halloway", "en": "WHO: Ottilie Marsh — Nachtigall — founding conservator, the cartographer's daughter, the sitter in the painting." },
+  { "speaker": "halloway", "en": "MOTIVE: In 1921 the board spent her name and kept her painting. In 1926 the Belmont bought a forgery of her own face — and called it a miracle. She meant to hold the truth level until someone else could." },
+  { "speaker": "halloway", "en": "METHOD: A duplicate frame built from Casal's own gilt blank; the cradle only its designer could re-tension; Finch bought for the exact shape of his debt; the theater crate stamped with a forged mark." },
+  { "speaker": "halloway", "en": "TIMELINE: Oct 11 — 23:15, the freight tram to Clocktower Lane; forty minutes for the swap. 'Thirty-nine,' she corrects. 'The cradle releases in four. I designed it.'" },
+  { "speaker": "halloway", "en": "KEY CONTRADICTION: A seal retired in 1921, 'not recovered', signing transfer papers in 1927 — a woman inside the Belmont for six years without setting foot in it." },
+  { "speaker": "halloway", "en": "CRITICAL EVIDENCE: the blueprint she drew, the waybill on her father's pass, the minute that spent her name, the dossier from the floor safe, the stretcher bar with fresh tack holes — and the papers Finch kept." },
+  { "speaker": "ottilie", "en": "Well argued. My colleagues taught you patience; the storm taught you timing. — Elias. Come in out of the rain. Sign your work." },
+  { "speaker": "narration", "en": "Vane signs the crated copy in front of witnesses: 'a Vane, after Vane.' The nightingale returns the brooch to her collar with her own hand." },
+  { "speaker": "ottilie", "en": "Which painting will you give them, detective? The one that's real, or the one that's true?" }
+ ],
+ "flavorChoice": {
+  "dry": "By the book: the original goes home under warrant, the copy into evidence, and every name onto the record — including the ones that deserve apologies.",
+  "warm": "By the heart: the original goes home in her frame, the copy keeps its signature, and the record notes that some crimes are grief with excellent paperwork."
+ },
+ "resolution": [
+  { "speaker": "narration", "en": "Adele and Holt arrive with the storm's last act. Surrender is negotiated standing up, like professionals." },
+  { "speaker": "ottilie", "en": "The frame was never a decoy, little wren. I built it true to her dimensions. It was a promise." },
+  { "speaker": "margo", "en": "Case closed, Halloway. I'll write every fact and no painter. Let the unnamed master stay a master." }
+ ]
+}

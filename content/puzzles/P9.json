@@ -1,0 +1,12 @@
+{
+ "id": "P9",
+ "mechanic": "clock-hands",
+ "title": "The Station Clock",
+ "prompt": "Her wires are time-coded. Set the hands to the telegram's riddle.",
+ "skipNote": "Holt's sergeant knew the ferry tables cold: boarding 05:40, Sunday.",
+ "params": {
+  "hour": 5,
+  "minute": 40,
+  "riddle": "When the small hand hides behind the pier's number and the long hand points at eight bells."
+ }
+}

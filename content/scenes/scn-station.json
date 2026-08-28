@@ -1,0 +1,346 @@
+{
+ "id": "scn-station",
+ "name": "Central Station",
+ "locationId": "station",
+ "lightState": "night",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#232936",
+  "wallBottom": "#38404f",
+  "floor": "#2b2a26",
+  "accent": "#d3a445",
+  "motifs": [
+   {
+    "kind": "arch",
+    "x": 700,
+    "y": 40,
+    "w": 520,
+    "h": 620,
+    "color": "#1b202a",
+    "alpha": 0.9
+   },
+   {
+    "kind": "ellipse",
+    "x": 860,
+    "y": 120,
+    "w": 200,
+    "h": 200,
+    "color": "#e7d391",
+    "alpha": 0.5
+   },
+   {
+    "kind": "beam",
+    "x": 0,
+    "y": 640,
+    "w": 1920,
+    "h": 30,
+    "color": "#14171d",
+    "alpha": 0.95
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 243,
+   "y": 584,
+   "r": 300
+  },
+  {
+   "x": 1630,
+   "y": 482,
+   "r": 300
+  },
+  {
+   "x": 163,
+   "y": 705,
+   "r": 300
+  },
+  {
+   "x": 1410,
+   "y": 772,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "p-station-clock-1",
+   "concept": "object:clock",
+   "sprite": "prop-clock",
+   "x": 243,
+   "y": 584,
+   "scale": 0.55,
+   "rotation": 0,
+   "z": 584,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-luggage-tag-1",
+   "concept": "object:luggage-tag",
+   "sprite": "prop-luggage-tag",
+   "x": 414,
+   "y": 389,
+   "scale": 0.54,
+   "rotation": 0,
+   "z": 389,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-station-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 712,
+   "y": 518,
+   "scale": 0.55,
+   "rotation": 3,
+   "z": 518,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-whistle-1",
+   "concept": "object:whistle",
+   "sprite": "prop-whistle",
+   "x": 905,
+   "y": 530,
+   "scale": 0.6,
+   "rotation": 0,
+   "z": 530,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-station-7",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 1146,
+   "y": 422,
+   "scale": 0.62,
+   "rotation": 4,
+   "z": 422,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-ticket-1",
+   "concept": "object:ticket",
+   "sprite": "prop-ticket",
+   "x": 1373,
+   "y": 585,
+   "scale": 0.55,
+   "rotation": 0,
+   "z": 585,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-clock-2",
+   "concept": "object:clock",
+   "sprite": "prop-clock",
+   "x": 1630,
+   "y": 482,
+   "scale": 0.59,
+   "rotation": 0,
+   "z": 482,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-kiosk-1",
+   "concept": "object:kiosk",
+   "sprite": "prop-kiosk",
+   "x": 197,
+   "y": 523,
+   "scale": 0.64,
+   "rotation": 0,
+   "z": 523,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-station-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 486,
+   "y": 509,
+   "scale": 0.51,
+   "rotation": 6,
+   "z": 509,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-station-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 712,
+   "y": 454,
+   "scale": 0.55,
+   "rotation": 0,
+   "z": 454,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-station-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 986,
+   "y": 430,
+   "scale": 0.63,
+   "rotation": 0,
+   "z": 430,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-telegram-form-1",
+   "concept": "object:telegram-form",
+   "sprite": "prop-telegram-form",
+   "x": 1221,
+   "y": 496,
+   "scale": 0.57,
+   "rotation": 7,
+   "z": 496,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-timetable-1",
+   "concept": "object:timetable",
+   "sprite": "prop-timetable",
+   "x": 1384,
+   "y": 517,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 517,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-station-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1754,
+   "y": 561,
+   "scale": 0.64,
+   "rotation": 0,
+   "z": 561,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-bench-1",
+   "concept": "object:bench",
+   "sprite": "prop-bench",
+   "x": 163,
+   "y": 705,
+   "scale": 0.83,
+   "rotation": 0,
+   "z": 1705,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-umbrella-1",
+   "concept": "object:umbrella",
+   "sprite": "prop-umbrella",
+   "x": 462,
+   "y": 753,
+   "scale": 0.74,
+   "rotation": 0,
+   "z": 1753,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "amb-station-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 756,
+   "y": 566,
+   "scale": 0.7,
+   "rotation": 0,
+   "z": 1566,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-suitcase-1",
+   "concept": "object:suitcase",
+   "sprite": "prop-suitcase",
+   "x": 893,
+   "y": 735,
+   "scale": 0.8,
+   "rotation": 0,
+   "z": 1735,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-mailbag-1",
+   "concept": "object:mailbag",
+   "sprite": "prop-mailbag",
+   "x": 1270,
+   "y": 759,
+   "scale": 0.77,
+   "rotation": 0,
+   "z": 1759,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-signal-lamp-1",
+   "concept": "object:signal-lamp",
+   "sprite": "prop-signal-lamp",
+   "x": 1410,
+   "y": 772,
+   "scale": 0.76,
+   "rotation": 0,
+   "z": 1772,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-station-pressure-gauge-1",
+   "concept": "object:pressure-gauge",
+   "sprite": "prop-pressure-gauge",
+   "x": 1634,
+   "y": 749,
+   "scale": 0.83,
+   "rotation": -8,
+   "z": 1749,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-station-lantern-1",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 187,
+   "y": 885,
+   "scale": 0.87,
+   "rotation": 0,
+   "z": 2885,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s25-counterfoil",
+   "concept": "untagged:ambience",
+   "clue": "C32",
+   "sprite": "evid-c32",
+   "x": 883,
+   "y": 756,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2256,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

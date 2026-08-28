@@ -1,0 +1,346 @@
+{
+ "id": "scn-tram-depot",
+ "name": "Tram Depot",
+ "locationId": "depot",
+ "lightState": "night",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#242a30",
+  "wallBottom": "#343c44",
+  "floor": "#2a261e",
+  "accent": "#c78f3c",
+  "motifs": [
+   {
+    "kind": "rect",
+    "x": 200,
+    "y": 160,
+    "w": 700,
+    "h": 420,
+    "color": "#1c2126",
+    "alpha": 0.9
+   },
+   {
+    "kind": "beam",
+    "x": 0,
+    "y": 600,
+    "w": 1920,
+    "h": 40,
+    "color": "#15181c",
+    "alpha": 0.95
+   },
+   {
+    "kind": "window",
+    "x": 1450,
+    "y": 140,
+    "w": 260,
+    "h": 280,
+    "color": "#54636f",
+    "alpha": 0.5
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 530,
+   "y": 486,
+   "r": 300
+  },
+  {
+   "x": 665,
+   "y": 548,
+   "r": 300
+  },
+  {
+   "x": 303,
+   "y": 589,
+   "r": 300
+  },
+  {
+   "x": 1477,
+   "y": 628,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "amb-tram-depot-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 281,
+   "y": 512,
+   "scale": 0.52,
+   "rotation": 0,
+   "z": 512,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-waybill-1",
+   "concept": "object:waybill",
+   "sprite": "prop-waybill",
+   "x": 530,
+   "y": 486,
+   "scale": 0.52,
+   "rotation": 6,
+   "z": 486,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-oilcan-1",
+   "concept": "object:oilcan",
+   "sprite": "prop-oilcan",
+   "x": 689,
+   "y": 509,
+   "scale": 0.6,
+   "rotation": 7,
+   "z": 509,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-tram-depot-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1015,
+   "y": 436,
+   "scale": 0.62,
+   "rotation": -3,
+   "z": 436,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-toolbox-1",
+   "concept": "object:toolbox",
+   "sprite": "prop-toolbox",
+   "x": 1235,
+   "y": 390,
+   "scale": 0.59,
+   "rotation": 0,
+   "z": 390,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-tram-depot-7",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 1391,
+   "y": 488,
+   "scale": 0.58,
+   "rotation": -8,
+   "z": 488,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-gear-1",
+   "concept": "object:gear",
+   "sprite": "prop-gear",
+   "x": 1750,
+   "y": 546,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 546,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-tram-depot-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 280,
+   "y": 512,
+   "scale": 0.58,
+   "rotation": -7,
+   "z": 512,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-tram-depot-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 531,
+   "y": 449,
+   "scale": 0.66,
+   "rotation": 5,
+   "z": 449,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-lantern-1",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 665,
+   "y": 548,
+   "scale": 0.59,
+   "rotation": 0,
+   "z": 548,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-ticket-1",
+   "concept": "object:ticket",
+   "sprite": "prop-ticket",
+   "x": 951,
+   "y": 525,
+   "scale": 0.65,
+   "rotation": 0,
+   "z": 525,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-tram-depot-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1182,
+   "y": 519,
+   "scale": 0.57,
+   "rotation": 0,
+   "z": 519,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-timetable-1",
+   "concept": "object:timetable",
+   "sprite": "prop-timetable",
+   "x": 1486,
+   "y": 438,
+   "scale": 0.57,
+   "rotation": 0,
+   "z": 438,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-cap-1",
+   "concept": "object:cap",
+   "sprite": "prop-cap",
+   "x": 1684,
+   "y": 436,
+   "scale": 0.59,
+   "rotation": 6,
+   "z": 436,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-tram-depot-bench-1",
+   "concept": "object:bench",
+   "sprite": "prop-bench",
+   "x": 303,
+   "y": 589,
+   "scale": 0.73,
+   "rotation": 3,
+   "z": 1589,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-wrench-1",
+   "concept": "object:wrench",
+   "sprite": "prop-wrench",
+   "x": 544,
+   "y": 691,
+   "scale": 0.69,
+   "rotation": 8,
+   "z": 1691,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-tram-depot-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 686,
+   "y": 605,
+   "scale": 0.71,
+   "rotation": 0,
+   "z": 1605,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-signal-lamp-1",
+   "concept": "object:signal-lamp",
+   "sprite": "prop-signal-lamp",
+   "x": 933,
+   "y": 689,
+   "scale": 0.86,
+   "rotation": 0,
+   "z": 1689,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-whistle-1",
+   "concept": "object:whistle",
+   "sprite": "prop-whistle",
+   "x": 1158,
+   "y": 742,
+   "scale": 0.74,
+   "rotation": 4,
+   "z": 1742,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-ticket-2",
+   "concept": "object:ticket",
+   "sprite": "prop-ticket",
+   "x": 1477,
+   "y": 628,
+   "scale": 0.8,
+   "rotation": 0,
+   "z": 1628,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tram-depot-ticket-3",
+   "concept": "object:ticket",
+   "sprite": "prop-ticket",
+   "x": 1729,
+   "y": 672,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 1672,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-tram-depot-chain-1",
+   "concept": "object:chain",
+   "sprite": "prop-chain",
+   "x": 262,
+   "y": 788,
+   "scale": 1.07,
+   "rotation": 0,
+   "z": 2788,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s16-waybill",
+   "concept": "untagged:ambience",
+   "clue": "C21",
+   "sprite": "evid-c21",
+   "x": 1152,
+   "y": 713,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2213,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

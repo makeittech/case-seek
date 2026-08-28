@@ -1,0 +1,12 @@
+{
+ "id": "P4",
+ "mechanic": "cipher-wheel",
+ "title": "Casal's Cipher Ledger",
+ "prompt": "Turn the wheel until the keyed entries speak. The key is a bird's name.",
+ "skipNote": "Margo cracked the wheel over coffee — the key was the bird's name. The ledger knows Nachtigall.",
+ "clueId": "C16",
+ "params": {
+  "solutionByLang": { "de": "NACHTIGALL", "es": "RUISEÑOR", "it": "USIGNOLO" },
+  "gloss": "nightingale"
+ }
+}

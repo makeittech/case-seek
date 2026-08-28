@@ -1,0 +1,12 @@
+{
+ "id": "P7",
+ "mechanic": "ratio-mix",
+ "title": "The Pigment Bench",
+ "prompt": "Reproduce the bench's last mix — learn what was being matched.",
+ "skipNote": "Margo followed the bench notes like a recipe. The answer is the green.",
+ "params": {
+  "target": { "pigment": 2, "resinate": 3, "beeswax": 1 },
+  "labels": { "pigment": "lead-tin yellow", "resinate": "copper resinate", "beeswax": "beeswax" },
+  "resultColor": "#3f6d3a"
+ }
+}

@@ -1,0 +1,10 @@
+[
+ { "id": "halloway", "name": "Wren Halloway", "role": "Consulting detective — you", "icon": "🕵️", "initialStamp": "ally" },
+ { "id": "margo", "name": "Margo Lin", "role": "Journalist; language companion", "icon": "📰", "initialStamp": "ally" },
+ { "id": "adele", "name": "Adele Voss", "role": "Curator of the Belmont", "icon": "🖼️", "initialStamp": "unknown" },
+ { "id": "holt", "name": "Inspector Bram Holt", "role": "City police inspector", "icon": "👮", "initialStamp": "unknown" },
+ { "id": "casal", "name": "Victor Casal", "role": "Art dealer", "icon": "🎩", "initialStamp": "unknown" },
+ { "id": "finch", "name": "Tobias Finch", "role": "Museum night guard", "icon": "🔦", "initialStamp": "unknown" },
+ { "id": "ottilie", "name": "\"Nachtigall\" / Ottilie Marsh", "role": "Founding conservator; the sitter", "icon": "🐦", "initialStamp": "unknown" },
+ { "id": "vane", "name": "Elias Vane / \"Emil Sarto\"", "role": "Painter, presumed dead 1913", "icon": "🎨", "initialStamp": "unknown" }
+]

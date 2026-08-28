@@ -1,0 +1,10 @@
+{
+ "id": "P3",
+ "mechanic": "pairs",
+ "title": "Manifest Reconciliation",
+ "prompt": "Match each declared word to its cargo — and prove the crate's contents never existed.",
+ "skipNote": "The customs clerk reconciled the manifest himself, gesturing at everything. The declared cargo never existed.",
+ "params": {
+  "concepts": ["object:scale", "object:sack", "object:barrel", "object:tea-chest", "object:seal", "object:twine", "object:funnel", "object:crate"]
+ }
+}

@@ -1,0 +1,511 @@
+{
+ "id": "scn-tavern",
+ "name": "The Rusty Anchor",
+ "locationId": "tavern",
+ "lightState": "evening",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#4a3220",
+  "wallBottom": "#63452b",
+  "floor": "#3b2b1a",
+  "accent": "#c98a3b",
+  "motifs": [
+   {
+    "kind": "window",
+    "x": 200,
+    "y": 150,
+    "w": 260,
+    "h": 300,
+    "color": "#e2a44e",
+    "alpha": 0.7
+   },
+   {
+    "kind": "beam",
+    "x": 0,
+    "y": 100,
+    "w": 1920,
+    "h": 34,
+    "color": "#2c1f11",
+    "alpha": 0.9
+   },
+   {
+    "kind": "rect",
+    "x": 1200,
+    "y": 200,
+    "w": 620,
+    "h": 380,
+    "color": "#31241485",
+    "alpha": 0.8
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 278,
+   "y": 433,
+   "r": 300
+  },
+  {
+   "x": 1013,
+   "y": 555,
+   "r": 300
+  },
+  {
+   "x": 604,
+   "y": 490,
+   "r": 300
+  },
+  {
+   "x": 1532,
+   "y": 568,
+   "r": 300
+  },
+  {
+   "x": 1029,
+   "y": 656,
+   "r": 300
+  },
+  {
+   "x": 430,
+   "y": 633,
+   "r": 300
+  },
+  {
+   "x": 1537,
+   "y": 660,
+   "r": 300
+  },
+  {
+   "x": 538,
+   "y": 842,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "p-tavern-barrel-1",
+   "concept": "object:barrel",
+   "sprite": "prop-barrel",
+   "x": 278,
+   "y": 433,
+   "scale": 0.66,
+   "rotation": 0,
+   "z": 433,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-logbook-1",
+   "concept": "object:logbook",
+   "sprite": "prop-logbook",
+   "x": 442,
+   "y": 550,
+   "scale": 0.58,
+   "rotation": 4,
+   "z": 550,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-key-1",
+   "concept": "object:key",
+   "sprite": "prop-key",
+   "x": 603,
+   "y": 434,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 434,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-coin-1",
+   "concept": "object:coin",
+   "sprite": "prop-coin",
+   "x": 811,
+   "y": 593,
+   "scale": 0.59,
+   "rotation": 0,
+   "z": 593,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-match-1",
+   "concept": "object:match",
+   "sprite": "prop-match",
+   "x": 1013,
+   "y": 555,
+   "scale": 0.57,
+   "rotation": 7,
+   "z": 555,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-tavern-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 1296,
+   "y": 516,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 516,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-key-2",
+   "concept": "object:key",
+   "sprite": "prop-key",
+   "x": 1458,
+   "y": 559,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 559,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-candle-1",
+   "concept": "object:candle",
+   "sprite": "prop-candle",
+   "x": 1761,
+   "y": 556,
+   "scale": 0.57,
+   "rotation": 0,
+   "z": 556,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-tavern-clock-1",
+   "concept": "object:clock",
+   "sprite": "prop-clock",
+   "x": 214,
+   "y": 479,
+   "scale": 0.66,
+   "rotation": 0,
+   "z": 479,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-tavern-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 446,
+   "y": 451,
+   "scale": 0.52,
+   "rotation": 0,
+   "z": 451,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-kettle-1",
+   "concept": "object:kettle",
+   "sprite": "prop-kettle",
+   "x": 604,
+   "y": 490,
+   "scale": 0.57,
+   "rotation": 0,
+   "z": 490,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-towel-1",
+   "concept": "object:towel",
+   "sprite": "prop-towel",
+   "x": 876,
+   "y": 570,
+   "scale": 0.6,
+   "rotation": 0,
+   "z": 570,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-tavern-cheese-1",
+   "concept": "object:cheese",
+   "sprite": "prop-cheese",
+   "x": 1072,
+   "y": 439,
+   "scale": 0.52,
+   "rotation": -3,
+   "z": 439,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-tavern-apron-1",
+   "concept": "object:apron",
+   "sprite": "prop-apron",
+   "x": 1334,
+   "y": 444,
+   "scale": 0.52,
+   "rotation": 0,
+   "z": 444,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-chalk-1",
+   "concept": "object:chalk",
+   "sprite": "prop-chalk",
+   "x": 1532,
+   "y": 568,
+   "scale": 0.51,
+   "rotation": 0,
+   "z": 568,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-bottle-2",
+   "concept": "object:bottle",
+   "sprite": "prop-bottle",
+   "x": 1734,
+   "y": 484,
+   "scale": 0.61,
+   "rotation": 0,
+   "z": 484,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-broom-1",
+   "concept": "object:broom",
+   "sprite": "prop-broom",
+   "x": 199,
+   "y": 781,
+   "scale": 0.75,
+   "rotation": 0,
+   "z": 1781,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "amb-tavern-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 376,
+   "y": 776,
+   "scale": 0.82,
+   "rotation": 0,
+   "z": 1776,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-tavern-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 697,
+   "y": 634,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 1634,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-lamp-1",
+   "concept": "object:lamp",
+   "sprite": "prop-lamp",
+   "x": 865,
+   "y": 682,
+   "scale": 0.72,
+   "rotation": -4,
+   "z": 1682,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-mousetrap-1",
+   "concept": "object:mousetrap",
+   "sprite": "prop-mousetrap",
+   "x": 1029,
+   "y": 656,
+   "scale": 0.75,
+   "rotation": 0,
+   "z": 1656,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "amb-tavern-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1251,
+   "y": 765,
+   "scale": 0.82,
+   "rotation": 0,
+   "z": 1765,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-stool-1",
+   "concept": "object:stool",
+   "sprite": "prop-stool",
+   "x": 1553,
+   "y": 753,
+   "scale": 0.85,
+   "rotation": 0,
+   "z": 1753,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-tavern-bottle-1",
+   "concept": "object:bottle",
+   "sprite": "prop-bottle",
+   "x": 1733,
+   "y": 785,
+   "scale": 0.66,
+   "rotation": 3,
+   "z": 1785,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-tavern-dartboard-1",
+   "concept": "object:dartboard",
+   "sprite": "prop-dartboard",
+   "x": 156,
+   "y": 715,
+   "scale": 0.82,
+   "rotation": 0,
+   "z": 1715,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-tavern-pipe-1",
+   "concept": "object:pipe",
+   "sprite": "prop-pipe",
+   "x": 430,
+   "y": 633,
+   "scale": 0.85,
+   "rotation": 0,
+   "z": 1633,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-jug-1",
+   "concept": "object:jug",
+   "sprite": "prop-jug",
+   "x": 680,
+   "y": 765,
+   "scale": 0.73,
+   "rotation": -3,
+   "z": 1765,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-tankard-1",
+   "concept": "object:tankard",
+   "sprite": "prop-tankard",
+   "x": 793,
+   "y": 739,
+   "scale": 0.77,
+   "rotation": 0,
+   "z": 1739,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-bread-1",
+   "concept": "object:bread",
+   "sprite": "prop-bread",
+   "x": 1117,
+   "y": 682,
+   "scale": 0.75,
+   "rotation": -1,
+   "z": 1682,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "amb-tavern-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 1226,
+   "y": 786,
+   "scale": 0.75,
+   "rotation": 0,
+   "z": 1786,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-bottle-3",
+   "concept": "object:bottle",
+   "sprite": "prop-bottle",
+   "x": 1537,
+   "y": 660,
+   "scale": 0.79,
+   "rotation": 0,
+   "z": 1660,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-tavern-crate-1",
+   "concept": "object:crate",
+   "sprite": "prop-crate",
+   "x": 1761,
+   "y": 731,
+   "scale": 0.85,
+   "rotation": 0,
+   "z": 1731,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-tavern-playing-card-1",
+   "concept": "object:playing-card",
+   "sprite": "prop-playing-card",
+   "x": 209,
+   "y": 950,
+   "scale": 0.98,
+   "rotation": 0,
+   "z": 2950,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s06-slate",
+   "concept": "untagged:ambience",
+   "clue": "C09",
+   "sprite": "evid-c09",
+   "x": 1344,
+   "y": 594,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2094,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s08-logbook",
+   "concept": "untagged:ambience",
+   "clue": "C12",
+   "sprite": "evid-c12",
+   "x": 538,
+   "y": 842,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2342,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

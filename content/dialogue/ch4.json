@@ -1,0 +1,83 @@
+[
+ {
+  "id": "b4.1",
+  "chapter": 4,
+  "title": "Margo's Ground Rules",
+  "lines": [
+   { "speaker": "margo", "en": "My quarter, my rules: buy something at every third stall, argue about the price, and never point." },
+   { "speaker": "margo", "en": "The stalls each have a call. Tonight you find things by listening. Asking gets reported.", "garnish": { "level": "L1", "key": "so", "pos": "lead" } },
+   { "speaker": "narration", "en": "The Lantern Quarter on market night: paper light, vendor calls in her grandmother's tongue, and one stall that is quieter than it should be." }
+  ],
+  "caseLine": "Friday, the Lantern Quarter. Find the Lattice Stall without asking for it.",
+  "peopleFacts": []
+ },
+ {
+  "id": "b4.2",
+  "chapter": 4,
+  "title": "The Masked Meeting",
+  "lines": [
+   { "speaker": "ottilie", "en": "Go home, little wren. Some paintings prefer to be lost." },
+   { "speaker": "narration", "en": "A voice behind the lattice screen: polite, older, unhurried. Grey gloves at the screen's edge. She knows the first name nobody uses. Then the drop goes silent forever." },
+   { "speaker": "margo", "en": "You hear it? The Nachtigall — the nightingale. In Oma's stories she sings only where she cannot be seen.", "garnish": { "level": "L2", "key": "listen", "pos": "lead" } }
+  ],
+  "caseLine": "Found the drop. The Broker knows my name — the small one.",
+  "peopleFacts": [
+   { "characterId": "ottilie", "fact": "Voice: older, polite. Knows Halloway's first name. The market shields her.", "stamp": "unknown" }
+  ]
+ },
+ {
+  "id": "b4.3",
+  "chapter": 4,
+  "title": "Margo's Wobble",
+  "lines": [
+   { "speaker": "margo", "en": "My editor wants the museum-negligence story tonight. Printing it scatters the market — and the Broker with it." },
+   { "speaker": "margo", "en": "So I sit on it. On the record: I hate this beautifully." },
+   { "speaker": "narration", "en": "Her cost buys tonight's access. Allies stay clean in Marlowe Bay; they just don't stay comfortable." }
+  ],
+  "caseLine": "Margo sits on her story. The cost is hers; the access is ours.",
+  "peopleFacts": [
+   { "characterId": "margo", "fact": "Sat on the negligence story to protect the trail. It cost her." }
+  ]
+ },
+ {
+  "id": "b4.4",
+  "chapter": 4,
+  "title": "Rails Go Two Directions",
+  "lines": [
+   { "speaker": "margo", "en": "Who rides a freight tram at a quarter past eleven? Nobody with a clean conscience or a warm coat.", "garnish": { "level": "L1", "key": "well", "pos": "lead" } },
+   { "speaker": "narration", "en": "The depot keeps every waybill. The dispatcher communicates by thermos and pointing, and his lost signal-lamp key is on your list." },
+   { "speaker": "margo", "en": "Nothing up Clocktower Lane but pigeons and the old chart rooms. — Pigeons don't sign waybills, Halloway.", "echo": true }
+  ],
+  "caseLine": "Oct 11, 23:15: unscheduled freight to Clocktower Lane. Retired-staff pass No. 7.",
+  "peopleFacts": [
+   { "characterId": "ottilie", "fact": "Museum past — retired staff credentials." }
+  ]
+ },
+ {
+  "id": "b4.5",
+  "chapter": 4,
+  "title": "The Loft at Dawn",
+  "lines": [
+   { "speaker": "narration", "en": "6 Kestrel Lane, top floor, tenant 'away'. Pinholes, pounce-dust, artificially aged varnish. A copyist's studio — meticulous, left-handed, and gone." },
+   { "speaker": "margo", "en": "My abuela said: the house talks if nobody shouts. So — shh.", "garnish": { "level": "L2", "key": "listen", "pos": "lead" } }
+  ],
+  "caseLine": "The Daughter was pounced — copied full-size — in this room.",
+  "peopleFacts": [
+   { "characterId": "vane", "fact": "'E. Sarto': meticulous, away, no signatures anywhere.", "stamp": "unknown" }
+  ]
+ },
+ {
+  "id": "b4.6",
+  "chapter": 4,
+  "title": "Dead Men Don't Buy Linseed",
+  "lines": [
+   { "speaker": "narration", "en": "The green: ground copper-resinate in beeswax, labeled in a steady old hand matching the 1904 materials note. Left-hand wear on everything." },
+   { "speaker": "margo", "en": "Dead men don't buy linseed, Halloway." },
+   { "speaker": "narration", "en": "Two teacups, washed, on the drying rack. One resident. Two cups. Nobody says so." }
+  ],
+  "caseLine": "The copyist grinds Vane's green, letters like Vane, works left-handed. Vane's hand lives.",
+  "peopleFacts": [
+   { "characterId": "vane", "fact": "The recipe is his. The lettering is his. The hand is left.", "stamp": "unknown" }
+  ]
+ }
+]

@@ -1,0 +1,1822 @@
+{
+ "lang": "it",
+ "name": "Italiano",
+ "nameEn": "Italian",
+ "locale": "it-IT",
+ "greeting": "Benvenuto, detective.",
+ "slowRate": 0.72,
+ "articles": [
+  "il",
+  "lo",
+  "la",
+  "l'"
+ ],
+ "articleOptionSets": [
+  [
+   "il",
+   "lo",
+   "la",
+   "l'"
+  ]
+ ],
+ "articlePickWeight": 0.45,
+ "lexemes": [
+  {
+   "concept": "object:key",
+   "article": "la",
+   "word": "chiave",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le chiavi",
+   "phrase": "apre ogni porta"
+  },
+  {
+   "concept": "object:notebook",
+   "article": "il",
+   "word": "taccuino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:magnifier",
+   "article": "la",
+   "word": "lente",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "ingrandisce ogni cosa"
+  },
+  {
+   "concept": "object:coat",
+   "article": "il",
+   "word": "cappotto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hat",
+   "article": "il",
+   "word": "cappello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:lamp",
+   "article": "la",
+   "word": "lampada",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cup",
+   "article": "la",
+   "word": "tazza",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:umbrella",
+   "article": "l'",
+   "word": "ombrello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:frame",
+   "article": "la",
+   "word": "cornice",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "tiene fermo un quadro"
+  },
+  {
+   "concept": "object:rope",
+   "article": "la",
+   "word": "corda",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "serve per legare"
+  },
+  {
+   "concept": "object:crate",
+   "article": "la",
+   "word": "cassa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ladder",
+   "article": "la",
+   "word": "scala",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "«scala» is a ladder, a staircase, and a musical scale."
+  },
+  {
+   "concept": "object:glove",
+   "article": "il",
+   "word": "guanto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:screwdriver",
+   "article": "il",
+   "word": "cacciavite",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:label",
+   "article": "l'",
+   "word": "etichetta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le etichette"
+  },
+  {
+   "concept": "object:bench",
+   "article": "la",
+   "word": "panca",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chandelier",
+   "article": "il",
+   "word": "lampadario",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ledger",
+   "article": "il",
+   "word": "libro mastro",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:teacup",
+   "article": "la",
+   "word": "tazza da tè",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:envelope",
+   "article": "la",
+   "word": "busta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rubber-stamp",
+   "article": "il",
+   "word": "timbro",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i timbri"
+  },
+  {
+   "concept": "object:inkwell",
+   "article": "il",
+   "word": "calamaio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "custodisce l’inchiostro"
+  },
+  {
+   "concept": "object:scissors",
+   "article": "la",
+   "word": "forbice",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:folder",
+   "article": "la",
+   "word": "cartella",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le cartelle"
+  },
+  {
+   "concept": "object:monocle",
+   "article": "il",
+   "word": "monocolo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:telephone",
+   "article": "il",
+   "word": "telefono",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:blotter",
+   "article": "la",
+   "word": "carta assorbente",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:candle",
+   "article": "la",
+   "word": "candela",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sealing-wax",
+   "article": "la",
+   "word": "ceralacca",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:letter-opener",
+   "article": "il",
+   "word": "tagliacarte",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:calendar",
+   "article": "il",
+   "word": "calendario",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:drawer",
+   "article": "il",
+   "word": "cassetto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:photograph",
+   "article": "la",
+   "word": "foto",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ribbon",
+   "article": "il",
+   "word": "nastro",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:clock",
+   "article": "l'",
+   "word": "orologio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli orologi",
+   "phrase": "segna le ore"
+  },
+  {
+   "concept": "object:blueprint",
+   "article": "il",
+   "word": "progetto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:newspaper",
+   "article": "il",
+   "word": "giornale",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:map",
+   "article": "la",
+   "word": "mappa",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:box",
+   "article": "la",
+   "word": "scatola",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:lantern",
+   "article": "la",
+   "word": "lanterna",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le lanterne",
+   "phrase": "brilla nel buio"
+  },
+  {
+   "concept": "object:brush",
+   "article": "il",
+   "word": "pennello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i pennelli"
+  },
+  {
+   "concept": "object:ink",
+   "article": "l'",
+   "word": "inchiostro",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stool",
+   "article": "lo",
+   "word": "sgabello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:string",
+   "article": "il",
+   "word": "filo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:magnet",
+   "article": "il",
+   "word": "magnete",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:register",
+   "article": "il",
+   "word": "registro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:card-index",
+   "article": "lo",
+   "word": "schedario",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:portrait",
+   "article": "il",
+   "word": "ritratto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ruler",
+   "article": "il",
+   "word": "righello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:compass",
+   "article": "il",
+   "word": "compasso",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sextant",
+   "article": "il",
+   "word": "sestante",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:seal",
+   "article": "il",
+   "word": "sigillo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gazette",
+   "article": "la",
+   "word": "gazzetta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:manifest",
+   "article": "il",
+   "word": "manifesto",
+   "glyph": "▲",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "Careful — «manifesto» usually means “poster” in Italian."
+  },
+  {
+   "concept": "object:seagull",
+   "article": "il",
+   "word": "gabbiano",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i gabbiani"
+  },
+  {
+   "concept": "object:anchor",
+   "article": "l'",
+   "word": "ancora",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:barrel",
+   "article": "il",
+   "word": "barile",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hook",
+   "article": "il",
+   "word": "gancio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:net",
+   "article": "la",
+   "word": "rete",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bell",
+   "article": "la",
+   "word": "campana",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bollard",
+   "article": "la",
+   "word": "bitta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chain",
+   "article": "la",
+   "word": "catena",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tarpaulin",
+   "article": "il",
+   "word": "telone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:winch",
+   "article": "l'",
+   "word": "argano",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gangplank",
+   "article": "la",
+   "word": "passerella",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oilskin",
+   "article": "l'",
+   "word": "incerata",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:whistle",
+   "article": "il",
+   "word": "fischietto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cat",
+   "article": "il",
+   "word": "gatto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:padlock",
+   "article": "il",
+   "word": "lucchetto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bottle",
+   "article": "la",
+   "word": "bottiglia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le bottiglie",
+   "phrase": "contiene il vino"
+  },
+  {
+   "concept": "object:tankard",
+   "article": "il",
+   "word": "boccale",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:dartboard",
+   "article": "il",
+   "word": "bersaglio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chalk",
+   "article": "il",
+   "word": "gesso",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bread",
+   "article": "il",
+   "word": "pane",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cheese",
+   "article": "il",
+   "word": "formaggio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:playing-card",
+   "article": "la",
+   "word": "carta",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "«carta» also means “paper” — context decides."
+  },
+  {
+   "concept": "object:kettle",
+   "article": "il",
+   "word": "bollitore",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pipe",
+   "article": "la",
+   "word": "pipa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:logbook",
+   "article": "il",
+   "word": "giornale di bordo",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:apron",
+   "article": "il",
+   "word": "grembiule",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:mousetrap",
+   "article": "la",
+   "word": "trappola",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:jug",
+   "article": "la",
+   "word": "brocca",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:broom",
+   "article": "la",
+   "word": "scopa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:coin",
+   "article": "la",
+   "word": "moneta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:match",
+   "article": "il",
+   "word": "fiammifero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:towel",
+   "article": "l'",
+   "word": "asciugamano",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:scale",
+   "article": "la",
+   "word": "bilancia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:twine",
+   "article": "lo",
+   "word": "spago",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:funnel",
+   "article": "l'",
+   "word": "imbuto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:typewriter",
+   "article": "la",
+   "word": "macchina da scrivere",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sack",
+   "article": "il",
+   "word": "sacco",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tea-chest",
+   "article": "la",
+   "word": "cassa da tè",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:birdcage",
+   "article": "la",
+   "word": "gabbia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hand-truck",
+   "article": "la",
+   "word": "carriola",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:suitcase",
+   "article": "la",
+   "word": "valigia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le valigie",
+   "phrase": "viaggia con te"
+  },
+  {
+   "concept": "object:palm",
+   "article": "la",
+   "word": "palma",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cane",
+   "article": "il",
+   "word": "bastone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hatbox",
+   "article": "la",
+   "word": "cappelliera",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:key-rack",
+   "article": "la",
+   "word": "rastrelliera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ashtray",
+   "article": "il",
+   "word": "posacenere",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tray",
+   "article": "il",
+   "word": "vassoio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:champagne-bucket",
+   "article": "il",
+   "word": "secchiello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:umbrella-stand",
+   "article": "il",
+   "word": "portaombrelli",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:luggage-cart",
+   "article": "il",
+   "word": "portabagagli",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:letter",
+   "article": "la",
+   "word": "lettera",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:carnation",
+   "article": "il",
+   "word": "garofano",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cigarette-case",
+   "article": "il",
+   "word": "portasigarette",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:saucer",
+   "article": "il",
+   "word": "piattino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:candlestick",
+   "article": "il",
+   "word": "candeliere",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i candelieri"
+  },
+  {
+   "concept": "object:violin",
+   "article": "il",
+   "word": "violino",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "canta con le corde"
+  },
+  {
+   "concept": "object:globe",
+   "article": "il",
+   "word": "globo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "il mondo intero, rotondo"
+  },
+  {
+   "concept": "object:mirror",
+   "article": "lo",
+   "word": "specchio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "mostra il tuo viso"
+  },
+  {
+   "concept": "object:vase",
+   "article": "il",
+   "word": "vaso",
+   "glyph": "▲",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "«vaso» can be a vase or a flowerpot."
+  },
+  {
+   "concept": "object:medal",
+   "article": "la",
+   "word": "medaglia",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:fan",
+   "article": "il",
+   "word": "ventaglio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chessboard",
+   "article": "la",
+   "word": "scacchiera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stamp-die",
+   "article": "il",
+   "word": "punzone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:telescope",
+   "article": "il",
+   "word": "telescopio",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "avvicina le stelle"
+  },
+  {
+   "concept": "object:curtain",
+   "article": "la",
+   "word": "tenda",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:strongbox",
+   "article": "la",
+   "word": "cassaforte",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rug",
+   "article": "il",
+   "word": "tappeto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:crowbar",
+   "article": "il",
+   "word": "piede di porco",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:snuffbox",
+   "article": "la",
+   "word": "tabacchiera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:letter-scale",
+   "article": "il",
+   "word": "pesalettere",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:key-ring",
+   "article": "il",
+   "word": "portachiavi",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:file",
+   "article": "il",
+   "word": "fascicolo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cashbox",
+   "article": "la",
+   "word": "cassetta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cufflink",
+   "article": "il",
+   "word": "gemello",
+   "glyph": "▲",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "«gemello» also means “twin.”"
+  },
+  {
+   "concept": "object:razor",
+   "article": "il",
+   "word": "rasoio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:shoehorn",
+   "article": "il",
+   "word": "calzascarpe",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pocket-watch",
+   "article": "l'",
+   "word": "orologio da tasca",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "le ore, in tasca"
+  },
+  {
+   "concept": "object:decanter",
+   "article": "la",
+   "word": "caraffa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:slipper",
+   "article": "la",
+   "word": "pantofola",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cravat",
+   "article": "la",
+   "word": "cravatta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:travel-case",
+   "article": "la",
+   "word": "valigetta",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:fountain-pen",
+   "article": "la",
+   "word": "stilografica",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:orange",
+   "article": "l'",
+   "word": "arancia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le arance"
+  },
+  {
+   "concept": "object:scarf",
+   "article": "la",
+   "word": "sciarpa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:basket",
+   "article": "il",
+   "word": "cesto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:garlic",
+   "article": "l'",
+   "word": "aglio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pepper",
+   "article": "il",
+   "word": "peperone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:fish",
+   "article": "il",
+   "word": "pesce",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:teapot",
+   "article": "la",
+   "word": "teiera",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:drum",
+   "article": "il",
+   "word": "tamburo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:jar",
+   "article": "il",
+   "word": "barattolo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i barattoli"
+  },
+  {
+   "concept": "object:cloth-bolt",
+   "article": "il",
+   "word": "rotolo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:thimble",
+   "article": "il",
+   "word": "ditale",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:button",
+   "article": "il",
+   "word": "bottone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:mortar",
+   "article": "il",
+   "word": "mortaio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bead",
+   "article": "la",
+   "word": "perlina",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:loom",
+   "article": "il",
+   "word": "telaio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oil-flask",
+   "article": "l'",
+   "word": "ampolla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:easel",
+   "article": "il",
+   "word": "cavalletto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "regge il quadro del pittore"
+  },
+  {
+   "concept": "object:wrench",
+   "article": "la",
+   "word": "chiave inglese",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "A wrench is a «chiave inglese» — an “English key.”"
+  },
+  {
+   "concept": "object:oilcan",
+   "article": "l'",
+   "word": "oliera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:timetable",
+   "article": "l'",
+   "word": "orario",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ticket",
+   "article": "il",
+   "word": "biglietto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i biglietti"
+  },
+  {
+   "concept": "object:signal-lamp",
+   "article": "la",
+   "word": "lampada di segnale",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:toolbox",
+   "article": "la",
+   "word": "cassetta degli attrezzi",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gear",
+   "article": "l'",
+   "word": "ingranaggio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli ingranaggi"
+  },
+  {
+   "concept": "object:cap",
+   "article": "il",
+   "word": "berretto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:waybill",
+   "article": "la",
+   "word": "bolla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:palette",
+   "article": "la",
+   "word": "tavolozza",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rag",
+   "article": "lo",
+   "word": "straccio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:window-pole",
+   "article": "la",
+   "word": "pertica",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:smock",
+   "article": "il",
+   "word": "camice",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:charcoal",
+   "article": "il",
+   "word": "carboncino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:laundry-line",
+   "article": "lo",
+   "word": "stendino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stove",
+   "article": "la",
+   "word": "stufa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sketchbook",
+   "article": "l'",
+   "word": "album",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pestle",
+   "article": "il",
+   "word": "pestello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:beeswax",
+   "article": "la",
+   "word": "cera d’api",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:palette-knife",
+   "article": "la",
+   "word": "spatola",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gavel",
+   "article": "il",
+   "word": "martelletto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "dice l’ultima parola"
+  },
+  {
+   "concept": "object:paddle",
+   "article": "la",
+   "word": "paletta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "si alza per offrire"
+  },
+  {
+   "concept": "object:cushion",
+   "article": "il",
+   "word": "cuscino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "morbido, per sedersi"
+  },
+  {
+   "concept": "object:catalogue",
+   "article": "il",
+   "word": "catalogo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "elenca tutti i lotti"
+  },
+  {
+   "concept": "object:candelabra",
+   "article": "il",
+   "word": "candelabro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "porta molte candele"
+  },
+  {
+   "concept": "object:trolley",
+   "article": "il",
+   "word": "carrello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:blanket",
+   "article": "la",
+   "word": "coperta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:telegram-form",
+   "article": "il",
+   "word": "modulo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stencil",
+   "article": "lo",
+   "word": "stampino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:flowerpot",
+   "article": "il",
+   "word": "vaso da fiori",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i vasi da fiori"
+  },
+  {
+   "concept": "object:watering-can",
+   "article": "l'",
+   "word": "annaffiatoio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:orchid",
+   "article": "l'",
+   "word": "orchidea",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:trowel",
+   "article": "la",
+   "word": "cazzuola",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:thermometer",
+   "article": "il",
+   "word": "termometro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:shears",
+   "article": "la",
+   "word": "cesoia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hose",
+   "article": "la",
+   "word": "canna",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pigeon",
+   "article": "il",
+   "word": "piccione",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chart-tube",
+   "article": "il",
+   "word": "tubo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:brazier",
+   "article": "il",
+   "word": "braciere",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:trunk",
+   "article": "il",
+   "word": "baule",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:kiosk",
+   "article": "il",
+   "word": "chiosco",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pressure-gauge",
+   "article": "il",
+   "word": "manometro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:mailbag",
+   "article": "il",
+   "word": "sacco postale",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:luggage-tag",
+   "article": "il",
+   "word": "cartellino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oar",
+   "article": "il",
+   "word": "remo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i remi"
+  },
+  {
+   "concept": "object:lifebuoy",
+   "article": "il",
+   "word": "salvagente",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tackle-box",
+   "article": "la",
+   "word": "cassetta da pesca",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rain-hat",
+   "article": "il",
+   "word": "cappello da pioggia",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:flare",
+   "article": "il",
+   "word": "razzo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:barometer",
+   "article": "il",
+   "word": "barometro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:dust-sheet",
+   "article": "il",
+   "word": "lenzuolo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:glass-shard",
+   "article": "la",
+   "word": "scheggia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:handcuffs",
+   "article": "la",
+   "word": "manetta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:plaster-cast",
+   "article": "il",
+   "word": "calco",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  }
+ ],
+ "tokens": [
+  {
+   "key": "well",
+   "level": "L1",
+   "text": "Allora",
+   "gloss": "well / so"
+  },
+  {
+   "key": "so",
+   "level": "L1",
+   "text": "Vediamo.",
+   "gloss": "let's see"
+  },
+  {
+   "key": "look",
+   "level": "L1",
+   "text": "Guarda",
+   "gloss": "look"
+  },
+  {
+   "key": "there",
+   "level": "L1",
+   "text": "Ecco",
+   "gloss": "there it is"
+  },
+  {
+   "key": "right",
+   "level": "L1",
+   "text": "no?",
+   "gloss": "right?"
+  },
+  {
+   "key": "quiet",
+   "level": "L1",
+   "text": "Ferma!",
+   "gloss": "hold still / quiet"
+  },
+  {
+   "key": "eh",
+   "level": "L1",
+   "text": "eh?",
+   "gloss": "okay? / eh?"
+  },
+  {
+   "key": "careful",
+   "level": "L2",
+   "text": "Occhio",
+   "gloss": "watch out"
+  },
+  {
+   "key": "listen",
+   "level": "L2",
+   "text": "Senti",
+   "gloss": "listen"
+  },
+  {
+   "key": "goodness",
+   "level": "L2",
+   "text": "Madonna santa",
+   "gloss": "good heavens"
+  },
+  {
+   "key": "tja",
+   "level": "L2",
+   "text": "Beh",
+   "gloss": "well then"
+  },
+  {
+   "key": "see",
+   "level": "L2",
+   "text": "Visto?",
+   "gloss": "see?"
+  }
+ ],
+ "vendorCalls": [
+  "Arance fresche! Dolci come l’estate!",
+  "Pesce! Stamattina nuotava ancora!",
+  "Lanterne! Luce per vicoli bui!",
+  "Sciarpe morbide e calde!"
+ ],
+ "signage": [
+  "VICOLO DELLA LANTERNA",
+  "ALL’ANCORA",
+  "MONTE DEI PEGNI",
+  "MERCATO — VENERDÌ"
+ ]
+}

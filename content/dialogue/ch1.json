@@ -1,0 +1,102 @@
+[
+ {
+  "id": "b1.1",
+  "chapter": 1,
+  "title": "The Letter Under the Door",
+  "lines": [
+   { "speaker": "narration", "en": "Marlowe Bay, 1927. Rain on the window, forty numbered notebooks on the shelf, and a letter under the door before the kettle has said a word." },
+   { "speaker": "letter", "en": "Aldermere Assurance retains W. Halloway in the matter of the Belmont Museum. The painting is gone; the frame is not. Gallery access at dawn — before the public, after the police." },
+   { "speaker": "letter", "en": "P.S. — The hat is optional. The discretion is not. Clause 9 applies. — Pettibone" },
+   { "speaker": "narration", "en": "Dawn is in four hours. Time to assemble the kit — if the office will surrender it." }
+  ],
+  "caseLine": "Took the Aldermere job. The Belmont's masterpiece is a hole in a frame.",
+  "peopleFacts": []
+ },
+ {
+  "id": "b1.2",
+  "chapter": 1,
+  "title": "Dawn at the Belmont",
+  "lines": [
+   { "speaker": "adele", "en": "Twenty-six years that wall held her. The Cartographer's Daughter. And now it holds… geometry." },
+   { "speaker": "holt", "en": "Insurance. Wonderful. The vultures sent a librarian. Touch nothing. Find everything. In that order." },
+   { "speaker": "adele", "en": "You have the room, detective. Not the people. The board was very clear about the people." },
+   { "speaker": "narration", "en": "The gallery is half-dressed for an unveiling that will never happen. Every crate and dust sheet is a witness." }
+  ],
+  "caseLine": "Access granted to the room, not the people. Holt is territorial; Adele is brittle.",
+  "peopleFacts": [
+   { "characterId": "adele", "fact": "Curator; career built on the 1926 acquisition.", "stamp": "unknown" },
+   { "characterId": "holt", "fact": "Fair, territorial. 'Every locked room has a key with a salary.'", "stamp": "unknown" }
+  ]
+ },
+ {
+  "id": "b1.3",
+  "chapter": 1,
+  "title": "Swapped, Not Forced",
+  "lines": [
+   { "speaker": "holt", "en": "Workroom says the cradle was re-tensioned correctly. Correctly, Halloway. My burglars don't do 'correctly'." },
+   { "speaker": "narration", "en": "The frame was swapped, not forced — hung by someone who loved it. And the lining is split: fragments of paper inside." },
+   { "speaker": "holt", "en": "Every locked room has a key with a salary. Find me the salary." }
+  ],
+  "caseLine": "The frame was swapped, not forced. Expert hands. Inside knowledge.",
+  "peopleFacts": [
+   { "characterId": "finch", "fact": "Night guard; last to see the gallery whole.", "stamp": "witness" }
+  ]
+ },
+ {
+  "id": "b1.4",
+  "chapter": 1,
+  "title": "The Adele Interview",
+  "lines": [
+   { "speaker": "adele", "en": "Estate consignment, brokered by Victor Casal. Sixty thousand crowns. The anniversary unveiling was to be my— the museum's triumph." },
+   { "speaker": "narration", "en": "She is precise about everything except her own hands, which have not stopped moving since the word 'triumph'." },
+   { "speaker": "adele", "en": "The paperwork is in my office. All of it. I have nothing to hide from paper." }
+  ],
+  "caseLine": "The Daughter was bought in 1926. Sixty thousand crowns. Brokered by Victor Casal.",
+  "peopleFacts": [
+   { "characterId": "casal", "fact": "Broker of record for the 1926 sale.", "stamp": "unknown" },
+   { "characterId": "adele", "fact": "Precise about everything except her own hands." }
+  ]
+ },
+ {
+  "id": "b1.5",
+  "chapter": 1,
+  "title": "Margo, on the Steps",
+  "lines": [
+   { "speaker": "margo", "en": "Wren Halloway. I know Holt's cabbie story before Holt does — a lady curator, back at the museum at half past eleven, theft night.", "garnish": { "level": "L1", "key": "well", "pos": "lead" } },
+   { "speaker": "margo", "en": "Trade you: my facts for your access. I write nothing until it's true, and I buy the coffee." },
+   { "speaker": "narration", "en": "Margo Lin, Lantern Quarter's finest byline. Her grandmother's quarter speaks the language you're learning — which makes her useful twice." },
+   { "speaker": "margo", "en": "You'll want to see her desk, not her files. Desks confess.", "garnish": { "level": "L1", "key": "look", "pos": "lead" } }
+  ],
+  "caseLine": "Margo Lin is in. Her price: the truth, first. Her cabbie places Adele at the museum, 23:30, theft night.",
+  "peopleFacts": [
+   { "characterId": "margo", "fact": "Journalist, Lantern Quarter. Trades access for facts.", "stamp": "ally" },
+   { "characterId": "adele", "fact": "Unexplained 23:30 return on theft night.", "stamp": "suspect" }
+  ]
+ },
+ {
+  "id": "b1.6",
+  "chapter": 1,
+  "title": "Holt's Price",
+  "lines": [
+   { "speaker": "holt", "en": "Archives access, granted. My price: everything you find, I hear first. Not the papers. Not your journalist. First." },
+   { "speaker": "narration", "en": "Down the corridor, Tobias Finch ends his shift with his eyes on his shoes, giving the gallery door the widest berth the corridor allows." }
+  ],
+  "caseLine": "Archives access via Holt. Finch won't look at the gallery door.",
+  "peopleFacts": [
+   { "characterId": "finch", "fact": "Won't look at the gallery door." }
+  ]
+ },
+ {
+  "id": "b1.7",
+  "chapter": 1,
+  "title": "The Pawn Ticket",
+  "lines": [
+   { "speaker": "narration", "en": "The reassembled lining gives up its secret: a pawn ticket. Brassbound Pawn, Quayside, No. 77 — one brass sextant, forty crowns." },
+   { "speaker": "margo", "en": "Quayside. I know a pawnbroker who owes my Oma money. He'll talk — about the lumbago first, then everything else.", "garnish": { "level": "L2", "key": "see", "pos": "lead" }, "echo": true },
+   { "speaker": "margo", "en": "And you found {echo} today. Keep it. Words are evidence too.", "echo": true }
+  ],
+  "caseLine": "The cradle has an author: O. Marsh, 1905. And the lining held a pawn ticket — Quayside, No. 77.",
+  "peopleFacts": [],
+  "flavorChoice": { "dry": "The harbor, then. Bring your lumbago sympathy.", "warm": "The harbor, then. Buy the man some liniment on the way." }
+ }
+]

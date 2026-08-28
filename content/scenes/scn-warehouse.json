@@ -1,0 +1,411 @@
+{
+ "id": "scn-warehouse",
+ "name": "Customs Warehouse",
+ "locationId": "warehouse",
+ "lightState": "lamplit",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#3c4148",
+  "wallBottom": "#565c63",
+  "floor": "#3a362d",
+  "accent": "#c0913e",
+  "motifs": [
+   {
+    "kind": "rect",
+    "x": 120,
+    "y": 120,
+    "w": 540,
+    "h": 480,
+    "color": "#2e3237",
+    "alpha": 0.9
+   },
+   {
+    "kind": "rect",
+    "x": 1300,
+    "y": 160,
+    "w": 500,
+    "h": 440,
+    "color": "#2e3237",
+    "alpha": 0.9
+   },
+   {
+    "kind": "window",
+    "x": 860,
+    "y": 90,
+    "w": 220,
+    "h": 200,
+    "color": "#8fa1b5",
+    "alpha": 0.5
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 182,
+   "y": 417,
+   "r": 300
+  },
+  {
+   "x": 257,
+   "y": 504,
+   "r": 300
+  },
+  {
+   "x": 1630,
+   "y": 560,
+   "r": 300
+  },
+  {
+   "x": 1208,
+   "y": 782,
+   "r": 300
+  },
+  {
+   "x": 646,
+   "y": 993,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "p-warehouse-crate-1",
+   "concept": "object:crate",
+   "sprite": "prop-crate",
+   "x": 182,
+   "y": 417,
+   "scale": 0.59,
+   "rotation": 7,
+   "z": 417,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-warehouse-7",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 436,
+   "y": 447,
+   "scale": 0.59,
+   "rotation": 0,
+   "z": 447,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-warehouse-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 762,
+   "y": 393,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 393,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-funnel-1",
+   "concept": "object:funnel",
+   "sprite": "prop-funnel",
+   "x": 1032,
+   "y": 491,
+   "scale": 0.51,
+   "rotation": 8,
+   "z": 491,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-barrel-1",
+   "concept": "object:barrel",
+   "sprite": "prop-barrel",
+   "x": 1276,
+   "y": 580,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 580,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-crate-2",
+   "concept": "object:crate",
+   "sprite": "prop-crate",
+   "x": 1374,
+   "y": 561,
+   "scale": 0.55,
+   "rotation": 0,
+   "z": 561,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-warehouse-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1629,
+   "y": 440,
+   "scale": 0.6,
+   "rotation": 0,
+   "z": 440,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-typewriter-1",
+   "concept": "object:typewriter",
+   "sprite": "prop-typewriter",
+   "x": 257,
+   "y": 504,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 504,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-warehouse-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 475,
+   "y": 455,
+   "scale": 0.6,
+   "rotation": 6,
+   "z": 455,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-padlock-1",
+   "concept": "object:padlock",
+   "sprite": "prop-padlock",
+   "x": 731,
+   "y": 534,
+   "scale": 0.58,
+   "rotation": 0,
+   "z": 534,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-tea-chest-1",
+   "concept": "object:tea-chest",
+   "sprite": "prop-tea-chest",
+   "x": 977,
+   "y": 550,
+   "scale": 0.52,
+   "rotation": 7,
+   "z": 550,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-warehouse-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1156,
+   "y": 586,
+   "scale": 0.61,
+   "rotation": 0,
+   "z": 586,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-sack-1",
+   "concept": "object:sack",
+   "sprite": "prop-sack",
+   "x": 1400,
+   "y": 588,
+   "scale": 0.55,
+   "rotation": 0,
+   "z": 588,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-bell-1",
+   "concept": "object:bell",
+   "sprite": "prop-bell",
+   "x": 1630,
+   "y": 560,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 560,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-umbrella-1",
+   "concept": "object:umbrella",
+   "sprite": "prop-umbrella",
+   "x": 241,
+   "y": 703,
+   "scale": 0.86,
+   "rotation": 0,
+   "z": 1703,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-birdcage-1",
+   "concept": "object:birdcage",
+   "sprite": "prop-birdcage",
+   "x": 521,
+   "y": 729,
+   "scale": 0.77,
+   "rotation": 0,
+   "z": 1729,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-rubber-stamp-1",
+   "concept": "object:rubber-stamp",
+   "sprite": "prop-rubber-stamp",
+   "x": 740,
+   "y": 728,
+   "scale": 0.85,
+   "rotation": -8,
+   "z": 1728,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-warehouse-8",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 968,
+   "y": 714,
+   "scale": 0.76,
+   "rotation": 0,
+   "z": 1714,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-ledger-1",
+   "concept": "object:ledger",
+   "sprite": "prop-ledger",
+   "x": 1208,
+   "y": 782,
+   "scale": 0.7,
+   "rotation": -4,
+   "z": 1782,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-warehouse-hand-truck-1",
+   "concept": "object:hand-truck",
+   "sprite": "prop-hand-truck",
+   "x": 1375,
+   "y": 575,
+   "scale": 0.86,
+   "rotation": 0,
+   "z": 1575,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-warehouse-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 1672,
+   "y": 797,
+   "scale": 0.82,
+   "rotation": 0,
+   "z": 1797,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-twine-1",
+   "concept": "object:twine",
+   "sprite": "prop-twine",
+   "x": 229,
+   "y": 955,
+   "scale": 1,
+   "rotation": 0,
+   "z": 2955,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-seal-1",
+   "concept": "object:seal",
+   "sprite": "prop-seal",
+   "x": 463,
+   "y": 947,
+   "scale": 1.03,
+   "rotation": 0,
+   "z": 2947,
+   "band": "fg",
+   "flipX": true
+  },
+  {
+   "id": "p-warehouse-scale-1",
+   "concept": "object:scale",
+   "sprite": "prop-scale",
+   "x": 646,
+   "y": 993,
+   "scale": 1.07,
+   "rotation": 0,
+   "z": 2993,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-warehouse-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 910,
+   "y": 818,
+   "scale": 0.91,
+   "rotation": 0,
+   "z": 2818,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-rubber-stamp-2",
+   "concept": "object:rubber-stamp",
+   "sprite": "prop-rubber-stamp",
+   "x": 1186,
+   "y": 900,
+   "scale": 0.93,
+   "rotation": 0,
+   "z": 2900,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-warehouse-sack-2",
+   "concept": "object:sack",
+   "sprite": "prop-sack",
+   "x": 1460,
+   "y": 887,
+   "scale": 0.95,
+   "rotation": 0,
+   "z": 2887,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s09-stamp",
+   "concept": "untagged:ambience",
+   "clue": "C13",
+   "sprite": "evid-c13",
+   "x": 1056,
+   "y": 734,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2234,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

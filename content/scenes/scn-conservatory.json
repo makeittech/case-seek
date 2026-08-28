@@ -1,0 +1,301 @@
+{
+ "id": "scn-conservatory",
+ "name": "The Conservatory",
+ "locationId": "conservatory",
+ "lightState": "day",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#87a08b",
+  "wallBottom": "#a8bda6",
+  "floor": "#66604a",
+  "accent": "#71a35e",
+  "motifs": [
+   {
+    "kind": "window",
+    "x": 240,
+    "y": 80,
+    "w": 380,
+    "h": 480,
+    "color": "#d3e4cf",
+    "alpha": 0.7
+   },
+   {
+    "kind": "window",
+    "x": 1300,
+    "y": 80,
+    "w": 380,
+    "h": 480,
+    "color": "#d3e4cf",
+    "alpha": 0.7
+   },
+   {
+    "kind": "arch",
+    "x": 780,
+    "y": 60,
+    "w": 360,
+    "h": 560,
+    "color": "#7e937b",
+    "alpha": 0.7
+   }
+  ]
+ },
+ "lightPools": [],
+ "props": [
+  {
+   "id": "amb-conservatory-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 193,
+   "y": 441,
+   "scale": 0.5,
+   "rotation": 0,
+   "z": 441,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-conservatory-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 482,
+   "y": 531,
+   "scale": 0.63,
+   "rotation": 4,
+   "z": 531,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-orchid-1",
+   "concept": "object:orchid",
+   "sprite": "prop-orchid",
+   "x": 752,
+   "y": 580,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 580,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-trowel-1",
+   "concept": "object:trowel",
+   "sprite": "prop-trowel",
+   "x": 1091,
+   "y": 471,
+   "scale": 0.54,
+   "rotation": 5,
+   "z": 471,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-birdcage-1",
+   "concept": "object:birdcage",
+   "sprite": "prop-birdcage",
+   "x": 1374,
+   "y": 571,
+   "scale": 0.51,
+   "rotation": 0,
+   "z": 571,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-bench-1",
+   "concept": "object:bench",
+   "sprite": "prop-bench",
+   "x": 1732,
+   "y": 446,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 446,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-thermometer-1",
+   "concept": "object:thermometer",
+   "sprite": "prop-thermometer",
+   "x": 281,
+   "y": 479,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 479,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-conservatory-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 613,
+   "y": 542,
+   "scale": 0.59,
+   "rotation": 0,
+   "z": 542,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-cat-1",
+   "concept": "object:cat",
+   "sprite": "prop-cat",
+   "x": 823,
+   "y": 514,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 514,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-conservatory-glove-1",
+   "concept": "object:glove",
+   "sprite": "prop-glove",
+   "x": 1102,
+   "y": 441,
+   "scale": 0.61,
+   "rotation": 0,
+   "z": 441,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-flowerpot-1",
+   "concept": "object:flowerpot",
+   "sprite": "prop-flowerpot",
+   "x": 1470,
+   "y": 491,
+   "scale": 0.58,
+   "rotation": 6,
+   "z": 491,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-sketchbook-1",
+   "concept": "object:sketchbook",
+   "sprite": "prop-sketchbook",
+   "x": 1656,
+   "y": 391,
+   "scale": 0.64,
+   "rotation": 0,
+   "z": 391,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-conservatory-watering-can-1",
+   "concept": "object:watering-can",
+   "sprite": "prop-watering-can",
+   "x": 194,
+   "y": 738,
+   "scale": 0.81,
+   "rotation": 0,
+   "z": 1738,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-shears-1",
+   "concept": "object:shears",
+   "sprite": "prop-shears",
+   "x": 597,
+   "y": 583,
+   "scale": 0.66,
+   "rotation": 1,
+   "z": 1583,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-conservatory-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 888,
+   "y": 594,
+   "scale": 0.77,
+   "rotation": 0,
+   "z": 1594,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-flowerpot-2",
+   "concept": "object:flowerpot",
+   "sprite": "prop-flowerpot",
+   "x": 1041,
+   "y": 608,
+   "scale": 0.8,
+   "rotation": 0,
+   "z": 1608,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "amb-conservatory-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1382,
+   "y": 610,
+   "scale": 0.82,
+   "rotation": 0,
+   "z": 1610,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-flowerpot-3",
+   "concept": "object:flowerpot",
+   "sprite": "prop-flowerpot",
+   "x": 1661,
+   "y": 636,
+   "scale": 0.84,
+   "rotation": 4,
+   "z": 1636,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-conservatory-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 195,
+   "y": 788,
+   "scale": 1.02,
+   "rotation": 6,
+   "z": 2788,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-conservatory-hose-1",
+   "concept": "object:hose",
+   "sprite": "prop-hose",
+   "x": 603,
+   "y": 904,
+   "scale": 1.06,
+   "rotation": 0,
+   "z": 2904,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s22-sketchbook",
+   "concept": "untagged:ambience",
+   "clue": "C28",
+   "sprite": "evid-c28",
+   "x": 1075,
+   "y": 756,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2256,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

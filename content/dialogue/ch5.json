@@ -1,0 +1,107 @@
+[
+ {
+  "id": "b5.1",
+  "chapter": 5,
+  "title": "An Auction, Conveniently",
+  "lines": [
+   { "speaker": "margo", "en": "A 'Vane estate studies' sale, announced the very month the case runs hot. Timing like that is a message. Someone is liquidating." },
+   { "speaker": "casal", "en": "Preview passes, with my compliments. Do give the consignor my regards. All of them." }
+  ],
+  "caseLine": "The Vane estate-studies auction is announced. Margo smells liquidation.",
+  "peopleFacts": []
+ },
+ {
+  "id": "b5.2",
+  "chapter": 5,
+  "title": "The Map Doesn't Match",
+  "lines": [
+   { "speaker": "narration", "en": "Lot 9 against the catalog photograph: the 1904 study has no North Mole. The museum's '1904' painting does. The Mole was built in 1921." },
+   { "speaker": "margo", "en": "The brooch. My Oma had one polished lie like that: wear a bird, sing nothing.", "garnish": { "level": "L2", "key": "look", "pos": "lead" } }
+  ],
+  "caseLine": "Lot 9, 1904 study: no North Mole on the map. The museum's painting has one.",
+  "peopleFacts": []
+ },
+ {
+  "id": "b5.3",
+  "chapter": 5,
+  "title": "Grief With a Timetable",
+  "lines": [
+   { "speaker": "margo", "en": "Estate sales are grief with a catalog. This one's grief with a timetable." },
+   { "speaker": "narration", "en": "The consignor is liquidating everything for bearer bonds, collect by month's end. Someone is packing a life into a suitcase." }
+  ],
+  "caseLine": "Aurelia Trust is liquidating everything for bearer bonds. Month's end.",
+  "peopleFacts": [
+   { "characterId": "ottilie", "fact": "Consignor of Vane material for years — Aurelia Trust." }
+  ]
+ },
+ {
+  "id": "b5.4",
+  "chapter": 5,
+  "title": "Adele's Confession",
+  "lines": [
+   { "speaker": "adele", "en": "I found the anomaly two years ago. I buried it, and booked Lorentz to dig it back up when I was brave enough. That was the examination." },
+   { "speaker": "adele", "en": "Ottilie Marsh taught me everything. Then the board needed a name, and I let them spend hers." },
+   { "speaker": "narration", "en": "Guilty people don't schedule their own exposure. Herring number one, resolved — at the price of watching her pay it." }
+  ],
+  "caseLine": "Adele scheduled her own exposure. Cleared — and estranged from her teacher since 1921.",
+  "peopleFacts": [
+   { "characterId": "adele", "fact": "Buried the anomaly, then booked the exam that would expose it.", "stamp": "cleared" },
+   { "characterId": "ottilie", "fact": "Taught Adele. Dismissed 1921 when 'the board needed a name.'" }
+  ]
+ },
+ {
+  "id": "b5.5",
+  "chapter": 5,
+  "title": "Tea With Ottilie Marsh",
+  "lines": [
+   { "speaker": "ottilie", "en": "I haven't set foot in the Belmont since 1921. Whoever hung that frame level should be consulted, not hunted." },
+   { "speaker": "narration", "en": "A widow's flat, precise as a museum case. She pours exactly, corrects your grip on the cup out of professional habit, and denies nothing that's true." },
+   { "speaker": "margo", "en": "An orchid on her sill. Conservatory stock. She never named the glasshouse; her windowsill did.", "garnish": { "level": "L1", "key": "look", "pos": "lead" } }
+  ],
+  "caseLine": "Tea with Ottilie Marsh. The season's finest non-lie, and an orchid-shaped question.",
+  "peopleFacts": [
+   { "characterId": "ottilie", "fact": "'I haven't set foot in the Belmont since 1921.' True. Until Sunday.", "stamp": "unknown" }
+  ]
+ },
+ {
+  "id": "b5.6",
+  "chapter": 5,
+  "title": "Two People",
+  "lines": [
+   { "speaker": "margo", "en": "Wire from my auction contact: the Trust's courier moved papers this hour. And Sarto has not left the glasshouse all day." },
+   { "speaker": "narration", "en": "The Broker and the painter are two people. The wrong theory dies with witnesses present." }
+  ],
+  "caseLine": "The Broker and the painter are two people. The Vane theory dies honestly.",
+  "peopleFacts": [
+   { "characterId": "vane", "fact": "Alive, gentle, and demonstrably not the Broker.", "stamp": "cleared" }
+  ]
+ },
+ {
+  "id": "b5.7",
+  "chapter": 5,
+  "title": "Casal's Midnight Summons",
+  "lines": [
+   { "speaker": "casal", "en": "They stole from me, detective. There are rules." },
+   { "speaker": "narration", "en": "Intruders took exactly one thing: the 1926 sale file. But Casal is Casal — the duplicate is in the floor safe, and outrage has made him generous." }
+  ],
+  "caseLine": "The Broker is erasing the fraud's paper spine. Casal kept a duplicate.",
+  "peopleFacts": [
+   { "characterId": "casal", "fact": "Burgled of exactly one file; hands over the duplicate himself.", "stamp": "witness" }
+  ],
+  "flavorChoice": { "dry": "There are laws, too. You should try one.", "warm": "Then let's make them regret the exception." }
+ },
+ {
+  "id": "b5.8",
+  "chapter": 5,
+  "title": "The Chart Rooms",
+  "lines": [
+   { "speaker": "margo", "en": "If she grew up here… Halloway, the painting grew up here." },
+   { "speaker": "narration", "en": "Her father's chart rooms, lease unbroken since 1911. The room is half-packed: a life mid-departure. Halloway feeds the pigeons before working. Standards." },
+   { "speaker": "margo", "en": "She didn't steal a painting. She's been guarding one. There's a difference — ask any grandmother.", "garnish": { "level": "L2", "key": "goodness", "pos": "lead" } }
+  ],
+  "caseLine": "The original lived in the clocktower since 1904. Fresh tack holes. The Selene, Pier 4, Sunday.",
+  "peopleFacts": [
+   { "characterId": "ottilie", "fact": "Nachtigall. Person of interest. Moving the original — Sunday, the Selene.", "stamp": "suspect" }
+  ]
+ }
+]

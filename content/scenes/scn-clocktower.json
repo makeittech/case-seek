@@ -1,0 +1,334 @@
+{
+ "id": "scn-clocktower",
+ "name": "Clocktower Workshop",
+ "locationId": "clocktower",
+ "lightState": "lamplit",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#41372b",
+  "wallBottom": "#59503e",
+  "floor": "#38301f",
+  "accent": "#caa14b",
+  "motifs": [
+   {
+    "kind": "ellipse",
+    "x": 800,
+    "y": 90,
+    "w": 330,
+    "h": 330,
+    "color": "#d9c47e",
+    "alpha": 0.35
+   },
+   {
+    "kind": "rect",
+    "x": 170,
+    "y": 200,
+    "w": 460,
+    "h": 380,
+    "color": "#332b1e",
+    "alpha": 0.85
+   },
+   {
+    "kind": "window",
+    "x": 1440,
+    "y": 150,
+    "w": 280,
+    "h": 340,
+    "color": "#5d6b80",
+    "alpha": 0.5
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 283,
+   "y": 568,
+   "r": 300
+  },
+  {
+   "x": 1472,
+   "y": 481,
+   "r": 300
+  },
+  {
+   "x": 1462,
+   "y": 618,
+   "r": 300
+  },
+  {
+   "x": 979,
+   "y": 848,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "p-clocktower-chart-tube-1",
+   "concept": "object:chart-tube",
+   "sprite": "prop-chart-tube",
+   "x": 283,
+   "y": 568,
+   "scale": 0.65,
+   "rotation": -2,
+   "z": 568,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-clocktower-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 514,
+   "y": 565,
+   "scale": 0.54,
+   "rotation": 7,
+   "z": 565,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-easel-1",
+   "concept": "object:easel",
+   "sprite": "prop-easel",
+   "x": 752,
+   "y": 551,
+   "scale": 0.52,
+   "rotation": 0,
+   "z": 551,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-clocktower-gear-1",
+   "concept": "object:gear",
+   "sprite": "prop-gear",
+   "x": 1015,
+   "y": 516,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 516,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-blueprint-1",
+   "concept": "object:blueprint",
+   "sprite": "prop-blueprint",
+   "x": 1195,
+   "y": 488,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 488,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-pigeon-1",
+   "concept": "object:pigeon",
+   "sprite": "prop-pigeon",
+   "x": 1472,
+   "y": 481,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 481,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-stove-1",
+   "concept": "object:stove",
+   "sprite": "prop-stove",
+   "x": 1721,
+   "y": 508,
+   "scale": 0.65,
+   "rotation": 0,
+   "z": 508,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-stool-1",
+   "concept": "object:stool",
+   "sprite": "prop-stool",
+   "x": 269,
+   "y": 587,
+   "scale": 0.7,
+   "rotation": 0,
+   "z": 1587,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "amb-clocktower-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 473,
+   "y": 792,
+   "scale": 0.85,
+   "rotation": 4,
+   "z": 1792,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-brazier-1",
+   "concept": "object:brazier",
+   "sprite": "prop-brazier",
+   "x": 782,
+   "y": 634,
+   "scale": 0.81,
+   "rotation": 6,
+   "z": 1634,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-clocktower-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1025,
+   "y": 571,
+   "scale": 0.75,
+   "rotation": 0,
+   "z": 1571,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-clocktower-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 1200,
+   "y": 570,
+   "scale": 0.78,
+   "rotation": 0,
+   "z": 1570,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-lantern-1",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 1462,
+   "y": 618,
+   "scale": 0.67,
+   "rotation": 0,
+   "z": 1618,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-clocktower-gear-2",
+   "concept": "object:gear",
+   "sprite": "prop-gear",
+   "x": 1712,
+   "y": 587,
+   "scale": 0.74,
+   "rotation": 8,
+   "z": 1587,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "amb-clocktower-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 270,
+   "y": 989,
+   "scale": 0.9,
+   "rotation": 0,
+   "z": 2989,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-compass-1",
+   "concept": "object:compass",
+   "sprite": "prop-compass",
+   "x": 484,
+   "y": 935,
+   "scale": 0.92,
+   "rotation": 0,
+   "z": 2935,
+   "band": "fg",
+   "flipX": true
+  },
+  {
+   "id": "p-clocktower-trunk-1",
+   "concept": "object:trunk",
+   "sprite": "prop-trunk",
+   "x": 645,
+   "y": 778,
+   "scale": 1.05,
+   "rotation": 0,
+   "z": 2778,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-oilcan-1",
+   "concept": "object:oilcan",
+   "sprite": "prop-oilcan",
+   "x": 979,
+   "y": 848,
+   "scale": 0.9,
+   "rotation": 0,
+   "z": 2848,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-timetable-1",
+   "concept": "object:timetable",
+   "sprite": "prop-timetable",
+   "x": 1136,
+   "y": 872,
+   "scale": 0.98,
+   "rotation": 0,
+   "z": 2872,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-clocktower-map-1",
+   "concept": "object:map",
+   "sprite": "prop-map",
+   "x": 1425,
+   "y": 757,
+   "scale": 0.91,
+   "rotation": 0,
+   "z": 2757,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-clocktower-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1735,
+   "y": 866,
+   "scale": 1.05,
+   "rotation": 0,
+   "z": 2866,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s24-stretcher",
+   "concept": "untagged:ambience",
+   "clue": "C30",
+   "sprite": "evid-c30",
+   "x": 960,
+   "y": 648,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2148,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

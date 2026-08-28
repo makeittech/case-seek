@@ -1,0 +1,1824 @@
+{
+ "lang": "es",
+ "name": "Español",
+ "nameEn": "Spanish",
+ "locale": "es-ES",
+ "greeting": "Bienvenido, detective.",
+ "slowRate": 0.72,
+ "articles": [
+  "el",
+  "la"
+ ],
+ "articleOptionSets": [
+  [
+   "el",
+   "la"
+  ]
+ ],
+ "articlePickWeight": 0.42,
+ "lexemes": [
+  {
+   "concept": "object:key",
+   "article": "la",
+   "word": "llave",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "las llaves",
+   "phrase": "abre cada puerta"
+  },
+  {
+   "concept": "object:notebook",
+   "article": "el",
+   "word": "cuaderno",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:magnifier",
+   "article": "la",
+   "word": "lupa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "hace todo más grande"
+  },
+  {
+   "concept": "object:coat",
+   "article": "el",
+   "word": "abrigo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hat",
+   "article": "el",
+   "word": "sombrero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:lamp",
+   "article": "la",
+   "word": "lámpara",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cup",
+   "article": "la",
+   "word": "taza",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:umbrella",
+   "article": "el",
+   "word": "paraguas",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:frame",
+   "article": "el",
+   "word": "marco",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "sostiene un cuadro"
+  },
+  {
+   "concept": "object:rope",
+   "article": "la",
+   "word": "cuerda",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "sirve para atar"
+  },
+  {
+   "concept": "object:crate",
+   "article": "el",
+   "word": "cajón",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ladder",
+   "article": "la",
+   "word": "escalera",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "«escalera» is a ladder and a staircase."
+  },
+  {
+   "concept": "object:glove",
+   "article": "el",
+   "word": "guante",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:screwdriver",
+   "article": "el",
+   "word": "destornillador",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:label",
+   "article": "la",
+   "word": "etiqueta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "las etiquetas"
+  },
+  {
+   "concept": "object:bench",
+   "article": "el",
+   "word": "banco",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chandelier",
+   "article": "la",
+   "word": "araña",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "Careful — «araña» also means “spider.”"
+  },
+  {
+   "concept": "object:ledger",
+   "article": "el",
+   "word": "libro de cuentas",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:teacup",
+   "article": "la",
+   "word": "taza de té",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:envelope",
+   "article": "el",
+   "word": "sobre",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rubber-stamp",
+   "article": "el",
+   "word": "sello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "los sellos"
+  },
+  {
+   "concept": "object:inkwell",
+   "article": "el",
+   "word": "tintero",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "guarda la tinta"
+  },
+  {
+   "concept": "object:scissors",
+   "article": "la",
+   "word": "tijera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:folder",
+   "article": "la",
+   "word": "carpeta",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": [],
+   "plural": "las carpetas"
+  },
+  {
+   "concept": "object:monocle",
+   "article": "el",
+   "word": "monóculo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:telephone",
+   "article": "el",
+   "word": "teléfono",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:blotter",
+   "article": "el",
+   "word": "secante",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:candle",
+   "article": "la",
+   "word": "vela",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sealing-wax",
+   "article": "el",
+   "word": "lacre",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:letter-opener",
+   "article": "el",
+   "word": "abrecartas",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:calendar",
+   "article": "el",
+   "word": "calendario",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:drawer",
+   "article": "el",
+   "word": "cajón",
+   "glyph": "▲",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "«cajón» is a drawer, not a big box — that is «caja»."
+  },
+  {
+   "concept": "object:photograph",
+   "article": "la",
+   "word": "foto",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ribbon",
+   "article": "la",
+   "word": "cinta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:clock",
+   "article": "el",
+   "word": "reloj",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "los relojes",
+   "phrase": "marca la hora"
+  },
+  {
+   "concept": "object:blueprint",
+   "article": "el",
+   "word": "plano",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:newspaper",
+   "article": "el",
+   "word": "periódico",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:map",
+   "article": "el",
+   "word": "mapa",
+   "glyph": "▲",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "Careful — «el mapa» is masculine, despite the -a."
+  },
+  {
+   "concept": "object:box",
+   "article": "la",
+   "word": "caja",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:lantern",
+   "article": "el",
+   "word": "farol",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "los faroles",
+   "phrase": "brilla en la oscuridad"
+  },
+  {
+   "concept": "object:brush",
+   "article": "el",
+   "word": "pincel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "los pinceles"
+  },
+  {
+   "concept": "object:ink",
+   "article": "la",
+   "word": "tinta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stool",
+   "article": "el",
+   "word": "taburete",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:string",
+   "article": "el",
+   "word": "cordel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:magnet",
+   "article": "el",
+   "word": "imán",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:register",
+   "article": "el",
+   "word": "registro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:card-index",
+   "article": "el",
+   "word": "fichero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:portrait",
+   "article": "el",
+   "word": "retrato",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ruler",
+   "article": "la",
+   "word": "regla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:compass",
+   "article": "el",
+   "word": "compás",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sextant",
+   "article": "el",
+   "word": "sextante",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:seal",
+   "article": "el",
+   "word": "sello de lacre",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gazette",
+   "article": "la",
+   "word": "gaceta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:manifest",
+   "article": "el",
+   "word": "manifiesto",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:seagull",
+   "article": "la",
+   "word": "gaviota",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "las gaviotas"
+  },
+  {
+   "concept": "object:anchor",
+   "article": "el",
+   "word": "ancla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:barrel",
+   "article": "el",
+   "word": "barril",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hook",
+   "article": "el",
+   "word": "gancho",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:net",
+   "article": "la",
+   "word": "red",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bell",
+   "article": "la",
+   "word": "campana",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bollard",
+   "article": "el",
+   "word": "bolardo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chain",
+   "article": "la",
+   "word": "cadena",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tarpaulin",
+   "article": "la",
+   "word": "lona",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:winch",
+   "article": "el",
+   "word": "cabrestante",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gangplank",
+   "article": "la",
+   "word": "pasarela",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oilskin",
+   "article": "el",
+   "word": "impermeable",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:whistle",
+   "article": "el",
+   "word": "silbato",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cat",
+   "article": "el",
+   "word": "gato",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:padlock",
+   "article": "el",
+   "word": "candado",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bottle",
+   "article": "la",
+   "word": "botella",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "las botellas",
+   "phrase": "guarda el vino"
+  },
+  {
+   "concept": "object:tankard",
+   "article": "la",
+   "word": "jarra",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:dartboard",
+   "article": "la",
+   "word": "diana",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chalk",
+   "article": "la",
+   "word": "tiza",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bread",
+   "article": "el",
+   "word": "pan",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cheese",
+   "article": "el",
+   "word": "queso",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:playing-card",
+   "article": "el",
+   "word": "naipe",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:kettle",
+   "article": "el",
+   "word": "hervidor",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pipe",
+   "article": "la",
+   "word": "pipa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:logbook",
+   "article": "la",
+   "word": "bitácora",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:apron",
+   "article": "el",
+   "word": "delantal",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:mousetrap",
+   "article": "la",
+   "word": "ratonera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:jug",
+   "article": "el",
+   "word": "cántaro",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:broom",
+   "article": "la",
+   "word": "escoba",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:coin",
+   "article": "la",
+   "word": "moneda",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:match",
+   "article": "la",
+   "word": "cerilla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:towel",
+   "article": "la",
+   "word": "toalla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:scale",
+   "article": "la",
+   "word": "báscula",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:twine",
+   "article": "el",
+   "word": "bramante",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:funnel",
+   "article": "el",
+   "word": "embudo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:typewriter",
+   "article": "la",
+   "word": "máquina de escribir",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sack",
+   "article": "el",
+   "word": "saco",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tea-chest",
+   "article": "la",
+   "word": "caja de té",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:birdcage",
+   "article": "la",
+   "word": "jaula",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hand-truck",
+   "article": "la",
+   "word": "carretilla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:suitcase",
+   "article": "la",
+   "word": "maleta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "las maletas",
+   "phrase": "viaja contigo"
+  },
+  {
+   "concept": "object:palm",
+   "article": "la",
+   "word": "palmera",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cane",
+   "article": "el",
+   "word": "bastón",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hatbox",
+   "article": "la",
+   "word": "sombrerera",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:key-rack",
+   "article": "el",
+   "word": "casillero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ashtray",
+   "article": "el",
+   "word": "cenicero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tray",
+   "article": "la",
+   "word": "bandeja",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:champagne-bucket",
+   "article": "la",
+   "word": "champanera",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:umbrella-stand",
+   "article": "el",
+   "word": "paragüero",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:luggage-cart",
+   "article": "el",
+   "word": "carrito",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:letter",
+   "article": "la",
+   "word": "carta",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "«carta» is a letter you post — a map is «mapa»."
+  },
+  {
+   "concept": "object:carnation",
+   "article": "el",
+   "word": "clavel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cigarette-case",
+   "article": "la",
+   "word": "pitillera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:saucer",
+   "article": "el",
+   "word": "platillo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:candlestick",
+   "article": "el",
+   "word": "candelero",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "los candeleros"
+  },
+  {
+   "concept": "object:violin",
+   "article": "el",
+   "word": "violín",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "canta con cuerdas"
+  },
+  {
+   "concept": "object:globe",
+   "article": "el",
+   "word": "globo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "el mundo entero, redondo"
+  },
+  {
+   "concept": "object:mirror",
+   "article": "el",
+   "word": "espejo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "muestra tu cara"
+  },
+  {
+   "concept": "object:vase",
+   "article": "el",
+   "word": "jarrón",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:medal",
+   "article": "la",
+   "word": "medalla",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:fan",
+   "article": "el",
+   "word": "abanico",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chessboard",
+   "article": "el",
+   "word": "tablero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stamp-die",
+   "article": "el",
+   "word": "cuño",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:telescope",
+   "article": "el",
+   "word": "telescopio",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "acerca las estrellas"
+  },
+  {
+   "concept": "object:curtain",
+   "article": "la",
+   "word": "cortina",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:strongbox",
+   "article": "la",
+   "word": "caja fuerte",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rug",
+   "article": "la",
+   "word": "alfombra",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:crowbar",
+   "article": "la",
+   "word": "palanca",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:snuffbox",
+   "article": "la",
+   "word": "tabaquera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:letter-scale",
+   "article": "el",
+   "word": "pesacartas",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:key-ring",
+   "article": "el",
+   "word": "llavero",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:file",
+   "article": "el",
+   "word": "expediente",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cashbox",
+   "article": "el",
+   "word": "cofre",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cufflink",
+   "article": "el",
+   "word": "gemelo",
+   "glyph": "▲",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "«gemelo» also means “twin.”"
+  },
+  {
+   "concept": "object:razor",
+   "article": "la",
+   "word": "navaja",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:shoehorn",
+   "article": "el",
+   "word": "calzador",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pocket-watch",
+   "article": "el",
+   "word": "reloj de bolsillo",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "la hora, en el bolsillo"
+  },
+  {
+   "concept": "object:decanter",
+   "article": "la",
+   "word": "licorera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:slipper",
+   "article": "la",
+   "word": "zapatilla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cravat",
+   "article": "la",
+   "word": "corbata",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:travel-case",
+   "article": "el",
+   "word": "neceser",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:fountain-pen",
+   "article": "la",
+   "word": "pluma",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "«pluma» also means “feather.”"
+  },
+  {
+   "concept": "object:orange",
+   "article": "la",
+   "word": "naranja",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "las naranjas"
+  },
+  {
+   "concept": "object:scarf",
+   "article": "la",
+   "word": "bufanda",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:basket",
+   "article": "la",
+   "word": "cesta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:garlic",
+   "article": "el",
+   "word": "ajo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pepper",
+   "article": "el",
+   "word": "pimiento",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:fish",
+   "article": "el",
+   "word": "pescado",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:teapot",
+   "article": "la",
+   "word": "tetera",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:drum",
+   "article": "el",
+   "word": "tambor",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:jar",
+   "article": "el",
+   "word": "tarro",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "los tarros"
+  },
+  {
+   "concept": "object:cloth-bolt",
+   "article": "el",
+   "word": "rollo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:thimble",
+   "article": "el",
+   "word": "dedal",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:button",
+   "article": "el",
+   "word": "botón",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:mortar",
+   "article": "el",
+   "word": "mortero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bead",
+   "article": "la",
+   "word": "perla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:loom",
+   "article": "el",
+   "word": "telar",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oil-flask",
+   "article": "la",
+   "word": "alcuza",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:easel",
+   "article": "el",
+   "word": "caballete",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "sostiene el cuadro al pintar"
+  },
+  {
+   "concept": "object:wrench",
+   "article": "la",
+   "word": "llave inglesa",
+   "glyph": "●",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "caution": "A wrench is a «llave inglesa» — an “English key.”"
+  },
+  {
+   "concept": "object:oilcan",
+   "article": "la",
+   "word": "aceitera",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:timetable",
+   "article": "el",
+   "word": "horario",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ticket",
+   "article": "el",
+   "word": "billete",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "los billetes"
+  },
+  {
+   "concept": "object:signal-lamp",
+   "article": "la",
+   "word": "lámpara de señales",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:toolbox",
+   "article": "la",
+   "word": "caja de herramientas",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gear",
+   "article": "el",
+   "word": "engranaje",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "los engranajes"
+  },
+  {
+   "concept": "object:cap",
+   "article": "la",
+   "word": "gorra",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:waybill",
+   "article": "la",
+   "word": "carta de porte",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:palette",
+   "article": "la",
+   "word": "paleta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rag",
+   "article": "el",
+   "word": "trapo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:window-pole",
+   "article": "la",
+   "word": "pértiga",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:smock",
+   "article": "la",
+   "word": "bata",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:charcoal",
+   "article": "el",
+   "word": "carboncillo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:laundry-line",
+   "article": "el",
+   "word": "tendedero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stove",
+   "article": "la",
+   "word": "estufa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sketchbook",
+   "article": "el",
+   "word": "bloc de dibujo",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pestle",
+   "article": "el",
+   "word": "mazo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:beeswax",
+   "article": "la",
+   "word": "cera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:palette-knife",
+   "article": "la",
+   "word": "espátula",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gavel",
+   "article": "el",
+   "word": "martillo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "dice la última palabra"
+  },
+  {
+   "concept": "object:paddle",
+   "article": "la",
+   "word": "paleta de puja",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "se levanta para pujar"
+  },
+  {
+   "concept": "object:cushion",
+   "article": "el",
+   "word": "cojín",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "suave, para sentarse"
+  },
+  {
+   "concept": "object:catalogue",
+   "article": "el",
+   "word": "catálogo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "lista todos los lotes"
+  },
+  {
+   "concept": "object:candelabra",
+   "article": "el",
+   "word": "candelabro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "lleva muchas velas"
+  },
+  {
+   "concept": "object:trolley",
+   "article": "el",
+   "word": "carro",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:blanket",
+   "article": "la",
+   "word": "manta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:telegram-form",
+   "article": "el",
+   "word": "formulario",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stencil",
+   "article": "la",
+   "word": "plantilla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:flowerpot",
+   "article": "la",
+   "word": "maceta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "las macetas"
+  },
+  {
+   "concept": "object:watering-can",
+   "article": "la",
+   "word": "regadera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:orchid",
+   "article": "la",
+   "word": "orquídea",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:trowel",
+   "article": "la",
+   "word": "pala",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:thermometer",
+   "article": "el",
+   "word": "termómetro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:shears",
+   "article": "la",
+   "word": "podadera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hose",
+   "article": "la",
+   "word": "manguera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pigeon",
+   "article": "la",
+   "word": "paloma",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chart-tube",
+   "article": "el",
+   "word": "tubo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:brazier",
+   "article": "el",
+   "word": "brasero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:trunk",
+   "article": "el",
+   "word": "baúl",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:kiosk",
+   "article": "el",
+   "word": "quiosco",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pressure-gauge",
+   "article": "el",
+   "word": "manómetro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:mailbag",
+   "article": "la",
+   "word": "saca",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:luggage-tag",
+   "article": "el",
+   "word": "marbete",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oar",
+   "article": "el",
+   "word": "remo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "los remos"
+  },
+  {
+   "concept": "object:lifebuoy",
+   "article": "el",
+   "word": "salvavidas",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tackle-box",
+   "article": "la",
+   "word": "caja de aparejos",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rain-hat",
+   "article": "el",
+   "word": "sueste",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:flare",
+   "article": "la",
+   "word": "bengala",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:barometer",
+   "article": "el",
+   "word": "barómetro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:dust-sheet",
+   "article": "la",
+   "word": "sábana",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:glass-shard",
+   "article": "la",
+   "word": "esquirla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:handcuffs",
+   "article": "el",
+   "word": "grillete",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:plaster-cast",
+   "article": "el",
+   "word": "molde",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  }
+ ],
+ "tokens": [
+  {
+   "key": "well",
+   "level": "L1",
+   "text": "Bueno",
+   "gloss": "well / so"
+  },
+  {
+   "key": "so",
+   "level": "L1",
+   "text": "A ver.",
+   "gloss": "let's see"
+  },
+  {
+   "key": "look",
+   "level": "L1",
+   "text": "Mira",
+   "gloss": "look"
+  },
+  {
+   "key": "there",
+   "level": "L1",
+   "text": "Ahí está",
+   "gloss": "there it is"
+  },
+  {
+   "key": "right",
+   "level": "L1",
+   "text": "¿verdad?",
+   "gloss": "right?"
+  },
+  {
+   "key": "quiet",
+   "level": "L1",
+   "text": "¡Quieta!",
+   "gloss": "hold still / quiet"
+  },
+  {
+   "key": "eh",
+   "level": "L1",
+   "text": "¿vale?",
+   "gloss": "okay? / eh?"
+  },
+  {
+   "key": "careful",
+   "level": "L2",
+   "text": "Ojo",
+   "gloss": "watch out"
+  },
+  {
+   "key": "listen",
+   "level": "L2",
+   "text": "Oye",
+   "gloss": "listen"
+  },
+  {
+   "key": "goodness",
+   "level": "L2",
+   "text": "Dios mío",
+   "gloss": "good heavens"
+  },
+  {
+   "key": "tja",
+   "level": "L2",
+   "text": "Vaya",
+   "gloss": "well then"
+  },
+  {
+   "key": "see",
+   "level": "L2",
+   "text": "¿Lo ves?",
+   "gloss": "see?"
+  }
+ ],
+ "vendorCalls": [
+  "¡Naranjas frescas! ¡Dulces como el verano!",
+  "¡Pescado! ¡Esta mañana aún nadaba!",
+  "¡Faroles! ¡Luz para callejones oscuros!",
+  "¡Bufandas, suaves y calientes!"
+ ],
+ "signage": [
+  "CALLEJÓN DEL FAROL",
+  "EL ANCLA",
+  "CASA DE EMPEÑOS",
+  "MERCADO — VIERNES"
+ ]
+}

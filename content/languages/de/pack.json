@@ -1,0 +1,1805 @@
+{
+ "lang": "de",
+ "name": "Deutsch",
+ "nameEn": "German",
+ "locale": "de-DE",
+ "greeting": "Willkommen, Detektiv.",
+ "slowRate": 0.72,
+ "articles": [
+  "der",
+  "die",
+  "das"
+ ],
+ "articleOptionSets": [
+  [
+   "der",
+   "die",
+   "das"
+  ]
+ ],
+ "articlePickWeight": 0.5,
+ "lexemes": [
+  {
+   "concept": "object:key",
+   "article": "der",
+   "word": "Schlüssel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Schlüssel",
+   "phrase": "öffnet jede Tür"
+  },
+  {
+   "concept": "object:notebook",
+   "article": "das",
+   "word": "Notizbuch",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:magnifier",
+   "article": "die",
+   "word": "Lupe",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "macht alles größer"
+  },
+  {
+   "concept": "object:coat",
+   "article": "der",
+   "word": "Mantel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hat",
+   "article": "der",
+   "word": "Hut",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:lamp",
+   "article": "die",
+   "word": "Lampe",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cup",
+   "article": "die",
+   "word": "Tasse",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:umbrella",
+   "article": "der",
+   "word": "Regenschirm",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:frame",
+   "article": "der",
+   "word": "Rahmen",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "hält ein Bild fest"
+  },
+  {
+   "concept": "object:rope",
+   "article": "das",
+   "word": "Seil",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "daran zieht man"
+  },
+  {
+   "concept": "object:crate",
+   "article": "die",
+   "word": "Kiste",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ladder",
+   "article": "die",
+   "word": "Leiter",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:glove",
+   "article": "der",
+   "word": "Handschuh",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:screwdriver",
+   "article": "der",
+   "word": "Schraubenzieher",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:label",
+   "article": "das",
+   "word": "Etikett",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "die Etiketten"
+  },
+  {
+   "concept": "object:bench",
+   "article": "die",
+   "word": "Bank",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chandelier",
+   "article": "der",
+   "word": "Kronleuchter",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ledger",
+   "article": "das",
+   "word": "Hauptbuch",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:teacup",
+   "article": "die",
+   "word": "Teetasse",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:envelope",
+   "article": "der",
+   "word": "Umschlag",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rubber-stamp",
+   "article": "der",
+   "word": "Stempel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Stempel"
+  },
+  {
+   "concept": "object:inkwell",
+   "article": "das",
+   "word": "Tintenfass",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "hält die Tinte"
+  },
+  {
+   "concept": "object:scissors",
+   "article": "die",
+   "word": "Schere",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:folder",
+   "article": "die",
+   "word": "Mappe",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Mappen"
+  },
+  {
+   "concept": "object:monocle",
+   "article": "das",
+   "word": "Monokel",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:telephone",
+   "article": "das",
+   "word": "Telefon",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:blotter",
+   "article": "das",
+   "word": "Löschblatt",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:candle",
+   "article": "die",
+   "word": "Kerze",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sealing-wax",
+   "article": "der",
+   "word": "Siegellack",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:letter-opener",
+   "article": "der",
+   "word": "Brieföffner",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:calendar",
+   "article": "der",
+   "word": "Kalender",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:drawer",
+   "article": "die",
+   "word": "Schublade",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:photograph",
+   "article": "das",
+   "word": "Foto",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ribbon",
+   "article": "das",
+   "word": "Band",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:clock",
+   "article": "die",
+   "word": "Uhr",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Uhren",
+   "phrase": "zeigt die Zeit"
+  },
+  {
+   "concept": "object:blueprint",
+   "article": "der",
+   "word": "Bauplan",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:newspaper",
+   "article": "die",
+   "word": "Zeitung",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:map",
+   "article": "die",
+   "word": "Karte",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:box",
+   "article": "die",
+   "word": "Schachtel",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:lantern",
+   "article": "die",
+   "word": "Laterne",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "die Laternen",
+   "phrase": "leuchtet im Dunkeln"
+  },
+  {
+   "concept": "object:brush",
+   "article": "der",
+   "word": "Pinsel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Pinsel"
+  },
+  {
+   "concept": "object:ink",
+   "article": "die",
+   "word": "Tinte",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stool",
+   "article": "der",
+   "word": "Hocker",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:string",
+   "article": "die",
+   "word": "Schnur",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:magnet",
+   "article": "der",
+   "word": "Magnet",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:register",
+   "article": "das",
+   "word": "Register",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:card-index",
+   "article": "die",
+   "word": "Kartei",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:portrait",
+   "article": "das",
+   "word": "Porträt",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ruler",
+   "article": "das",
+   "word": "Lineal",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:compass",
+   "article": "der",
+   "word": "Zirkel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sextant",
+   "article": "der",
+   "word": "Sextant",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:seal",
+   "article": "das",
+   "word": "Siegel",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gazette",
+   "article": "die",
+   "word": "Gazette",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:manifest",
+   "article": "das",
+   "word": "Manifest",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:seagull",
+   "article": "die",
+   "word": "Möwe",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Möwen"
+  },
+  {
+   "concept": "object:anchor",
+   "article": "der",
+   "word": "Anker",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:barrel",
+   "article": "das",
+   "word": "Fass",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hook",
+   "article": "der",
+   "word": "Haken",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:net",
+   "article": "das",
+   "word": "Netz",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bell",
+   "article": "die",
+   "word": "Glocke",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bollard",
+   "article": "der",
+   "word": "Poller",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chain",
+   "article": "die",
+   "word": "Kette",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tarpaulin",
+   "article": "die",
+   "word": "Plane",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:winch",
+   "article": "die",
+   "word": "Winde",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gangplank",
+   "article": "der",
+   "word": "Steg",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oilskin",
+   "article": "das",
+   "word": "Ölzeug",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:whistle",
+   "article": "die",
+   "word": "Trillerpfeife",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cat",
+   "article": "die",
+   "word": "Katze",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:padlock",
+   "article": "das",
+   "word": "Vorhängeschloss",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bottle",
+   "article": "die",
+   "word": "Flasche",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Flaschen",
+   "phrase": "hält den Wein"
+  },
+  {
+   "concept": "object:tankard",
+   "article": "der",
+   "word": "Humpen",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:dartboard",
+   "article": "die",
+   "word": "Dartscheibe",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chalk",
+   "article": "die",
+   "word": "Kreide",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bread",
+   "article": "das",
+   "word": "Brot",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cheese",
+   "article": "der",
+   "word": "Käse",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:playing-card",
+   "article": "die",
+   "word": "Spielkarte",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:kettle",
+   "article": "der",
+   "word": "Kessel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pipe",
+   "article": "die",
+   "word": "Pfeife",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:logbook",
+   "article": "das",
+   "word": "Logbuch",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:apron",
+   "article": "die",
+   "word": "Schürze",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:mousetrap",
+   "article": "die",
+   "word": "Mausefalle",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:jug",
+   "article": "der",
+   "word": "Krug",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:broom",
+   "article": "der",
+   "word": "Besen",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:coin",
+   "article": "die",
+   "word": "Münze",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:match",
+   "article": "das",
+   "word": "Streichholz",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:towel",
+   "article": "das",
+   "word": "Handtuch",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:scale",
+   "article": "die",
+   "word": "Waage",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:twine",
+   "article": "der",
+   "word": "Bindfaden",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:funnel",
+   "article": "der",
+   "word": "Trichter",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:typewriter",
+   "article": "die",
+   "word": "Schreibmaschine",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sack",
+   "article": "der",
+   "word": "Sack",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tea-chest",
+   "article": "die",
+   "word": "Teekiste",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:birdcage",
+   "article": "der",
+   "word": "Vogelkäfig",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hand-truck",
+   "article": "die",
+   "word": "Sackkarre",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:suitcase",
+   "article": "der",
+   "word": "Koffer",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Koffer",
+   "phrase": "reist mit dir"
+  },
+  {
+   "concept": "object:palm",
+   "article": "die",
+   "word": "Palme",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cane",
+   "article": "der",
+   "word": "Stock",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hatbox",
+   "article": "die",
+   "word": "Hutschachtel",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:key-rack",
+   "article": "das",
+   "word": "Schlüsselbrett",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ashtray",
+   "article": "der",
+   "word": "Aschenbecher",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tray",
+   "article": "das",
+   "word": "Tablett",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:champagne-bucket",
+   "article": "der",
+   "word": "Sektkübel",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:umbrella-stand",
+   "article": "der",
+   "word": "Schirmständer",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:luggage-cart",
+   "article": "der",
+   "word": "Gepäckwagen",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:letter",
+   "article": "der",
+   "word": "Brief",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:carnation",
+   "article": "die",
+   "word": "Nelke",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cigarette-case",
+   "article": "das",
+   "word": "Zigarettenetui",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:saucer",
+   "article": "die",
+   "word": "Untertasse",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:candlestick",
+   "article": "der",
+   "word": "Leuchter",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Leuchter"
+  },
+  {
+   "concept": "object:violin",
+   "article": "die",
+   "word": "Geige",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "singt mit Saiten"
+  },
+  {
+   "concept": "object:globe",
+   "article": "der",
+   "word": "Globus",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "die ganze Welt, rund"
+  },
+  {
+   "concept": "object:mirror",
+   "article": "der",
+   "word": "Spiegel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "zeigt dein Gesicht"
+  },
+  {
+   "concept": "object:vase",
+   "article": "die",
+   "word": "Vase",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:medal",
+   "article": "die",
+   "word": "Medaille",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:fan",
+   "article": "der",
+   "word": "Fächer",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chessboard",
+   "article": "das",
+   "word": "Schachbrett",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stamp-die",
+   "article": "der",
+   "word": "Prägestempel",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:telescope",
+   "article": "das",
+   "word": "Fernrohr",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "bringt Sterne näher"
+  },
+  {
+   "concept": "object:curtain",
+   "article": "der",
+   "word": "Vorhang",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:strongbox",
+   "article": "der",
+   "word": "Tresor",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rug",
+   "article": "der",
+   "word": "Teppich",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:crowbar",
+   "article": "die",
+   "word": "Brechstange",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:snuffbox",
+   "article": "die",
+   "word": "Tabakdose",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:letter-scale",
+   "article": "die",
+   "word": "Briefwaage",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:key-ring",
+   "article": "der",
+   "word": "Schlüsselbund",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:file",
+   "article": "die",
+   "word": "Akte",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cashbox",
+   "article": "die",
+   "word": "Geldkassette",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cufflink",
+   "article": "der",
+   "word": "Manschettenknopf",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:razor",
+   "article": "das",
+   "word": "Rasiermesser",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:shoehorn",
+   "article": "der",
+   "word": "Schuhlöffel",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pocket-watch",
+   "article": "die",
+   "word": "Taschenuhr",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "die Zeit, in der Tasche"
+  },
+  {
+   "concept": "object:decanter",
+   "article": "die",
+   "word": "Karaffe",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:slipper",
+   "article": "der",
+   "word": "Pantoffel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:cravat",
+   "article": "die",
+   "word": "Krawatte",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:travel-case",
+   "article": "die",
+   "word": "Reisetasche",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:fountain-pen",
+   "article": "der",
+   "word": "Füller",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:orange",
+   "article": "die",
+   "word": "Orange",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "die Orangen"
+  },
+  {
+   "concept": "object:scarf",
+   "article": "der",
+   "word": "Schal",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:basket",
+   "article": "der",
+   "word": "Korb",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:garlic",
+   "article": "der",
+   "word": "Knoblauch",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pepper",
+   "article": "die",
+   "word": "Paprika",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:fish",
+   "article": "der",
+   "word": "Fisch",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:teapot",
+   "article": "die",
+   "word": "Teekanne",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:drum",
+   "article": "die",
+   "word": "Trommel",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:jar",
+   "article": "das",
+   "word": "Glas",
+   "glyph": "■",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "trap"
+   ],
+   "plural": "die Gläser",
+   "caution": "«das Glas» is a jar AND the material glass."
+  },
+  {
+   "concept": "object:cloth-bolt",
+   "article": "der",
+   "word": "Stoffballen",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:thimble",
+   "article": "der",
+   "word": "Fingerhut",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:button",
+   "article": "der",
+   "word": "Knopf",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:mortar",
+   "article": "der",
+   "word": "Mörser",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:bead",
+   "article": "die",
+   "word": "Perle",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:loom",
+   "article": "der",
+   "word": "Webstuhl",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oil-flask",
+   "article": "die",
+   "word": "Ölflasche",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:easel",
+   "article": "die",
+   "word": "Staffelei",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "hält das Bild beim Malen"
+  },
+  {
+   "concept": "object:wrench",
+   "article": "der",
+   "word": "Schraubenschlüssel",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oilcan",
+   "article": "die",
+   "word": "Ölkanne",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:timetable",
+   "article": "der",
+   "word": "Fahrplan",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:ticket",
+   "article": "die",
+   "word": "Fahrkarte",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "die Fahrkarten"
+  },
+  {
+   "concept": "object:signal-lamp",
+   "article": "die",
+   "word": "Signallampe",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:toolbox",
+   "article": "der",
+   "word": "Werkzeugkasten",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gear",
+   "article": "das",
+   "word": "Zahnrad",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "die Zahnräder"
+  },
+  {
+   "concept": "object:cap",
+   "article": "die",
+   "word": "Mütze",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:waybill",
+   "article": "der",
+   "word": "Frachtbrief",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:palette",
+   "article": "die",
+   "word": "Palette",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rag",
+   "article": "der",
+   "word": "Lappen",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:window-pole",
+   "article": "die",
+   "word": "Stange",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:smock",
+   "article": "der",
+   "word": "Kittel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:charcoal",
+   "article": "die",
+   "word": "Kohle",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:laundry-line",
+   "article": "die",
+   "word": "Wäscheleine",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stove",
+   "article": "der",
+   "word": "Ofen",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:sketchbook",
+   "article": "das",
+   "word": "Skizzenbuch",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pestle",
+   "article": "der",
+   "word": "Stößel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:beeswax",
+   "article": "das",
+   "word": "Bienenwachs",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:palette-knife",
+   "article": "der",
+   "word": "Spachtel",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:gavel",
+   "article": "der",
+   "word": "Hammer",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "spricht das letzte Wort"
+  },
+  {
+   "concept": "object:paddle",
+   "article": "die",
+   "word": "Bieterkarte",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "hebt man zum Bieten"
+  },
+  {
+   "concept": "object:cushion",
+   "article": "das",
+   "word": "Kissen",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "weich, zum Sitzen"
+  },
+  {
+   "concept": "object:catalogue",
+   "article": "der",
+   "word": "Katalog",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "listet alle Lose auf"
+  },
+  {
+   "concept": "object:candelabra",
+   "article": "der",
+   "word": "Kandelaber",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "phrase": "trägt viele Kerzen"
+  },
+  {
+   "concept": "object:trolley",
+   "article": "der",
+   "word": "Rollwagen",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:blanket",
+   "article": "die",
+   "word": "Decke",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:telegram-form",
+   "article": "das",
+   "word": "Formular",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:stencil",
+   "article": "die",
+   "word": "Schablone",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:flowerpot",
+   "article": "der",
+   "word": "Blumentopf",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "die Blumentöpfe"
+  },
+  {
+   "concept": "object:watering-can",
+   "article": "die",
+   "word": "Gießkanne",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:orchid",
+   "article": "die",
+   "word": "Orchidee",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:trowel",
+   "article": "die",
+   "word": "Kelle",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:thermometer",
+   "article": "das",
+   "word": "Thermometer",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:shears",
+   "article": "die",
+   "word": "Gartenschere",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:hose",
+   "article": "der",
+   "word": "Schlauch",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pigeon",
+   "article": "die",
+   "word": "Taube",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:chart-tube",
+   "article": "die",
+   "word": "Kartenrolle",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:brazier",
+   "article": "das",
+   "word": "Kohlebecken",
+   "glyph": "■",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:trunk",
+   "article": "die",
+   "word": "Truhe",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:kiosk",
+   "article": "der",
+   "word": "Kiosk",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:pressure-gauge",
+   "article": "der",
+   "word": "Druckmesser",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:mailbag",
+   "article": "der",
+   "word": "Postsack",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:luggage-tag",
+   "article": "der",
+   "word": "Anhänger",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:oar",
+   "article": "das",
+   "word": "Ruder",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "die Ruder"
+  },
+  {
+   "concept": "object:lifebuoy",
+   "article": "der",
+   "word": "Rettungsring",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:tackle-box",
+   "article": "der",
+   "word": "Angelkasten",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:rain-hat",
+   "article": "der",
+   "word": "Südwester",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:flare",
+   "article": "die",
+   "word": "Leuchtrakete",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:barometer",
+   "article": "das",
+   "word": "Barometer",
+   "glyph": "■",
+   "difficulty": "cognate",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:dust-sheet",
+   "article": "das",
+   "word": "Laken",
+   "glyph": "■",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:glass-shard",
+   "article": "die",
+   "word": "Scherbe",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:handcuffs",
+   "article": "die",
+   "word": "Handschelle",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": []
+  },
+  {
+   "concept": "object:plaster-cast",
+   "article": "der",
+   "word": "Gipsabdruck",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": []
+  }
+ ],
+ "tokens": [
+  {
+   "key": "well",
+   "level": "L1",
+   "text": "Also",
+   "gloss": "well / so"
+  },
+  {
+   "key": "so",
+   "level": "L1",
+   "text": "So.",
+   "gloss": "let's see"
+  },
+  {
+   "key": "look",
+   "level": "L1",
+   "text": "Schau mal",
+   "gloss": "look"
+  },
+  {
+   "key": "there",
+   "level": "L1",
+   "text": "Na also",
+   "gloss": "there it is"
+  },
+  {
+   "key": "right",
+   "level": "L1",
+   "text": "oder?",
+   "gloss": "right?"
+  },
+  {
+   "key": "quiet",
+   "level": "L1",
+   "text": "Still!",
+   "gloss": "hold still / quiet"
+  },
+  {
+   "key": "eh",
+   "level": "L1",
+   "text": "ja?",
+   "gloss": "okay? / eh?"
+  },
+  {
+   "key": "careful",
+   "level": "L2",
+   "text": "Pass auf",
+   "gloss": "watch out"
+  },
+  {
+   "key": "listen",
+   "level": "L2",
+   "text": "Hör mal",
+   "gloss": "listen"
+  },
+  {
+   "key": "goodness",
+   "level": "L2",
+   "text": "Du meine Güte",
+   "gloss": "good heavens"
+  },
+  {
+   "key": "tja",
+   "level": "L2",
+   "text": "Tja",
+   "gloss": "well then"
+  },
+  {
+   "key": "see",
+   "level": "L2",
+   "text": "Na, siehste",
+   "gloss": "see?"
+  }
+ ],
+ "vendorCalls": [
+  "Frische Orangen! Süß wie der Sommer!",
+  "Fisch! Heute Morgen noch geschwommen!",
+  "Laternen! Licht für dunkle Gassen!",
+  "Schals und Tücher, warm und weich!"
+ ],
+ "signage": [
+  "LATERNENGASSE",
+  "ZUM ANKER",
+  "PFANDLEIHE",
+  "MARKT — FREITAGS"
+ ]
+}

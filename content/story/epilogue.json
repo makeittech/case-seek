@@ -1,0 +1,46 @@
+{
+ "panels": [
+  {
+   "location": "Belmont Gallery One, November",
+   "text": "The 1904 original hangs in Ottilie's frame. Lorentz's report confirms 1904 throughout. Adele publicly credits the conservator who preserved it.",
+   "caseLine": "The Daughter came home. In her frame.",
+   "icon": "🖼️"
+  },
+  {
+   "location": "The Magistrate's Court",
+   "text": "Restitution and eighteen months. She catalogs the prison library. The first letter is from Adele; her reply corrects Adele's hanging cord.",
+   "caseLine": "Grief weighed against fraud. Eighteen months. Letters.",
+   "icon": "⚖️"
+  },
+  {
+   "location": "The Conservatory, Sunday",
+   "text": "'Sarto' tends orchids. Small harbor studies signed E.V. appear, authenticated by A. Voss. Sunday visits; the warden believes he's her solicitor.",
+   "caseLine": "The nightingale still sings. Sundays.",
+   "icon": "🌺"
+  },
+  {
+   "location": "The Rusty Anchor",
+   "text": "Finch in daylight, debts paid honestly, his name framed under PAID. The sextant sits on the bar shelf, polished.",
+   "caseLine": "Finch bought a round. Clean money.",
+   "icon": "🧭"
+  },
+  {
+   "location": "Night Market",
+   "text": "Casal, fined and flourishing, sells Margo a hat for Halloway. The stallholders' mutual society is anonymously endowed through 1940.",
+   "caseLine": "Casal paid his fines, smiling. The market's books balance.",
+   "icon": "🏮"
+  },
+  {
+   "location": "Detective's Office",
+   "text": "Margo's front page names every fact and no painter — 'an unnamed master.' Halloway files notebook 41. Witness, the cat, is fed.",
+   "caseLine": "Filed notebook forty-one. Case closed.",
+   "icon": "🕵️"
+  }
+ ],
+ "codaTitle": "The Silent Carillon",
+ "coda": [
+  "A letter under the door, mirroring the first. Pettibone again: a cathedral-quarter carillon is ringing changes nobody wrote.",
+  "A bell is missing that, per Aldermere's records, does not exist. 'Clause 9 does not apply.'",
+  "Halloway opens notebook forty-two and writes its first word — the newest word in the case's own language."
+ ]
+}
