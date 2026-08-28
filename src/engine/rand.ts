@@ -1,0 +1,50 @@
+/**
+ * Seeded PRNG (mulberry32). The ONLY source of randomness in the engine —
+ * round building, review filling, and debrief picks must be deterministic
+ * per (content, wordRecords, saveSeed, roundIndex). No Math.random() elsewhere.
+ */
+
+export type Rng = () => number;
+
+export function mulberry32(seed: number): Rng {
+  let a = seed >>> 0;
+  return function () {
+    a |= 0;
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+/** Derive a stable sub-seed from a base seed and a string key (e.g. round id). */
+export function deriveSeed(base: number, key: string): number {
+  let h = base >>> 0;
+  for (let i = 0; i < key.length; i++) {
+    h = Math.imul(h ^ key.charCodeAt(i), 2654435761);
+    h = (h << 13) | (h >>> 19);
+  }
+  return h >>> 0;
+}
+
+/** Deterministic Fisher–Yates shuffle (returns a new array). */
+export function shuffle<T>(items: readonly T[], rng: Rng): T[] {
+  const out = items.slice();
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    const a = out[i]!;
+    out[i] = out[j]!;
+    out[j] = a;
+  }
+  return out;
+}
+
+/** Deterministic pick of n items. */
+export function pick<T>(items: readonly T[], n: number, rng: Rng): T[] {
+  return shuffle(items, rng).slice(0, n);
+}
+
+export function randomSeed(): number {
+  // Used only at New Case creation (outside deterministic replay scope).
+  return (Date.now() ^ (Math.floor(Math.random() * 0xffffffff) >>> 0)) >>> 0;
+}
