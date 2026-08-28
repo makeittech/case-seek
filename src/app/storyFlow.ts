@@ -2,6 +2,7 @@
  * Beat/puzzle/board-review/finale orchestration + dialogue garnish resolution.
  */
 import { db } from './content';
+import { nounDisplay } from '../engine/content/loader';
 import { useCase, requireCase } from '../state/caseStore';
 import { useNotebook } from '../state/notebookStore';
 import { useUi } from '../state/uiStore';
@@ -56,7 +57,7 @@ export function renderLine(line: Line, tier: Tier): RenderedLine {
       if (lx && c) {
         if (allowL1) {
           text = text.replace('{echo}', `«${lx.word}»`);
-          token = { text: `${lx.article} ${lx.word}`, gloss: lx.gloss ?? c.gloss, conceptId: noun };
+          token = { text: nounDisplay(lx), gloss: lx.gloss ?? c.gloss, conceptId: noun };
         } else {
           text = text.replace('{echo}', c.gloss);
         }

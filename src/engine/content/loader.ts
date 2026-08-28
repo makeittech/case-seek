@@ -185,6 +185,11 @@ export function lexemeOf(dbi: ContentDB, lang: Lang, id: ConceptId): Lexeme {
   return lx;
 }
 
+/** The canonical article+noun display form ("der Schlüssel"). */
+export function nounDisplay(lx: Pick<Lexeme, 'article' | 'word'>): string {
+  return `${lx.article} ${lx.word}`;
+}
+
 /** Resolve a scene (applying variant deltas if the id names a variant). */
 export function resolveSceneDef(dbi: ContentDB, id: SceneId): SceneDef {
   const base = dbi.scenes.get(id);

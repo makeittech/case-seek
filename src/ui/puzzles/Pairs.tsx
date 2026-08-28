@@ -2,6 +2,7 @@
 import { useMemo, useState } from 'react';
 import { db } from '../../app/content';
 import { speakConcept } from '../../app/speak';
+import { nounDisplay } from '../../engine/content/loader';
 import { mulberry32, shuffle } from '../../engine/rand';
 import type { PuzzleBodyProps } from '../screens/PuzzleScreen';
 
@@ -50,7 +51,7 @@ export function Pairs({ params, lang, onSolved, solved }: PuzzleBodyProps): JSX.
               }`}
               onClick={() => pickWord(c)}
             >
-              {lx ? `${lx.article} ${lx.word}` : c}
+              {lx ? nounDisplay(lx) : c}
             </button>
           );
         })}

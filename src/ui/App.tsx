@@ -12,7 +12,7 @@ import { LangSelectScreen } from './screens/LangSelectScreen';
 import { TierSelectScreen } from './screens/TierSelectScreen';
 import { MapScreen } from './screens/MapScreen';
 import { BeatScreen } from './screens/BeatScreen';
-import { SearchScreen } from './screens/SearchScreen';
+import { SearchScreen } from './screens/search/SearchScreen';
 import { ResultsScreen } from './screens/ResultsScreen';
 import { DebriefScreen } from './screens/DebriefScreen';
 import { ClueScreen } from './screens/ClueScreen';

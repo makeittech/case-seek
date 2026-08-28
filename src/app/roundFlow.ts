@@ -3,7 +3,7 @@
  * completion, debrief building. The SearchScreen renders; this module decides.
  */
 import { db } from './content';
-import { resolveSceneDef } from '../engine/content/loader';
+import { nounDisplay, resolveSceneDef } from '../engine/content/loader';
 import { buildRound, type ResolvedTarget, type RoundPlan } from '../engine/rounds/buildRound';
 import {
   applyFind,
@@ -167,7 +167,7 @@ export function handleSceneTap(hit: HitResult, screenPt: { x: number; y: number 
       if (chip) {
         const usePlural = target.isPlural && outcome.targetDone;
         const lx = d.lexemes[row.lang].get(target.conceptId)!;
-        const display = usePlural && lx.plural ? lx.plural : `${lx.article} ${lx.word}`;
+        const display = usePlural && lx.plural ? lx.plural : nounDisplay(lx);
         useRound.getState().setAll({
           wordCard: {
             chip,
@@ -239,7 +239,7 @@ export function handleSceneTap(hit: HitResult, screenPt: { x: number; y: number 
         const lx = d.lexemes[row.lang].get(prop.concept);
         if (lx) {
           useRound.getState().setAll({
-            curiositySlip: { text: `${lx.article} ${lx.word}`, x: screenPt.x, y: screenPt.y, until: now + 1500 },
+            curiositySlip: { text: nounDisplay(lx), x: screenPt.x, y: screenPt.y, until: now + 1500 },
           });
           useVocab.getState().ensure(prop.concept, lx.difficulty, now);
           useVocab.getState().exposure(prop.concept, 'curiosity', { now, roundIndex: row.roundCounter });
@@ -376,7 +376,7 @@ export function buildDebriefItems(roundId: string): DebriefItemView[] {
       .sort((a, b) => (a.conceptId! < b.conceptId! ? -1 : 1));
     return {
       item,
-      display: `${lx.article} ${lx.word}`,
+      display: nounDisplay(lx),
       gloss: lx.gloss ?? concept.gloss,
       glyph: lx.glyph,
       correctIcon: concept.icon,
@@ -457,7 +457,7 @@ export function recapWords(): RecapWord[] {
       if (!lx || !c) return null;
       return {
         conceptId: r.conceptId,
-        display: `${lx.article} ${lx.word}`,
+        display: nounDisplay(lx),
         gloss: lx.gloss ?? c.gloss,
         icon: c.icon,
         glyph: lx.glyph,

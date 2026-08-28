@@ -3,6 +3,7 @@
  * SpeechService seam; logs listening exposure on the word record.
  */
 import { db } from './content';
+import { nounDisplay } from '../engine/content/loader';
 import { getServices } from '../services';
 import { useCase } from '../state/caseStore';
 import { useVocab } from '../state/vocabStore';
@@ -19,8 +20,8 @@ export function speakConcept(conceptId: ConceptId, opts: { plural?: boolean; slo
   const slowDefault = useSettings.getState().slowAudioDefault;
   const slow = opts.slow ?? slowDefault;
   const text = opts.plural
-    ? (lx.ttsTextPlural ?? lx.plural ?? `${lx.article} ${lx.word}`)
-    : (lx.ttsText ?? `${lx.article} ${lx.word}`);
+    ? (lx.ttsTextPlural ?? lx.plural ?? nounDisplay(lx))
+    : (lx.ttsText ?? nounDisplay(lx));
   getServices().speech.speak({ text, locale: pack.locale, rate: slow ? pack.slowRate : 1 });
   useVocab.getState().markHeard(conceptId, slow);
   markWordsDirty();

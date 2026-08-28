@@ -6,6 +6,7 @@
 import type { ConceptId, RoundMode, Tier } from '../types';
 import type { Concept, Lexeme, Clue } from '../content/schemas';
 import type { ResolvedTarget } from './buildRound';
+import { nounDisplay } from '../content/loader';
 import { deriveSeed, mulberry32 } from '../rand';
 
 export type ChipKind = 'word' | 'word-gloss' | 'phrase' | 'audio' | 'silhouette' | 'evidence';
@@ -65,7 +66,7 @@ export function presentRound(input: PresentInput): ChipModel[] {
     }
     const lx = input.lexeme(t.conceptId!);
     const c = input.concept(t.conceptId!);
-    const displaySingular = `${lx.article} ${lx.word}`;
+    const displaySingular = nounDisplay(lx);
     const display = t.isPlural && lx.plural ? `${lx.plural}` : displaySingular;
     const base = {
       targetId: t.targetId,

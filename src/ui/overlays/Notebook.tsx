@@ -4,6 +4,7 @@ import { useNotebook } from '../../state/notebookStore';
 import { useVocab } from '../../state/vocabStore';
 import { useCase } from '../../state/caseStore';
 import { band, pips } from '../../engine/vocab/scheduler';
+import { nounDisplay } from '../../engine/content/loader';
 import { db } from '../../app/content';
 import { clueCaption } from '../../app/storyFlow';
 import { speakConcept } from '../../app/speak';
@@ -201,9 +202,9 @@ function WordsTab(): JSX.Element {
               type="button"
               style={{ fontWeight: 600, textAlign: 'left' }}
               onClick={() => speakConcept(w.conceptId, {})}
-              aria-label={`${lx.article} ${lx.word}, hear it`}
+              aria-label={`${nounDisplay(lx)}, hear it`}
             >
-              {lx.article} {lx.word}
+              {nounDisplay(lx)}
             </button>
             <span className="margin-note">{lx.gloss ?? c.gloss}</span>
             <span className="word-row__pips" aria-label={`strength ${p} of 3`}>
