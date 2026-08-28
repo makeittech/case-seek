@@ -13,6 +13,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
+    "test:campaign": "playwright test --config playwright.campaign.config.ts",
     "validate": "tsx tools/validate.ts"
   },
   "dependencies": {

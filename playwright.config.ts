@@ -6,6 +6,9 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: 'e2e',
+  // the full-campaign playthrough is a ~20 min run with its own config
+  // (playwright.campaign.config.ts, production preview server)
+  testIgnore: '**/full-campaign.spec.ts',
   timeout: 180_000,
   expect: { timeout: 15_000 },
   fullyParallel: true,
