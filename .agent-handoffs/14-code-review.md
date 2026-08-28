@@ -7,6 +7,7 @@ DONE — principal-engineer architecture review of Case & Seek, with every findi
 - `npm test` — 81/81 in 13 files
 - `npm run build` — validator + tsc + vite; **main chunk 341 KB min / 103 KB gz** (was 1,610 KB / 228 KB)
 - `npm run test:e2e` — 7/7 (smokes ×3, console hygiene ×3-in-1, axe audit, Spanish full playthrough with mid-round reload), re-run after every slice
+- `npm run test:campaign` — full 88-node campaign (29 rounds, 9 puzzles, 39 beats, accusation, epilogue) passes in 7.2 min against the production preview, both with and without the content nudges (the previously stalling Museum Archives rounds S04/S21 complete)
 
 ## What was found and fixed
 
@@ -48,8 +49,14 @@ Dialogs had `role="dialog"` but no modal semantics, no focus management, no Esca
 - Find feedback now reaches screen readers: found counter `aria-live="polite"`; word card, curiosity slip, and steady toast `role="status"`.
 - The axe e2e audit stays clean.
 
+### 8. Fairness regression the pipeline couldn't see (commits `ee69126`, `29c3951`, `9dbb40a`)
+Chasing a full-campaign stall (Museum Archives 9/10, the stool never findable) surfaced three layered problems:
+- **The e2e hook lied about occlusion** (`ee69126`). `remainingTargets()` passed an **empty `taggedIds`** to `hitTest`, so higher-z tagged props were treated as see-through ambience: the hook reported page points as tappable that a real tap resolves to the occluder (shimmer, no find) — an unfixable stall for the driver. It now uses the same `taggedPropIds()` as the live tap path, and samples the target's **own silhouette cells center-out** instead of a fixed offset spiral, so anything a determined player could tap is eventually reported. Plus a race fix in `findAllTargets` (the last find swaps search→results on a timer between two checks).
+- **The validator never implemented its own spec** (`29c3951`). ARCH §11 promises "occlusion estimate ≤ 60% (mask overlap of higher-z placements)"; no such check existed, and ten targets (one an evidence find) sat up to **80% buried** under higher-z tagged props — untappable where covered, per occlusion honesty. New `tools/gen-prop-masks.py` bakes every prop webp's alpha silhouette into `tools/prop-masks.json` (64×64 bit grids mirroring the runtime sprite fit + mask threshold, content-hashed for staleness detection); `tools/validate.ts` replays the exact HitTester transform over resolved scenes (variants included): every tagged prop (any can become a review-pool target) and every round-required clue prop must keep ≥40% visible (error; warn <45%), with per-occluder coverage in the message. `spriteIdFor` moved to `engine/content/loader` — a content contract, not a UI detail.
+- **Twelve placements fixed** (`9dbb40a`) by exhaustive-search nudges (≤60 px) constrained to: 4% edge safety, light-pool membership preserved, z follows y, and **no other findable prop in any affected scene/variant regresses**. Variant-only burials move via the variant's `moveProps`/`addProps` so parents stay untouched. Validator now clean of fairness errors and warnings.
+
 ## Commits (this review)
-`5a02752` typed persistence · `3de1468` SearchScreen decomposition · `b34c873` sprite eviction · `bfb77a2` content code-split · `3b0d053` a11y modals + live regions
+`5a02752` typed persistence · `3de1468` SearchScreen decomposition · `b34c873` sprite eviction · `bfb77a2` content code-split · `3b0d053` a11y modals + live regions · `ee69126` honest e2e hook · `29c3951` occlusion validator · `9dbb40a` placement fixes
 
 ## Blockers
 NONE
@@ -59,3 +66,5 @@ NONE
 - The canvas itself is still pointer-only; the reticle keyboard mode from ARCH §5 remains the one open a11y feature (11-qa's assessment unchanged).
 - `pruneSpriteCache` keys off scene entry; if a future overworld preloads neighboring scenes, switch the `keep` set to the union of active + preloaded.
 - Content chunk is one file (~125 KB gz). Per-chapter splitting is possible with the same source-module pattern if it ever matters; today it loads in parallel with boot and is precached by the SW anyway.
+- `tools/prop-masks.json` must be regenerated when prop art changes (`python3 tools/gen-prop-masks.py`, needs Pillow — same dep as the art pipeline). The validator detects stale/missing masks via content hash and **warns** rather than failing the build, so art iteration is never blocked; regenerate before trusting fairness numbers.
+- The occlusion check covers prop-vs-prop burial. The remaining Charter automation gaps (contrast floor, decoy neighborhoods, feature-zone visibility) still have no tooling — same status as before this review, now one item shorter.
