@@ -14,7 +14,8 @@ import { handleSceneTap } from '../../../app/roundFlow';
 import { useRound } from '../../../state/roundStore';
 import { useSettings } from '../../../state/settingsStore';
 import type { SceneDef } from '../../../engine/content/schemas';
-import { glyphFor, spriteIdFor } from './glyphs';
+import { spriteIdFor } from '../../../engine/content/loader';
+import { glyphFor } from './glyphs';
 import { HIT_DILATION_PX, taggedPropIds, toHitProps } from './hitProps';
 import { installTestHook } from './testHook';
 

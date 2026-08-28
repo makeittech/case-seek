@@ -28,6 +28,7 @@ import {
   type Finale,
   type LanguagePack,
   type Lexeme,
+  type PropPlacement,
   type PuzzleConfig,
   type RoundTemplate,
   type SceneDef,
@@ -175,6 +176,11 @@ export function lexemeOf(dbi: ContentDB, lang: Lang, id: ConceptId): Lexeme {
 /** The canonical article+noun display form ("der Schlüssel"). */
 export function nounDisplay(lx: Pick<Lexeme, 'article' | 'word'>): string {
   return `${lx.article} ${lx.word}`;
+}
+
+/** Sprite id for a placement (asset-manifest contract: prop-<concept-noun>). */
+export function spriteIdFor(p: Pick<PropPlacement, 'id' | 'concept' | 'sprite'>): string {
+  return p.sprite ?? `prop-${p.concept.split(':')[1] ?? p.id}`;
 }
 
 /** Resolve a scene (applying variant deltas if the id names a variant). */

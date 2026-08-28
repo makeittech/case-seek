@@ -3,11 +3,13 @@
  * same Zod schemas as the runtime loader, then cross-checks references and
  * design rules. Exits non-zero on any failure — wired into `npm run build`.
  */
-import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join, relative, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildContentDB, resolveSceneDef } from '../src/engine/content/loader';
+import { createHash } from 'node:crypto';
+import { buildContentDB, resolveSceneDef, spriteIdFor } from '../src/engine/content/loader';
 import { conceptPropIndex } from '../src/engine/rounds/buildRound';
+import type { PropPlacement } from '../src/engine/content/schemas';
 import type { Lang } from '../src/engine/types';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -153,6 +155,168 @@ for (const v of db.variants.values()) {
     resolveSceneDef(db, v.id);
   } catch (e) {
     err(`variant ${v.id}: ${String(e instanceof Error ? e.message : e)}`);
+  }
+}
+
+// ---- fairness: occlusion cap (ARCH §11 / Charter #2) ----
+// A tap on an occluder hits the occluder (occlusion honesty), so every prop
+// that can become a target must keep enough silhouette clear of higher-z
+// tagged props. Silhouettes come from tools/prop-masks.json — regenerate with
+// `python3 tools/gen-prop-masks.py` whenever prop art changes.
+{
+  const TOOLS = dirname(fileURLToPath(import.meta.url));
+  const MASKS_PATH = join(TOOLS, 'prop-masks.json');
+  /** Charter #2: at most 60% of a target's silhouette may be occluded. */
+  const MIN_VISIBLE = 0.4;
+  const WARN_VISIBLE = 0.45;
+
+  interface MaskFile {
+    sprite: number;
+    grid: number;
+    masks: Record<string, { hash: string; bits: string }>;
+  }
+
+  if (!existsSync(MASKS_PATH)) {
+    warn('fairness: tools/prop-masks.json missing — occlusion checks skipped (python3 tools/gen-prop-masks.py)');
+  } else {
+    const maskFile = JSON.parse(readFileSync(MASKS_PATH, 'utf8')) as MaskFile;
+    const CELL = maskFile.sprite / maskFile.grid;
+    const HALF = maskFile.sprite / 2;
+    const bitsCache = new Map<string, Uint8Array | null>();
+    const staleWarned = new Set<string>();
+
+    const spriteBits = (spriteId: string): Uint8Array | null => {
+      const cached = bitsCache.get(spriteId);
+      if (cached !== undefined) return cached;
+      const file = join(ROOT, 'public', 'assets', 'props', `${spriteId}.webp`);
+      const entry = maskFile.masks[spriteId];
+      let bits: Uint8Array | null = null;
+      if (!existsSync(file)) {
+        // no shipped art: the runtime uses a generated stand-in — nothing to check
+      } else if (!entry) {
+        if (!staleWarned.has(spriteId)) {
+          staleWarned.add(spriteId);
+          warn(`fairness: no mask for sprite ${spriteId} — regenerate tools/prop-masks.json`);
+        }
+      } else {
+        const hash = createHash('sha1').update(readFileSync(file)).digest('hex').slice(0, 12);
+        if (hash !== entry.hash && !staleWarned.has(spriteId)) {
+          staleWarned.add(spriteId);
+          warn(`fairness: stale mask for sprite ${spriteId} — regenerate tools/prop-masks.json`);
+        }
+        bits = Uint8Array.from(Buffer.from(entry.bits, 'base64'));
+      }
+      bitsCache.set(spriteId, bits);
+      return bits;
+    };
+
+    const solidAt = (bits: Uint8Array, gx: number, gy: number): boolean => {
+      if (gx < 0 || gy < 0 || gx >= maskFile.grid || gy >= maskFile.grid) return false;
+      const i = gy * maskFile.grid + gx;
+      return (bits[i >> 3]! & (1 << (i & 7))) !== 0;
+    };
+
+    /** Does prop p's silhouette cover the scene point? (HitTester.toLocal mirror) */
+    const covers = (p: PropPlacement, bits: Uint8Array, sx: number, sy: number): boolean => {
+      let dx = sx - p.x;
+      let dy = sy - p.y;
+      if (p.rotation !== 0) {
+        const a = (-p.rotation * Math.PI) / 180;
+        const rx = dx * Math.cos(a) - dy * Math.sin(a);
+        const ry = dx * Math.sin(a) + dy * Math.cos(a);
+        dx = rx;
+        dy = ry;
+      }
+      dx /= p.scale;
+      dy /= p.scale;
+      if (p.flipX) dx = -dx;
+      return solidAt(bits, Math.floor((dx + HALF) / CELL), Math.floor((dy + HALF) / CELL));
+    };
+
+    /** Visible fraction + per-occluder covered fractions of the target silhouette. */
+    const visibility = (
+      target: PropPlacement,
+      bits: Uint8Array,
+      occluders: [PropPlacement, Uint8Array][],
+    ): { visible: number; coveredBy: Map<string, number> } => {
+      let total = 0;
+      let visible = 0;
+      const coveredBy = new Map<string, number>();
+      const rot = (target.rotation * Math.PI) / 180;
+      const cos = Math.cos(rot);
+      const sin = Math.sin(rot);
+      for (let gy = 0; gy < maskFile.grid; gy++) {
+        for (let gx = 0; gx < maskFile.grid; gx++) {
+          if (!solidAt(bits, gx, gy)) continue;
+          total++;
+          let lx = (gx + 0.5) * CELL - HALF;
+          const ly = (gy + 0.5) * CELL - HALF;
+          if (target.flipX) lx = -lx;
+          const sx = target.x + (lx * cos - ly * sin) * target.scale;
+          const sy = target.y + (lx * sin + ly * cos) * target.scale;
+          let covered = false;
+          for (const [o, ob] of occluders) {
+            if (!covers(o, ob, sx, sy)) continue;
+            covered = true;
+            coveredBy.set(o.id, (coveredBy.get(o.id) ?? 0) + 1);
+          }
+          if (!covered) visible++;
+        }
+      }
+      if (total > 0) for (const [id, n] of coveredBy) coveredBy.set(id, n / total);
+      return { visible: total === 0 ? 1 : visible / total, coveredBy };
+    };
+
+    // clue props only need to stay findable in scenes whose rounds target them
+    const requiredCluePropsByScene = new Map<string, Set<string>>();
+    for (const round of db.rounds.values()) {
+      let scene;
+      try {
+        scene = resolveSceneDef(db, round.sceneId);
+      } catch {
+        continue; // unknown scene already reported above
+      }
+      const req = requiredCluePropsByScene.get(round.sceneId) ?? new Set<string>();
+      if (round.mode === 'evidence-sweep') {
+        for (const clueId of round.sweepClues ?? []) {
+          for (const p of scene.props) if (p.clue === clueId) req.add(p.id);
+        }
+      } else {
+        req.add(round.evidence.propId);
+      }
+      requiredCluePropsByScene.set(round.sceneId, req);
+    }
+
+    const isTagged = (p: PropPlacement): boolean => p.concept !== 'untagged:ambience' && !p.clue;
+    const sceneIds = [...db.scenes.keys(), ...db.variants.keys()];
+    const reported = new Set<string>();
+    for (const sceneId of sceneIds) {
+      const scene = resolveSceneDef(db, sceneId);
+      const requiredClues = requiredCluePropsByScene.get(sceneId) ?? new Set<string>();
+      const withBits = scene.props
+        .map((p) => [p, spriteBits(spriteIdFor(p))] as const)
+        .filter((pair): pair is [PropPlacement, Uint8Array] => pair[1] !== null);
+      for (const [target, bits] of withBits) {
+        // any tagged prop can become a target (review pool); clues only where a round needs them
+        if (!isTagged(target) && !requiredClues.has(target.id)) continue;
+        const occluders = withBits.filter(([o]) => isTagged(o) && o.id !== target.id && o.z > target.z);
+        if (occluders.length === 0) continue;
+        const { visible, coveredBy } = visibility(target, bits, occluders);
+        if (visible >= WARN_VISIBLE) continue;
+        const on = [...coveredBy.entries()]
+          .filter(([, f]) => f >= 0.03)
+          .sort((a, b) => b[1] - a[1])
+          .map(([id, f]) => `${id} ${(f * 100).toFixed(0)}%`)
+          .join(', ');
+        // a variant inherits parent placements — don't repeat the parent's report
+        const key = `${target.id}@${visible.toFixed(3)}`;
+        if (reported.has(key)) continue;
+        reported.add(key);
+        const msg = `fairness: ${sceneId}/${target.id} only ${(visible * 100).toFixed(0)}% visible (covered by ${on}) — Charter #2 caps occlusion at 60%`;
+        if (visible < MIN_VISIBLE) err(msg);
+        else warn(msg);
+      }
+    }
   }
 }
 

@@ -33,8 +33,3 @@ export function glyphFor(p: PropPlacement): { glyph: string; tint: string } {
   const c = db().concepts.get(p.concept);
   return { glyph: c?.icon ?? '❓', tint: c ? DOMAIN_TINT[c.domain] : '#9a9a86' };
 }
-
-/** Sprite id for a placement (asset-manifest contract: prop-<concept-noun>). */
-export function spriteIdFor(p: PropPlacement): string {
-  return p.sprite ?? `prop-${p.concept.split(':')[1] ?? p.id}`;
-}
