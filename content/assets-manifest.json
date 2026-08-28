@@ -114,7 +114,7 @@
  },
  "assets": [
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -134,7 +134,7 @@
    "generatedPath": "public/assets/paintings/ref-nightingale.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -154,7 +154,7 @@
    "generatedPath": "public/assets/paintings/ref-wren.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -374,7 +374,7 @@
    "generatedPath": "public/assets/paintings/prop-stretcher-bar-1904.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
