@@ -69,6 +69,7 @@ export const LanguagePackSchema = z
     nameEn: z.string(), // "German"
     locale: z.string(), // "de-DE"
     greeting: z.string(), // spoken on cover hover
+    grandmother: z.string(), // Margo's grandmother, localized ("Oma Katja") — {gran} in dialogue
     slowRate: z.number().min(0.4).max(1),
     articles: z.array(z.string()).min(2),
     articleOptionSets: z.array(z.array(z.string()).min(2)).min(1), // debrief pick option rows
@@ -301,7 +302,8 @@ export const ClueSchema = z
     name: z.string(),
     icon: z.string(),
     note: z.string(), // Halloway's margin note
-    caption: z.string().optional(), // target-language caption (C28), tap-gloss
+    caption: z.string().optional(), // caption fallback when no captionKey resolves
+    captionKey: z.string().optional(), // token-bank key → study-language caption (C28), tap-gloss
     pin: z.boolean().default(true),
   })
   .strict();

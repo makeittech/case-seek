@@ -9,8 +9,31 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,webp,woff2,json}'],
+        // precache = app shell only; the art library (~280 MB of webp) is
+        // cached lazily as scenes are visited so first load stays light
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
+        globIgnores: [
+          'assets/scenes/**',
+          'assets/props/**',
+          'assets/story/**',
+          'assets/ui/**',
+          'assets/fx/**',
+          'assets/characters/**',
+          'assets/clues/**',
+          'assets/paintings/**',
+        ],
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith('/assets/'),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'case-seek-art',
+              expiration: { maxEntries: 1200, purgeOnQuotaError: true },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
       },
       manifest: {
         name: 'Case & Seek — The Hollow Frame',

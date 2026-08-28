@@ -135,7 +135,7 @@ function CluesTab(): JSX.Element {
             </span>
             <div>
               <strong>{clue.name}</strong>
-              {clue.caption && <span className="margin-note"> «{clue.caption}»</span>}
+              {clueCaption(clue) && <span className="margin-note"> {clueCaption(clue)}</span>}
               <div className="margin-note">{clue.note}</div>
             </div>
           </div>

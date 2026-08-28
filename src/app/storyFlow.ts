@@ -9,7 +9,7 @@ import { useVocab, wordRecordMap } from '../state/vocabStore';
 import { markCaseDirty, markNotebookDirty, markWordsDirty } from './persist';
 import { advanceFlow } from './flow';
 import { getServices } from '../services';
-import type { Line } from '../engine/content/schemas';
+import type { Clue, Line } from '../engine/content/schemas';
 import type { ConceptId, Tier } from '../engine/types';
 
 export interface RenderedLine {
@@ -27,6 +27,12 @@ export function renderLine(line: Line, tier: Tier): RenderedLine {
   const speakerName = cast?.name ?? (line.speaker === 'narration' ? '' : line.speaker === 'letter' ? 'The letter' : line.speaker);
   let text = line.en;
   let token: RenderedLine['token'] = null;
+
+  // {gran} — Margo's grandmother, a proper name that follows the study language
+  // (Oma Katja / Abuela Rosa / Nonna Lucia). Names are fair at every tier.
+  if (text.includes('{gran}')) {
+    text = text.replaceAll('{gran}', row ? d.packs[row.lang].grandmother : 'Gran');
+  }
 
   const allowL1 = tier === 'conversational' || tier === 'advanced';
   const allowL2 = tier === 'advanced';
@@ -60,6 +66,19 @@ export function renderLine(line: Line, tier: Tier): RenderedLine {
     }
   }
   return { speaker: line.speaker, speakerName, text, token };
+}
+
+/**
+ * Study-language clue caption (C28's sketchbook line). The text lives in the
+ * token bank per language; the English gloss rides along as the tap-gloss.
+ */
+export function clueCaption(clue: Clue): string | null {
+  const row = useCase.getState().row;
+  if (clue.captionKey && row) {
+    const tok = db().packs[row.lang].tokens.find((t) => t.key === clue.captionKey);
+    if (tok) return `«${tok.text}» — “${tok.gloss}”`;
+  }
+  return clue.caption ? `«${clue.caption}»` : null;
 }
 
 /** The round's weakest found noun — Margo's echo rule (LANG §8.6). */

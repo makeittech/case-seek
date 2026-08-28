@@ -2,6 +2,7 @@
 import { useUi } from '../../state/uiStore';
 import { advanceFlow } from '../../app/flow';
 import { db } from '../../app/content';
+import { clueCaption } from '../../app/storyFlow';
 import { ui } from '../strings';
 
 export function ClueScreen({ clueId, back }: { clueId: string; back: 'search' | 'flow' | 'notebook' }): JSX.Element {
@@ -26,7 +27,7 @@ export function ClueScreen({ clueId, back }: { clueId: string; back: 'search' | 
             {clue.icon}
           </div>
           <div className="evidence-card__name">{clue.name}</div>
-          {clue.caption && <div className="margin-note">«{clue.caption}»</div>}
+          {clueCaption(clue) && <div className="margin-note">{clueCaption(clue)}</div>}
           <div className="evidence-card__note margin-note">{clue.note}</div>
           <button type="button" className="btn btn--primary" data-testid="btn-clue-continue" onClick={onContinue}>
             {ui('continueStory')}

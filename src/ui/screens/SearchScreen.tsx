@@ -504,7 +504,7 @@ export function SearchScreen({ roundId }: { roundId: string }): JSX.Element {
                 {clue.icon}
               </div>
               <div className="evidence-card__name">{clue.name}</div>
-              {clue.caption && <div className="margin-note">«{clue.caption}»</div>}
+              {clueCaption(clue) && <div className="margin-note">{clueCaption(clue)}</div>}
               <div className="evidence-card__note margin-note">{clue.note}</div>
               <button type="button" className="btn btn--primary" data-testid="btn-pin-clue" onClick={pinPendingClue}>
                 📌 {ui('clue.pin')}

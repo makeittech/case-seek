@@ -471,7 +471,7 @@ export const TOKENS = [
   ['goodness', 'L2', { de: 'Du meine Güte', es: 'Dios mío', it: 'Madonna santa' }, 'good heavens'],
   ['tja', 'L2', { de: 'Tja', es: 'Vaya', it: 'Beh' }, 'well then'],
   ['see', 'L2', { de: 'Na, siehste', es: '¿Lo ves?', it: 'Visto?' }, 'see?'],
-  ['dog-buried', 'L2', { de: 'Da liegt der Hund begraben', es: 'Ahí está la madre del cordero', it: "Qui casca l'asino" }, "that's the crux of it"],
+  ['dog-buried', 'L2', { de: 'Da liegt der Hund begraben', es: 'Ahí está el quid', it: "Qui casca l'asino" }, "that's the crux of it"],
   ['who-searches', 'L2', { de: 'Wer sucht, der findet', es: 'El que busca, encuentra', it: 'Chi cerca trova' }, 'who searches, finds'],
   ['wren', 'L2', { de: 'der Zaunkönig', es: 'el chochín', it: 'lo scricciolo' }, 'the wren'],
   ['still-sings', 'L2', { de: 'Die Nachtigall singt noch.', es: 'El ruiseñor todavía canta.', it: "L'usignolo canta ancora." }, 'the nightingale still sings'],
