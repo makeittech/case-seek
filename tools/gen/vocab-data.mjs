@@ -494,7 +494,9 @@ export const TOKENS = [
   ['raining-buckets', 'L2', { de: 'Es gießt wie aus Eimern', es: 'Llueve a cántaros', it: 'Piove a catinelle' }, "it's pouring buckets"],
   ['costs-eye', 'L2', { de: 'sündhaft teuer', es: 'un ojo de la cara', it: 'un occhio della testa' }, 'costs a fortune'],
   ['to-the-point', 'L2', { de: 'auf den Punkt', es: 'al grano', it: 'al sodo' }, 'straight to the point'],
-  ['fits-perfectly', 'L2', { de: 'wie die Faust aufs Auge', es: 'como anillo al dedo', it: 'a pennello' }, 'fits perfectly'],
+  // de: «wie die Faust aufs Auge» natively means the opposite (only ironically
+  // "fits perfectly"), so the unambiguous «wie angegossen» is taught instead.
+  ['fits-perfectly', 'L2', { de: 'wie angegossen', es: 'como anillo al dedo', it: 'a pennello' }, 'fits perfectly'],
   ['red-handed', 'L2', { de: 'auf frischer Tat', es: 'manos en la masa', it: 'con le mani nel sacco' }, 'caught red-handed'],
   ['agreed', 'L2', { de: 'abgemacht', es: 'trato hecho', it: 'affare fatto' }, "it's a deal"],
   ['good-luck', 'L2', { de: 'Hals- und Beinbruch', es: 'mucha suerte', it: 'in bocca al lupo' }, 'good luck'],
