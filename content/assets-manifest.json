@@ -174,7 +174,7 @@
    "generatedPath": "public/assets/paintings/ref-lattice-sigil.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -194,7 +194,7 @@
    "generatedPath": "public/assets/paintings/pnt-master.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -214,7 +214,7 @@
    "generatedPath": "public/assets/paintings/pnt-copy.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -234,7 +234,7 @@
    "generatedPath": "public/assets/paintings/pnt-study.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -254,7 +254,7 @@
    "generatedPath": "public/assets/paintings/pnt-photo.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -274,7 +274,7 @@
    "generatedPath": "public/assets/paintings/pnt-rooftop-unrolled.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -294,7 +294,7 @@
    "generatedPath": "public/assets/paintings/pnt-copy-crated.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -314,7 +314,7 @@
    "generatedPath": "public/assets/paintings/prop-frame-gilt-original.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -334,7 +334,7 @@
    "generatedPath": "public/assets/paintings/prop-frame-hollow-duplicate.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -354,7 +354,7 @@
    "generatedPath": "public/assets/paintings/prop-cradle-patent.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -394,7 +394,7 @@
    "generatedPath": "public/assets/paintings/ref-north-mole.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00"
@@ -416,7 +416,7 @@
    "generatedPath": "public/assets/scenes/scn-office.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01"
@@ -438,7 +438,7 @@
    "generatedPath": "public/assets/scenes/scn-gallery-day.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -461,7 +461,7 @@
    "generatedPath": "public/assets/scenes/scn-curators-office.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -484,7 +484,7 @@
    "generatedPath": "public/assets/scenes/scn-archives.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05"
@@ -506,7 +506,7 @@
    "generatedPath": "public/assets/scenes/scn-docks-day.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -529,7 +529,7 @@
    "generatedPath": "public/assets/scenes/scn-tavern.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -551,7 +551,7 @@
    "generatedPath": "public/assets/scenes/scn-warehouse.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -574,7 +574,7 @@
    "generatedPath": "public/assets/scenes/scn-hotel-lobby.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -596,7 +596,7 @@
    "generatedPath": "public/assets/scenes/scn-shop-day.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -618,7 +618,7 @@
    "generatedPath": "public/assets/scenes/scn-suite-412.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -641,7 +641,7 @@
    "generatedPath": "public/assets/scenes/scn-night-market.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16"
@@ -663,7 +663,7 @@
    "generatedPath": "public/assets/scenes/scn-tram-depot.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -686,7 +686,7 @@
    "generatedPath": "public/assets/scenes/scn-loft.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -709,7 +709,7 @@
    "generatedPath": "public/assets/scenes/scn-auction-house.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -731,7 +731,7 @@
    "generatedPath": "public/assets/scenes/scn-conservatory.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S24"
@@ -753,7 +753,7 @@
    "generatedPath": "public/assets/scenes/scn-clocktower.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -775,7 +775,7 @@
    "generatedPath": "public/assets/scenes/scn-station.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -797,7 +797,7 @@
    "generatedPath": "public/assets/scenes/scn-pier.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S28"
@@ -819,7 +819,7 @@
    "generatedPath": "public/assets/scenes/scn-rooftop.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07"
@@ -841,7 +841,7 @@
    "generatedPath": "public/assets/scenes/scn-docks-fog.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -863,7 +863,7 @@
    "generatedPath": "public/assets/scenes/scn-shop-night.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S27"
@@ -885,7 +885,7 @@
    "generatedPath": "public/assets/scenes/scn-gallery-storm.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00"
@@ -907,7 +907,7 @@
    "generatedPath": "public/assets/clues/clue-c00-dawn-pass-letter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01"
@@ -929,7 +929,7 @@
    "generatedPath": "public/assets/clues/clue-c01-screw-cradle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01"
@@ -951,7 +951,7 @@
    "generatedPath": "public/assets/clues/clue-c01b-lining-fragments.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02"
@@ -973,7 +973,7 @@
    "generatedPath": "public/assets/clues/clue-c02-acquisition-file.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S03"
@@ -995,7 +995,7 @@
    "generatedPath": "public/assets/clues/clue-c03-blotter-mirror.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02"
@@ -1017,7 +1017,7 @@
    "generatedPath": "public/assets/clues/clue-c03b-photo-1919.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04"
@@ -1039,7 +1039,7 @@
    "generatedPath": "public/assets/clues/clue-c04-blueprint.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04"
@@ -1061,7 +1061,7 @@
    "generatedPath": "public/assets/clues/clue-c05-clipping.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S21"
@@ -1083,7 +1083,7 @@
    "generatedPath": "public/assets/clues/clue-c06-chart-1904.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04"
@@ -1105,7 +1105,7 @@
    "generatedPath": "public/assets/clues/clue-c07-pawn-ticket.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05"
@@ -1127,7 +1127,7 @@
    "generatedPath": "public/assets/clues/clue-c08-pawn-ledger.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06"
@@ -1149,7 +1149,7 @@
    "generatedPath": "public/assets/clues/clue-c09-chalk-slate.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07"
@@ -1171,7 +1171,7 @@
    "generatedPath": "public/assets/clues/clue-c10-berth-ledger.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07"
@@ -1193,7 +1193,7 @@
    "generatedPath": "public/assets/clues/clue-c11-lading-slip.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S08"
@@ -1215,7 +1215,7 @@
    "generatedPath": "public/assets/clues/clue-c12-duplicate-log.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S08"
@@ -1237,7 +1237,7 @@
    "generatedPath": "public/assets/clues/clue-c12b-watermark-scrap.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -1259,7 +1259,7 @@
    "generatedPath": "public/assets/clues/clue-c13-stamp-manifest.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -1281,7 +1281,7 @@
    "generatedPath": "public/assets/clues/clue-c13b-crate-interior.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10"
@@ -1303,7 +1303,7 @@
    "generatedPath": "public/assets/clues/clue-c14-hotel-register.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -1325,7 +1325,7 @@
    "generatedPath": "public/assets/clues/clue-c15-die-comparison.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -1347,7 +1347,7 @@
    "generatedPath": "public/assets/clues/clue-c16-cipher-ledger.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S12"
@@ -1369,7 +1369,7 @@
    "generatedPath": "public/assets/clues/clue-c17-drop-note-glove.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -1391,7 +1391,7 @@
    "generatedPath": "public/assets/clues/clue-c18-telegram.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14"
@@ -1413,7 +1413,7 @@
    "generatedPath": "public/assets/clues/clue-c19-dead-drop-lantern.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S15"
@@ -1435,7 +1435,7 @@
    "generatedPath": "public/assets/clues/clue-c20-order-book.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16"
@@ -1457,7 +1457,7 @@
    "generatedPath": "public/assets/clues/clue-c21-waybill-dispatch.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17"
@@ -1479,7 +1479,7 @@
    "generatedPath": "public/assets/clues/clue-c22-pounced-cartoon.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17"
@@ -1501,7 +1501,7 @@
    "generatedPath": "public/assets/clues/clue-c22b-varnish-kitchen.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17"
@@ -1523,7 +1523,7 @@
    "generatedPath": "public/assets/clues/clue-c22c-smock-buttons.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S18"
@@ -1545,7 +1545,7 @@
    "generatedPath": "public/assets/clues/clue-c23-pigment-pot.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19"
@@ -1567,7 +1567,7 @@
    "generatedPath": "public/assets/clues/clue-c24-study-comparison.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S20"
@@ -1589,7 +1589,7 @@
    "generatedPath": "public/assets/clues/clue-c25-consignment-ledger.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S21"
@@ -1611,7 +1611,7 @@
    "generatedPath": "public/assets/clues/clue-c26-board-file.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S21"
@@ -1633,7 +1633,7 @@
    "generatedPath": "public/assets/clues/clue-c27-aurelia-manifest.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -1655,7 +1655,7 @@
    "generatedPath": "public/assets/clues/clue-c28-sketchbook.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -1677,7 +1677,7 @@
    "generatedPath": "public/assets/clues/clue-c29-dossier.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S24"
@@ -1699,7 +1699,7 @@
    "generatedPath": "public/assets/clues/clue-c30-stretcher-timetable.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S24"
@@ -1721,7 +1721,7 @@
    "generatedPath": "public/assets/clues/clue-c30b-burn-barrel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -1743,7 +1743,7 @@
    "generatedPath": "public/assets/clues/clue-c31-transfer-papers.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -1765,7 +1765,7 @@
    "generatedPath": "public/assets/clues/clue-c32-counterfoil.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -1787,7 +1787,7 @@
    "generatedPath": "public/assets/clues/clue-c33-brooch-ticket-card.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S27"
@@ -1809,7 +1809,7 @@
    "generatedPath": "public/assets/clues/clue-c34-seal-hero.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S27"
@@ -1831,7 +1831,7 @@
    "generatedPath": "public/assets/clues/clue-c34b-footprints-stair.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S28"
@@ -1853,7 +1853,7 @@
    "generatedPath": "public/assets/clues/clue-c35a-the-signing.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S28"
@@ -1875,7 +1875,7 @@
    "generatedPath": "public/assets/clues/clue-c35b-brooch-to-collar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S28"
@@ -1897,7 +1897,7 @@
    "generatedPath": "public/assets/clues/clue-c35c-two-paintings.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -1930,7 +1930,7 @@
    "generatedPath": "public/assets/props/prop-key.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -1958,7 +1958,7 @@
    "generatedPath": "public/assets/props/prop-notebook.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -1989,7 +1989,7 @@
    "generatedPath": "public/assets/props/prop-magnifier.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -2017,7 +2017,7 @@
    "generatedPath": "public/assets/props/prop-coat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00"
@@ -2042,7 +2042,7 @@
    "generatedPath": "public/assets/props/prop-hat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -2081,7 +2081,7 @@
    "generatedPath": "public/assets/props/prop-lamp.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00"
@@ -2106,7 +2106,7 @@
    "generatedPath": "public/assets/props/prop-cup.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -2135,7 +2135,7 @@
    "generatedPath": "public/assets/props/prop-umbrella.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -2163,7 +2163,7 @@
    "generatedPath": "public/assets/props/prop-frame.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -2195,7 +2195,7 @@
    "generatedPath": "public/assets/props/prop-rope.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -2235,7 +2235,7 @@
    "generatedPath": "public/assets/props/prop-crate.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01"
@@ -2260,7 +2260,7 @@
    "generatedPath": "public/assets/props/prop-ladder.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -2290,7 +2290,7 @@
    "generatedPath": "public/assets/props/prop-glove.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01"
@@ -2315,7 +2315,7 @@
    "generatedPath": "public/assets/props/prop-screwdriver.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -2346,7 +2346,7 @@
    "generatedPath": "public/assets/props/prop-label.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -2377,7 +2377,7 @@
    "generatedPath": "public/assets/props/prop-bench.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01"
@@ -2402,7 +2402,7 @@
    "generatedPath": "public/assets/props/prop-chandelier.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2435,7 +2435,7 @@
    "generatedPath": "public/assets/props/prop-ledger.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2463,7 +2463,7 @@
    "generatedPath": "public/assets/props/prop-teacup.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2489,7 +2489,7 @@
    "generatedPath": "public/assets/props/prop-envelope.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2520,7 +2520,7 @@
    "generatedPath": "public/assets/props/prop-rubber-stamp.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2549,7 +2549,7 @@
    "generatedPath": "public/assets/props/prop-inkwell.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2578,7 +2578,7 @@
    "generatedPath": "public/assets/props/prop-scissors.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2607,7 +2607,7 @@
    "generatedPath": "public/assets/props/prop-folder.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2633,7 +2633,7 @@
    "generatedPath": "public/assets/props/prop-monocle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2662,7 +2662,7 @@
    "generatedPath": "public/assets/props/prop-telephone.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2688,7 +2688,7 @@
    "generatedPath": "public/assets/props/prop-blotter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2720,7 +2720,7 @@
    "generatedPath": "public/assets/props/prop-candle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2746,7 +2746,7 @@
    "generatedPath": "public/assets/props/prop-sealing-wax.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2772,7 +2772,7 @@
    "generatedPath": "public/assets/props/prop-letter-opener.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -2800,7 +2800,7 @@
    "generatedPath": "public/assets/props/prop-calendar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2826,7 +2826,7 @@
    "generatedPath": "public/assets/props/prop-drawer.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2854,7 +2854,7 @@
    "generatedPath": "public/assets/props/prop-photograph.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2883,7 +2883,7 @@
    "generatedPath": "public/assets/props/prop-ribbon.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -2916,7 +2916,7 @@
    "generatedPath": "public/assets/props/prop-clock.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -2944,7 +2944,7 @@
    "generatedPath": "public/assets/props/prop-blueprint.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -2973,7 +2973,7 @@
    "generatedPath": "public/assets/props/prop-newspaper.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -3003,7 +3003,7 @@
    "generatedPath": "public/assets/props/prop-map.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3029,7 +3029,7 @@
    "generatedPath": "public/assets/props/prop-box.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -3076,7 +3076,7 @@
    "generatedPath": "public/assets/props/prop-lantern.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3108,7 +3108,7 @@
    "generatedPath": "public/assets/props/prop-brush.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3134,7 +3134,7 @@
    "generatedPath": "public/assets/props/prop-ink.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3167,7 +3167,7 @@
    "generatedPath": "public/assets/props/prop-stool.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -3195,7 +3195,7 @@
    "generatedPath": "public/assets/props/prop-string.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3221,7 +3221,7 @@
    "generatedPath": "public/assets/props/prop-magnet.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3247,7 +3247,7 @@
    "generatedPath": "public/assets/props/prop-register.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3273,7 +3273,7 @@
    "generatedPath": "public/assets/props/prop-card-index.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3299,7 +3299,7 @@
    "generatedPath": "public/assets/props/prop-portrait.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3325,7 +3325,7 @@
    "generatedPath": "public/assets/props/prop-ruler.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3353,7 +3353,7 @@
    "generatedPath": "public/assets/props/prop-compass.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3379,7 +3379,7 @@
    "generatedPath": "public/assets/props/prop-sextant.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3410,7 +3410,7 @@
    "generatedPath": "public/assets/props/prop-seal.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3436,7 +3436,7 @@
    "generatedPath": "public/assets/props/prop-gazette.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -3464,7 +3464,7 @@
    "generatedPath": "public/assets/props/prop-manifest.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05"
@@ -3489,7 +3489,7 @@
    "generatedPath": "public/assets/props/prop-seagull.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05",
@@ -3516,7 +3516,7 @@
    "generatedPath": "public/assets/props/prop-anchor.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05",
@@ -3546,7 +3546,7 @@
    "generatedPath": "public/assets/props/prop-barrel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05"
@@ -3571,7 +3571,7 @@
    "generatedPath": "public/assets/props/prop-hook.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05",
@@ -3598,7 +3598,7 @@
    "generatedPath": "public/assets/props/prop-net.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05",
@@ -3628,7 +3628,7 @@
    "generatedPath": "public/assets/props/prop-bell.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05",
@@ -3655,7 +3655,7 @@
    "generatedPath": "public/assets/props/prop-bollard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05",
@@ -3682,7 +3682,7 @@
    "generatedPath": "public/assets/props/prop-chain.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07",
@@ -3709,7 +3709,7 @@
    "generatedPath": "public/assets/props/prop-tarpaulin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07"
@@ -3734,7 +3734,7 @@
    "generatedPath": "public/assets/props/prop-winch.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07"
@@ -3759,7 +3759,7 @@
    "generatedPath": "public/assets/props/prop-gangplank.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07"
@@ -3784,7 +3784,7 @@
    "generatedPath": "public/assets/props/prop-oilskin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07",
@@ -3813,7 +3813,7 @@
    "generatedPath": "public/assets/props/prop-whistle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -3842,7 +3842,7 @@
    "generatedPath": "public/assets/props/prop-cat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07",
@@ -3869,7 +3869,7 @@
    "generatedPath": "public/assets/props/prop-padlock.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -3895,7 +3895,7 @@
    "generatedPath": "public/assets/props/prop-bottle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -3921,7 +3921,7 @@
    "generatedPath": "public/assets/props/prop-tankard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -3947,7 +3947,7 @@
    "generatedPath": "public/assets/props/prop-dartboard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -3973,7 +3973,7 @@
    "generatedPath": "public/assets/props/prop-chalk.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -3999,7 +3999,7 @@
    "generatedPath": "public/assets/props/prop-bread.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4028,7 +4028,7 @@
    "generatedPath": "public/assets/props/prop-cheese.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4054,7 +4054,7 @@
    "generatedPath": "public/assets/props/prop-playing-card.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4083,7 +4083,7 @@
    "generatedPath": "public/assets/props/prop-kettle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4109,7 +4109,7 @@
    "generatedPath": "public/assets/props/prop-pipe.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4135,7 +4135,7 @@
    "generatedPath": "public/assets/props/prop-logbook.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4164,7 +4164,7 @@
    "generatedPath": "public/assets/props/prop-apron.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4190,7 +4190,7 @@
    "generatedPath": "public/assets/props/prop-mousetrap.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4216,7 +4216,7 @@
    "generatedPath": "public/assets/props/prop-jug.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4242,7 +4242,7 @@
    "generatedPath": "public/assets/props/prop-broom.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4268,7 +4268,7 @@
    "generatedPath": "public/assets/props/prop-coin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4294,7 +4294,7 @@
    "generatedPath": "public/assets/props/prop-match.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -4320,7 +4320,7 @@
    "generatedPath": "public/assets/props/prop-towel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09",
@@ -4351,7 +4351,7 @@
    "generatedPath": "public/assets/props/prop-scale.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09",
@@ -4379,7 +4379,7 @@
    "generatedPath": "public/assets/props/prop-twine.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09",
@@ -4407,7 +4407,7 @@
    "generatedPath": "public/assets/props/prop-funnel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -4432,7 +4432,7 @@
    "generatedPath": "public/assets/props/prop-typewriter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05",
@@ -4459,7 +4459,7 @@
    "generatedPath": "public/assets/props/prop-sack.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -4484,7 +4484,7 @@
    "generatedPath": "public/assets/props/prop-tea-chest.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09",
@@ -4511,7 +4511,7 @@
    "generatedPath": "public/assets/props/prop-birdcage.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -4536,7 +4536,7 @@
    "generatedPath": "public/assets/props/prop-hand-truck.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4566,7 +4566,7 @@
    "generatedPath": "public/assets/props/prop-suitcase.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4592,7 +4592,7 @@
    "generatedPath": "public/assets/props/prop-palm.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4618,7 +4618,7 @@
    "generatedPath": "public/assets/props/prop-cane.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4644,7 +4644,7 @@
    "generatedPath": "public/assets/props/prop-hatbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4670,7 +4670,7 @@
    "generatedPath": "public/assets/props/prop-key-rack.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4696,7 +4696,7 @@
    "generatedPath": "public/assets/props/prop-ashtray.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4722,7 +4722,7 @@
    "generatedPath": "public/assets/props/prop-tray.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4748,7 +4748,7 @@
    "generatedPath": "public/assets/props/prop-champagne-bucket.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4774,7 +4774,7 @@
    "generatedPath": "public/assets/props/prop-umbrella-stand.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4800,7 +4800,7 @@
    "generatedPath": "public/assets/props/prop-luggage-cart.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -4831,7 +4831,7 @@
    "generatedPath": "public/assets/props/prop-letter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4857,7 +4857,7 @@
    "generatedPath": "public/assets/props/prop-carnation.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4883,7 +4883,7 @@
    "generatedPath": "public/assets/props/prop-cigarette-case.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -4909,7 +4909,7 @@
    "generatedPath": "public/assets/props/prop-saucer.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -4934,7 +4934,7 @@
    "generatedPath": "public/assets/props/prop-candlestick.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -4959,7 +4959,7 @@
    "generatedPath": "public/assets/props/prop-violin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -4984,7 +4984,7 @@
    "generatedPath": "public/assets/props/prop-globe.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11",
@@ -5014,7 +5014,7 @@
    "generatedPath": "public/assets/props/prop-mirror.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -5039,7 +5039,7 @@
    "generatedPath": "public/assets/props/prop-vase.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -5064,7 +5064,7 @@
    "generatedPath": "public/assets/props/prop-medal.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -5089,7 +5089,7 @@
    "generatedPath": "public/assets/props/prop-fan.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -5114,7 +5114,7 @@
    "generatedPath": "public/assets/props/prop-chessboard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -5139,7 +5139,7 @@
    "generatedPath": "public/assets/props/prop-stamp-die.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -5164,7 +5164,7 @@
    "generatedPath": "public/assets/props/prop-telescope.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -5189,7 +5189,7 @@
    "generatedPath": "public/assets/props/prop-curtain.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -5214,7 +5214,7 @@
    "generatedPath": "public/assets/props/prop-strongbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -5239,7 +5239,7 @@
    "generatedPath": "public/assets/props/prop-rug.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -5264,7 +5264,7 @@
    "generatedPath": "public/assets/props/prop-crowbar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -5289,7 +5289,7 @@
    "generatedPath": "public/assets/props/prop-snuffbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -5314,7 +5314,7 @@
    "generatedPath": "public/assets/props/prop-letter-scale.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -5339,7 +5339,7 @@
    "generatedPath": "public/assets/props/prop-key-ring.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -5364,7 +5364,7 @@
    "generatedPath": "public/assets/props/prop-file.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -5392,7 +5392,7 @@
    "generatedPath": "public/assets/props/prop-cashbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -5417,7 +5417,7 @@
    "generatedPath": "public/assets/props/prop-cufflink.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -5442,7 +5442,7 @@
    "generatedPath": "public/assets/props/prop-razor.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -5467,7 +5467,7 @@
    "generatedPath": "public/assets/props/prop-shoehorn.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13",
@@ -5495,7 +5495,7 @@
    "generatedPath": "public/assets/props/prop-pocket-watch.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -5520,7 +5520,7 @@
    "generatedPath": "public/assets/props/prop-decanter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -5545,7 +5545,7 @@
    "generatedPath": "public/assets/props/prop-slipper.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -5570,7 +5570,7 @@
    "generatedPath": "public/assets/props/prop-cravat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -5595,7 +5595,7 @@
    "generatedPath": "public/assets/props/prop-travel-case.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11",
@@ -5622,7 +5622,7 @@
    "generatedPath": "public/assets/props/prop-fountain-pen.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5648,7 +5648,7 @@
    "generatedPath": "public/assets/props/prop-orange.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5674,7 +5674,7 @@
    "generatedPath": "public/assets/props/prop-scarf.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5700,7 +5700,7 @@
    "generatedPath": "public/assets/props/prop-basket.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5726,7 +5726,7 @@
    "generatedPath": "public/assets/props/prop-garlic.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5752,7 +5752,7 @@
    "generatedPath": "public/assets/props/prop-pepper.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5778,7 +5778,7 @@
    "generatedPath": "public/assets/props/prop-fish.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5804,7 +5804,7 @@
    "generatedPath": "public/assets/props/prop-teapot.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5830,7 +5830,7 @@
    "generatedPath": "public/assets/props/prop-drum.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5859,7 +5859,7 @@
    "generatedPath": "public/assets/props/prop-jar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5885,7 +5885,7 @@
    "generatedPath": "public/assets/props/prop-cloth-bolt.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5911,7 +5911,7 @@
    "generatedPath": "public/assets/props/prop-thimble.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5937,7 +5937,7 @@
    "generatedPath": "public/assets/props/prop-button.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5963,7 +5963,7 @@
    "generatedPath": "public/assets/props/prop-mortar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -5989,7 +5989,7 @@
    "generatedPath": "public/assets/props/prop-bead.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -6015,7 +6015,7 @@
    "generatedPath": "public/assets/props/prop-loom.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -6044,7 +6044,7 @@
    "generatedPath": "public/assets/props/prop-oil-flask.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -6080,7 +6080,7 @@
    "generatedPath": "public/assets/props/prop-easel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16"
@@ -6105,7 +6105,7 @@
    "generatedPath": "public/assets/props/prop-wrench.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16",
@@ -6132,7 +6132,7 @@
    "generatedPath": "public/assets/props/prop-oilcan.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16",
@@ -6161,7 +6161,7 @@
    "generatedPath": "public/assets/props/prop-timetable.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16",
@@ -6188,7 +6188,7 @@
    "generatedPath": "public/assets/props/prop-ticket.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16",
@@ -6215,7 +6215,7 @@
    "generatedPath": "public/assets/props/prop-signal-lamp.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16"
@@ -6240,7 +6240,7 @@
    "generatedPath": "public/assets/props/prop-toolbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16",
@@ -6267,7 +6267,7 @@
    "generatedPath": "public/assets/props/prop-gear.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16"
@@ -6292,7 +6292,7 @@
    "generatedPath": "public/assets/props/prop-cap.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16"
@@ -6317,7 +6317,7 @@
    "generatedPath": "public/assets/props/prop-waybill.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6343,7 +6343,7 @@
    "generatedPath": "public/assets/props/prop-palette.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6369,7 +6369,7 @@
    "generatedPath": "public/assets/props/prop-rag.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6395,7 +6395,7 @@
    "generatedPath": "public/assets/props/prop-window-pole.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6421,7 +6421,7 @@
    "generatedPath": "public/assets/props/prop-smock.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6447,7 +6447,7 @@
    "generatedPath": "public/assets/props/prop-charcoal.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6473,7 +6473,7 @@
    "generatedPath": "public/assets/props/prop-laundry-line.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6501,7 +6501,7 @@
    "generatedPath": "public/assets/props/prop-stove.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6529,7 +6529,7 @@
    "generatedPath": "public/assets/props/prop-sketchbook.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6555,7 +6555,7 @@
    "generatedPath": "public/assets/props/prop-pestle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6581,7 +6581,7 @@
    "generatedPath": "public/assets/props/prop-beeswax.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -6607,7 +6607,7 @@
    "generatedPath": "public/assets/props/prop-palette-knife.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -6633,7 +6633,7 @@
    "generatedPath": "public/assets/props/prop-gavel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -6659,7 +6659,7 @@
    "generatedPath": "public/assets/props/prop-paddle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -6685,7 +6685,7 @@
    "generatedPath": "public/assets/props/prop-cushion.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -6711,7 +6711,7 @@
    "generatedPath": "public/assets/props/prop-catalogue.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -6741,7 +6741,7 @@
    "generatedPath": "public/assets/props/prop-candelabra.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -6767,7 +6767,7 @@
    "generatedPath": "public/assets/props/prop-trolley.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -6795,7 +6795,7 @@
    "generatedPath": "public/assets/props/prop-blanket.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -6823,7 +6823,7 @@
    "generatedPath": "public/assets/props/prop-telegram-form.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -6849,7 +6849,7 @@
    "generatedPath": "public/assets/props/prop-stencil.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -6874,7 +6874,7 @@
    "generatedPath": "public/assets/props/prop-flowerpot.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -6899,7 +6899,7 @@
    "generatedPath": "public/assets/props/prop-watering-can.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -6924,7 +6924,7 @@
    "generatedPath": "public/assets/props/prop-orchid.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -6949,7 +6949,7 @@
    "generatedPath": "public/assets/props/prop-trowel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -6974,7 +6974,7 @@
    "generatedPath": "public/assets/props/prop-thermometer.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -6999,7 +6999,7 @@
    "generatedPath": "public/assets/props/prop-shears.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -7024,7 +7024,7 @@
    "generatedPath": "public/assets/props/prop-hose.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S24"
@@ -7049,7 +7049,7 @@
    "generatedPath": "public/assets/props/prop-pigeon.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S24"
@@ -7074,7 +7074,7 @@
    "generatedPath": "public/assets/props/prop-chart-tube.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S24"
@@ -7099,7 +7099,7 @@
    "generatedPath": "public/assets/props/prop-brazier.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S24",
@@ -7126,7 +7126,7 @@
    "generatedPath": "public/assets/props/prop-trunk.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -7151,7 +7151,7 @@
    "generatedPath": "public/assets/props/prop-kiosk.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -7176,7 +7176,7 @@
    "generatedPath": "public/assets/props/prop-pressure-gauge.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -7201,7 +7201,7 @@
    "generatedPath": "public/assets/props/prop-mailbag.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -7226,7 +7226,7 @@
    "generatedPath": "public/assets/props/prop-luggage-tag.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -7251,7 +7251,7 @@
    "generatedPath": "public/assets/props/prop-oar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -7276,7 +7276,7 @@
    "generatedPath": "public/assets/props/prop-lifebuoy.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -7301,7 +7301,7 @@
    "generatedPath": "public/assets/props/prop-tackle-box.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -7326,7 +7326,7 @@
    "generatedPath": "public/assets/props/prop-rain-hat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -7351,7 +7351,7 @@
    "generatedPath": "public/assets/props/prop-flare.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -7376,7 +7376,7 @@
    "generatedPath": "public/assets/props/prop-barometer.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01"
@@ -7401,7 +7401,7 @@
    "generatedPath": "public/assets/props/prop-dust-sheet.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S27"
@@ -7426,7 +7426,7 @@
    "generatedPath": "public/assets/props/prop-glass-shard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S27"
@@ -7441,7 +7441,7 @@
     "scn-gallery-storm"
    ],
    "semanticConcept": "object:handcuffs",
-   "description": "Prop sprite: handcuff — the most-typical 1927 visual exemplar of the concept (Fairness Charter #7); used and worn, never new; domain: tools.",
+   "description": "Prop sprite: handcuffs — the most-typical 1927 visual exemplar of the concept (Fairness Charter #7); used and worn, never new; domain: tools.",
    "artRequirements": "painterly realistic oil-and-gouache illustration, 1927 fictional European port city, warm cinematic lighting, visible brushwork, crisp readable object silhouettes, cozy-noir mood, muted heritage palette with amber key light and cool teal shadows, aged and well-used materials, no readable text, illegible painterly lettering only, no watermark, no border, no photograph, no cartoon, no outlines; single object, isolated, centered, full object visible, no crop; three-quarter front view from 15 degrees above horizontal, 85mm-equivalent near-orthographic long lens; neutral warm studio key upper-left, soft fill, NO baked cast shadow, NO scene background, plain warm-grey background for clean alpha cutout; painterly finished-still-life rendering; silhouette must be identifiable from alpha alone at 10% scale; worn, used, period-correct 1927 materials",
    "transparentBackground": true,
    "targetDimensions": {
@@ -7451,7 +7451,7 @@
    "generatedPath": "public/assets/props/prop-handcuffs.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S27"
@@ -7476,7 +7476,7 @@
    "generatedPath": "public/assets/props/prop-plaster-cast.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05"
@@ -7501,7 +7501,7 @@
    "generatedPath": "public/assets/props/prop-seagull-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05"
@@ -7526,7 +7526,7 @@
    "generatedPath": "public/assets/props/prop-seagull-c.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -7552,7 +7552,7 @@
    "generatedPath": "public/assets/props/prop-bottle-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -7578,7 +7578,7 @@
    "generatedPath": "public/assets/props/prop-bottle-c.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -7604,7 +7604,7 @@
    "generatedPath": "public/assets/props/prop-orange-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -7630,7 +7630,7 @@
    "generatedPath": "public/assets/props/prop-orange-c.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16",
@@ -7657,7 +7657,7 @@
    "generatedPath": "public/assets/props/prop-ticket-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16",
@@ -7684,7 +7684,7 @@
    "generatedPath": "public/assets/props/prop-ticket-c.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -7713,7 +7713,7 @@
    "generatedPath": "public/assets/props/prop-folder-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -7742,7 +7742,7 @@
    "generatedPath": "public/assets/props/prop-folder-c.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -7773,7 +7773,7 @@
    "generatedPath": "public/assets/props/prop-label-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -7804,7 +7804,7 @@
    "generatedPath": "public/assets/props/prop-label-c.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -7829,7 +7829,7 @@
    "generatedPath": "public/assets/props/prop-flowerpot-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -7854,7 +7854,7 @@
    "generatedPath": "public/assets/props/prop-flowerpot-c.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -7883,7 +7883,7 @@
    "generatedPath": "public/assets/props/prop-jar-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -7912,7 +7912,7 @@
    "generatedPath": "public/assets/props/prop-jar-c.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00",
@@ -7945,7 +7945,7 @@
    "generatedPath": "public/assets/props/prop-key-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01",
@@ -7992,7 +7992,7 @@
    "generatedPath": "public/assets/props/prop-lantern-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -8022,7 +8022,7 @@
    "generatedPath": "public/assets/props/prop-suitcase-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -8047,7 +8047,7 @@
    "generatedPath": "public/assets/props/prop-candlestick-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -8079,7 +8079,7 @@
    "generatedPath": "public/assets/props/prop-brush-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -8104,7 +8104,7 @@
    "generatedPath": "public/assets/props/prop-oar-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16",
@@ -8131,7 +8131,7 @@
    "generatedPath": "public/assets/props/prop-gear-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -8164,7 +8164,7 @@
    "generatedPath": "public/assets/props/prop-clock-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -8195,7 +8195,7 @@
    "generatedPath": "public/assets/props/prop-rubber-stamp-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -8215,7 +8215,7 @@
    "generatedPath": "public/assets/props/amb-1.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -8235,7 +8235,7 @@
    "generatedPath": "public/assets/props/amb-2.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -8255,7 +8255,7 @@
    "generatedPath": "public/assets/props/amb-3.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P0",
@@ -8275,7 +8275,7 @@
    "generatedPath": "public/assets/props/amb-4.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S00"
@@ -8298,7 +8298,7 @@
    "generatedPath": "public/assets/props/evid-c00.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S01"
@@ -8321,7 +8321,7 @@
    "generatedPath": "public/assets/props/evid-c01.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -8345,7 +8345,7 @@
    "generatedPath": "public/assets/props/evid-c02.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S02",
@@ -8369,7 +8369,7 @@
    "generatedPath": "public/assets/props/evid-c03.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -8393,7 +8393,7 @@
    "generatedPath": "public/assets/props/evid-c04.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S28"
@@ -8416,7 +8416,7 @@
    "generatedPath": "public/assets/props/evid-c07.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S05"
@@ -8439,7 +8439,7 @@
    "generatedPath": "public/assets/props/evid-c08.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -8463,7 +8463,7 @@
    "generatedPath": "public/assets/props/evid-c09.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07"
@@ -8486,7 +8486,7 @@
    "generatedPath": "public/assets/props/evid-c11.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S06",
@@ -8510,7 +8510,7 @@
    "generatedPath": "public/assets/props/evid-c12.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -8533,7 +8533,7 @@
    "generatedPath": "public/assets/props/evid-c13.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -8557,7 +8557,7 @@
    "generatedPath": "public/assets/props/evid-c14.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -8580,7 +8580,7 @@
    "generatedPath": "public/assets/props/evid-c15.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S10",
@@ -8604,7 +8604,7 @@
    "generatedPath": "public/assets/props/evid-c17.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -8627,7 +8627,7 @@
    "generatedPath": "public/assets/props/evid-c18.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -8651,7 +8651,7 @@
    "generatedPath": "public/assets/props/evid-c19.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14",
@@ -8675,7 +8675,7 @@
    "generatedPath": "public/assets/props/evid-c20.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S16"
@@ -8698,7 +8698,7 @@
    "generatedPath": "public/assets/props/evid-c21.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -8722,7 +8722,7 @@
    "generatedPath": "public/assets/props/evid-c22.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17",
@@ -8746,7 +8746,7 @@
    "generatedPath": "public/assets/props/evid-c23.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -8770,7 +8770,7 @@
    "generatedPath": "public/assets/props/evid-c24.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S19",
@@ -8794,7 +8794,7 @@
    "generatedPath": "public/assets/props/evid-c25.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04",
@@ -8818,7 +8818,7 @@
    "generatedPath": "public/assets/props/evid-c26.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -8841,7 +8841,7 @@
    "generatedPath": "public/assets/props/evid-c28.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S23"
@@ -8864,7 +8864,7 @@
    "generatedPath": "public/assets/props/evid-c29.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S24"
@@ -8887,7 +8887,7 @@
    "generatedPath": "public/assets/props/evid-c30.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -8910,7 +8910,7 @@
    "generatedPath": "public/assets/props/evid-c31.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -8933,7 +8933,7 @@
    "generatedPath": "public/assets/props/evid-c32.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -8956,7 +8956,7 @@
    "generatedPath": "public/assets/props/evid-c33.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S27"
@@ -10554,7 +10554,7 @@
    "generatedPath": "public/assets/characters/overlays/overlay-ottilie-rooftop.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10574,7 +10574,7 @@
    "generatedPath": "public/assets/fx/fx-fog-card-near.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10594,7 +10594,7 @@
    "generatedPath": "public/assets/fx/fx-fog-card-mid.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10614,7 +10614,7 @@
    "generatedPath": "public/assets/fx/fx-fog-card-far.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10634,7 +10634,7 @@
    "generatedPath": "public/assets/fx/fx-rain-card-near.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10654,7 +10654,7 @@
    "generatedPath": "public/assets/fx/fx-rain-card-far.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10674,7 +10674,7 @@
    "generatedPath": "public/assets/fx/fx-rain-gust-spray.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10694,7 +10694,7 @@
    "generatedPath": "public/assets/fx/fx-lightning-frame-a.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10714,7 +10714,7 @@
    "generatedPath": "public/assets/fx/fx-lightning-frame-b.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10734,7 +10734,7 @@
    "generatedPath": "public/assets/fx/fx-lightning-reduced.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10754,7 +10754,7 @@
    "generatedPath": "public/assets/fx/fx-steam-card.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10774,7 +10774,7 @@
    "generatedPath": "public/assets/fx/fx-dust-mote-shaft.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10794,7 +10794,7 @@
    "generatedPath": "public/assets/fx/fx-lantern-glow.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10814,7 +10814,7 @@
    "generatedPath": "public/assets/fx/fx-candle-glow.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10834,7 +10834,7 @@
    "generatedPath": "public/assets/fx/fx-hearth-glow.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10854,7 +10854,7 @@
    "generatedPath": "public/assets/fx/fx-ember-glow.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10874,7 +10874,7 @@
    "generatedPath": "public/assets/fx/fx-breath-fog-wisp.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10894,7 +10894,7 @@
    "generatedPath": "public/assets/fx/fx-leaf-dapple.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10914,7 +10914,7 @@
    "generatedPath": "public/assets/fx/fx-water-glint.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10934,7 +10934,7 @@
    "generatedPath": "public/assets/ui/ui-notebook-cover.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10954,7 +10954,7 @@
    "generatedPath": "public/assets/ui/ui-notebook-spread.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10974,7 +10974,7 @@
    "generatedPath": "public/assets/ui/ui-notebook-page.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -10994,7 +10994,7 @@
    "generatedPath": "public/assets/ui/ui-notebook-tab.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11014,7 +11014,7 @@
    "generatedPath": "public/assets/ui/ui-word-chip.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11034,7 +11034,7 @@
    "generatedPath": "public/assets/ui/ui-gloss-card.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11054,7 +11054,7 @@
    "generatedPath": "public/assets/ui/ui-found-folio.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11074,7 +11074,7 @@
    "generatedPath": "public/assets/ui/ui-word-card.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11094,7 +11094,7 @@
    "generatedPath": "public/assets/ui/ui-paper-slip.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11114,7 +11114,7 @@
    "generatedPath": "public/assets/ui/ui-corner-fold.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11134,7 +11134,7 @@
    "generatedPath": "public/assets/ui/ui-results-slip.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11154,7 +11154,7 @@
    "generatedPath": "public/assets/ui/ui-stamp-accuracy.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11174,7 +11174,7 @@
    "generatedPath": "public/assets/ui/ui-stamp-unassisted.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11194,7 +11194,7 @@
    "generatedPath": "public/assets/ui/ui-stamp-streak.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11214,7 +11214,7 @@
    "generatedPath": "public/assets/ui/ui-stamp-ally.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11234,7 +11234,7 @@
    "generatedPath": "public/assets/ui/ui-stamp-suspect.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11254,7 +11254,7 @@
    "generatedPath": "public/assets/ui/ui-stamp-cleared.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11274,7 +11274,7 @@
    "generatedPath": "public/assets/ui/ui-stamp-unknown.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11294,7 +11294,7 @@
    "generatedPath": "public/assets/ui/ui-insight-meter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11314,7 +11314,7 @@
    "generatedPath": "public/assets/ui/ui-hint-magnifier.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11334,7 +11334,7 @@
    "generatedPath": "public/assets/ui/ui-edge-arrow.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11354,7 +11354,7 @@
    "generatedPath": "public/assets/ui/ui-reticle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11374,7 +11374,7 @@
    "generatedPath": "public/assets/ui/ui-reset-chip.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11394,7 +11394,7 @@
    "generatedPath": "public/assets/ui/ui-minimap-vellum.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11414,7 +11414,7 @@
    "generatedPath": "public/assets/ui/ui-city-map.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11434,7 +11434,7 @@
    "generatedPath": "public/assets/ui/ui-map-pin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11454,7 +11454,7 @@
    "generatedPath": "public/assets/ui/ui-string-flag.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11474,7 +11474,7 @@
    "generatedPath": "public/assets/ui/ui-location-slip.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11494,7 +11494,7 @@
    "generatedPath": "public/assets/ui/ui-board-cork.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11514,7 +11514,7 @@
    "generatedPath": "public/assets/ui/ui-board-pin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11534,7 +11534,7 @@
    "generatedPath": "public/assets/ui/ui-board-string.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11554,7 +11554,7 @@
    "generatedPath": "public/assets/ui/ui-dialogue-panel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11574,7 +11574,7 @@
    "generatedPath": "public/assets/ui/ui-name-plate.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11594,7 +11594,7 @@
    "generatedPath": "public/assets/ui/ui-title-desk.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11614,7 +11614,7 @@
    "generatedPath": "public/assets/ui/ui-title-letter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11634,7 +11634,7 @@
    "generatedPath": "public/assets/ui/ui-title-drawer.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11654,7 +11654,7 @@
    "generatedPath": "public/assets/ui/ui-title-lamp.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11674,7 +11674,7 @@
    "generatedPath": "public/assets/ui/ui-title-label-tag.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11694,7 +11694,7 @@
    "generatedPath": "public/assets/ui/ui-cover-de.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11714,7 +11714,7 @@
    "generatedPath": "public/assets/ui/ui-cover-es.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11734,7 +11734,7 @@
    "generatedPath": "public/assets/ui/ui-cover-it.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11754,7 +11754,7 @@
    "generatedPath": "public/assets/ui/ui-proficiency-card.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11774,7 +11774,7 @@
    "generatedPath": "public/assets/ui/ui-puzzle-bench.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11794,7 +11794,7 @@
    "generatedPath": "public/assets/ui/ui-pocket-watch-sprint.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -11814,7 +11814,7 @@
    "generatedPath": "public/assets/story/story-cold-open-letter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S12"
@@ -11836,7 +11836,7 @@
    "generatedPath": "public/assets/story/story-beat-veiled-woman.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14"
@@ -11858,7 +11858,7 @@
    "generatedPath": "public/assets/story/story-beat-masked-meeting.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S22"
@@ -11880,7 +11880,7 @@
    "generatedPath": "public/assets/story/story-beat-stakeout-wire.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S24"
@@ -11902,7 +11902,7 @@
    "generatedPath": "public/assets/story/story-beat-pigeon-feeding.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S26"
@@ -11924,7 +11924,7 @@
    "generatedPath": "public/assets/story/story-beat-the-turn.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S27"
@@ -11946,7 +11946,7 @@
    "generatedPath": "public/assets/story/story-beat-corbins-taken.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S28"
@@ -11968,7 +11968,7 @@
    "generatedPath": "public/assets/story/story-beat-vane-arrival.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S28"
@@ -11990,7 +11990,7 @@
    "generatedPath": "public/assets/story/story-beat-adele-arrival.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S28"
@@ -12012,7 +12012,7 @@
    "generatedPath": "public/assets/story/story-beat-holt-arrival.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12032,7 +12032,7 @@
    "generatedPath": "public/assets/story/story-chapter-card-1.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12052,7 +12052,7 @@
    "generatedPath": "public/assets/story/story-chapter-card-2.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12072,7 +12072,7 @@
    "generatedPath": "public/assets/story/story-chapter-card-3.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12092,7 +12092,7 @@
    "generatedPath": "public/assets/story/story-chapter-card-4.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12112,7 +12112,7 @@
    "generatedPath": "public/assets/story/story-chapter-card-5.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12132,7 +12132,7 @@
    "generatedPath": "public/assets/story/story-chapter-card-6.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12152,7 +12152,7 @@
    "generatedPath": "public/assets/story/story-title-card-season.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12172,7 +12172,7 @@
    "generatedPath": "public/assets/story/story-epilogue-1.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12192,7 +12192,7 @@
    "generatedPath": "public/assets/story/story-epilogue-2.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12212,7 +12212,7 @@
    "generatedPath": "public/assets/story/story-epilogue-3.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12232,7 +12232,7 @@
    "generatedPath": "public/assets/story/story-epilogue-4.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12252,7 +12252,7 @@
    "generatedPath": "public/assets/story/story-epilogue-5.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12272,7 +12272,7 @@
    "generatedPath": "public/assets/story/story-epilogue-6.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P1",
@@ -12292,7 +12292,7 @@
    "generatedPath": "public/assets/story/story-coda-letter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04"
@@ -12314,7 +12314,7 @@
    "generatedPath": "public/assets/puzzles/puz-p1-board-felt.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S04"
@@ -12336,7 +12336,7 @@
    "generatedPath": "public/assets/puzzles/puz-p1-ticket-torn.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S07"
@@ -12358,7 +12358,7 @@
    "generatedPath": "public/assets/puzzles/puz-p2-lockbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -12380,7 +12380,7 @@
    "generatedPath": "public/assets/puzzles/puz-p3-board.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S11"
@@ -12402,7 +12402,7 @@
    "generatedPath": "public/assets/puzzles/puz-p4-cipher-wheel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S13"
@@ -12424,7 +12424,7 @@
    "generatedPath": "public/assets/puzzles/puz-p5-case-board.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S14"
@@ -12446,7 +12446,7 @@
    "generatedPath": "public/assets/puzzles/puz-p6-signal-lamp.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17"
@@ -12468,7 +12468,7 @@
    "generatedPath": "public/assets/puzzles/puz-p7-bench-board.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S17"
@@ -12490,7 +12490,7 @@
    "generatedPath": "public/assets/puzzles/puz-p7-test-card.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S20"
@@ -12512,7 +12512,7 @@
    "generatedPath": "public/assets/puzzles/puz-p8-grid-board.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -12534,7 +12534,7 @@
    "generatedPath": "public/assets/puzzles/puz-p9-clock-dial.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -12556,7 +12556,7 @@
    "generatedPath": "public/assets/puzzles/puz-p9-hand-hour.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S25"
@@ -12578,7 +12578,7 @@
    "generatedPath": "public/assets/puzzles/puz-p9-hand-minute.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -12601,7 +12601,7 @@
    "derivedFrom": "prop-crate"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -12624,7 +12624,7 @@
    "derivedFrom": "prop-barrel"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -12647,7 +12647,7 @@
    "derivedFrom": "prop-sack"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -12670,7 +12670,7 @@
    "derivedFrom": "prop-anchor"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -12693,7 +12693,7 @@
    "derivedFrom": "prop-net"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -12716,7 +12716,7 @@
    "derivedFrom": "prop-rope"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -12739,7 +12739,7 @@
    "derivedFrom": "prop-bell"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [
     "S09"
@@ -12762,7 +12762,7 @@
    "derivedFrom": "prop-lantern"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12782,7 +12782,7 @@
    "generatedPath": "public/assets/ui/thumbs/key.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12802,7 +12802,7 @@
    "generatedPath": "public/assets/ui/thumbs/notebook.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12822,7 +12822,7 @@
    "generatedPath": "public/assets/ui/thumbs/magnifier.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12842,7 +12842,7 @@
    "generatedPath": "public/assets/ui/thumbs/coat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12862,7 +12862,7 @@
    "generatedPath": "public/assets/ui/thumbs/hat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12882,7 +12882,7 @@
    "generatedPath": "public/assets/ui/thumbs/lamp.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12902,7 +12902,7 @@
    "generatedPath": "public/assets/ui/thumbs/cup.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12922,7 +12922,7 @@
    "generatedPath": "public/assets/ui/thumbs/umbrella.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12942,7 +12942,7 @@
    "generatedPath": "public/assets/ui/thumbs/frame.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12962,7 +12962,7 @@
    "generatedPath": "public/assets/ui/thumbs/rope.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -12982,7 +12982,7 @@
    "generatedPath": "public/assets/ui/thumbs/crate.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13002,7 +13002,7 @@
    "generatedPath": "public/assets/ui/thumbs/ladder.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13022,7 +13022,7 @@
    "generatedPath": "public/assets/ui/thumbs/glove.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13042,7 +13042,7 @@
    "generatedPath": "public/assets/ui/thumbs/screwdriver.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13062,7 +13062,7 @@
    "generatedPath": "public/assets/ui/thumbs/label.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13082,7 +13082,7 @@
    "generatedPath": "public/assets/ui/thumbs/bench.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13102,7 +13102,7 @@
    "generatedPath": "public/assets/ui/thumbs/chandelier.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13122,7 +13122,7 @@
    "generatedPath": "public/assets/ui/thumbs/ledger.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13142,7 +13142,7 @@
    "generatedPath": "public/assets/ui/thumbs/teacup.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13162,7 +13162,7 @@
    "generatedPath": "public/assets/ui/thumbs/envelope.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13182,7 +13182,7 @@
    "generatedPath": "public/assets/ui/thumbs/rubber-stamp.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13202,7 +13202,7 @@
    "generatedPath": "public/assets/ui/thumbs/inkwell.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13222,7 +13222,7 @@
    "generatedPath": "public/assets/ui/thumbs/scissors.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13242,7 +13242,7 @@
    "generatedPath": "public/assets/ui/thumbs/folder.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13262,7 +13262,7 @@
    "generatedPath": "public/assets/ui/thumbs/monocle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13282,7 +13282,7 @@
    "generatedPath": "public/assets/ui/thumbs/telephone.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13302,7 +13302,7 @@
    "generatedPath": "public/assets/ui/thumbs/blotter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13322,7 +13322,7 @@
    "generatedPath": "public/assets/ui/thumbs/candle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13342,7 +13342,7 @@
    "generatedPath": "public/assets/ui/thumbs/sealing-wax.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13362,7 +13362,7 @@
    "generatedPath": "public/assets/ui/thumbs/letter-opener.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13382,7 +13382,7 @@
    "generatedPath": "public/assets/ui/thumbs/calendar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13402,7 +13402,7 @@
    "generatedPath": "public/assets/ui/thumbs/drawer.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13422,7 +13422,7 @@
    "generatedPath": "public/assets/ui/thumbs/photograph.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13442,7 +13442,7 @@
    "generatedPath": "public/assets/ui/thumbs/ribbon.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13462,7 +13462,7 @@
    "generatedPath": "public/assets/ui/thumbs/clock.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13482,7 +13482,7 @@
    "generatedPath": "public/assets/ui/thumbs/blueprint.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13502,7 +13502,7 @@
    "generatedPath": "public/assets/ui/thumbs/newspaper.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13522,7 +13522,7 @@
    "generatedPath": "public/assets/ui/thumbs/map.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13542,7 +13542,7 @@
    "generatedPath": "public/assets/ui/thumbs/box.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13562,7 +13562,7 @@
    "generatedPath": "public/assets/ui/thumbs/lantern.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13582,7 +13582,7 @@
    "generatedPath": "public/assets/ui/thumbs/brush.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13602,7 +13602,7 @@
    "generatedPath": "public/assets/ui/thumbs/ink.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13622,7 +13622,7 @@
    "generatedPath": "public/assets/ui/thumbs/stool.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13642,7 +13642,7 @@
    "generatedPath": "public/assets/ui/thumbs/string.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13662,7 +13662,7 @@
    "generatedPath": "public/assets/ui/thumbs/magnet.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13682,7 +13682,7 @@
    "generatedPath": "public/assets/ui/thumbs/register.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13702,7 +13702,7 @@
    "generatedPath": "public/assets/ui/thumbs/card-index.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13722,7 +13722,7 @@
    "generatedPath": "public/assets/ui/thumbs/portrait.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13742,7 +13742,7 @@
    "generatedPath": "public/assets/ui/thumbs/ruler.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13762,7 +13762,7 @@
    "generatedPath": "public/assets/ui/thumbs/compass.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13782,7 +13782,7 @@
    "generatedPath": "public/assets/ui/thumbs/sextant.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13802,7 +13802,7 @@
    "generatedPath": "public/assets/ui/thumbs/seal.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13822,7 +13822,7 @@
    "generatedPath": "public/assets/ui/thumbs/gazette.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13842,7 +13842,7 @@
    "generatedPath": "public/assets/ui/thumbs/manifest.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13862,7 +13862,7 @@
    "generatedPath": "public/assets/ui/thumbs/seagull.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13882,7 +13882,7 @@
    "generatedPath": "public/assets/ui/thumbs/anchor.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13902,7 +13902,7 @@
    "generatedPath": "public/assets/ui/thumbs/barrel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13922,7 +13922,7 @@
    "generatedPath": "public/assets/ui/thumbs/hook.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13942,7 +13942,7 @@
    "generatedPath": "public/assets/ui/thumbs/net.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13962,7 +13962,7 @@
    "generatedPath": "public/assets/ui/thumbs/bell.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -13982,7 +13982,7 @@
    "generatedPath": "public/assets/ui/thumbs/bollard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14002,7 +14002,7 @@
    "generatedPath": "public/assets/ui/thumbs/chain.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14022,7 +14022,7 @@
    "generatedPath": "public/assets/ui/thumbs/tarpaulin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14042,7 +14042,7 @@
    "generatedPath": "public/assets/ui/thumbs/winch.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14062,7 +14062,7 @@
    "generatedPath": "public/assets/ui/thumbs/gangplank.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14082,7 +14082,7 @@
    "generatedPath": "public/assets/ui/thumbs/oilskin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14102,7 +14102,7 @@
    "generatedPath": "public/assets/ui/thumbs/whistle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14122,7 +14122,7 @@
    "generatedPath": "public/assets/ui/thumbs/cat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14142,7 +14142,7 @@
    "generatedPath": "public/assets/ui/thumbs/padlock.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14162,7 +14162,7 @@
    "generatedPath": "public/assets/ui/thumbs/bottle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14182,7 +14182,7 @@
    "generatedPath": "public/assets/ui/thumbs/tankard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14202,7 +14202,7 @@
    "generatedPath": "public/assets/ui/thumbs/dartboard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14222,7 +14222,7 @@
    "generatedPath": "public/assets/ui/thumbs/chalk.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14242,7 +14242,7 @@
    "generatedPath": "public/assets/ui/thumbs/bread.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14262,7 +14262,7 @@
    "generatedPath": "public/assets/ui/thumbs/cheese.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14282,7 +14282,7 @@
    "generatedPath": "public/assets/ui/thumbs/playing-card.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14302,7 +14302,7 @@
    "generatedPath": "public/assets/ui/thumbs/kettle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14322,7 +14322,7 @@
    "generatedPath": "public/assets/ui/thumbs/pipe.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14342,7 +14342,7 @@
    "generatedPath": "public/assets/ui/thumbs/logbook.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14362,7 +14362,7 @@
    "generatedPath": "public/assets/ui/thumbs/apron.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14382,7 +14382,7 @@
    "generatedPath": "public/assets/ui/thumbs/mousetrap.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14402,7 +14402,7 @@
    "generatedPath": "public/assets/ui/thumbs/jug.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14422,7 +14422,7 @@
    "generatedPath": "public/assets/ui/thumbs/broom.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14442,7 +14442,7 @@
    "generatedPath": "public/assets/ui/thumbs/coin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14462,7 +14462,7 @@
    "generatedPath": "public/assets/ui/thumbs/match.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14482,7 +14482,7 @@
    "generatedPath": "public/assets/ui/thumbs/towel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14502,7 +14502,7 @@
    "generatedPath": "public/assets/ui/thumbs/scale.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14522,7 +14522,7 @@
    "generatedPath": "public/assets/ui/thumbs/twine.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14542,7 +14542,7 @@
    "generatedPath": "public/assets/ui/thumbs/funnel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14562,7 +14562,7 @@
    "generatedPath": "public/assets/ui/thumbs/typewriter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14582,7 +14582,7 @@
    "generatedPath": "public/assets/ui/thumbs/sack.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14602,7 +14602,7 @@
    "generatedPath": "public/assets/ui/thumbs/tea-chest.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14622,7 +14622,7 @@
    "generatedPath": "public/assets/ui/thumbs/birdcage.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14642,7 +14642,7 @@
    "generatedPath": "public/assets/ui/thumbs/hand-truck.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14662,7 +14662,7 @@
    "generatedPath": "public/assets/ui/thumbs/suitcase.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14682,7 +14682,7 @@
    "generatedPath": "public/assets/ui/thumbs/palm.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14702,7 +14702,7 @@
    "generatedPath": "public/assets/ui/thumbs/cane.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14722,7 +14722,7 @@
    "generatedPath": "public/assets/ui/thumbs/hatbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14742,7 +14742,7 @@
    "generatedPath": "public/assets/ui/thumbs/key-rack.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14762,7 +14762,7 @@
    "generatedPath": "public/assets/ui/thumbs/ashtray.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14782,7 +14782,7 @@
    "generatedPath": "public/assets/ui/thumbs/tray.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14802,7 +14802,7 @@
    "generatedPath": "public/assets/ui/thumbs/champagne-bucket.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14822,7 +14822,7 @@
    "generatedPath": "public/assets/ui/thumbs/umbrella-stand.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14842,7 +14842,7 @@
    "generatedPath": "public/assets/ui/thumbs/luggage-cart.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14862,7 +14862,7 @@
    "generatedPath": "public/assets/ui/thumbs/letter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14882,7 +14882,7 @@
    "generatedPath": "public/assets/ui/thumbs/carnation.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14902,7 +14902,7 @@
    "generatedPath": "public/assets/ui/thumbs/cigarette-case.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14922,7 +14922,7 @@
    "generatedPath": "public/assets/ui/thumbs/saucer.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14942,7 +14942,7 @@
    "generatedPath": "public/assets/ui/thumbs/candlestick.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14962,7 +14962,7 @@
    "generatedPath": "public/assets/ui/thumbs/violin.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -14982,7 +14982,7 @@
    "generatedPath": "public/assets/ui/thumbs/globe.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15002,7 +15002,7 @@
    "generatedPath": "public/assets/ui/thumbs/mirror.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15022,7 +15022,7 @@
    "generatedPath": "public/assets/ui/thumbs/vase.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15042,7 +15042,7 @@
    "generatedPath": "public/assets/ui/thumbs/medal.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15062,7 +15062,7 @@
    "generatedPath": "public/assets/ui/thumbs/fan.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15082,7 +15082,7 @@
    "generatedPath": "public/assets/ui/thumbs/chessboard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15102,7 +15102,7 @@
    "generatedPath": "public/assets/ui/thumbs/stamp-die.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15122,7 +15122,7 @@
    "generatedPath": "public/assets/ui/thumbs/telescope.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15142,7 +15142,7 @@
    "generatedPath": "public/assets/ui/thumbs/curtain.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15162,7 +15162,7 @@
    "generatedPath": "public/assets/ui/thumbs/strongbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15182,7 +15182,7 @@
    "generatedPath": "public/assets/ui/thumbs/rug.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15202,7 +15202,7 @@
    "generatedPath": "public/assets/ui/thumbs/crowbar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15222,7 +15222,7 @@
    "generatedPath": "public/assets/ui/thumbs/snuffbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15242,7 +15242,7 @@
    "generatedPath": "public/assets/ui/thumbs/letter-scale.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15262,7 +15262,7 @@
    "generatedPath": "public/assets/ui/thumbs/key-ring.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15282,7 +15282,7 @@
    "generatedPath": "public/assets/ui/thumbs/file.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15302,7 +15302,7 @@
    "generatedPath": "public/assets/ui/thumbs/cashbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15322,7 +15322,7 @@
    "generatedPath": "public/assets/ui/thumbs/cufflink.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15342,7 +15342,7 @@
    "generatedPath": "public/assets/ui/thumbs/razor.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15362,7 +15362,7 @@
    "generatedPath": "public/assets/ui/thumbs/shoehorn.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15382,7 +15382,7 @@
    "generatedPath": "public/assets/ui/thumbs/pocket-watch.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15402,7 +15402,7 @@
    "generatedPath": "public/assets/ui/thumbs/decanter.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15422,7 +15422,7 @@
    "generatedPath": "public/assets/ui/thumbs/slipper.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15442,7 +15442,7 @@
    "generatedPath": "public/assets/ui/thumbs/cravat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15462,7 +15462,7 @@
    "generatedPath": "public/assets/ui/thumbs/travel-case.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15482,7 +15482,7 @@
    "generatedPath": "public/assets/ui/thumbs/fountain-pen.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15502,7 +15502,7 @@
    "generatedPath": "public/assets/ui/thumbs/orange.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15522,7 +15522,7 @@
    "generatedPath": "public/assets/ui/thumbs/scarf.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15542,7 +15542,7 @@
    "generatedPath": "public/assets/ui/thumbs/basket.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15562,7 +15562,7 @@
    "generatedPath": "public/assets/ui/thumbs/garlic.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15582,7 +15582,7 @@
    "generatedPath": "public/assets/ui/thumbs/pepper.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15602,7 +15602,7 @@
    "generatedPath": "public/assets/ui/thumbs/fish.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15622,7 +15622,7 @@
    "generatedPath": "public/assets/ui/thumbs/teapot.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15642,7 +15642,7 @@
    "generatedPath": "public/assets/ui/thumbs/drum.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15662,7 +15662,7 @@
    "generatedPath": "public/assets/ui/thumbs/jar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15682,7 +15682,7 @@
    "generatedPath": "public/assets/ui/thumbs/cloth-bolt.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15702,7 +15702,7 @@
    "generatedPath": "public/assets/ui/thumbs/thimble.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15722,7 +15722,7 @@
    "generatedPath": "public/assets/ui/thumbs/button.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15742,7 +15742,7 @@
    "generatedPath": "public/assets/ui/thumbs/mortar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15762,7 +15762,7 @@
    "generatedPath": "public/assets/ui/thumbs/bead.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15782,7 +15782,7 @@
    "generatedPath": "public/assets/ui/thumbs/loom.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15802,7 +15802,7 @@
    "generatedPath": "public/assets/ui/thumbs/oil-flask.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15822,7 +15822,7 @@
    "generatedPath": "public/assets/ui/thumbs/easel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15842,7 +15842,7 @@
    "generatedPath": "public/assets/ui/thumbs/wrench.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15862,7 +15862,7 @@
    "generatedPath": "public/assets/ui/thumbs/oilcan.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15882,7 +15882,7 @@
    "generatedPath": "public/assets/ui/thumbs/timetable.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15902,7 +15902,7 @@
    "generatedPath": "public/assets/ui/thumbs/ticket.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15922,7 +15922,7 @@
    "generatedPath": "public/assets/ui/thumbs/signal-lamp.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15942,7 +15942,7 @@
    "generatedPath": "public/assets/ui/thumbs/toolbox.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15962,7 +15962,7 @@
    "generatedPath": "public/assets/ui/thumbs/gear.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -15982,7 +15982,7 @@
    "generatedPath": "public/assets/ui/thumbs/cap.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16002,7 +16002,7 @@
    "generatedPath": "public/assets/ui/thumbs/waybill.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16022,7 +16022,7 @@
    "generatedPath": "public/assets/ui/thumbs/palette.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16042,7 +16042,7 @@
    "generatedPath": "public/assets/ui/thumbs/rag.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16062,7 +16062,7 @@
    "generatedPath": "public/assets/ui/thumbs/window-pole.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16082,7 +16082,7 @@
    "generatedPath": "public/assets/ui/thumbs/smock.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16102,7 +16102,7 @@
    "generatedPath": "public/assets/ui/thumbs/charcoal.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16122,7 +16122,7 @@
    "generatedPath": "public/assets/ui/thumbs/laundry-line.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16142,7 +16142,7 @@
    "generatedPath": "public/assets/ui/thumbs/stove.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16162,7 +16162,7 @@
    "generatedPath": "public/assets/ui/thumbs/sketchbook.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16182,7 +16182,7 @@
    "generatedPath": "public/assets/ui/thumbs/pestle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16202,7 +16202,7 @@
    "generatedPath": "public/assets/ui/thumbs/beeswax.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16222,7 +16222,7 @@
    "generatedPath": "public/assets/ui/thumbs/palette-knife.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16242,7 +16242,7 @@
    "generatedPath": "public/assets/ui/thumbs/gavel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16262,7 +16262,7 @@
    "generatedPath": "public/assets/ui/thumbs/paddle.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16282,7 +16282,7 @@
    "generatedPath": "public/assets/ui/thumbs/cushion.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16302,7 +16302,7 @@
    "generatedPath": "public/assets/ui/thumbs/catalogue.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16322,7 +16322,7 @@
    "generatedPath": "public/assets/ui/thumbs/candelabra.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16342,7 +16342,7 @@
    "generatedPath": "public/assets/ui/thumbs/trolley.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16362,7 +16362,7 @@
    "generatedPath": "public/assets/ui/thumbs/blanket.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16382,7 +16382,7 @@
    "generatedPath": "public/assets/ui/thumbs/telegram-form.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16402,7 +16402,7 @@
    "generatedPath": "public/assets/ui/thumbs/stencil.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16422,7 +16422,7 @@
    "generatedPath": "public/assets/ui/thumbs/flowerpot.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16442,7 +16442,7 @@
    "generatedPath": "public/assets/ui/thumbs/watering-can.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16462,7 +16462,7 @@
    "generatedPath": "public/assets/ui/thumbs/orchid.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16482,7 +16482,7 @@
    "generatedPath": "public/assets/ui/thumbs/trowel.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16502,7 +16502,7 @@
    "generatedPath": "public/assets/ui/thumbs/thermometer.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16522,7 +16522,7 @@
    "generatedPath": "public/assets/ui/thumbs/shears.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16542,7 +16542,7 @@
    "generatedPath": "public/assets/ui/thumbs/hose.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16562,7 +16562,7 @@
    "generatedPath": "public/assets/ui/thumbs/pigeon.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16582,7 +16582,7 @@
    "generatedPath": "public/assets/ui/thumbs/chart-tube.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16602,7 +16602,7 @@
    "generatedPath": "public/assets/ui/thumbs/brazier.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16622,7 +16622,7 @@
    "generatedPath": "public/assets/ui/thumbs/trunk.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16642,7 +16642,7 @@
    "generatedPath": "public/assets/ui/thumbs/kiosk.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16662,7 +16662,7 @@
    "generatedPath": "public/assets/ui/thumbs/pressure-gauge.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16682,7 +16682,7 @@
    "generatedPath": "public/assets/ui/thumbs/mailbag.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16702,7 +16702,7 @@
    "generatedPath": "public/assets/ui/thumbs/luggage-tag.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16722,7 +16722,7 @@
    "generatedPath": "public/assets/ui/thumbs/oar.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16742,7 +16742,7 @@
    "generatedPath": "public/assets/ui/thumbs/lifebuoy.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16762,7 +16762,7 @@
    "generatedPath": "public/assets/ui/thumbs/tackle-box.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16782,7 +16782,7 @@
    "generatedPath": "public/assets/ui/thumbs/rain-hat.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16802,7 +16802,7 @@
    "generatedPath": "public/assets/ui/thumbs/flare.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16822,7 +16822,7 @@
    "generatedPath": "public/assets/ui/thumbs/barometer.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16842,7 +16842,7 @@
    "generatedPath": "public/assets/ui/thumbs/dust-sheet.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16862,7 +16862,7 @@
    "generatedPath": "public/assets/ui/thumbs/glass-shard.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",
@@ -16872,7 +16872,7 @@
    "type": "ui-thumbnail",
    "sceneId": "global",
    "semanticConcept": "object:handcuffs",
-   "description": "Generic concept thumbnail for “handcuff” — a drawn “any handcuff” icon for the WORDS tab and gloss cards; deliberately GENERIC, never the scene’s actual prop sprite (GDD §9.1); naturalist’s-journal ink-and-wash miniature on paper tone",
+   "description": "Generic concept thumbnail for “handcuffs” — a drawn “any handcuffs” icon for the WORDS tab and gloss cards; deliberately GENERIC, never the scene’s actual prop sprite (GDD §9.1); naturalist’s-journal ink-and-wash miniature on paper tone",
    "artRequirements": "painterly realistic oil-and-gouache illustration, 1927 fictional European port city, warm cinematic lighting, visible brushwork, crisp readable object silhouettes, cozy-noir mood, muted heritage palette with amber key light and cool teal shadows, aged and well-used materials, no readable text, illegible painterly lettering only, no watermark, no border, no photograph, no cartoon, no outlines; small ink-and-wash naturalist’s-journal study, single object, centered, generic exemplar, paper-tone background, no scene context",
    "transparentBackground": true,
    "targetDimensions": {
@@ -16882,7 +16882,7 @@
    "generatedPath": "public/assets/ui/thumbs/handcuffs.webp"
   },
   {
-   "status": "pending",
+   "status": "generated",
    "qaStatus": "pending",
    "rounds": [],
    "priority": "P2",

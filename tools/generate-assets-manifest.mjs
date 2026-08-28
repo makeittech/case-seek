@@ -15,7 +15,7 @@
  *
  * Run: node tools/generate-assets-manifest.mjs
  */
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { ROWS } from './gen/vocab-data.mjs';
@@ -999,6 +999,19 @@ for (const a of assets) {
   byBatch[a.batch] = (byBatch[a.batch] ?? 0) + 1;
 }
 
+// Preserve hand-edited production state across regenerations (the meta.generator
+// contract is "re-run to regenerate; hand-edit statuses only").
+if (existsSync(OUT)) {
+  const prev = JSON.parse(readFileSync(OUT, 'utf8'));
+  const prevById = new Map((prev.assets ?? []).map((a) => [a.assetId, a]));
+  for (const a of assets) {
+    const p = prevById.get(a.assetId);
+    if (!p) continue;
+    if (p.status) a.status = p.status;
+    if (p.qaStatus) a.qaStatus = p.qaStatus;
+  }
+}
+
 const manifest = {
   meta: {
     project: 'Case & Seek',
@@ -1030,9 +1043,22 @@ const manifest = {
   assets,
 };
 
-mkdirSync(dirname(OUT), { recursive: true });
-writeFileSync(OUT, JSON.stringify(manifest, null, 1) + '\n');
-console.log(`wrote content/assets-manifest.json — ${assets.length} assets`);
+const checkOnly = process.argv.includes('--check');
+if (checkOnly) {
+  const current = existsSync(OUT) ? readFileSync(OUT, 'utf8') : '';
+  const regenerated = JSON.stringify(manifest, null, 1) + '\n';
+  // generatedAt is the only field expected to drift between identical runs
+  const strip = (s) => s.replace(/"generatedAt": "[^"]*"/, '"generatedAt": ""');
+  if (strip(current) !== strip(regenerated)) {
+    console.error('check FAILED: content/assets-manifest.json is out of date — run without --check to regenerate');
+    process.exit(1);
+  }
+  console.log(`check OK: content/assets-manifest.json is up to date — ${assets.length} assets`);
+} else {
+  mkdirSync(dirname(OUT), { recursive: true });
+  writeFileSync(OUT, JSON.stringify(manifest, null, 1) + '\n');
+  console.log(`wrote content/assets-manifest.json — ${assets.length} assets`);
+}
 console.log('byType:', JSON.stringify(byType, null, 1));
 console.log('byBatch:', JSON.stringify(byBatch, null, 1));
 console.log('round coverage: OK (S00–S28 all covered)');
