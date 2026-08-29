@@ -1,0 +1,277 @@
+{
+ "id": "scn-office",
+ "name": "Detective's Office",
+ "locationId": "office",
+ "lightState": "day",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#5a4632",
+  "wallBottom": "#7a6142",
+  "floor": "#4a3826",
+  "accent": "#b98a44",
+  "motifs": [
+   {
+    "kind": "window",
+    "x": 1350,
+    "y": 120,
+    "w": 340,
+    "h": 420,
+    "color": "#c9b98a",
+    "alpha": 0.9
+   },
+   {
+    "kind": "rect",
+    "x": 150,
+    "y": 180,
+    "w": 420,
+    "h": 380,
+    "color": "#3c2f1f",
+    "alpha": 0.8
+   },
+   {
+    "kind": "beam",
+    "x": 0,
+    "y": 60,
+    "w": 1920,
+    "h": 26,
+    "color": "#332818",
+    "alpha": 0.7
+   }
+  ]
+ },
+ "lightPools": [],
+ "props": [
+  {
+   "id": "p-office-cup-1",
+   "concept": "object:cup",
+   "sprite": "prop-cup",
+   "x": 209,
+   "y": 573,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 573,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-office-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 514,
+   "y": 460,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 460,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-office-map-1",
+   "concept": "object:map",
+   "sprite": "prop-map",
+   "x": 734,
+   "y": 585,
+   "scale": 0.6,
+   "rotation": -5,
+   "z": 585,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-office-coat-1",
+   "concept": "object:coat",
+   "sprite": "prop-coat",
+   "x": 1018,
+   "y": 422,
+   "scale": 0.59,
+   "rotation": 0,
+   "z": 422,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-office-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 1341,
+   "y": 445,
+   "scale": 0.61,
+   "rotation": 0,
+   "z": 445,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-office-notebook-1",
+   "concept": "object:notebook",
+   "sprite": "prop-notebook",
+   "x": 1639,
+   "y": 496,
+   "scale": 0.57,
+   "rotation": 0,
+   "z": 496,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-office-string-1",
+   "concept": "object:string",
+   "sprite": "prop-string",
+   "x": 256,
+   "y": 678,
+   "scale": 0.7,
+   "rotation": 0,
+   "z": 1678,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-office-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 483,
+   "y": 788,
+   "scale": 0.73,
+   "rotation": 0,
+   "z": 1788,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-office-umbrella-1",
+   "concept": "object:umbrella",
+   "sprite": "prop-umbrella",
+   "x": 827,
+   "y": 710,
+   "scale": 0.78,
+   "rotation": 0,
+   "z": 1710,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-office-hat-1",
+   "concept": "object:hat",
+   "sprite": "prop-hat",
+   "x": 1086,
+   "y": 790,
+   "scale": 0.67,
+   "rotation": 0,
+   "z": 1790,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-office-cat-1",
+   "concept": "object:cat",
+   "sprite": "prop-cat",
+   "x": 1441,
+   "y": 667,
+   "scale": 0.83,
+   "rotation": 0,
+   "z": 1667,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-office-magnifier-1",
+   "concept": "object:magnifier",
+   "sprite": "prop-magnifier",
+   "x": 1646,
+   "y": 744,
+   "scale": 0.84,
+   "rotation": 0,
+   "z": 1744,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-office-calendar-1",
+   "concept": "object:calendar",
+   "sprite": "prop-calendar",
+   "x": 214,
+   "y": 801,
+   "scale": 0.88,
+   "rotation": 0,
+   "z": 2801,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-office-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 592,
+   "y": 855,
+   "scale": 1,
+   "rotation": 0,
+   "z": 2855,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-office-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 745,
+   "y": 781,
+   "scale": 1.04,
+   "rotation": 0,
+   "z": 2781,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-office-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1119,
+   "y": 804,
+   "scale": 0.87,
+   "rotation": -7,
+   "z": 2804,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-office-lamp-1",
+   "concept": "object:lamp",
+   "sprite": "prop-lamp",
+   "x": 1354,
+   "y": 979,
+   "scale": 0.88,
+   "rotation": 0,
+   "z": 2979,
+   "band": "fg",
+   "flipX": true
+  },
+  {
+   "id": "p-office-key-1",
+   "concept": "object:key",
+   "sprite": "prop-key",
+   "x": 1715,
+   "y": 787,
+   "scale": 0.94,
+   "rotation": 0,
+   "z": 2787,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s00-pass",
+   "concept": "untagged:ambience",
+   "clue": "C00",
+   "sprite": "evid-c00",
+   "x": 1190,
+   "y": 778,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2278,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

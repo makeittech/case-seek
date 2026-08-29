@@ -1,0 +1,12 @@
+{
+ "id": "P2",
+ "mechanic": "combination",
+ "title": "The Harbor Master's Lockbox",
+ "prompt": "The crate stencils and dart scores held three digits. Set the dials.",
+ "skipNote": "The harbor master remembered his own combination on the third mug of tea. The berth ledger is ours.",
+ "clueId": "C10",
+ "params": {
+  "digits": [7, 4, 9],
+  "hint": "Crate stencil 7 · dartboard chalk 4 · berth number 9."
+ }
+}

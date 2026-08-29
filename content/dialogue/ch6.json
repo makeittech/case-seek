@@ -1,0 +1,85 @@
+[
+ {
+  "id": "b6.1",
+  "chapter": 6,
+  "title": "The War Council",
+  "lines": [
+   { "speaker": "holt", "en": "Warrant. And — unasked — the Corbin brothers' records. Muscle for hire, recently hired. Consider it an apology shaped like a case file." },
+   { "speaker": "adele", "en": "The museum's keys. All of them, this time." },
+   { "speaker": "margo", "en": "Sandwiches. And a headline I still haven't printed. Don't make me regret either." }
+  ],
+  "caseLine": "War council: Holt's warrant, Adele's keys, Margo's sandwiches.",
+  "peopleFacts": [
+   { "characterId": "holt", "fact": "Brought the warrant and an apology shaped like a case file.", "stamp": "ally" },
+   { "characterId": "adele", "fact": "Brought the museum's keys. All of them.", "stamp": "ally" }
+  ]
+ },
+ {
+  "id": "b6.2",
+  "chapter": 6,
+  "title": "Finch's Redemption",
+  "lines": [
+   { "speaker": "finch", "en": "You'll want the seal, Detective. It's a fine old seal. That's how they fooled me." },
+   { "speaker": "narration", "en": "He found us at the station — coat, hat, and the transfer papers he swore he never kept. The nightingale watermark, retired 1921, 'not recovered.'" },
+   { "speaker": "margo", "en": "The theft signed itself. It just took us six chapters to read the signature.", "echo": true }
+  ],
+  "caseLine": "Finch kept the papers: the retired seal signed the theft.",
+  "peopleFacts": [
+   { "characterId": "finch", "fact": "Surrendered the transfer papers himself.", "stamp": "witness" }
+  ]
+ },
+ {
+  "id": "b6.3",
+  "chapter": 6,
+  "title": "Storm Bulletin",
+  "lines": [
+   { "speaker": "narration", "en": "All sailings held. The Selene won't run — not Sunday, not for anyone." },
+   { "speaker": "margo", "en": "Then where does a nightingale go when the sea says no?", "garnish": { "level": "L1", "key": "well", "pos": "lead" } }
+  ],
+  "caseLine": "The storm holds every sailing. The Selene won't run.",
+  "peopleFacts": []
+ },
+ {
+  "id": "b6.4",
+  "chapter": 6,
+  "title": "For the Wren",
+  "lines": [
+   { "speaker": "narration", "en": "Her crate abandoned, her ticket unused, her brooch left for the wren. Halloway, seasick on a moored pontoon, solves better ashore anyway." },
+   { "speaker": "margo", "en": "She kept the brooch since the painting. You don't sell the thing you are, Halloway.", "garnish": { "level": "L2", "key": "goodness", "pos": "lead" } },
+   { "speaker": "narration", "en": "The keeper points one oilskinned arm through the rain: a small figure with a long, wrapped burden, walking toward the Belmont." },
+   { "speaker": "margo", "en": "She's not escaping. — 'She's delivering,' you say. The chase inverts: a homecoming, and we're following it." }
+  ],
+  "caseLine": "Ticket unused. Brooch left for me. She's walking the painting home.",
+  "peopleFacts": [
+   { "characterId": "ottilie", "fact": "Never boarding — returning.", "stamp": "suspect" }
+  ]
+ },
+ {
+  "id": "b6.5",
+  "chapter": 6,
+  "title": "Twice a Crime Scene",
+  "lines": [
+   { "speaker": "narration", "en": "The Corbin brothers, in bracelets, indignant at everything: 'We was promised a percentage.'" },
+   { "speaker": "holt", "en": "Percentage of what, gentlemen? Speak up for the record." },
+   { "speaker": "narration", "en": "Their crudeness against the Broker's tidiness closes the arc: the ransack was never her. The gallery is a crime scene twice over — and the trail goes up." }
+  ],
+  "caseLine": "The Corbins ransacked and are wearing bracelets. The trail goes up.",
+  "peopleFacts": [
+   { "characterId": "holt", "fact": "Collared the Corbins. Welcome to it." }
+  ]
+ },
+ {
+  "id": "b6.6",
+  "chapter": 6,
+  "title": "The Rooftop",
+  "lines": [
+   { "speaker": "ottilie", "en": "You're late, little wren. I've been holding the truth level for six years." },
+   { "speaker": "narration", "en": "The old conservation studio under the storm glass. The original, unrolled, in lamplight. The whole case laid out on her worktable — a conservator ends a job with a full inventory." },
+   { "speaker": "margo", "en": "Go on, Halloway. Finish the sentence. I'll hold the light." }
+  ],
+  "caseLine": "The rooftop. She waits with the truth held level.",
+  "peopleFacts": [
+   { "characterId": "ottilie", "fact": "Waiting on the rooftop, hands folded, storm overhead.", "stamp": "suspect" }
+  ]
+ }
+]

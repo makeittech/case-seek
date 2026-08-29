@@ -1,0 +1,494 @@
+{
+ "id": "scn-archives",
+ "name": "Museum Archives",
+ "locationId": "archives",
+ "lightState": "lamplit",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#3a3226",
+  "wallBottom": "#514534",
+  "floor": "#39301f",
+  "accent": "#c69a3f",
+  "motifs": [
+   {
+    "kind": "rect",
+    "x": 100,
+    "y": 90,
+    "w": 480,
+    "h": 520,
+    "color": "#2c2517",
+    "alpha": 0.9
+   },
+   {
+    "kind": "rect",
+    "x": 1340,
+    "y": 90,
+    "w": 480,
+    "h": 520,
+    "color": "#2c2517",
+    "alpha": 0.9
+   },
+   {
+    "kind": "beam",
+    "x": 0,
+    "y": 70,
+    "w": 1920,
+    "h": 30,
+    "color": "#211a10",
+    "alpha": 0.85
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 192,
+   "y": 583,
+   "r": 300
+  },
+  {
+   "x": 1028,
+   "y": 460,
+   "r": 300
+  },
+  {
+   "x": 831,
+   "y": 572,
+   "r": 300
+  },
+  {
+   "x": 242,
+   "y": 710,
+   "r": 300
+  },
+  {
+   "x": 1261,
+   "y": 795,
+   "r": 300
+  },
+  {
+   "x": 620,
+   "y": 810,
+   "r": 300
+  },
+  {
+   "x": 1659,
+   "y": 964,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "p-archives-blueprint-1",
+   "concept": "object:blueprint",
+   "sprite": "prop-blueprint",
+   "x": 192,
+   "y": 583,
+   "scale": 0.57,
+   "rotation": 0,
+   "z": 583,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-lantern-1",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 448,
+   "y": 464,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 464,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-brush-1",
+   "concept": "object:brush",
+   "sprite": "prop-brush",
+   "x": 642,
+   "y": 491,
+   "scale": 0.57,
+   "rotation": 0,
+   "z": 491,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-folder-3",
+   "concept": "object:folder",
+   "sprite": "prop-folder",
+   "x": 825,
+   "y": 509,
+   "scale": 0.52,
+   "rotation": 0,
+   "z": 509,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-archives-register-1",
+   "concept": "object:register",
+   "sprite": "prop-register",
+   "x": 1028,
+   "y": 460,
+   "scale": 0.64,
+   "rotation": 0,
+   "z": 460,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-card-index-1",
+   "concept": "object:card-index",
+   "sprite": "prop-card-index",
+   "x": 1239,
+   "y": 452,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 452,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-archives-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1458,
+   "y": 569,
+   "scale": 0.51,
+   "rotation": 0,
+   "z": 569,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-string-1",
+   "concept": "object:string",
+   "sprite": "prop-string",
+   "x": 1650,
+   "y": 473,
+   "scale": 0.64,
+   "rotation": 0,
+   "z": 473,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-archives-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 228,
+   "y": 557,
+   "scale": 0.61,
+   "rotation": 0,
+   "z": 557,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-folder-1",
+   "concept": "object:folder",
+   "sprite": "prop-folder",
+   "x": 386,
+   "y": 547,
+   "scale": 0.52,
+   "rotation": 0,
+   "z": 547,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-archives-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 593,
+   "y": 393,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 393,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-letter-1",
+   "concept": "object:letter",
+   "sprite": "prop-letter",
+   "x": 831,
+   "y": 572,
+   "scale": 0.58,
+   "rotation": 0,
+   "z": 572,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-gazette-1",
+   "concept": "object:gazette",
+   "sprite": "prop-gazette",
+   "x": 1091,
+   "y": 533,
+   "scale": 0.55,
+   "rotation": 0,
+   "z": 533,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-folder-2",
+   "concept": "object:folder",
+   "sprite": "prop-folder",
+   "x": 1301,
+   "y": 477,
+   "scale": 0.64,
+   "rotation": -2,
+   "z": 477,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-archives-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 1502,
+   "y": 570,
+   "scale": 0.6,
+   "rotation": 0,
+   "z": 570,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-ruler-1",
+   "concept": "object:ruler",
+   "sprite": "prop-ruler",
+   "x": 1690,
+   "y": 594,
+   "scale": 0.56,
+   "rotation": 4,
+   "z": 594,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-archives-magnet-1",
+   "concept": "object:magnet",
+   "sprite": "prop-magnet",
+   "x": 242,
+   "y": 710,
+   "scale": 0.7,
+   "rotation": 0,
+   "z": 1710,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-archives-7",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 394,
+   "y": 625,
+   "scale": 0.82,
+   "rotation": 0,
+   "z": 1625,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-sextant-1",
+   "concept": "object:sextant",
+   "sprite": "prop-sextant",
+   "x": 667,
+   "y": 603,
+   "scale": 0.67,
+   "rotation": 0,
+   "z": 1603,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-archives-stool-1",
+   "concept": "object:stool",
+   "sprite": "prop-stool",
+   "x": 852,
+   "y": 775,
+   "scale": 0.68,
+   "rotation": -6,
+   "z": 1775,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-portrait-1",
+   "concept": "object:portrait",
+   "sprite": "prop-portrait",
+   "x": 1059,
+   "y": 642,
+   "scale": 0.85,
+   "rotation": 0,
+   "z": 1642,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-map-1",
+   "concept": "object:map",
+   "sprite": "prop-map",
+   "x": 1261,
+   "y": 795,
+   "scale": 0.68,
+   "rotation": 3,
+   "z": 1795,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-rubber-stamp-1",
+   "concept": "object:rubber-stamp",
+   "sprite": "prop-rubber-stamp",
+   "x": 1482,
+   "y": 612,
+   "scale": 0.76,
+   "rotation": 0,
+   "z": 1612,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-archives-newspaper-1",
+   "concept": "object:newspaper",
+   "sprite": "prop-newspaper",
+   "x": 1765,
+   "y": 714,
+   "scale": 0.74,
+   "rotation": 0,
+   "z": 1714,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "amb-archives-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 166,
+   "y": 901,
+   "scale": 0.9,
+   "rotation": 0,
+   "z": 2901,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-box-1",
+   "concept": "object:box",
+   "sprite": "prop-box",
+   "x": 387,
+   "y": 762,
+   "scale": 1.01,
+   "rotation": 0,
+   "z": 2762,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-seal-1",
+   "concept": "object:seal",
+   "sprite": "prop-seal",
+   "x": 620,
+   "y": 810,
+   "scale": 0.87,
+   "rotation": 0,
+   "z": 2810,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-compass-1",
+   "concept": "object:compass",
+   "sprite": "prop-compass",
+   "x": 867,
+   "y": 789,
+   "scale": 0.96,
+   "rotation": 0,
+   "z": 2789,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-archives-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1068,
+   "y": 957,
+   "scale": 0.96,
+   "rotation": 2,
+   "z": 2957,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-box-2",
+   "concept": "object:box",
+   "sprite": "prop-box",
+   "x": 1268,
+   "y": 989,
+   "scale": 0.92,
+   "rotation": -2,
+   "z": 2989,
+   "band": "fg",
+   "flipX": true
+  },
+  {
+   "id": "p-archives-manifest-1",
+   "concept": "object:manifest",
+   "sprite": "prop-manifest",
+   "x": 1524,
+   "y": 834,
+   "scale": 0.92,
+   "rotation": -6,
+   "z": 2834,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-archives-ink-1",
+   "concept": "object:ink",
+   "sprite": "prop-ink",
+   "x": 1659,
+   "y": 964,
+   "scale": 0.89,
+   "rotation": -7,
+   "z": 2964,
+   "band": "fg",
+   "flipX": true
+  },
+  {
+   "id": "ev-s04-blueprint",
+   "concept": "untagged:ambience",
+   "clue": "C04",
+   "sprite": "evid-c04",
+   "x": 960,
+   "y": 670,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2170,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s21-minute",
+   "concept": "untagged:ambience",
+   "clue": "C26",
+   "sprite": "evid-c26",
+   "x": 1306,
+   "y": 756,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2256,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

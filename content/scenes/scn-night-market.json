@@ -1,0 +1,523 @@
+{
+ "id": "scn-night-market",
+ "name": "Night Market",
+ "locationId": "market",
+ "lightState": "night-lantern",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#1d2340",
+  "wallBottom": "#2c3355",
+  "floor": "#231d33",
+  "accent": "#e8a53d",
+  "motifs": [
+   {
+    "kind": "rect",
+    "x": 140,
+    "y": 200,
+    "w": 520,
+    "h": 380,
+    "color": "#402f52",
+    "alpha": 0.85
+   },
+   {
+    "kind": "rect",
+    "x": 1260,
+    "y": 200,
+    "w": 520,
+    "h": 380,
+    "color": "#52302f",
+    "alpha": 0.85
+   },
+   {
+    "kind": "ellipse",
+    "x": 760,
+    "y": 120,
+    "w": 400,
+    "h": 130,
+    "color": "#e8a53d",
+    "alpha": 0.18
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 196,
+   "y": 576,
+   "r": 300
+  },
+  {
+   "x": 1446,
+   "y": 500,
+   "r": 300
+  },
+  {
+   "x": 1124,
+   "y": 444,
+   "r": 300
+  },
+  {
+   "x": 182,
+   "y": 755,
+   "r": 300
+  },
+  {
+   "x": 1112,
+   "y": 760,
+   "r": 300
+  },
+  {
+   "x": 680,
+   "y": 599,
+   "r": 300
+  },
+  {
+   "x": 1698,
+   "y": 671,
+   "r": 300
+  },
+  {
+   "x": 730,
+   "y": 821,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "p-night-market-cheese-1",
+   "concept": "object:cheese",
+   "sprite": "prop-cheese",
+   "x": 176,
+   "y": 576,
+   "scale": 0.57,
+   "rotation": 0,
+   "z": 576,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-night-market-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 368,
+   "y": 436,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 436,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-basket-1",
+   "concept": "object:basket",
+   "sprite": "prop-basket",
+   "x": 682,
+   "y": 424,
+   "scale": 0.55,
+   "rotation": 0,
+   "z": 424,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-cloth-bolt-1",
+   "concept": "object:cloth-bolt",
+   "sprite": "prop-cloth-bolt",
+   "x": 825,
+   "y": 521,
+   "scale": 0.59,
+   "rotation": 0,
+   "z": 521,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-scarf-1",
+   "concept": "object:scarf",
+   "sprite": "prop-scarf",
+   "x": 1064,
+   "y": 441,
+   "scale": 0.61,
+   "rotation": 0,
+   "z": 441,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-night-market-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1260,
+   "y": 396,
+   "scale": 0.57,
+   "rotation": -6,
+   "z": 396,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-orange-1",
+   "concept": "object:orange",
+   "sprite": "prop-orange",
+   "x": 1446,
+   "y": 500,
+   "scale": 0.64,
+   "rotation": 0,
+   "z": 500,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-night-market-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1654,
+   "y": 487,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 487,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-loom-1",
+   "concept": "object:loom",
+   "sprite": "prop-loom",
+   "x": 248,
+   "y": 472,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 472,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-jar-1",
+   "concept": "object:jar",
+   "sprite": "prop-jar",
+   "x": 452,
+   "y": 563,
+   "scale": 0.53,
+   "rotation": 4,
+   "z": 563,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-night-market-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 642,
+   "y": 548,
+   "scale": 0.5,
+   "rotation": 0,
+   "z": 548,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-scale-1",
+   "concept": "object:scale",
+   "sprite": "prop-scale",
+   "x": 829,
+   "y": 571,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 571,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-fish-1",
+   "concept": "object:fish",
+   "sprite": "prop-fish",
+   "x": 1124,
+   "y": 444,
+   "scale": 0.59,
+   "rotation": 0,
+   "z": 444,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-pepper-1",
+   "concept": "object:pepper",
+   "sprite": "prop-pepper",
+   "x": 1287,
+   "y": 583,
+   "scale": 0.65,
+   "rotation": 0,
+   "z": 583,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-bead-1",
+   "concept": "object:bead",
+   "sprite": "prop-bead",
+   "x": 1485,
+   "y": 459,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 459,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-thimble-1",
+   "concept": "object:thimble",
+   "sprite": "prop-thimble",
+   "x": 1702,
+   "y": 446,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 446,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-mortar-1",
+   "concept": "object:mortar",
+   "sprite": "prop-mortar",
+   "x": 182,
+   "y": 755,
+   "scale": 0.83,
+   "rotation": 0,
+   "z": 1755,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-teapot-1",
+   "concept": "object:teapot",
+   "sprite": "prop-teapot",
+   "x": 326,
+   "y": 791,
+   "scale": 0.71,
+   "rotation": 0,
+   "z": 1791,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-night-market-candle-1",
+   "concept": "object:candle",
+   "sprite": "prop-candle",
+   "x": 586,
+   "y": 587,
+   "scale": 0.84,
+   "rotation": 0,
+   "z": 1587,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-night-market-lantern-1",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 879,
+   "y": 671,
+   "scale": 0.7,
+   "rotation": 0,
+   "z": 1671,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-ribbon-1",
+   "concept": "object:ribbon",
+   "sprite": "prop-ribbon",
+   "x": 1112,
+   "y": 760,
+   "scale": 0.78,
+   "rotation": 0,
+   "z": 1760,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-night-market-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 1315,
+   "y": 674,
+   "scale": 0.83,
+   "rotation": 0,
+   "z": 1674,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-garlic-1",
+   "concept": "object:garlic",
+   "sprite": "prop-garlic",
+   "x": 1435,
+   "y": 681,
+   "scale": 0.69,
+   "rotation": 0,
+   "z": 1681,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-night-market-7",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 1681,
+   "y": 659,
+   "scale": 0.76,
+   "rotation": 0,
+   "z": 1659,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-lantern-2",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 221,
+   "y": 590,
+   "scale": 0.84,
+   "rotation": -1,
+   "z": 1590,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-button-1",
+   "concept": "object:button",
+   "sprite": "prop-button",
+   "x": 376,
+   "y": 668,
+   "scale": 0.83,
+   "rotation": 0,
+   "z": 1668,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-brush-1",
+   "concept": "object:brush",
+   "sprite": "prop-brush",
+   "x": 680,
+   "y": 599,
+   "scale": 0.72,
+   "rotation": 2,
+   "z": 1599,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-brush-2",
+   "concept": "object:brush",
+   "sprite": "prop-brush",
+   "x": 879,
+   "y": 648,
+   "scale": 0.7,
+   "rotation": -4,
+   "z": 1648,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-night-market-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1083,
+   "y": 702,
+   "scale": 0.75,
+   "rotation": 0,
+   "z": 1702,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-drum-1",
+   "concept": "object:drum",
+   "sprite": "prop-drum",
+   "x": 1304,
+   "y": 785,
+   "scale": 0.78,
+   "rotation": 0,
+   "z": 1785,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-easel-1",
+   "concept": "object:easel",
+   "sprite": "prop-easel",
+   "x": 1544,
+   "y": 666,
+   "scale": 0.85,
+   "rotation": 0,
+   "z": 1666,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-night-market-oil-flask-1",
+   "concept": "object:oil-flask",
+   "sprite": "prop-oil-flask",
+   "x": 1698,
+   "y": 671,
+   "scale": 0.7,
+   "rotation": -7,
+   "z": 1671,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-night-market-orange-2",
+   "concept": "object:orange",
+   "sprite": "prop-orange",
+   "x": 169,
+   "y": 930,
+   "scale": 1.04,
+   "rotation": 0,
+   "z": 2930,
+   "band": "fg",
+   "flipX": true
+  },
+  {
+   "id": "p-night-market-orange-3",
+   "concept": "object:orange",
+   "sprite": "prop-orange",
+   "x": 419,
+   "y": 767,
+   "scale": 1.03,
+   "rotation": -4,
+   "z": 2767,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s14-lantern",
+   "concept": "untagged:ambience",
+   "clue": "C19",
+   "sprite": "evid-c19",
+   "x": 998,
+   "y": 540,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2040,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s15-orderbook",
+   "concept": "untagged:ambience",
+   "clue": "C20",
+   "sprite": "evid-c20",
+   "x": 730,
+   "y": 821,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2321,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

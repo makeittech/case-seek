@@ -1,0 +1,1865 @@
+[
+ {
+  "id": "object:key",
+  "gloss": "key",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🔑",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:notebook",
+  "gloss": "notebook",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "A",
+  "icon": "📓",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:magnifier",
+  "gloss": "magnifying glass",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "🔍",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:coat",
+  "gloss": "coat",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "A",
+  "icon": "🧥",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:hat",
+  "gloss": "hat",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "A",
+  "icon": "🎩",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:lamp",
+  "gloss": "lamp",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "💡",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:cup",
+  "gloss": "cup",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "A",
+  "icon": "☕",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:umbrella",
+  "gloss": "umbrella",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "☂️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:frame",
+  "gloss": "picture frame",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "A",
+  "icon": "🖼️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:rope",
+  "gloss": "rope",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "A",
+  "icon": "🪢",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:crate",
+  "gloss": "crate",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "A",
+  "icon": "📦",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:ladder",
+  "gloss": "ladder",
+  "domain": "tools",
+  "tags": [],
+  "freq": "A",
+  "icon": "🪜",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:glove",
+  "gloss": "glove",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "A",
+  "icon": "🧤",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:screwdriver",
+  "gloss": "screwdriver",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "🪛",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:label",
+  "gloss": "label",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "A",
+  "icon": "🏷️",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:bench",
+  "gloss": "bench",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "A",
+  "icon": "🪑",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:chandelier",
+  "gloss": "chandelier",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "C",
+  "icon": "🔆",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:ledger",
+  "gloss": "ledger",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "📒",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:teacup",
+  "gloss": "teacup",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "B",
+  "icon": "🍵",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:envelope",
+  "gloss": "envelope",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "A",
+  "icon": "✉️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:rubber-stamp",
+  "gloss": "rubber stamp",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "🖨️",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:inkwell",
+  "gloss": "inkwell",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "C",
+  "icon": "🖋️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:scissors",
+  "gloss": "scissors",
+  "domain": "tools",
+  "tags": [],
+  "freq": "A",
+  "icon": "✂️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:folder",
+  "gloss": "folder",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "A",
+  "icon": "📁",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:monocle",
+  "gloss": "monocle",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "C",
+  "icon": "👓",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:telephone",
+  "gloss": "telephone",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "📞",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:blotter",
+  "gloss": "blotter",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "C",
+  "icon": "📄",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:candle",
+  "gloss": "candle",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🕯️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:sealing-wax",
+  "gloss": "sealing wax",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "C",
+  "icon": "🧧",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:letter-opener",
+  "gloss": "letter opener",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "C",
+  "icon": "🗡️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:calendar",
+  "gloss": "calendar",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "A",
+  "icon": "📅",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:drawer",
+  "gloss": "drawer",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "A",
+  "icon": "🗄️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:photograph",
+  "gloss": "photograph",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "A",
+  "icon": "📷",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:ribbon",
+  "gloss": "ribbon",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "B",
+  "icon": "🎀",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:clock",
+  "gloss": "clock",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "A",
+  "icon": "🕰️",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:blueprint",
+  "gloss": "blueprint",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "C",
+  "icon": "📐",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:newspaper",
+  "gloss": "newspaper",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "A",
+  "icon": "📰",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:map",
+  "gloss": "map",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "A",
+  "icon": "🗺️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:box",
+  "gloss": "box",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🗃️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:lantern",
+  "gloss": "lantern",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🏮",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:brush",
+  "gloss": "brush",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "A",
+  "icon": "🖌️",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:ink",
+  "gloss": "ink",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "🧴",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:stool",
+  "gloss": "stool",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "B",
+  "icon": "🪑",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:string",
+  "gloss": "string",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🧵",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:magnet",
+  "gloss": "magnet",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "B",
+  "icon": "🧲",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:register",
+  "gloss": "register book",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "📖",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:card-index",
+  "gloss": "card index",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "C",
+  "icon": "🗂️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:portrait",
+  "gloss": "portrait",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "B",
+  "icon": "🖼️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:ruler",
+  "gloss": "ruler",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "B",
+  "icon": "📏",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:compass",
+  "gloss": "drafting compass",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "C",
+  "icon": "🌀",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:sextant",
+  "gloss": "sextant",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "C",
+  "icon": "🧭",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:seal",
+  "gloss": "wax seal",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "🔏",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:gazette",
+  "gloss": "gazette",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "C",
+  "icon": "🗞️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:manifest",
+  "gloss": "cargo manifest",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "C",
+  "icon": "📋",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:seagull",
+  "gloss": "seagull",
+  "domain": "nature",
+  "tags": [],
+  "freq": "A",
+  "icon": "🐦",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:anchor",
+  "gloss": "anchor",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "A",
+  "icon": "⚓",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:barrel",
+  "gloss": "barrel",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "A",
+  "icon": "🛢️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:hook",
+  "gloss": "hook",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "🪝",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:net",
+  "gloss": "net",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "A",
+  "icon": "🕸️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:bell",
+  "gloss": "bell",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🔔",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:bollard",
+  "gloss": "bollard",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "C",
+  "icon": "🧱",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:chain",
+  "gloss": "chain",
+  "domain": "tools",
+  "tags": [],
+  "freq": "A",
+  "icon": "⛓️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:tarpaulin",
+  "gloss": "tarpaulin",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "C",
+  "icon": "🏕️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:winch",
+  "gloss": "winch",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "🛞",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:gangplank",
+  "gloss": "gangplank",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "C",
+  "icon": "🌉",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:oilskin",
+  "gloss": "oilskin coat",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "C",
+  "icon": "🦺",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:whistle",
+  "gloss": "whistle",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "B",
+  "icon": "📣",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:cat",
+  "gloss": "cat",
+  "domain": "nature",
+  "tags": [],
+  "freq": "A",
+  "icon": "🐈",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:padlock",
+  "gloss": "padlock",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🔒",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:bottle",
+  "gloss": "bottle",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "A",
+  "icon": "🍾",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:tankard",
+  "gloss": "tankard",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "C",
+  "icon": "🍺",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:dartboard",
+  "gloss": "dartboard",
+  "domain": "music-leisure",
+  "tags": [],
+  "freq": "C",
+  "icon": "🎯",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:chalk",
+  "gloss": "chalk",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "🖍️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:bread",
+  "gloss": "bread",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "A",
+  "icon": "🍞",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:cheese",
+  "gloss": "cheese",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "A",
+  "icon": "🧀",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:playing-card",
+  "gloss": "playing card",
+  "domain": "music-leisure",
+  "tags": [],
+  "freq": "B",
+  "icon": "🃏",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:kettle",
+  "gloss": "kettle",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "B",
+  "icon": "♨️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:pipe",
+  "gloss": "tobacco pipe",
+  "domain": "music-leisure",
+  "tags": [],
+  "freq": "B",
+  "icon": "🚬",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:logbook",
+  "gloss": "logbook",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "C",
+  "icon": "📔",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:apron",
+  "gloss": "apron",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "B",
+  "icon": "🥼",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:mousetrap",
+  "gloss": "mousetrap",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "🪤",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:jug",
+  "gloss": "jug",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "B",
+  "icon": "🏺",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:broom",
+  "gloss": "broom",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🧹",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:coin",
+  "gloss": "coin",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🪙",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:match",
+  "gloss": "matchstick",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🧨",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:towel",
+  "gloss": "towel",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🧻",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:scale",
+  "gloss": "weighing scale",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "B",
+  "icon": "⚖️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:twine",
+  "gloss": "twine",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "🧶",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:funnel",
+  "gloss": "funnel",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "🔻",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:typewriter",
+  "gloss": "typewriter",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "⌨️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:sack",
+  "gloss": "sack",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🛍️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:tea-chest",
+  "gloss": "tea chest",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "C",
+  "icon": "🗳️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:birdcage",
+  "gloss": "birdcage",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🪺",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:hand-truck",
+  "gloss": "hand truck",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "🛒",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:suitcase",
+  "gloss": "suitcase",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "A",
+  "icon": "🧳",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:palm",
+  "gloss": "potted palm",
+  "domain": "nature",
+  "tags": [],
+  "freq": "B",
+  "icon": "🌴",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:cane",
+  "gloss": "walking cane",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🦯",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:hatbox",
+  "gloss": "hatbox",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "C",
+  "icon": "🎁",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:key-rack",
+  "gloss": "key rack",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "C",
+  "icon": "🗝️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:ashtray",
+  "gloss": "ashtray",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🫙",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:tray",
+  "gloss": "serving tray",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "B",
+  "icon": "🍽️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:champagne-bucket",
+  "gloss": "champagne bucket",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "C",
+  "icon": "🥂",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:umbrella-stand",
+  "gloss": "umbrella stand",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "C",
+  "icon": "🌂",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:luggage-cart",
+  "gloss": "luggage cart",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "C",
+  "icon": "🛅",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:letter",
+  "gloss": "letter",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "A",
+  "icon": "💌",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:carnation",
+  "gloss": "carnation",
+  "domain": "nature",
+  "tags": [],
+  "freq": "C",
+  "icon": "🌸",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:cigarette-case",
+  "gloss": "cigarette case",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "🥡",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:saucer",
+  "gloss": "saucer",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "B",
+  "icon": "🥣",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:candlestick",
+  "gloss": "candlestick",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "B",
+  "icon": "🪔",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:violin",
+  "gloss": "violin",
+  "domain": "music-leisure",
+  "tags": [],
+  "freq": "B",
+  "icon": "🎻",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:globe",
+  "gloss": "globe",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "B",
+  "icon": "🌍",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:mirror",
+  "gloss": "mirror",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "A",
+  "icon": "🪞",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:vase",
+  "gloss": "vase",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "⚱️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:medal",
+  "gloss": "medal",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🏅",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:fan",
+  "gloss": "hand fan",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "B",
+  "icon": "🎏",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:chessboard",
+  "gloss": "chessboard",
+  "domain": "music-leisure",
+  "tags": [],
+  "freq": "B",
+  "icon": "♟️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:stamp-die",
+  "gloss": "stamp die",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "🎴",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:telescope",
+  "gloss": "telescope",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "B",
+  "icon": "🔭",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:curtain",
+  "gloss": "curtain",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "A",
+  "icon": "🪟",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:strongbox",
+  "gloss": "strongbox",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "C",
+  "icon": "🔐",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:rug",
+  "gloss": "rug",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "A",
+  "icon": "🛋️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:crowbar",
+  "gloss": "crowbar",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "⛏️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:snuffbox",
+  "gloss": "snuffbox",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "🥡",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:letter-scale",
+  "gloss": "letter scale",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "C",
+  "icon": "⚖️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:key-ring",
+  "gloss": "key ring",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🗝️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:file",
+  "gloss": "document file",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "📂",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:cashbox",
+  "gloss": "cashbox",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "💰",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:cufflink",
+  "gloss": "cufflink",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "C",
+  "icon": "🔗",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:razor",
+  "gloss": "razor",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🪒",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:shoehorn",
+  "gloss": "shoehorn",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "🥿",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:pocket-watch",
+  "gloss": "pocket watch",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "B",
+  "icon": "⌚",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:decanter",
+  "gloss": "decanter",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "C",
+  "icon": "🍷",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:slipper",
+  "gloss": "slipper",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "B",
+  "icon": "🩴",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:cravat",
+  "gloss": "cravat",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "C",
+  "icon": "👔",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:travel-case",
+  "gloss": "travel case",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "C",
+  "icon": "💼",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:fountain-pen",
+  "gloss": "fountain pen",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "🖊️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:orange",
+  "gloss": "orange",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "A",
+  "icon": "🍊",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:scarf",
+  "gloss": "scarf",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "A",
+  "icon": "🧣",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:basket",
+  "gloss": "basket",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🧺",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:garlic",
+  "gloss": "garlic",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "A",
+  "icon": "🧄",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:pepper",
+  "gloss": "bell pepper",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "A",
+  "icon": "🌶️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:fish",
+  "gloss": "fish",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "A",
+  "icon": "🐟",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:teapot",
+  "gloss": "teapot",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "B",
+  "icon": "🫖",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:drum",
+  "gloss": "drum",
+  "domain": "music-leisure",
+  "tags": [],
+  "freq": "B",
+  "icon": "🥁",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:jar",
+  "gloss": "jar",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "A",
+  "icon": "🫙",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:cloth-bolt",
+  "gloss": "bolt of cloth",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "C",
+  "icon": "🧵",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:thimble",
+  "gloss": "thimble",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "C",
+  "icon": "🪡",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:button",
+  "gloss": "button",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "A",
+  "icon": "🔘",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:mortar",
+  "gloss": "mortar bowl",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "C",
+  "icon": "🥣",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:bead",
+  "gloss": "bead",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "B",
+  "icon": "📿",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:loom",
+  "gloss": "loom",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "C",
+  "icon": "🧶",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:oil-flask",
+  "gloss": "oil flask",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "C",
+  "icon": "🫒",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:easel",
+  "gloss": "easel",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "B",
+  "icon": "🎨",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:wrench",
+  "gloss": "wrench",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "🔧",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:oilcan",
+  "gloss": "oilcan",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "🫗",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:timetable",
+  "gloss": "timetable",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "B",
+  "icon": "🗓️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:ticket",
+  "gloss": "ticket",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "A",
+  "icon": "🎫",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:signal-lamp",
+  "gloss": "signal lamp",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "C",
+  "icon": "🚦",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:toolbox",
+  "gloss": "toolbox",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "🧰",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:gear",
+  "gloss": "gear wheel",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "⚙️",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:cap",
+  "gloss": "conductor cap",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "B",
+  "icon": "🧢",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:waybill",
+  "gloss": "waybill",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "C",
+  "icon": "📃",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:palette",
+  "gloss": "paint palette",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "B",
+  "icon": "🎨",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:rag",
+  "gloss": "rag",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🧽",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:window-pole",
+  "gloss": "window pole",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "🪄",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:smock",
+  "gloss": "smock",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "C",
+  "icon": "🥼",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:charcoal",
+  "gloss": "charcoal stick",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "B",
+  "icon": "✏️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:laundry-line",
+  "gloss": "laundry line",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "👕",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:stove",
+  "gloss": "stove",
+  "domain": "household",
+  "tags": [],
+  "freq": "A",
+  "icon": "🔥",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:sketchbook",
+  "gloss": "sketchbook",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "B",
+  "icon": "📝",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:pestle",
+  "gloss": "pestle",
+  "domain": "kitchen-food",
+  "tags": [],
+  "freq": "C",
+  "icon": "🥢",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:beeswax",
+  "gloss": "beeswax block",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "C",
+  "icon": "🧈",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:palette-knife",
+  "gloss": "palette knife",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "C",
+  "icon": "🔪",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:gavel",
+  "gloss": "auction gavel",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "🔨",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:paddle",
+  "gloss": "bidding paddle",
+  "domain": "music-leisure",
+  "tags": [],
+  "freq": "C",
+  "icon": "🏓",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:cushion",
+  "gloss": "velvet cushion",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "B",
+  "icon": "💺",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:catalogue",
+  "gloss": "catalogue",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "B",
+  "icon": "📕",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:candelabra",
+  "gloss": "candelabra",
+  "domain": "furniture-fixtures",
+  "tags": [],
+  "freq": "C",
+  "icon": "🕎",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:trolley",
+  "gloss": "trolley",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "C",
+  "icon": "🛒",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:blanket",
+  "gloss": "packing blanket",
+  "domain": "household",
+  "tags": [],
+  "freq": "B",
+  "icon": "🛌",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:telegram-form",
+  "gloss": "telegram form",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "C",
+  "icon": "📨",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:stencil",
+  "gloss": "stencil",
+  "domain": "art-craft",
+  "tags": [],
+  "freq": "C",
+  "icon": "🔡",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:flowerpot",
+  "gloss": "flowerpot",
+  "domain": "nature",
+  "tags": [],
+  "freq": "A",
+  "icon": "🪴",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:watering-can",
+  "gloss": "watering can",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "🪣",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:orchid",
+  "gloss": "orchid",
+  "domain": "nature",
+  "tags": [],
+  "freq": "B",
+  "icon": "🌺",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:trowel",
+  "gloss": "garden trowel",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "⛏️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:thermometer",
+  "gloss": "thermometer",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "B",
+  "icon": "🌡️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:shears",
+  "gloss": "garden shears",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "✂️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:hose",
+  "gloss": "garden hose",
+  "domain": "tools",
+  "tags": [],
+  "freq": "B",
+  "icon": "🐍",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:pigeon",
+  "gloss": "pigeon",
+  "domain": "nature",
+  "tags": [],
+  "freq": "A",
+  "icon": "🕊️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:chart-tube",
+  "gloss": "chart tube",
+  "domain": "stationery-office",
+  "tags": [],
+  "freq": "C",
+  "icon": "📜",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:brazier",
+  "gloss": "brazier",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "🔥",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:trunk",
+  "gloss": "travel trunk",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "B",
+  "icon": "🛄",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:kiosk",
+  "gloss": "kiosk",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "B",
+  "icon": "🏪",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:pressure-gauge",
+  "gloss": "pressure gauge",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "C",
+  "icon": "⏲️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:mailbag",
+  "gloss": "mailbag",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "C",
+  "icon": "📫",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:luggage-tag",
+  "gloss": "luggage tag",
+  "domain": "travel-transit",
+  "tags": [],
+  "freq": "C",
+  "icon": "🔖",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:oar",
+  "gloss": "oar",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "B",
+  "icon": "🛶",
+  "multiFindOk": true
+ },
+ {
+  "id": "object:lifebuoy",
+  "gloss": "lifebuoy",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "B",
+  "icon": "🛟",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:tackle-box",
+  "gloss": "tackle box",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "C",
+  "icon": "🎣",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:rain-hat",
+  "gloss": "sou'wester hat",
+  "domain": "clothing-textile",
+  "tags": [],
+  "freq": "C",
+  "icon": "👒",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:flare",
+  "gloss": "signal flare",
+  "domain": "maritime",
+  "tags": [],
+  "freq": "C",
+  "icon": "🎆",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:barometer",
+  "gloss": "barometer",
+  "domain": "instruments-measures",
+  "tags": [],
+  "freq": "C",
+  "icon": "📉",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:dust-sheet",
+  "gloss": "dust sheet",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "🏳️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:glass-shard",
+  "gloss": "glass shard",
+  "domain": "household",
+  "tags": [],
+  "freq": "C",
+  "icon": "🔷",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:handcuffs",
+  "gloss": "handcuffs",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "⛓️",
+  "multiFindOk": false
+ },
+ {
+  "id": "object:plaster-cast",
+  "gloss": "plaster cast",
+  "domain": "tools",
+  "tags": [],
+  "freq": "C",
+  "icon": "🦶",
+  "multiFindOk": false
+ }
+]

@@ -1,0 +1,23 @@
+[
+ {
+  "id": "BR1",
+  "prompt": "Two of these pins share a number. Connect them.",
+  "pins": ["C07", "C08", "C09", "C11", "C13"],
+  "pair": ["C07", "C09"],
+  "line": "Paid in exactly the shape of his debt — forty crowns. Whoever bought Finch knew his number to the crown."
+ },
+ {
+  "id": "BR2",
+  "prompt": "Two of these pins prove when the copy was made. Connect them.",
+  "pins": ["C20", "C21", "C22", "C23", "C18"],
+  "pair": ["C22", "C23"],
+  "line": "The copy wasn't painted after the theft. It was painted before it — by the hand that painted the original."
+ },
+ {
+  "id": "BR3",
+  "prompt": "The key contradiction: two pins, one retired seal. Connect them.",
+  "pins": ["C26", "C30", "C31", "C32", "C34"],
+  "pair": ["C31", "C26"],
+  "line": "A seal retired in 1921 — 'not recovered' — signed the transfer papers of 1927. The woman inside the Belmont for six years without setting foot in it."
+ }
+]

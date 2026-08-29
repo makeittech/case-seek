@@ -1,0 +1,14 @@
+{
+ "id": "P1",
+ "mechanic": "torn-paper",
+ "title": "The Frame's Hidden Lining",
+ "prompt": "Reassemble the torn paper from the frame's lining.",
+ "skipNote": "Margo pieced the lining together while you argued with the lamp. Pawn ticket No. 77, Quayside.",
+ "clueId": "C07",
+ "params": {
+  "pieces": 6,
+  "image": "torn-ticket",
+  "caption": "BRASSBOUND PAWN, QUAYSIDE — No. 77 — one brass sextant — 40 cr.",
+  "inSituWords": ["object:sextant", "object:lantern", "object:anchor"]
+ }
+}

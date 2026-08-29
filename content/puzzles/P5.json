@@ -1,0 +1,10 @@
+{
+ "id": "P5",
+ "mechanic": "silhouette-sort",
+ "title": "The Suite's Luggage",
+ "prompt": "Repack Casal's travel-case — every object into its outline.",
+ "skipNote": "Casal repacked it himself, mortally offended. 'Velvet under brass? I would never.'",
+ "params": {
+  "concepts": ["object:cufflink", "object:razor", "object:pocket-watch", "object:slipper", "object:cravat", "object:fountain-pen"]
+ }
+}

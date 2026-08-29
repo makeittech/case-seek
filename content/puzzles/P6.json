@@ -1,0 +1,12 @@
+{
+ "id": "P6",
+ "mechanic": "light-sequence",
+ "title": "The Lantern Code",
+ "prompt": "The stall-keeper's lamp signals the code. Repeat the light.",
+ "skipNote": "Margo read the lamp code off the stall-keeper's habit. The hollow lantern opened.",
+ "params": {
+  "startLength": 4,
+  "endLength": 7,
+  "lamps": 4
+ }
+}

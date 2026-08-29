@@ -1,0 +1,69 @@
+[
+ {
+  "id": "b3.1",
+  "chapter": 3,
+  "title": "Brass and Palms",
+  "lines": [
+   { "speaker": "narration", "en": "The Grand Hotel: brass, palms, and a concierge who has never heard of anyone. Especially anyone you ask about." },
+   { "speaker": "margo", "en": "The concierge owes me a favor — well, three favors. You're volunteering for lost property. Match the luggage, earn the register.", "garnish": { "level": "L1", "key": "well", "pos": "lead" } }
+  ],
+  "caseLine": "Two names to place under one roof: Casal, and Adele's 'Dr. Lorentz'.",
+  "peopleFacts": []
+ },
+ {
+  "id": "b3.2",
+  "chapter": 3,
+  "title": "Casal Holds Court",
+  "lines": [
+   { "speaker": "casal", "en": "I sell beautiful things to people who deserve worse. That is not theft, detective — it's ecology." },
+   { "speaker": "casal", "en": "Search my shop. Please. Loudly, in front of witnesses. Innocence is wasted if nobody watches it." },
+   { "speaker": "margo", "en": "Half this shop is honest. Guess which half.", "garnish": { "level": "L2", "key": "listen", "pos": "lead" } }
+  ],
+  "caseLine": "Casal insists on being searched — theatrically. Take him up on it literally.",
+  "peopleFacts": [
+   { "characterId": "casal", "fact": "Offers his shop ostentatiously. Outrage on retainer.", "stamp": "suspect" }
+  ],
+  "flavorChoice": { "dry": "Then consider me the gamekeeper.", "warm": "Beautiful things deserve honest paperwork, Mr. Casal." }
+ },
+ {
+  "id": "b3.3",
+  "chapter": 3,
+  "title": "The Die Doesn't Match",
+  "lines": [
+   { "speaker": "narration", "en": "The nicked serif clears him of the crate — and the deciphered ledger convicts him of the acquaintance. He has dealt with 'Nachtigall' before." },
+   { "speaker": "casal", "en": "I never met them. One does not meet a voice. One receives it." },
+   { "speaker": "narration", "en": "His outrage goes quiet and real. He stops performing. It is somehow worse." }
+  ],
+  "caseLine": "The customs stamp is a forgery — Casal's mark, not his die. But his ledger knows the bird's name.",
+  "peopleFacts": [
+   { "characterId": "casal", "fact": "Cleared of the theft; guilty of much else. Prior Nachtigall lots.", "stamp": "cleared" }
+  ]
+ },
+ {
+  "id": "b3.4",
+  "chapter": 3,
+  "title": "The Veiled Woman",
+  "lines": [
+   { "speaker": "margo", "en": "Don't look. Grey gloves, eleven o'clock. Walks like unpaid rent.", "garnish": { "level": "L1", "key": "quiet", "pos": "lead" } },
+   { "speaker": "narration", "en": "Veiled, unhurried, she leaves a note at the desk, tips the bell-boy exactly right, and crosses the lobby like she owns the marble." }
+  ],
+  "caseLine": "A veiled woman leaves Casal's summonses. Sigil: the Lattice Stall. Day: Friday.",
+  "peopleFacts": [
+   { "characterId": "ottilie", "fact": "A woman: veiled, grey gloves, tips exactly right.", "stamp": "unknown" }
+  ]
+ },
+ {
+  "id": "b3.5",
+  "chapter": 3,
+  "title": "Already Searched",
+  "lines": [
+   { "speaker": "narration", "en": "Suite 412, searched before you — tidily. The false drawer's sticking panel kept its secret: LATTICE STALL. FRIDAY. BRING THE 1926 FILE. — NACHTIGALL." },
+   { "speaker": "casal", "en": "They wanted my file. The 1926 file. I keep it — elsewhere." },
+   { "speaker": "margo", "en": "The market is my quarter, Halloway. Friday you're my guest — eyes open, mouth shut, and smile.", "garnish": { "level": "L2", "key": "careful", "pos": "lead" }, "echo": true }
+  ],
+  "caseLine": "Nachtigall summons Casal to the Lattice Stall, Friday, with the 1926 file.",
+  "peopleFacts": [
+   { "characterId": "ottilie", "fact": "Wants the 1926 file — the sale's paper trail." }
+  ]
+ }
+]

@@ -1,0 +1,2586 @@
+{
+ "lang": "it",
+ "name": "Italiano",
+ "nameEn": "Italian",
+ "locale": "it-IT",
+ "greeting": "Avanti, detective.",
+ "grandmother": "Nonna Lucia",
+ "slowRate": 0.75,
+ "articles": [
+  "il",
+  "lo",
+  "la",
+  "l'",
+  "i",
+  "gli",
+  "le"
+ ],
+ "articleOptionSets": [
+  [
+   "il",
+   "lo",
+   "la"
+  ],
+  [
+   "l'",
+   "la",
+   "il"
+  ],
+  [
+   "i",
+   "gli",
+   "le"
+  ]
+ ],
+ "articlePickWeight": 0.3,
+ "lexemes": [
+  {
+   "concept": "object:key",
+   "article": "la",
+   "word": "chiave",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le chiavi",
+   "phrase": "apre ogni porta"
+  },
+  {
+   "concept": "object:notebook",
+   "article": "il",
+   "word": "taccuino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i taccuini",
+   "phrase": "raccoglie tutti gli appunti"
+  },
+  {
+   "concept": "object:magnifier",
+   "article": "la",
+   "word": "lente",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "le lenti",
+   "phrase": "ingrandisce ogni cosa",
+   "caution": "«lente» is any lens — context makes it a magnifier."
+  },
+  {
+   "concept": "object:coat",
+   "article": "il",
+   "word": "cappotto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i cappotti",
+   "phrase": "ripara dal freddo"
+  },
+  {
+   "concept": "object:hat",
+   "article": "il",
+   "word": "cappello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i cappelli",
+   "phrase": "sta sulla testa"
+  },
+  {
+   "concept": "object:lamp",
+   "article": "la",
+   "word": "lampada",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le lampade",
+   "phrase": "illumina la stanza"
+  },
+  {
+   "concept": "object:cup",
+   "article": "la",
+   "word": "tazza",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le tazze",
+   "phrase": "ci si beve il caffè"
+  },
+  {
+   "concept": "object:umbrella",
+   "article": "l'",
+   "word": "ombrello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli ombrelli",
+   "phrase": "ripara dalla pioggia"
+  },
+  {
+   "concept": "object:frame",
+   "article": "la",
+   "word": "cornice",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le cornici",
+   "phrase": "tiene fermo un quadro"
+  },
+  {
+   "concept": "object:rope",
+   "article": "la",
+   "word": "corda",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le corde",
+   "phrase": "serve per legare"
+  },
+  {
+   "concept": "object:crate",
+   "article": "la",
+   "word": "cassa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le casse",
+   "phrase": "di legno, per la merce"
+  },
+  {
+   "concept": "object:ladder",
+   "article": "la",
+   "word": "scala",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "le scale",
+   "phrase": "serve per salire",
+   "caution": "«scala» is a ladder, a staircase, and a musical scale."
+  },
+  {
+   "concept": "object:glove",
+   "article": "il",
+   "word": "guanto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i guanti",
+   "phrase": "copre la mano"
+  },
+  {
+   "concept": "object:screwdriver",
+   "article": "il",
+   "word": "cacciavite",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i cacciaviti",
+   "phrase": "gira la vite"
+  },
+  {
+   "concept": "object:label",
+   "article": "l'",
+   "word": "etichetta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le etichette",
+   "phrase": "dice cosa c'è dentro"
+  },
+  {
+   "concept": "object:bench",
+   "article": "la",
+   "word": "panca",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le panche",
+   "phrase": "per sedersi al parco"
+  },
+  {
+   "concept": "object:chandelier",
+   "article": "il",
+   "word": "lampadario",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i lampadari",
+   "phrase": "pende dal soffitto e brilla"
+  },
+  {
+   "concept": "object:ledger",
+   "article": "il",
+   "word": "libro mastro",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i libri mastri",
+   "phrase": "tiene tutti i conti"
+  },
+  {
+   "concept": "object:teacup",
+   "article": "la",
+   "word": "tazza da tè",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le tazze da tè",
+   "phrase": "tazzina per il tè"
+  },
+  {
+   "concept": "object:envelope",
+   "article": "la",
+   "word": "busta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le buste",
+   "phrase": "porta la lettera dentro"
+  },
+  {
+   "concept": "object:rubber-stamp",
+   "article": "il",
+   "word": "timbro",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i timbri",
+   "phrase": "lascia il segno sulla carta"
+  },
+  {
+   "concept": "object:inkwell",
+   "article": "il",
+   "word": "calamaio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i calamai",
+   "phrase": "custodisce l'inchiostro"
+  },
+  {
+   "concept": "object:scissors",
+   "article": "le",
+   "word": "forbici",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "plural-only"
+   ],
+   "phrase": "tagliano carta e stoffa",
+   "caution": "Always plural: «le forbici»."
+  },
+  {
+   "concept": "object:folder",
+   "article": "la",
+   "word": "cartella",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le cartelle",
+   "phrase": "tiene in ordine i fogli"
+  },
+  {
+   "concept": "object:monocle",
+   "article": "il",
+   "word": "monocolo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i monocoli",
+   "phrase": "una lente per un occhio"
+  },
+  {
+   "concept": "object:telephone",
+   "article": "il",
+   "word": "telefono",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i telefoni",
+   "phrase": "serve per chiamare"
+  },
+  {
+   "concept": "object:blotter",
+   "article": "la",
+   "word": "carta assorbente",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le carte assorbenti",
+   "phrase": "asciuga l'inchiostro fresco"
+  },
+  {
+   "concept": "object:candle",
+   "article": "la",
+   "word": "candela",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le candele",
+   "phrase": "brucia e fa luce"
+  },
+  {
+   "concept": "object:sealing-wax",
+   "article": "la",
+   "word": "ceralacca",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "chiude lettere, rossa e calda"
+  },
+  {
+   "concept": "object:letter-opener",
+   "article": "il",
+   "word": "tagliacarte",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i tagliacarte",
+   "phrase": "apre la posta"
+  },
+  {
+   "concept": "object:calendar",
+   "article": "il",
+   "word": "calendario",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i calendari",
+   "phrase": "mostra giorni e mesi"
+  },
+  {
+   "concept": "object:drawer",
+   "article": "il",
+   "word": "cassetto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i cassetti",
+   "phrase": "scivola fuori dalla scrivania"
+  },
+  {
+   "concept": "object:photograph",
+   "article": "la",
+   "word": "foto",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [
+    "gender-surprise"
+   ],
+   "plural": "le foto",
+   "phrase": "un momento su carta",
+   "caution": "«la foto» stays feminine — short for «la fotografia»."
+  },
+  {
+   "concept": "object:ribbon",
+   "article": "il",
+   "word": "nastro",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i nastri",
+   "phrase": "abbellisce i capelli"
+  },
+  {
+   "concept": "object:clock",
+   "article": "l'",
+   "word": "orologio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli orologi",
+   "phrase": "segna le ore"
+  },
+  {
+   "concept": "object:blueprint",
+   "article": "il",
+   "word": "progetto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i progetti",
+   "phrase": "mostra come si costruisce"
+  },
+  {
+   "concept": "object:newspaper",
+   "article": "il",
+   "word": "giornale",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i giornali",
+   "phrase": "porta le notizie"
+  },
+  {
+   "concept": "object:map",
+   "article": "la",
+   "word": "mappa",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le mappe",
+   "phrase": "mostra città e strade"
+  },
+  {
+   "concept": "object:box",
+   "article": "la",
+   "word": "scatola",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le scatole",
+   "phrase": "contiene piccole cose"
+  },
+  {
+   "concept": "object:lantern",
+   "article": "la",
+   "word": "lanterna",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le lanterne",
+   "phrase": "brilla nel buio"
+  },
+  {
+   "concept": "object:brush",
+   "article": "il",
+   "word": "pennello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i pennelli",
+   "phrase": "dipinge i quadri"
+  },
+  {
+   "concept": "object:ink",
+   "article": "l'",
+   "word": "inchiostro",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "nero, per scrivere"
+  },
+  {
+   "concept": "object:stool",
+   "article": "lo",
+   "word": "sgabello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli sgabelli",
+   "phrase": "sedile senza schienale"
+  },
+  {
+   "concept": "object:string",
+   "article": "il",
+   "word": "filo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i fili",
+   "phrase": "lega i pacchi"
+  },
+  {
+   "concept": "object:magnet",
+   "article": "il",
+   "word": "magnete",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i magneti",
+   "phrase": "attira il ferro"
+  },
+  {
+   "concept": "object:register",
+   "article": "il",
+   "word": "registro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i registri",
+   "phrase": "elenca tutti i nomi"
+  },
+  {
+   "concept": "object:card-index",
+   "article": "lo",
+   "word": "schedario",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli schedari",
+   "phrase": "schede con tanti nomi"
+  },
+  {
+   "concept": "object:portrait",
+   "article": "il",
+   "word": "ritratto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i ritratti",
+   "phrase": "mostra un volto"
+  },
+  {
+   "concept": "object:ruler",
+   "article": "il",
+   "word": "righello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i righelli",
+   "phrase": "traccia linee dritte"
+  },
+  {
+   "concept": "object:compass",
+   "article": "il",
+   "word": "compasso",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i compassi",
+   "phrase": "disegna cerchi perfetti"
+  },
+  {
+   "concept": "object:sextant",
+   "article": "il",
+   "word": "sestante",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i sestanti",
+   "phrase": "misura le stelle"
+  },
+  {
+   "concept": "object:seal",
+   "article": "il",
+   "word": "sigillo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i sigilli",
+   "phrase": "segna la cera"
+  },
+  {
+   "concept": "object:gazette",
+   "article": "la",
+   "word": "gazzetta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le gazzette",
+   "phrase": "vecchio foglio di notizie"
+  },
+  {
+   "concept": "object:manifest",
+   "article": "il",
+   "word": "manifesto",
+   "glyph": "▲",
+   "difficulty": "false-friend",
+   "trapFlags": [
+    "false-friend"
+   ],
+   "plural": "i manifesti",
+   "phrase": "elenca tutto il carico",
+   "caution": "Careful — «manifesto» usually means \"poster\" in Italian."
+  },
+  {
+   "concept": "object:seagull",
+   "article": "il",
+   "word": "gabbiano",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i gabbiani",
+   "phrase": "grida sopra il porto"
+  },
+  {
+   "concept": "object:anchor",
+   "article": "l'",
+   "word": "ancora",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le ancore",
+   "phrase": "tiene ferma la nave"
+  },
+  {
+   "concept": "object:barrel",
+   "article": "il",
+   "word": "barile",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i barili",
+   "phrase": "rotondo, di legno, pieno"
+  },
+  {
+   "concept": "object:hook",
+   "article": "il",
+   "word": "gancio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i ganci",
+   "phrase": "regge ciò che pende"
+  },
+  {
+   "concept": "object:net",
+   "article": "la",
+   "word": "rete",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le reti",
+   "phrase": "cattura i pesci"
+  },
+  {
+   "concept": "object:bell",
+   "article": "la",
+   "word": "campana",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le campane",
+   "phrase": "suona nella torre"
+  },
+  {
+   "concept": "object:bollard",
+   "article": "la",
+   "word": "bitta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le bitte",
+   "phrase": "ormeggia le barche"
+  },
+  {
+   "concept": "object:chain",
+   "article": "la",
+   "word": "catena",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le catene",
+   "phrase": "anello dopo anello, forte"
+  },
+  {
+   "concept": "object:tarpaulin",
+   "article": "il",
+   "word": "telone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i teloni",
+   "phrase": "copre il carico"
+  },
+  {
+   "concept": "object:winch",
+   "article": "l'",
+   "word": "argano",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli argani",
+   "phrase": "solleva carichi pesanti"
+  },
+  {
+   "concept": "object:gangplank",
+   "article": "la",
+   "word": "passerella",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le passerelle",
+   "phrase": "ponte verso la nave"
+  },
+  {
+   "concept": "object:oilskin",
+   "article": "l'",
+   "word": "incerata",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le incerate",
+   "phrase": "ferma la pioggia"
+  },
+  {
+   "concept": "object:whistle",
+   "article": "il",
+   "word": "fischietto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i fischietti",
+   "phrase": "suona acuto e forte"
+  },
+  {
+   "concept": "object:cat",
+   "article": "il",
+   "word": "gatto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i gatti",
+   "phrase": "fa le fusa e caccia"
+  },
+  {
+   "concept": "object:padlock",
+   "article": "il",
+   "word": "lucchetto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i lucchetti",
+   "phrase": "chiude il cancello"
+  },
+  {
+   "concept": "object:bottle",
+   "article": "la",
+   "word": "bottiglia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le bottiglie",
+   "phrase": "contiene il vino"
+  },
+  {
+   "concept": "object:tankard",
+   "article": "il",
+   "word": "boccale",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i boccali",
+   "phrase": "pieno di birra"
+  },
+  {
+   "concept": "object:dartboard",
+   "article": "il",
+   "word": "bersaglio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i bersagli",
+   "phrase": "centro per piccole frecce"
+  },
+  {
+   "concept": "object:chalk",
+   "article": "il",
+   "word": "gesso",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "i gessi",
+   "phrase": "scrive bianco sul nero",
+   "caution": "«gesso» also means \"plaster\" — and a plaster cast."
+  },
+  {
+   "concept": "object:bread",
+   "article": "il",
+   "word": "pane",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "appena sfornato"
+  },
+  {
+   "concept": "object:cheese",
+   "article": "il",
+   "word": "formaggio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i formaggi",
+   "phrase": "stagiona in cantina"
+  },
+  {
+   "concept": "object:playing-card",
+   "article": "la",
+   "word": "carta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "le carte",
+   "phrase": "cuori, picche o quadri",
+   "caution": "«carta» also means \"paper\" — context decides."
+  },
+  {
+   "concept": "object:kettle",
+   "article": "il",
+   "word": "bollitore",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i bollitori",
+   "phrase": "fischia quando l'acqua bolle"
+  },
+  {
+   "concept": "object:pipe",
+   "article": "la",
+   "word": "pipa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le pipe",
+   "phrase": "fuma di tabacco"
+  },
+  {
+   "concept": "object:logbook",
+   "article": "il",
+   "word": "giornale di bordo",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i giornali di bordo",
+   "phrase": "diario di una nave"
+  },
+  {
+   "concept": "object:apron",
+   "article": "il",
+   "word": "grembiule",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i grembiuli",
+   "phrase": "protegge in cucina"
+  },
+  {
+   "concept": "object:mousetrap",
+   "article": "la",
+   "word": "trappola per topi",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le trappole per topi",
+   "phrase": "aspetta con il formaggio"
+  },
+  {
+   "concept": "object:jug",
+   "article": "la",
+   "word": "brocca",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le brocche",
+   "phrase": "versa acqua o vino"
+  },
+  {
+   "concept": "object:broom",
+   "article": "la",
+   "word": "scopa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le scope",
+   "phrase": "spazza il pavimento"
+  },
+  {
+   "concept": "object:coin",
+   "article": "la",
+   "word": "moneta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le monete",
+   "phrase": "tintinna in tasca"
+  },
+  {
+   "concept": "object:match",
+   "article": "il",
+   "word": "fiammifero",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i fiammiferi",
+   "phrase": "accende una fiamma"
+  },
+  {
+   "concept": "object:towel",
+   "article": "l'",
+   "word": "asciugamano",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "gli asciugamani",
+   "phrase": "asciuga le mani"
+  },
+  {
+   "concept": "object:scale",
+   "article": "la",
+   "word": "bilancia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le bilance",
+   "phrase": "pesa la merce"
+  },
+  {
+   "concept": "object:twine",
+   "article": "lo",
+   "word": "spago",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "avvolge i pacchi"
+  },
+  {
+   "concept": "object:funnel",
+   "article": "l'",
+   "word": "imbuto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli imbuti",
+   "phrase": "guida il liquido"
+  },
+  {
+   "concept": "object:typewriter",
+   "article": "la",
+   "word": "macchina da scrivere",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le macchine da scrivere",
+   "phrase": "scrive con i tasti"
+  },
+  {
+   "concept": "object:sack",
+   "article": "il",
+   "word": "sacco",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i sacchi",
+   "phrase": "pieno di farina"
+  },
+  {
+   "concept": "object:tea-chest",
+   "article": "la",
+   "word": "cassa da tè",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le casse da tè",
+   "phrase": "viaggia piena di tè"
+  },
+  {
+   "concept": "object:birdcage",
+   "article": "la",
+   "word": "gabbia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le gabbie",
+   "phrase": "casa di un uccello canterino"
+  },
+  {
+   "concept": "object:hand-truck",
+   "article": "il",
+   "word": "carrello a mano",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i carrelli a mano",
+   "phrase": "porta casse pesanti"
+  },
+  {
+   "concept": "object:suitcase",
+   "article": "la",
+   "word": "valigia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le valigie",
+   "phrase": "viaggia con te"
+  },
+  {
+   "concept": "object:palm",
+   "article": "la",
+   "word": "palma",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le palme",
+   "phrase": "decora l'ingresso"
+  },
+  {
+   "concept": "object:cane",
+   "article": "il",
+   "word": "bastone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i bastoni",
+   "phrase": "aiuta a camminare"
+  },
+  {
+   "concept": "object:hatbox",
+   "article": "la",
+   "word": "cappelliera",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le cappelliere",
+   "phrase": "rotonda, per cappelli fini"
+  },
+  {
+   "concept": "object:key-rack",
+   "article": "la",
+   "word": "rastrelliera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le rastrelliere",
+   "phrase": "regge tutte le chiavi"
+  },
+  {
+   "concept": "object:ashtray",
+   "article": "il",
+   "word": "posacenere",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i posacenere",
+   "phrase": "raccoglie la cenere"
+  },
+  {
+   "concept": "object:tray",
+   "article": "il",
+   "word": "vassoio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i vassoi",
+   "phrase": "porta bicchieri e tazze"
+  },
+  {
+   "concept": "object:champagne-bucket",
+   "article": "il",
+   "word": "secchiello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i secchielli",
+   "phrase": "raffredda lo champagne"
+  },
+  {
+   "concept": "object:umbrella-stand",
+   "article": "il",
+   "word": "portaombrelli",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i portaombrelli",
+   "phrase": "raccoglie ombrelli bagnati"
+  },
+  {
+   "concept": "object:luggage-cart",
+   "article": "il",
+   "word": "portabagagli",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i portabagagli",
+   "phrase": "porta le valigie su ruote"
+  },
+  {
+   "concept": "object:letter",
+   "article": "la",
+   "word": "lettera",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le lettere",
+   "phrase": "arriva con la posta"
+  },
+  {
+   "concept": "object:carnation",
+   "article": "il",
+   "word": "garofano",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i garofani",
+   "phrase": "profuma il bavero"
+  },
+  {
+   "concept": "object:cigarette-case",
+   "article": "il",
+   "word": "portasigarette",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i portasigarette",
+   "phrase": "piatto e d'argento"
+  },
+  {
+   "concept": "object:saucer",
+   "article": "il",
+   "word": "piattino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i piattini",
+   "phrase": "sta sotto la tazza"
+  },
+  {
+   "concept": "object:candlestick",
+   "article": "il",
+   "word": "candeliere",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i candelieri",
+   "phrase": "regge una candela"
+  },
+  {
+   "concept": "object:violin",
+   "article": "il",
+   "word": "violino",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i violini",
+   "phrase": "canta con le corde"
+  },
+  {
+   "concept": "object:globe",
+   "article": "il",
+   "word": "mappamondo",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i mappamondi",
+   "phrase": "il mondo intero, rotondo"
+  },
+  {
+   "concept": "object:mirror",
+   "article": "lo",
+   "word": "specchio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli specchi",
+   "phrase": "mostra il tuo viso"
+  },
+  {
+   "concept": "object:vase",
+   "article": "il",
+   "word": "vaso",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "i vasi",
+   "phrase": "tiene fiori freschi",
+   "caution": "«vaso» can be a vase or a flowerpot."
+  },
+  {
+   "concept": "object:medal",
+   "article": "la",
+   "word": "medaglia",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le medaglie",
+   "phrase": "onore di metallo"
+  },
+  {
+   "concept": "object:fan",
+   "article": "il",
+   "word": "ventaglio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i ventagli",
+   "phrase": "muove aria fresca"
+  },
+  {
+   "concept": "object:chessboard",
+   "article": "la",
+   "word": "scacchiera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le scacchiere",
+   "phrase": "campo di due re"
+  },
+  {
+   "concept": "object:stamp-die",
+   "article": "il",
+   "word": "punzone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i punzoni",
+   "phrase": "incide il marchio"
+  },
+  {
+   "concept": "object:telescope",
+   "article": "il",
+   "word": "telescopio",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i telescopi",
+   "phrase": "avvicina le stelle"
+  },
+  {
+   "concept": "object:curtain",
+   "article": "la",
+   "word": "tenda",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le tende",
+   "phrase": "copre la finestra"
+  },
+  {
+   "concept": "object:strongbox",
+   "article": "la",
+   "word": "cassaforte",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le casseforti",
+   "phrase": "custodisce il denaro"
+  },
+  {
+   "concept": "object:rug",
+   "article": "il",
+   "word": "tappeto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i tappeti",
+   "phrase": "veste il pavimento"
+  },
+  {
+   "concept": "object:crowbar",
+   "article": "il",
+   "word": "piede di porco",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i piedi di porco",
+   "phrase": "apre le casse a forza"
+  },
+  {
+   "concept": "object:snuffbox",
+   "article": "la",
+   "word": "tabacchiera",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le tabacchiere",
+   "phrase": "scatolina per il tabacco"
+  },
+  {
+   "concept": "object:letter-scale",
+   "article": "il",
+   "word": "pesalettere",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i pesalettere",
+   "phrase": "pesa la posta"
+  },
+  {
+   "concept": "object:key-ring",
+   "article": "il",
+   "word": "portachiavi",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i portachiavi",
+   "phrase": "raduna tutte le chiavi"
+  },
+  {
+   "concept": "object:file",
+   "article": "il",
+   "word": "fascicolo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i fascicoli",
+   "phrase": "carte di un caso"
+  },
+  {
+   "concept": "object:cashbox",
+   "article": "la",
+   "word": "cassetta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le cassette",
+   "phrase": "tintinna piena di monete"
+  },
+  {
+   "concept": "object:cufflink",
+   "article": "il",
+   "word": "gemello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "i gemelli",
+   "phrase": "chiude il polsino",
+   "caution": "«gemello» also means \"twin.\""
+  },
+  {
+   "concept": "object:razor",
+   "article": "il",
+   "word": "rasoio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i rasoi",
+   "phrase": "rade ogni mattina"
+  },
+  {
+   "concept": "object:shoehorn",
+   "article": "il",
+   "word": "calzascarpe",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i calzascarpe",
+   "phrase": "aiuta con la scarpa"
+  },
+  {
+   "concept": "object:pocket-watch",
+   "article": "l'",
+   "word": "orologio da tasca",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "gli orologi da tasca",
+   "phrase": "le ore, in tasca"
+  },
+  {
+   "concept": "object:decanter",
+   "article": "la",
+   "word": "caraffa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le caraffe",
+   "phrase": "serve il vino buono"
+  },
+  {
+   "concept": "object:slipper",
+   "article": "la",
+   "word": "pantofola",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le pantofole",
+   "phrase": "scalda il piede in casa"
+  },
+  {
+   "concept": "object:cravat",
+   "article": "la",
+   "word": "cravatta",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le cravatte",
+   "phrase": "seta intorno al collo"
+  },
+  {
+   "concept": "object:travel-case",
+   "article": "la",
+   "word": "valigetta",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le valigette",
+   "phrase": "contiene l'essenziale"
+  },
+  {
+   "concept": "object:fountain-pen",
+   "article": "la",
+   "word": "stilografica",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le stilografiche",
+   "phrase": "scrive senza calamaio"
+  },
+  {
+   "concept": "object:orange",
+   "article": "l'",
+   "word": "arancia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le arance",
+   "phrase": "dolce e piena di succo"
+  },
+  {
+   "concept": "object:scarf",
+   "article": "la",
+   "word": "sciarpa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le sciarpe",
+   "phrase": "scalda il collo"
+  },
+  {
+   "concept": "object:basket",
+   "article": "il",
+   "word": "cesto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i cesti",
+   "phrase": "intrecciato, porta la spesa"
+  },
+  {
+   "concept": "object:garlic",
+   "article": "l'",
+   "word": "aglio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "phrase": "bianco, forte, a spicchi"
+  },
+  {
+   "concept": "object:pepper",
+   "article": "il",
+   "word": "peperone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "false-friend"
+   ],
+   "plural": "i peperoni",
+   "phrase": "rosso e croccante",
+   "caution": "«peperone» is the vegetable — pepperoni salami is «salame piccante»."
+  },
+  {
+   "concept": "object:fish",
+   "article": "il",
+   "word": "pesce",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i pesci",
+   "phrase": "appena pescato dal mare"
+  },
+  {
+   "concept": "object:teapot",
+   "article": "la",
+   "word": "teiera",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le teiere",
+   "phrase": "versa il tè"
+  },
+  {
+   "concept": "object:drum",
+   "article": "il",
+   "word": "tamburo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i tamburi",
+   "phrase": "batte il ritmo"
+  },
+  {
+   "concept": "object:jar",
+   "article": "il",
+   "word": "barattolo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i barattoli",
+   "phrase": "conserva la marmellata"
+  },
+  {
+   "concept": "object:cloth-bolt",
+   "article": "il",
+   "word": "rotolo di stoffa",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i rotoli di stoffa",
+   "phrase": "metri e metri di stoffa"
+  },
+  {
+   "concept": "object:thimble",
+   "article": "il",
+   "word": "ditale",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i ditali",
+   "phrase": "protegge il dito che cuce"
+  },
+  {
+   "concept": "object:button",
+   "article": "il",
+   "word": "bottone",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i bottoni",
+   "phrase": "chiude il cappotto"
+  },
+  {
+   "concept": "object:mortar",
+   "article": "il",
+   "word": "mortaio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i mortai",
+   "phrase": "macina le spezie"
+  },
+  {
+   "concept": "object:bead",
+   "article": "la",
+   "word": "perlina",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le perline",
+   "phrase": "piccola, colorata, infilata"
+  },
+  {
+   "concept": "object:loom",
+   "article": "il",
+   "word": "telaio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "i telai",
+   "phrase": "tesse il filo in stoffa",
+   "caution": "«telaio» also means \"frame\" or \"chassis.\""
+  },
+  {
+   "concept": "object:oil-flask",
+   "article": "l'",
+   "word": "ampolla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le ampolle",
+   "phrase": "versa olio, goccia a goccia"
+  },
+  {
+   "concept": "object:easel",
+   "article": "il",
+   "word": "cavalletto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i cavalletti",
+   "phrase": "regge il quadro del pittore"
+  },
+  {
+   "concept": "object:wrench",
+   "article": "la",
+   "word": "chiave inglese",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "polysemy"
+   ],
+   "plural": "le chiavi inglesi",
+   "phrase": "allenta ciò che stringe",
+   "caution": "A wrench is a «chiave inglese» — an \"English key.\""
+  },
+  {
+   "concept": "object:oilcan",
+   "article": "l'",
+   "word": "oliatore",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli oliatori",
+   "phrase": "unge la macchina"
+  },
+  {
+   "concept": "object:timetable",
+   "article": "l'",
+   "word": "orario",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli orari",
+   "phrase": "dice quando partono i treni"
+  },
+  {
+   "concept": "object:ticket",
+   "article": "il",
+   "word": "biglietto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i biglietti",
+   "phrase": "permette il viaggio"
+  },
+  {
+   "concept": "object:signal-lamp",
+   "article": "la",
+   "word": "lampada di segnalazione",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le lampade di segnalazione",
+   "phrase": "brilla rossa o verde"
+  },
+  {
+   "concept": "object:toolbox",
+   "article": "la",
+   "word": "cassetta degli attrezzi",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le cassette degli attrezzi",
+   "phrase": "porta tutta l'officina"
+  },
+  {
+   "concept": "object:gear",
+   "article": "l'",
+   "word": "ingranaggio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli ingranaggi",
+   "phrase": "gira dente su dente"
+  },
+  {
+   "concept": "object:cap",
+   "article": "il",
+   "word": "berretto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i berretti",
+   "phrase": "divisa per la testa"
+  },
+  {
+   "concept": "object:waybill",
+   "article": "la",
+   "word": "bolla",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le bolle",
+   "phrase": "accompagna il carico"
+  },
+  {
+   "concept": "object:palette",
+   "article": "la",
+   "word": "tavolozza",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le tavolozze",
+   "phrase": "porta tutti i colori"
+  },
+  {
+   "concept": "object:rag",
+   "article": "lo",
+   "word": "straccio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli stracci",
+   "phrase": "pulisce il colore"
+  },
+  {
+   "concept": "object:window-pole",
+   "article": "la",
+   "word": "pertica",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le pertiche",
+   "phrase": "apre le finestre alte"
+  },
+  {
+   "concept": "object:smock",
+   "article": "il",
+   "word": "camice",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i camici",
+   "phrase": "tiene puliti i vestiti"
+  },
+  {
+   "concept": "object:charcoal",
+   "article": "il",
+   "word": "carboncino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i carboncini",
+   "phrase": "disegna in grigio e nero"
+  },
+  {
+   "concept": "object:laundry-line",
+   "article": "il",
+   "word": "filo del bucato",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i fili del bucato",
+   "phrase": "regge i panni stesi"
+  },
+  {
+   "concept": "object:stove",
+   "article": "la",
+   "word": "stufa",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le stufe",
+   "phrase": "scalda la stanza"
+  },
+  {
+   "concept": "object:sketchbook",
+   "article": "l'",
+   "word": "album da disegno",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "gli album da disegno",
+   "phrase": "raccoglie schizzi veloci"
+  },
+  {
+   "concept": "object:pestle",
+   "article": "il",
+   "word": "pestello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i pestelli",
+   "phrase": "schiaccia le spezie"
+  },
+  {
+   "concept": "object:beeswax",
+   "article": "la",
+   "word": "cera d'api",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "phrase": "profuma di miele"
+  },
+  {
+   "concept": "object:palette-knife",
+   "article": "la",
+   "word": "spatola",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le spatole",
+   "phrase": "stende il colore denso"
+  },
+  {
+   "concept": "object:gavel",
+   "article": "il",
+   "word": "martelletto",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i martelletti",
+   "phrase": "dice l'ultima parola"
+  },
+  {
+   "concept": "object:paddle",
+   "article": "la",
+   "word": "paletta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le palette",
+   "phrase": "si alza per offrire"
+  },
+  {
+   "concept": "object:cushion",
+   "article": "il",
+   "word": "cuscino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i cuscini",
+   "phrase": "morbido, per sedersi"
+  },
+  {
+   "concept": "object:catalogue",
+   "article": "il",
+   "word": "catalogo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i cataloghi",
+   "phrase": "elenca tutti i lotti"
+  },
+  {
+   "concept": "object:candelabra",
+   "article": "il",
+   "word": "candelabro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i candelabri",
+   "phrase": "porta molte candele"
+  },
+  {
+   "concept": "object:trolley",
+   "article": "il",
+   "word": "carrello",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i carrelli",
+   "phrase": "scorre tra le file"
+  },
+  {
+   "concept": "object:blanket",
+   "article": "la",
+   "word": "coperta",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le coperte",
+   "phrase": "avvolge i mobili"
+  },
+  {
+   "concept": "object:telegram-form",
+   "article": "il",
+   "word": "modulo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i moduli",
+   "phrase": "aspetta parole urgenti"
+  },
+  {
+   "concept": "object:stencil",
+   "article": "lo",
+   "word": "stampino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli stampini",
+   "phrase": "ripete lettere uguali"
+  },
+  {
+   "concept": "object:flowerpot",
+   "article": "il",
+   "word": "vaso da fiori",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i vasi da fiori",
+   "phrase": "casa di una pianta"
+  },
+  {
+   "concept": "object:watering-can",
+   "article": "l'",
+   "word": "annaffiatoio",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "gli annaffiatoi",
+   "phrase": "dà da bere ai fiori"
+  },
+  {
+   "concept": "object:orchid",
+   "article": "l'",
+   "word": "orchidea",
+   "glyph": "●",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "le orchidee",
+   "phrase": "fiorisce rara e superba"
+  },
+  {
+   "concept": "object:trowel",
+   "article": "la",
+   "word": "paletta da giardino",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le palette da giardino",
+   "phrase": "scava piccole buche"
+  },
+  {
+   "concept": "object:thermometer",
+   "article": "il",
+   "word": "termometro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i termometri",
+   "phrase": "misura caldo e freddo"
+  },
+  {
+   "concept": "object:shears",
+   "article": "le",
+   "word": "cesoie",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "plural-only"
+   ],
+   "phrase": "tagliano i rami",
+   "caution": "Always plural: «le cesoie»."
+  },
+  {
+   "concept": "object:hose",
+   "article": "la",
+   "word": "canna dell'acqua",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le canne dell'acqua",
+   "phrase": "porta l'acqua in giardino"
+  },
+  {
+   "concept": "object:pigeon",
+   "article": "il",
+   "word": "piccione",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i piccioni",
+   "phrase": "tuba sul tetto"
+  },
+  {
+   "concept": "object:chart-tube",
+   "article": "il",
+   "word": "tubo",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i tubi",
+   "phrase": "protegge le carte arrotolate"
+  },
+  {
+   "concept": "object:brazier",
+   "article": "il",
+   "word": "braciere",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i bracieri",
+   "phrase": "arde con la brace"
+  },
+  {
+   "concept": "object:trunk",
+   "article": "il",
+   "word": "baule",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i bauli",
+   "phrase": "viaggia sul piroscafo"
+  },
+  {
+   "concept": "object:kiosk",
+   "article": "il",
+   "word": "chiosco",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i chioschi",
+   "phrase": "vende giornali"
+  },
+  {
+   "concept": "object:pressure-gauge",
+   "article": "il",
+   "word": "manometro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i manometri",
+   "phrase": "segna la pressione"
+  },
+  {
+   "concept": "object:mailbag",
+   "article": "il",
+   "word": "sacco postale",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i sacchi postali",
+   "phrase": "viaggia pieno di lettere"
+  },
+  {
+   "concept": "object:luggage-tag",
+   "article": "il",
+   "word": "cartellino",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i cartellini",
+   "phrase": "dice di chi è la valigia"
+  },
+  {
+   "concept": "object:oar",
+   "article": "il",
+   "word": "remo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i remi",
+   "phrase": "muove la barca"
+  },
+  {
+   "concept": "object:lifebuoy",
+   "article": "il",
+   "word": "salvagente",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i salvagenti",
+   "phrase": "galleggia e ti sostiene"
+  },
+  {
+   "concept": "object:tackle-box",
+   "article": "la",
+   "word": "cassetta da pesca",
+   "glyph": "●",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "le cassette da pesca",
+   "phrase": "custodisce ami ed esche"
+  },
+  {
+   "concept": "object:rain-hat",
+   "article": "il",
+   "word": "cappello da pioggia",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i cappelli da pioggia",
+   "phrase": "sfida la tempesta"
+  },
+  {
+   "concept": "object:flare",
+   "article": "il",
+   "word": "razzo di segnalazione",
+   "glyph": "▲",
+   "difficulty": "transparent",
+   "trapFlags": [],
+   "plural": "i razzi di segnalazione",
+   "phrase": "chiede aiuto in rosso"
+  },
+  {
+   "concept": "object:barometer",
+   "article": "il",
+   "word": "barometro",
+   "glyph": "▲",
+   "difficulty": "cognate",
+   "trapFlags": [],
+   "plural": "i barometri",
+   "phrase": "annuncia il tempo"
+  },
+  {
+   "concept": "object:dust-sheet",
+   "article": "il",
+   "word": "lenzuolo",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i lenzuoli",
+   "phrase": "copre i mobili"
+  },
+  {
+   "concept": "object:glass-shard",
+   "article": "la",
+   "word": "scheggia",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "le schegge",
+   "phrase": "affilata e lucente"
+  },
+  {
+   "concept": "object:handcuffs",
+   "article": "le",
+   "word": "manette",
+   "glyph": "●",
+   "difficulty": "opaque",
+   "trapFlags": [
+    "plural-only",
+    "polysemy"
+   ],
+   "phrase": "si chiudono sui polsi",
+   "caution": "Always plural: «le manette» — «la manetta» is a throttle."
+  },
+  {
+   "concept": "object:plaster-cast",
+   "article": "il",
+   "word": "calco",
+   "glyph": "▲",
+   "difficulty": "opaque",
+   "trapFlags": [],
+   "plural": "i calchi",
+   "phrase": "conserva l'impronta"
+  }
+ ],
+ "tokens": [
+  {
+   "key": "well",
+   "level": "L1",
+   "text": "Allora",
+   "gloss": "well / so"
+  },
+  {
+   "key": "so",
+   "level": "L1",
+   "text": "Vediamo.",
+   "gloss": "let's see"
+  },
+  {
+   "key": "look",
+   "level": "L1",
+   "text": "Guarda",
+   "gloss": "look"
+  },
+  {
+   "key": "there",
+   "level": "L1",
+   "text": "Ecco",
+   "gloss": "there it is"
+  },
+  {
+   "key": "right",
+   "level": "L1",
+   "text": "no?",
+   "gloss": "right?"
+  },
+  {
+   "key": "quiet",
+   "level": "L1",
+   "text": "Silenzio!",
+   "gloss": "quiet!"
+  },
+  {
+   "key": "eh",
+   "level": "L1",
+   "text": "eh?",
+   "gloss": "okay? / eh?"
+  },
+  {
+   "key": "good-morning",
+   "level": "L1",
+   "text": "Buongiorno",
+   "gloss": "good morning"
+  },
+  {
+   "key": "good-evening",
+   "level": "L1",
+   "text": "Buonasera",
+   "gloss": "good evening"
+  },
+  {
+   "key": "thanks",
+   "level": "L1",
+   "text": "Grazie",
+   "gloss": "thank you"
+  },
+  {
+   "key": "please",
+   "level": "L1",
+   "text": "Per favore",
+   "gloss": "please"
+  },
+  {
+   "key": "of-course",
+   "level": "L1",
+   "text": "Certo",
+   "gloss": "of course"
+  },
+  {
+   "key": "exactly",
+   "level": "L1",
+   "text": "Esatto",
+   "gloss": "exactly"
+  },
+  {
+   "key": "wait",
+   "level": "L1",
+   "text": "Un attimo",
+   "gloss": "one moment"
+  },
+  {
+   "key": "come-on",
+   "level": "L1",
+   "text": "Dai",
+   "gloss": "come on"
+  },
+  {
+   "key": "lets-go",
+   "level": "L1",
+   "text": "Andiamo",
+   "gloss": "let's go"
+  },
+  {
+   "key": "attention",
+   "level": "L1",
+   "text": "Attenzione",
+   "gloss": "watch out"
+  },
+  {
+   "key": "done",
+   "level": "L1",
+   "text": "Fatto",
+   "gloss": "done"
+  },
+  {
+   "key": "perfect",
+   "level": "L1",
+   "text": "Perfetto",
+   "gloss": "wonderful"
+  },
+  {
+   "key": "really",
+   "level": "L1",
+   "text": "Davvero?",
+   "gloss": "really?"
+  },
+  {
+   "key": "patience",
+   "level": "L1",
+   "text": "Pazienza",
+   "gloss": "patience"
+  },
+  {
+   "key": "courage",
+   "level": "L1",
+   "text": "Coraggio",
+   "gloss": "chin up"
+  },
+  {
+   "key": "slowly",
+   "level": "L1",
+   "text": "Piano",
+   "gloss": "slowly / gently"
+  },
+  {
+   "key": "enough",
+   "level": "L1",
+   "text": "Basta",
+   "gloss": "enough"
+  },
+  {
+   "key": "understood",
+   "level": "L1",
+   "text": "Capito",
+   "gloss": "understood"
+  },
+  {
+   "key": "almost",
+   "level": "L1",
+   "text": "Quasi",
+   "gloss": "almost"
+  },
+  {
+   "key": "and-now",
+   "level": "L1",
+   "text": "E adesso?",
+   "gloss": "and now what?"
+  },
+  {
+   "key": "eyes-open",
+   "level": "L1",
+   "text": "Occhi aperti",
+   "gloss": "eyes open"
+  },
+  {
+   "key": "between-us",
+   "level": "L1",
+   "text": "Detto tra noi",
+   "gloss": "between us"
+  },
+  {
+   "key": "mister",
+   "level": "L1",
+   "text": "Signor",
+   "gloss": "Mr. — a courtesy"
+  },
+  {
+   "key": "nightingale",
+   "level": "L1",
+   "text": "l'usignolo",
+   "gloss": "the nightingale"
+  },
+  {
+   "key": "careful",
+   "level": "L2",
+   "text": "Occhio",
+   "gloss": "watch out"
+  },
+  {
+   "key": "listen",
+   "level": "L2",
+   "text": "Senti",
+   "gloss": "listen"
+  },
+  {
+   "key": "goodness",
+   "level": "L2",
+   "text": "Madonna santa",
+   "gloss": "good heavens"
+  },
+  {
+   "key": "tja",
+   "level": "L2",
+   "text": "Beh",
+   "gloss": "well then"
+  },
+  {
+   "key": "see",
+   "level": "L2",
+   "text": "Visto?",
+   "gloss": "see?"
+  },
+  {
+   "key": "dog-buried",
+   "level": "L2",
+   "text": "Qui casca l'asino",
+   "gloss": "that's the crux of it"
+  },
+  {
+   "key": "who-searches",
+   "level": "L2",
+   "text": "Chi cerca trova",
+   "gloss": "who searches, finds"
+  },
+  {
+   "key": "wren",
+   "level": "L2",
+   "text": "lo scricciolo",
+   "gloss": "the wren"
+  },
+  {
+   "key": "still-sings",
+   "level": "L2",
+   "text": "L'usignolo canta ancora.",
+   "gloss": "the nightingale still sings"
+  },
+  {
+   "key": "no-hurry",
+   "level": "L2",
+   "text": "Chi va piano va sano",
+   "gloss": "easy does it"
+  },
+  {
+   "key": "practice",
+   "level": "L2",
+   "text": "Sbagliando s'impara",
+   "gloss": "practice makes perfect"
+  },
+  {
+   "key": "appearances",
+   "level": "L2",
+   "text": "L'apparenza inganna",
+   "gloss": "appearances deceive"
+  },
+  {
+   "key": "no-smoke",
+   "level": "L2",
+   "text": "Non c'è fumo senza arrosto",
+   "gloss": "no smoke without fire"
+  },
+  {
+   "key": "night-counsel",
+   "level": "L2",
+   "text": "La notte porta consiglio",
+   "gloss": "the night brings counsel"
+  },
+  {
+   "key": "walls-ears",
+   "level": "L2",
+   "text": "I muri hanno orecchie",
+   "gloss": "the walls have ears"
+  },
+  {
+   "key": "lies-short-legs",
+   "level": "L2",
+   "text": "Le bugie hanno gambe corte",
+   "gloss": "lies have short legs"
+  },
+  {
+   "key": "end-crowns",
+   "level": "L2",
+   "text": "La fine corona l'opera",
+   "gloss": "the ending crowns the work"
+  },
+  {
+   "key": "better-late",
+   "level": "L2",
+   "text": "Meglio tardi che mai",
+   "gloss": "better late than never"
+  },
+  {
+   "key": "each-thing",
+   "level": "L2",
+   "text": "Ogni cosa a suo tempo",
+   "gloss": "everything in its own time"
+  },
+  {
+   "key": "said-done",
+   "level": "L2",
+   "text": "Detto fatto",
+   "gloss": "no sooner said than done"
+  },
+  {
+   "key": "in-wine",
+   "level": "L2",
+   "text": "Nel vino, la verità",
+   "gloss": "in wine, the truth"
+  },
+  {
+   "key": "old-fox",
+   "level": "L2",
+   "text": "una vecchia volpe",
+   "gloss": "an old fox — a crafty one"
+  },
+  {
+   "key": "needle-haystack",
+   "level": "L2",
+   "text": "un ago nel pagliaio",
+   "gloss": "a needle in a haystack"
+  },
+  {
+   "key": "clear-water",
+   "level": "L2",
+   "text": "chiaro come il sole",
+   "gloss": "crystal clear"
+  },
+  {
+   "key": "childs-play",
+   "level": "L2",
+   "text": "un gioco da ragazzi",
+   "gloss": "child's play — easy"
+  },
+  {
+   "key": "raining-buckets",
+   "level": "L2",
+   "text": "Piove a catinelle",
+   "gloss": "it's pouring buckets"
+  },
+  {
+   "key": "costs-eye",
+   "level": "L2",
+   "text": "un occhio della testa",
+   "gloss": "costs a fortune"
+  },
+  {
+   "key": "to-the-point",
+   "level": "L2",
+   "text": "al sodo",
+   "gloss": "straight to the point"
+  },
+  {
+   "key": "fits-perfectly",
+   "level": "L2",
+   "text": "a pennello",
+   "gloss": "fits perfectly"
+  },
+  {
+   "key": "red-handed",
+   "level": "L2",
+   "text": "con le mani nel sacco",
+   "gloss": "caught red-handed"
+  },
+  {
+   "key": "agreed",
+   "level": "L2",
+   "text": "affare fatto",
+   "gloss": "it's a deal"
+  },
+  {
+   "key": "good-luck",
+   "level": "L2",
+   "text": "in bocca al lupo",
+   "gloss": "good luck"
+  },
+  {
+   "key": "no-chance",
+   "level": "L2",
+   "text": "niente al caso",
+   "gloss": "nothing left to chance"
+  },
+  {
+   "key": "smells-fishy",
+   "level": "L2",
+   "text": "Gatta ci cova",
+   "gloss": "something's fishy here"
+  },
+  {
+   "key": "word-honor",
+   "level": "L2",
+   "text": "parola d'onore",
+   "gloss": "word of honor"
+  },
+  {
+   "key": "time-flies",
+   "level": "L2",
+   "text": "Il tempo vola",
+   "gloss": "time flies"
+  },
+  {
+   "key": "all-ears",
+   "level": "L2",
+   "text": "tutt'orecchi",
+   "gloss": "all ears"
+  },
+  {
+   "key": "long-story",
+   "level": "L2",
+   "text": "storia lunga",
+   "gloss": "long story"
+  }
+ ],
+ "vendorCalls": [
+  "Arance fresche! Dolci come l'estate!",
+  "Pesce, pesce fresco! Stamattina nuotava ancora!",
+  "Lanterne! Luce per vicoli bui!",
+  "Sciarpe morbide, sciarpe calde!",
+  "Aglio! Tre spicchi per una moneta!",
+  "Tè caldo! La teiera fuma ancora!",
+  "Pane di oggi, prezzo di ieri!",
+  "Formaggio! Venite, assaggiate, comprate!",
+  "Bottoni e nastri a buon mercato!",
+  "Peperoni rossi e dolci! L'ultimo cesto!",
+  "Cesti robusti! Durano tutta la vita!",
+  "Tamburi per i piccoli, violini per gli innamorati!"
+ ],
+ "signage": [
+  "VICOLO DELLA LANTERNA",
+  "ALL'ANCORA ARRUGGINITA",
+  "MONTE DEI PEGNI",
+  "MERCATO — IL VENERDÌ",
+  "PESCE FRESCO",
+  "ANTICHITÀ — COMPRAVENDITA",
+  "OGGI ASTA",
+  "AI TRAGHETTI",
+  "BINARIO 3 — PARTENZE",
+  "CAMERE LIBERE",
+  "VIETATO L'INGRESSO",
+  "CHIUSO"
+ ]
+}

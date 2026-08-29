@@ -1,0 +1,124 @@
+{
+ "id": "scn-gallery-storm",
+ "name": "Museum Gallery — Ransacked",
+ "parent": "scn-gallery-day",
+ "lightState": "night-storm",
+ "palette": {
+  "wallTop": "#2a2f3d",
+  "wallBottom": "#3c4353",
+  "floor": "#2c2822",
+  "accent": "#d8ac4c",
+  "motifs": [
+   {
+    "kind": "arch",
+    "x": 300,
+    "y": 80,
+    "w": 380,
+    "h": 560,
+    "color": "#232837",
+    "alpha": 0.9
+   },
+   {
+    "kind": "arch",
+    "x": 1240,
+    "y": 80,
+    "w": 380,
+    "h": 560,
+    "color": "#232837",
+    "alpha": 0.9
+   },
+   {
+    "kind": "rect",
+    "x": 820,
+    "y": 130,
+    "w": 300,
+    "h": 380,
+    "color": "#151821",
+    "alpha": 0.95
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 408,
+   "y": 392,
+   "r": 300
+  },
+  {
+   "x": 1643,
+   "y": 548,
+   "r": 300
+  },
+  {
+   "x": 1214,
+   "y": 758,
+   "r": 300
+  },
+  {
+   "x": 1416,
+   "y": 769,
+   "r": 300
+  },
+  {
+   "x": 1129,
+   "y": 928,
+   "r": 300
+  }
+ ],
+ "removeProps": [
+  "amb-gallery-day-3",
+  "amb-gallery-day-1"
+ ],
+ "addProps": [
+  {
+   "id": "p-gallery-storm-glass-shard-1",
+   "concept": "object:glass-shard",
+   "sprite": "prop-glass-shard",
+   "x": 142,
+   "y": 605,
+   "scale": 0.68,
+   "rotation": 0,
+   "z": 1612,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-gallery-storm-handcuffs-1",
+   "concept": "object:handcuffs",
+   "sprite": "prop-handcuffs",
+   "x": 1129,
+   "y": 928,
+   "scale": 0.89,
+   "rotation": 0,
+   "z": 2935,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-gallery-storm-plaster-cast-1",
+   "concept": "object:plaster-cast",
+   "sprite": "prop-plaster-cast",
+   "x": 493,
+   "y": 611,
+   "scale": 0.69,
+   "rotation": -4,
+   "z": 1618,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s27-seal",
+   "concept": "untagged:ambience",
+   "clue": "C34",
+   "sprite": "evid-c34",
+   "x": 883,
+   "y": 756,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2256,
+   "band": "mg",
+   "flipX": false
+  }
+ ],
+ "moveProps": []
+}

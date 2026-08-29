@@ -1,0 +1,334 @@
+{
+ "id": "scn-pier",
+ "name": "Boathouse & Ferry Pier",
+ "locationId": "pier",
+ "lightState": "storm",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#333d47",
+  "wallBottom": "#46525c",
+  "floor": "#31383b",
+  "accent": "#b98a3c",
+  "motifs": [
+   {
+    "kind": "rect",
+    "x": 150,
+    "y": 210,
+    "w": 560,
+    "h": 380,
+    "color": "#26303a",
+    "alpha": 0.9
+   },
+   {
+    "kind": "ellipse",
+    "x": 1350,
+    "y": 180,
+    "w": 420,
+    "h": 150,
+    "color": "#5b6a74",
+    "alpha": 0.5
+   },
+   {
+    "kind": "beam",
+    "x": 0,
+    "y": 620,
+    "w": 1920,
+    "h": 36,
+    "color": "#1c2328",
+    "alpha": 0.9
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 301,
+   "y": 542,
+   "r": 300
+  },
+  {
+   "x": 1167,
+   "y": 532,
+   "r": 300
+  },
+  {
+   "x": 715,
+   "y": 727,
+   "r": 300
+  },
+  {
+   "x": 950,
+   "y": 781,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "p-pier-net-1",
+   "concept": "object:net",
+   "sprite": "prop-net",
+   "x": 301,
+   "y": 542,
+   "scale": 0.65,
+   "rotation": 4,
+   "z": 542,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-lifebuoy-1",
+   "concept": "object:lifebuoy",
+   "sprite": "prop-lifebuoy",
+   "x": 498,
+   "y": 439,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 439,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-pier-tackle-box-1",
+   "concept": "object:tackle-box",
+   "sprite": "prop-tackle-box",
+   "x": 683,
+   "y": 530,
+   "scale": 0.51,
+   "rotation": 0,
+   "z": 530,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-lantern-2",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 941,
+   "y": 396,
+   "scale": 0.65,
+   "rotation": 0,
+   "z": 396,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-anchor-1",
+   "concept": "object:anchor",
+   "sprite": "prop-anchor",
+   "x": 1167,
+   "y": 532,
+   "scale": 0.54,
+   "rotation": 0,
+   "z": 532,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-pier-lantern-1",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 1516,
+   "y": 548,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 548,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-pier-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 1698,
+   "y": 558,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 558,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-rain-hat-1",
+   "concept": "object:rain-hat",
+   "sprite": "prop-rain-hat",
+   "x": 176,
+   "y": 634,
+   "scale": 0.71,
+   "rotation": 0,
+   "z": 1634,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-flare-1",
+   "concept": "object:flare",
+   "sprite": "prop-flare",
+   "x": 421,
+   "y": 659,
+   "scale": 0.78,
+   "rotation": 0,
+   "z": 1659,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-tarpaulin-1",
+   "concept": "object:tarpaulin",
+   "sprite": "prop-tarpaulin",
+   "x": 715,
+   "y": 727,
+   "scale": 0.78,
+   "rotation": 0,
+   "z": 1727,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-pier-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 1008,
+   "y": 785,
+   "scale": 0.77,
+   "rotation": 0,
+   "z": 1785,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-oar-1",
+   "concept": "object:oar",
+   "sprite": "prop-oar",
+   "x": 1153,
+   "y": 659,
+   "scale": 0.79,
+   "rotation": 0,
+   "z": 1659,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-pier-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1449,
+   "y": 574,
+   "scale": 0.81,
+   "rotation": 0,
+   "z": 1574,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "amb-pier-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1637,
+   "y": 679,
+   "scale": 0.84,
+   "rotation": -3,
+   "z": 1679,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-barometer-1",
+   "concept": "object:barometer",
+   "sprite": "prop-barometer",
+   "x": 254,
+   "y": 813,
+   "scale": 0.93,
+   "rotation": 0,
+   "z": 2813,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-oar-2",
+   "concept": "object:oar",
+   "sprite": "prop-oar",
+   "x": 521,
+   "y": 881,
+   "scale": 1.01,
+   "rotation": 0,
+   "z": 2881,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-pier-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 786,
+   "y": 876,
+   "scale": 0.9,
+   "rotation": 0,
+   "z": 2876,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-crate-1",
+   "concept": "object:crate",
+   "sprite": "prop-crate",
+   "x": 950,
+   "y": 781,
+   "scale": 0.92,
+   "rotation": 0,
+   "z": 2781,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-rope-1",
+   "concept": "object:rope",
+   "sprite": "prop-rope",
+   "x": 1253,
+   "y": 768,
+   "scale": 0.93,
+   "rotation": 0,
+   "z": 2768,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-pier-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1405,
+   "y": 782,
+   "scale": 1.05,
+   "rotation": -4,
+   "z": 2782,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-pier-bollard-1",
+   "concept": "object:bollard",
+   "sprite": "prop-bollard",
+   "x": 1703,
+   "y": 918,
+   "scale": 1,
+   "rotation": -8,
+   "z": 2918,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s26-brooch",
+   "concept": "untagged:ambience",
+   "clue": "C33",
+   "sprite": "evid-c33",
+   "x": 1114,
+   "y": 713,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2213,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

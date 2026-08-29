@@ -1,0 +1,226 @@
+{
+ "id": "scn-shop-night",
+ "name": "Antique Shop — Shuttered",
+ "parent": "scn-shop-day",
+ "lightState": "lamplit",
+ "palette": {
+  "wallTop": "#2c2118",
+  "wallBottom": "#413021",
+  "floor": "#241a12",
+  "accent": "#d3a044",
+  "motifs": [
+   {
+    "kind": "rect",
+    "x": 130,
+    "y": 130,
+    "w": 500,
+    "h": 460,
+    "color": "#211810",
+    "alpha": 0.9
+   },
+   {
+    "kind": "rect",
+    "x": 1320,
+    "y": 130,
+    "w": 480,
+    "h": 460,
+    "color": "#211810",
+    "alpha": 0.9
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 292,
+   "y": 463,
+   "r": 300
+  },
+  {
+   "x": 1759,
+   "y": 440,
+   "r": 300
+  },
+  {
+   "x": 990,
+   "y": 586,
+   "r": 300
+  },
+  {
+   "x": 170,
+   "y": 703,
+   "r": 300
+  },
+  {
+   "x": 845,
+   "y": 691,
+   "r": 300
+  },
+  {
+   "x": 1547,
+   "y": 757,
+   "r": 300
+  },
+  {
+   "x": 666,
+   "y": 967,
+   "r": 300
+  },
+  {
+   "x": 960,
+   "y": 842,
+   "r": 300
+  }
+ ],
+ "removeProps": [
+  "amb-shop-day-7",
+  "amb-shop-day-6"
+ ],
+ "addProps": [
+  {
+   "id": "p-shop-night-curtain-1",
+   "concept": "object:curtain",
+   "sprite": "prop-curtain",
+   "x": 99,
+   "y": 738,
+   "scale": 0.69,
+   "rotation": 6,
+   "z": 1745,
+   "band": "mg",
+   "flipX": true
+  },
+  {
+   "id": "p-shop-night-strongbox-1",
+   "concept": "object:strongbox",
+   "sprite": "prop-strongbox",
+   "x": 1131,
+   "y": 936,
+   "scale": 0.9,
+   "rotation": 0,
+   "z": 2943,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-shop-night-rug-1",
+   "concept": "object:rug",
+   "sprite": "prop-rug",
+   "x": 539,
+   "y": 618,
+   "scale": 0.8,
+   "rotation": 1,
+   "z": 1625,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-shop-night-crowbar-1",
+   "concept": "object:crowbar",
+   "sprite": "prop-crowbar",
+   "x": 1547,
+   "y": 757,
+   "scale": 0.9,
+   "rotation": 0,
+   "z": 2764,
+   "band": "fg",
+   "flipX": true
+  },
+  {
+   "id": "p-shop-night-snuffbox-1",
+   "concept": "object:snuffbox",
+   "sprite": "prop-snuffbox",
+   "x": 873,
+   "y": 682,
+   "scale": 0.7,
+   "rotation": 0,
+   "z": 1689,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-shop-night-letter-scale-1",
+   "concept": "object:letter-scale",
+   "sprite": "prop-letter-scale",
+   "x": 306,
+   "y": 795,
+   "scale": 0.87,
+   "rotation": 0,
+   "z": 2802,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-shop-night-key-ring-1",
+   "concept": "object:key-ring",
+   "sprite": "prop-key-ring",
+   "x": 1336,
+   "y": 681,
+   "scale": 0.79,
+   "rotation": 0,
+   "z": 1688,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-shop-night-file-1",
+   "concept": "object:file",
+   "sprite": "prop-file",
+   "x": 666,
+   "y": 967,
+   "scale": 0.98,
+   "rotation": 0,
+   "z": 2974,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-shop-night-cashbox-1",
+   "concept": "object:cashbox",
+   "sprite": "prop-cashbox",
+   "x": 1686,
+   "y": 684,
+   "scale": 0.85,
+   "rotation": 0,
+   "z": 1691,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-shop-night-lantern-1",
+   "concept": "object:lantern",
+   "sprite": "prop-lantern",
+   "x": 1050,
+   "y": 923,
+   "scale": 0.96,
+   "rotation": 0,
+   "z": 2930,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-shop-night-candelabra-1",
+   "concept": "object:candelabra",
+   "sprite": "prop-candelabra",
+   "x": 395,
+   "y": 609,
+   "scale": 0.72,
+   "rotation": 6,
+   "z": 1616,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s23-dossier",
+   "concept": "untagged:ambience",
+   "clue": "C29",
+   "sprite": "evid-c29",
+   "x": 960,
+   "y": 842,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2342,
+   "band": "mg",
+   "flipX": false
+  }
+ ],
+ "moveProps": []
+}

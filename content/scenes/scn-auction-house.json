@@ -1,0 +1,494 @@
+{
+ "id": "scn-auction-house",
+ "name": "Auction House",
+ "locationId": "auction",
+ "lightState": "evening",
+ "size": {
+  "w": 1920,
+  "h": 1080
+ },
+ "palette": {
+  "wallTop": "#4d3b33",
+  "wallBottom": "#6b5347",
+  "floor": "#4f2e26",
+  "accent": "#d8b25c",
+  "motifs": [
+   {
+    "kind": "arch",
+    "x": 760,
+    "y": 70,
+    "w": 400,
+    "h": 560,
+    "color": "#3d2e28",
+    "alpha": 0.9
+   },
+   {
+    "kind": "rect",
+    "x": 170,
+    "y": 190,
+    "w": 460,
+    "h": 400,
+    "color": "#392b25",
+    "alpha": 0.85
+   },
+   {
+    "kind": "rect",
+    "x": 1330,
+    "y": 190,
+    "w": 440,
+    "h": 400,
+    "color": "#392b25",
+    "alpha": 0.85
+   }
+  ]
+ },
+ "lightPools": [
+  {
+   "x": 240,
+   "y": 396,
+   "r": 300
+  },
+  {
+   "x": 1118,
+   "y": 392,
+   "r": 300
+  },
+  {
+   "x": 592,
+   "y": 422,
+   "r": 300
+  },
+  {
+   "x": 175,
+   "y": 731,
+   "r": 300
+  },
+  {
+   "x": 1097,
+   "y": 738,
+   "r": 300
+  },
+  {
+   "x": 231,
+   "y": 938,
+   "r": 300
+  },
+  {
+   "x": 1642,
+   "y": 819,
+   "r": 300
+  }
+ ],
+ "props": [
+  {
+   "id": "p-auction-house-rope-1",
+   "concept": "object:rope",
+   "sprite": "prop-rope",
+   "x": 240,
+   "y": 396,
+   "scale": 0.53,
+   "rotation": 0,
+   "z": 396,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-auction-house-cushion-1",
+   "concept": "object:cushion",
+   "sprite": "prop-cushion",
+   "x": 411,
+   "y": 433,
+   "scale": 0.51,
+   "rotation": 0,
+   "z": 433,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-auction-house-blanket-1",
+   "concept": "object:blanket",
+   "sprite": "prop-blanket",
+   "x": 633,
+   "y": 401,
+   "scale": 0.61,
+   "rotation": 0,
+   "z": 401,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "p-auction-house-stencil-1",
+   "concept": "object:stencil",
+   "sprite": "prop-stencil",
+   "x": 853,
+   "y": 458,
+   "scale": 0.6,
+   "rotation": 7,
+   "z": 458,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-candelabra-1",
+   "concept": "object:candelabra",
+   "sprite": "prop-candelabra",
+   "x": 1118,
+   "y": 392,
+   "scale": 0.54,
+   "rotation": 0,
+   "z": 392,
+   "band": "bg",
+   "flipX": true
+  },
+  {
+   "id": "amb-auction-house-5",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 1325,
+   "y": 460,
+   "scale": 0.57,
+   "rotation": 0,
+   "z": 460,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-gavel-1",
+   "concept": "object:gavel",
+   "sprite": "prop-gavel",
+   "x": 1493,
+   "y": 556,
+   "scale": 0.58,
+   "rotation": 0,
+   "z": 556,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-auction-house-4",
+   "concept": "untagged:ambience",
+   "sprite": "amb-1",
+   "x": 1641,
+   "y": 503,
+   "scale": 0.55,
+   "rotation": 0,
+   "z": 503,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-label-2",
+   "concept": "object:label",
+   "sprite": "prop-label",
+   "x": 161,
+   "y": 488,
+   "scale": 0.54,
+   "rotation": 0,
+   "z": 488,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-easel-1",
+   "concept": "object:easel",
+   "sprite": "prop-easel",
+   "x": 437,
+   "y": 508,
+   "scale": 0.61,
+   "rotation": 0,
+   "z": 508,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-brush-1",
+   "concept": "object:brush",
+   "sprite": "prop-brush",
+   "x": 592,
+   "y": 422,
+   "scale": 0.65,
+   "rotation": 0,
+   "z": 422,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-auction-house-1",
+   "concept": "untagged:ambience",
+   "sprite": "amb-2",
+   "x": 915,
+   "y": 406,
+   "scale": 0.6,
+   "rotation": 7,
+   "z": 406,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-seal-1",
+   "concept": "object:seal",
+   "sprite": "prop-seal",
+   "x": 1083,
+   "y": 546,
+   "scale": 0.58,
+   "rotation": 0,
+   "z": 546,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-catalogue-1",
+   "concept": "object:catalogue",
+   "sprite": "prop-catalogue",
+   "x": 1223,
+   "y": 512,
+   "scale": 0.56,
+   "rotation": 0,
+   "z": 512,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-frame-1",
+   "concept": "object:frame",
+   "sprite": "prop-frame",
+   "x": 1526,
+   "y": 473,
+   "scale": 0.62,
+   "rotation": 0,
+   "z": 473,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "amb-auction-house-2",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 1676,
+   "y": 418,
+   "scale": 0.61,
+   "rotation": 0,
+   "z": 418,
+   "band": "bg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-label-1",
+   "concept": "object:label",
+   "sprite": "prop-label",
+   "x": 175,
+   "y": 731,
+   "scale": 0.74,
+   "rotation": -7,
+   "z": 1731,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-magnifier-1",
+   "concept": "object:magnifier",
+   "sprite": "prop-magnifier",
+   "x": 488,
+   "y": 644,
+   "scale": 0.8,
+   "rotation": 3,
+   "z": 1644,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-lamp-1",
+   "concept": "object:lamp",
+   "sprite": "prop-lamp",
+   "x": 644,
+   "y": 791,
+   "scale": 0.82,
+   "rotation": 3,
+   "z": 1791,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-trolley-1",
+   "concept": "object:trolley",
+   "sprite": "prop-trolley",
+   "x": 831,
+   "y": 689,
+   "scale": 0.79,
+   "rotation": 0,
+   "z": 1689,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-inkwell-1",
+   "concept": "object:inkwell",
+   "sprite": "prop-inkwell",
+   "x": 1097,
+   "y": 738,
+   "scale": 0.81,
+   "rotation": 0,
+   "z": 1738,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-telegram-form-1",
+   "concept": "object:telegram-form",
+   "sprite": "prop-telegram-form",
+   "x": 1282,
+   "y": 639,
+   "scale": 0.84,
+   "rotation": 0,
+   "z": 1639,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-cashbox-1",
+   "concept": "object:cashbox",
+   "sprite": "prop-cashbox",
+   "x": 1480,
+   "y": 739,
+   "scale": 0.67,
+   "rotation": 0,
+   "z": 1739,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-pocket-watch-1",
+   "concept": "object:pocket-watch",
+   "sprite": "prop-pocket-watch",
+   "x": 1622,
+   "y": 810,
+   "scale": 0.85,
+   "rotation": 0,
+   "z": 1810,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-crate-1",
+   "concept": "object:crate",
+   "sprite": "prop-crate",
+   "x": 231,
+   "y": 938,
+   "scale": 1.03,
+   "rotation": 0,
+   "z": 2938,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-label-3",
+   "concept": "object:label",
+   "sprite": "prop-label",
+   "x": 369,
+   "y": 945,
+   "scale": 0.99,
+   "rotation": 0,
+   "z": 2945,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-ledger-1",
+   "concept": "object:ledger",
+   "sprite": "prop-ledger",
+   "x": 606,
+   "y": 936,
+   "scale": 1,
+   "rotation": 3,
+   "z": 2936,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-auction-house-6",
+   "concept": "untagged:ambience",
+   "sprite": "amb-3",
+   "x": 898,
+   "y": 952,
+   "scale": 0.95,
+   "rotation": 0,
+   "z": 2952,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-auction-house-3",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 1034,
+   "y": 928,
+   "scale": 1.03,
+   "rotation": 0,
+   "z": 2928,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "amb-auction-house-7",
+   "concept": "untagged:ambience",
+   "sprite": "amb-4",
+   "x": 1310,
+   "y": 922,
+   "scale": 1.06,
+   "rotation": 0,
+   "z": 2922,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-scissors-1",
+   "concept": "object:scissors",
+   "sprite": "prop-scissors",
+   "x": 1511,
+   "y": 869,
+   "scale": 1.01,
+   "rotation": 0,
+   "z": 2869,
+   "band": "fg",
+   "flipX": false
+  },
+  {
+   "id": "p-auction-house-paddle-1",
+   "concept": "object:paddle",
+   "sprite": "prop-paddle",
+   "x": 1642,
+   "y": 819,
+   "scale": 0.99,
+   "rotation": 6,
+   "z": 2819,
+   "band": "fg",
+   "flipX": true
+  },
+  {
+   "id": "ev-s19-study",
+   "concept": "untagged:ambience",
+   "clue": "C24",
+   "sprite": "evid-c24",
+   "x": 960,
+   "y": 475,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 1975,
+   "band": "mg",
+   "flipX": false
+  },
+  {
+   "id": "ev-s20-ledger",
+   "concept": "untagged:ambience",
+   "clue": "C25",
+   "sprite": "evid-c25",
+   "x": 1344,
+   "y": 799,
+   "scale": 0.72,
+   "rotation": 0,
+   "z": 2299,
+   "band": "mg",
+   "flipX": false
+  }
+ ]
+}

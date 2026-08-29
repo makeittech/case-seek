@@ -1,0 +1,96 @@
+[
+ {
+  "id": "b2.1",
+  "chapter": 2,
+  "title": "Quayside Morning",
+  "lines": [
+   { "speaker": "margo", "en": "The pawnbroker. Be nice about the lumbago, and help him take the morning delivery. The search is the price of the ledger.", "garnish": { "level": "L1", "key": "so", "pos": "lead" } },
+   { "speaker": "narration", "en": "Gulls audition loudly for the role of witnesses. The harbor smells of tar, salt, and other people's business." }
+  ],
+  "caseLine": "Quayside. The pawnbroker talks after the inventory is done.",
+  "peopleFacts": []
+ },
+ {
+  "id": "b2.2",
+  "chapter": 2,
+  "title": "Item 77",
+  "lines": [
+   { "speaker": "narration", "en": "Item 77: one brass sextant, pledged T. FINCH, forty crowns — redeemed October 12th, cash, new notes." },
+   { "speaker": "margo", "en": "Pledged broke, redeemed rich, the morning after the theft. New notes have a story, Halloway.", "garnish": { "level": "L1", "key": "right", "pos": "tail" } },
+   { "speaker": "margo", "en": "The sad museum man drinks at the Anchor. {gran}'s second kitchen. We'll go at evening bell.", "echo": true }
+  ],
+  "caseLine": "Ticket 77 was Finch's. Pledged broke; redeemed rich, the morning after.",
+  "peopleFacts": [
+   { "characterId": "finch", "fact": "Debt paid off the morning after the theft.", "stamp": "suspect" }
+  ]
+ },
+ {
+  "id": "b2.3",
+  "chapter": 2,
+  "title": "The Anchor at Evening",
+  "lines": [
+   { "speaker": "finch", "en": "All quiet that night. Doors locked. I'd swear it on my sextant." },
+   { "speaker": "narration", "en": "He just redeemed that sextant. The lie lands as tragedy wearing a bowtie. The Chalk's board does the rest of the talking." },
+   { "speaker": "margo", "en": "In this room, debts are weather. Everyone knows the forecast.", "garnish": { "level": "L2", "key": "careful", "pos": "lead" } }
+  ],
+  "caseLine": "Finch lies kindly and badly: 'all quiet, doors locked.'",
+  "peopleFacts": [
+   { "characterId": "finch", "fact": "Lied about the night — kindly and badly." }
+  ]
+ },
+ {
+  "id": "b2.4",
+  "chapter": 2,
+  "title": "The Lockbox Ledger",
+  "lines": [
+   { "speaker": "narration", "en": "The harbor master's lockbox opens on the berth ledger: a painting-sized crate went to the SS Vesper, berth 9, dawn after the theft." },
+   { "speaker": "holt", "en": "Your client doubled the policy three weeks before the theft. Does Aldermere insure its own miracles, Halloway?" },
+   { "speaker": "narration", "en": "The S02 memo answers him: routine unveiling escalation, board-approved. Pettibone's telegram closes it — 'Clause 9 applies to neither of us, Inspector.'" }
+  ],
+  "caseLine": "A painting-sized crate went to the SS Vesper at dawn. The policy jab dies on paper.",
+  "peopleFacts": [
+   { "characterId": "holt", "fact": "Tests you once, then shares the warrant. Fair.", "stamp": "witness" }
+  ]
+ },
+ {
+  "id": "b2.5",
+  "chapter": 2,
+  "title": "Light as Gulls' Bones",
+  "lines": [
+   { "speaker": "narration", "en": "The stevedores' verdict, unanimous and unpaid: the crate was 'light as gulls' bones.'" },
+   { "speaker": "margo", "en": "Someone wanted this trail found. Gift-wrapped, ribbon and all.", "garnish": { "level": "L1", "key": "there", "pos": "lead" }, "echo": true }
+  ],
+  "caseLine": "The crate was light as gulls' bones. The trail is gift-wrapped.",
+  "peopleFacts": []
+ },
+ {
+  "id": "b2.6",
+  "chapter": 2,
+  "title": "The Half-Crack",
+  "lines": [
+   { "speaker": "finch", "en": "You don't understand. The papers were right. Grand old seal, proper stamps. They said insurance. They said discretion." },
+   { "speaker": "finch", "en": "The couriers had a password. Soft, like a bird's name. Foreign. I— I can't say it right. I never could." },
+   { "speaker": "margo", "en": "Mr. Finch. {gran} pawned her wedding spoons twice. Shame is just love with no budget.", "garnish": { "level": "L2", "key": "listen", "pos": "lead" } },
+   { "speaker": "narration", "en": "He is more afraid of someone than of Holt. He glances at his coat when he says he kept nothing." }
+  ],
+  "caseLine": "Finch let 'couriers' in — grand papers, a bird-name password. He rewrote the log.",
+  "peopleFacts": [
+   { "characterId": "finch", "fact": "Coerced with perfect paperwork; a bird-name password he can't pronounce.", "stamp": "witness" }
+  ]
+ },
+ {
+  "id": "b2.7",
+  "chapter": 2,
+  "title": "Nine Kilograms",
+  "lines": [
+   { "speaker": "narration", "en": "The customs stamp bears Casal's dealer mark — and the manifest declares the crate at nine kilograms. Empty from the start. Theater." },
+   { "speaker": "margo", "en": "Empty cage, empty crate. This harbor's a theater, and the theater bills Casal.", "garnish": { "level": "L2", "key": "tja", "pos": "lead" } },
+   { "speaker": "holt", "en": "Then we see the impresario. Grand Hotel, they say. Bring your good manners; he collects them." }
+  ],
+  "caseLine": "The crate weighed nine kilograms — empty since dawn. The stamp wears Casal's mark.",
+  "peopleFacts": [
+   { "characterId": "casal", "fact": "The forged stamp wears his mark. Somebody is very helpful about it.", "stamp": "suspect" }
+  ],
+  "flavorChoice": { "dry": "The theater bills Casal. Let's audit the theater.", "warm": "Someone's framing a frame-dealer. Even he deserves better." }
+ }
+]
